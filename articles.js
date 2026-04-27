@@ -6,7 +6,7 @@ const articles = [
     subCategory: "pregnancy",
     author: "Jessica M.",
     date: "October 12, 2026",
-    image: "video_placeholder.png",
+    image: "pregnancy_hospital_bag.png",
     content: `
       <h2>The Ultimate South African Hospital Bag Checklist</h2>
       <p>Expecting a baby soon? Congratulations! It's time to start packing your hospital bag. Whether you're a first-time mom in Johannesburg or adding to your growing family in Cape Town, having everything ready can drastically ease your mind when labor starts. In 2026, many South African hospitals have moved toward more patient-centric care, but being prepared with your own essentials is still the best way to ensure comfort.</p>
@@ -54,7 +54,7 @@ const articles = [
     subCategory: "budgeting",
     author: "Thandiwe N.",
     date: "January 5, 2026",
-    image: "fat_freeze.png", 
+    image: "finance_budgeting.png",
     content: `
       <h2>Taking Control of Your Money Amidst Economic Shifts</h2>
       <p>Managing finances in South Africa requires strategic planning. With inflation, fluctuating interest rates, and the rising cost of living in 2026, financial literacy is more important than ever for women. This isn't just about saving pennies; it's about building a legacy and ensuring long-term security for yourself and your family. Here is a comprehensive guide to taking control of your financial future.</p>
@@ -962,7 +962,7 @@ const articles = [
     subCategory: "mental-health",
     author: "Michelle D.",
     date: "April 15, 2026",
-    image: "home_office.png",
+    image: "wfh_stress.png",
     content: `
       <h2>The Hidden Psychology of Remote Work Stress — and How to Take Back Control</h2>
       <p>Working from home sounds like the ultimate professional dream. No commute. Flexible hours. Your own fridge within arms reach. Yet for millions of South African women who made the shift to remote or hybrid work, the reality has turned out to be something quite different — and for many, significantly more stressful than the office life they left behind.</p>
@@ -1063,7 +1063,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Nomsa V.",
     date: "April 22, 2026",
-    image: "home_office.png",
+    image: "side_hustle_entrepreneur.png",
     content: `
       <h2>The Best Side Hustles for South African Women in 2026 — Ranked by Income Potential</h2>
       <p>The cost of living in South Africa has increased significantly over the past three years. Fuel, food, rent, and school fees have all risen faster than salary increases in most sectors. Meanwhile, the digital economy has opened up income opportunities that simply did not exist a decade ago — opportunities that require little to no startup capital, can be built entirely from your home office, and can scale from a few thousand rands a month to a full replacement income.</p>
@@ -1169,7 +1169,7 @@ const articles = [
     subCategory: "startups",
     author: "Admin",
     date: "April 24, 2026",
-    image: "home_office.png", 
+    image: "small_business_sa.png",
     content: `
       <h2>From Idea to Registered Company: The Legal Steps</h2>
       <p>Turning your successful <a href="{{BASE_PATH}}career/entrepreneurship/side-hustles-sa.html">side hustle</a> into a formal, recognized business in South Africa requires a few specific administrative steps to ensure you are legally compliant and ready to scale.</p>
@@ -1193,7 +1193,7 @@ const articles = [
     subCategory: "mental-health",
     author: "Dr. Kelly R.",
     date: "April 25, 2026",
-    image: "summer_holiday.png", 
+    image: "mental_health_wellness.png",
     content: `
       <h2>You Are Not Alone: Where to Find Help</h2>
       <p>Whether you're dealing with severe <a href="{{BASE_PATH}}career/mental-health/wfh-stress.html">workplace stress</a>, navigating postpartum depression, or suffering from general anxiety, seeking professional help is a profound sign of strength, not weakness.</p>
@@ -1478,7 +1478,7 @@ const articles = [
     subCategory: "membership",
     author: "Admin",
     date: "February 2, 2026",
-    image: "home_office.png",
+    image: "inspiring_women_community.png",
     content: `
       <h2>Be Part of a Powerful South African Movement</h2>
       <p>Are you looking to elevate your career, expand your social circle, or find support for your business? There are countless reasons to join the Inspiring Women community. Here are the top 6 reasons you should become a member today:</p>
@@ -1608,7 +1608,7 @@ const articles = [
     subCategory: "estate-planning",
     author: "Adv. Smith",
     date: "April 18, 2026",
-    image: "home_office.png", 
+    image: "estate_planning_will.png",
     content: `
       <h2>Protecting Your Legacy, Assets, and Loved Ones</h2>
       <p>Many South Africans put off drafting a will because it's an uncomfortable, morbid topic. However, dying intestate (without a valid will) means the Master of the High Court dictates how your assets are divided according to the Intestate Succession Act. This can cause massive delays, frozen bank accounts, and severe financial distress for your family.</p>
@@ -1633,7 +1633,7 @@ const articles = [
     subCategory: "marriage",
     author: "Adv. Smith",
     date: "April 20, 2026",
-    image: "home_office.png",
+    image: "marriage_contract.png",
     content: `
       <h2>Understand Your Matrimonial Property Regime Before You Sign</h2>
       <p>Before you say "I do" and start worrying about your future, you absolutely need to understand the severe legal and financial implications of marriage in South Africa. Love is grand, but marriage is a binding legal contract.</p>
@@ -1657,7 +1657,7 @@ const articles = [
     subCategory: "family-law",
     author: "Adv. Smith",
     date: "April 22, 2026",
-    image: "home_office.png",
+    image: "divorce_law.png",
     content: `
       <h2>Understanding Divorce in South Africa</h2>
       <p>Divorce is one of the most financially and emotionally significant legal events a woman can go through. In South Africa, divorce is governed primarily by the <strong>Divorce Act 70 of 1979</strong> and the <strong>Matrimonial Property Act 88 of 1984</strong>. Understanding your rights before you sign anything — or before you even consult a lawyer — can mean the difference between walking away protected or being left financially vulnerable.</p>
@@ -1747,7 +1747,7 @@ const articles = [
     subCategory: "tenant-rights",
     author: "Adv. Smith",
     date: "April 24, 2026",
-    image: "indoor_plants_sa.png",
+    image: "tenant_renting.png",
     content: `
       <h2>Your Rights as a Tenant Under South African Law</h2>
       <p>Renting a home in South Africa is a significant financial commitment, yet many tenants — particularly women renting for the first time — are unaware of the robust legal protections available to them. South African rental law is comprehensive and firmly tilted toward protecting tenants from exploitative landlords, illegal evictions, and unfair lease conditions. Knowing your rights is the first step to exercising them.</p>
@@ -1839,7 +1839,7 @@ const articles = [
     subCategory: "employment-law",
     author: "Adv. Smith",
     date: "April 26, 2026",
-    image: "home_office.png",
+    image: "women_employment.png",
     content: `
       <h2>Know What the Law Guarantees You at Work</h2>
       <p>South African labour law is among the most comprehensive in Africa, offering significant protections to employees — particularly women, who face unique workplace challenges ranging from pay gaps to pregnancy discrimination to sexual harassment. Understanding your rights is not just academic: it can protect your income, your health, your dignity, and your career.</p>
@@ -1931,7 +1931,7 @@ const articles = [
     subCategory: "business-law",
     author: "Adv. Smith",
     date: "April 28, 2026",
-    image: "home_office.png",
+    image: "business_registration.png",
     content: `
       <h2>Making Your Hustle Official: Business Registration in South Africa</h2>
       <p>Whether you've been running a successful side hustle from your kitchen table or you're launching a new venture from scratch, there comes a point where formalising your business makes both financial and legal sense. Operating as a registered entity protects you personally from business debts, opens doors to business banking, government contracts, and funding, and gives your clients confidence that they are dealing with a legitimate operation.</p>
@@ -2017,7 +2017,7 @@ const articles = [
     subCategory: "estate-planning",
     author: "Adv. Smith",
     date: "April 30, 2026",
-    image: "home_office.png",
+    image: "life_insurance.png",
     content: `
       <h2>Why Life Insurance Is a Financial Planning Essential, Not an Optional Extra</h2>
       <p>Life insurance is one of the most misunderstood financial products in South Africa. Many women either have far too little coverage (or none at all), or they are paying for policies that don't actually serve their needs. Understanding the basics — the types of cover available, how premiums are calculated, the difference between a policy and a group benefit, and the critical role beneficiary nominations play — will help you make decisions that genuinely protect the people who depend on you.</p>
@@ -2104,7 +2104,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 5, 2026",
-    image: "healthy_dinner.png",
+    image: "bobotie_sa.png",
     content: `
       <h2>Bobotie — South Africa's Beloved National Dish</h2>
       <p>Bobotie (pronounced ba-BOO-tee) is arguably the most iconic dish in the South African culinary canon — a warmly spiced, Cape Malay-inspired bake of minced meat, dried fruit, and aromatics, topped with a golden egg custard and finished with bay leaves. It is a dish that has been feeding South African families for centuries, and for very good reason: it is extraordinary.</p>
@@ -2181,7 +2181,7 @@ const articles = [
     subCategory: "desserts",
     author: "Lisa B.",
     date: "April 8, 2026",
-    image: "brownies.png",
+    image: "malva_pudding_sa.png",
     content: `
       <h2>Malva Pudding — The Warm, Sticky Heart of South African Baking</h2>
       <p>If there is a single dessert that defines the South African table, it is Malva Pudding. This deeply beloved warm sponge pudding — caramelised, sticky, impossibly moist, and soaked in a buttery cream sauce — has been appearing on South African restaurant menus, family dinner tables, and church fundraiser spreads for generations. It is the dessert that makes every South African who has been abroad for more than six months feel a sudden, inexplicable longing for home.</p>
@@ -2241,7 +2241,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 10, 2026",
-    image: "healthy_dinner.png",
+    image: "bunny_chow_durban.png",
     content: `
       <h2>Bunny Chow — Durban's Most Iconic Street Food</h2>
       <p>Few dishes in the South African food story carry as much cultural weight, culinary history, and sheer deliciousness as the Bunny Chow. A hollowed-out quarter or half loaf of unsliced white bread filled to overflowing with curry — mutton, chicken, bean, or prawn — the Bunny is Durban's most iconic street food and one of the most uniquely South African eating experiences that exists anywhere in the world.</p>
@@ -2303,7 +2303,7 @@ const articles = [
     subCategory: "desserts",
     author: "Lisa B.",
     date: "April 12, 2026",
-    image: "doughnut.png",
+    image: "melktert_milk_tart.png",
     content: `
       <h2>Melktert — The Classic South African Milk Tart</h2>
       <p>Melktert — literally "milk tart" in Afrikaans — is one of the oldest and most beloved desserts in South African culinary history. A delicate, creamy, cinnamon-dusted custard filling nestled in a crisp, buttery pastry shell, the Melktert has been made in South African kitchens since the earliest days of the Cape Colony, when Dutch settlers adapted their European custard tarts using the abundant milk produced by cattle at the Cape.</p>
@@ -2372,7 +2372,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 15, 2026",
-    image: "healthy_dinner.png",
+    image: "chakalaka_sa.png",
     content: `
       <h2>Chakalaka — South Africa's Spicy Vegetable Relish</h2>
       <p>Chakalaka is one of South Africa's most versatile and beloved condiments — a vibrant, spiced vegetable relish that appears alongside pap at township braais, on white linen at Sunday lunches, tucked into a Bunny Chow, and ladled over bread at any informal gathering from Limpopo to the Cape. It is vegan, gluten-free, inexpensive, nutritious, and deeply flavourful. It is also one of the easiest things you can make in a South African kitchen.</p>
