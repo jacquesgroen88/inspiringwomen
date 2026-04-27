@@ -20,10 +20,15 @@
 | Setting Up a Small Business in South Africa | business | 217 | Short (C) |
 | Mental Health Resources for Women in SA | health | 166 | Short (C) |
 | Affordable Local Beauty Brands You Need to Try | beauty | 1806 | Premium (A+) |
-| Easy 15-Min Dinners - Perfect for Busy Evenings! | recipes | 213 | Short (C) |
-| Guilt-Free Chocolate Brownies - Low Carb & Keto | recipes | 215 | Short (C) |
+| Easy 15-Min Dinners - Perfect for Busy Evenings! | recipes | 1924 | Premium (A+) |
+| Guilt-Free Chocolate Brownies - Low Carb & Keto | recipes | 1298 | Premium (A+) |
 | 6 Reasons To Join Inspiring Women! | community | 193 | Short (C) |
 | 5 Skincare Mistakes You're Making | beauty | 2283 | Premium (A+) |
 | A Guide to Drafting a Will: What Every SA Woman Needs to Know | legal | 218 | Short (C) |
 | Marriage Contracts in SA: In Community vs Out of Community | legal | 235 | Short (C) |
+| Classic South African Bobotie | recipes | 972 | High Quality (A) |
+| Classic South African Malva Pudding | recipes | 948 | High Quality (A) |
+| Durban Bunny Chow | recipes | 1067 | Premium (A+) |
+| Traditional South African Melktert (Milk Tart) | recipes | 986 | High Quality (A) |
+| South African Chakalaka | recipes | 1060 | Premium (A+) |
 | 12 Side Hustles South African Women Are Starting With Under R500 in 2026 | career | 2500 | Premium (A+) |

@@ -1314,19 +1314,81 @@ const articles = [
     date: "March 12, 2026",
     image: "healthy_dinner.png",
     content: `
-      <h2>Quick, Healthy, and Loadshedding-Friendly Meals</h2>
-      <p>When you've had a long day at the office and you're short on time but still want a healthy, nutritious meal, these 15-minute dinners are absolute lifesavers. They are especially handy when Stage 4 hits and you need to cook quickly on a gas stove!</p>
-      
-      <h3>1. The Ultimate 'Throw-Together' Mediterranean Salad</h3>
-      <p>Grab a pre-washed bag of mixed greens. Add a tin of drained chickpeas (great for plant-based protein), halved cherry tomatoes, sliced cucumber, olives, and crumbled feta cheese. Drizzle generously with olive oil and balsamic vinegar. It's protein-packed, fresh, and requires absolutely zero cooking!</p>
-      
-      <h3>2. Quick Chicken & Broccoli Stir-Fry</h3>
-      <p>Use pre-cut stir-fry veggies and thinly sliced chicken breast (or tofu). Cook in a screaming hot pan for 10 minutes with soy sauce, fresh ginger, garlic, and a dash of sesame oil. Serve immediately with 2-minute quick-cook noodles.</p>
-      
+      <h2>7 Quick, Healthy, and Loadshedding-Friendly Weeknight Dinners</h2>
+      <p>It is 6pm. You have just walked through the door, your feet hurt, there is homework to supervise, and the electricity has been off for the past two hours. Sound familiar? Weeknight cooking in South Africa in 2026 requires a very particular skill set — fast, flexible, genuinely nutritious, and adaptable to whatever stage of loadshedding is currently trying to ruin your evening.</p>
+      <p>Every recipe in this guide can be made in 15 minutes or less. Most require only one pan. All of them are designed around ingredients you can realistically keep stocked in a South African kitchen — tinned goods, pantry staples, and proteins that defrost quickly. Several can be made entirely without electricity on a gas burner or braai. None of them require a trip to a specialty store or a complicated mise en place.</p>
+      <p>The secret to weeknight cooking sanity is not complicated recipes — it is a well-stocked pantry and a handful of reliable formulas you can execute on autopilot. Bookmark this page. You will come back to it on a Tuesday night when your brain has stopped working.</p>
+
+      <h3>Your Weeknight Pantry: Always Keep These Stocked</h3>
+      <p>Before the recipes, the foundation. These pantry staples are what make 15-minute cooking possible:</p>
+      <ul>
+        <li><strong>Tins:</strong> Chickpeas, kidney beans, black beans, chopped tomatoes, coconut milk, tuna, sardines, lentils</li>
+        <li><strong>Grains:</strong> Quick-cook noodles (2-minute), couscous (just add boiling water), microwave rice sachets, pasta</li>
+        <li><strong>Condiments:</strong> Soy sauce, fish sauce, basil pesto, harissa paste, tahini, sriracha, good olive oil</li>
+        <li><strong>Freezer:</strong> Frozen stir-fry vegetables, frozen peas, frozen corn, frozen chicken strips (defrost in warm water in 10 minutes)</li>
+        <li><strong>Fresh:</strong> Garlic, fresh ginger, lemons, cherry tomatoes, spring onions — replenish weekly</li>
+      </ul>
+
+      <h3>1. The Ultimate Throw-Together Mediterranean Salad</h3>
+      <p><em>No cooking required. Loadshedding-proof. Done in 5 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R35–R50</p>
+      <p><strong>You need:</strong> 1 bag pre-washed mixed greens, 1 tin chickpeas (drained and rinsed), a handful of cherry tomatoes (halved), half a cucumber (sliced), a small handful of olives, 80g feta cheese (crumbled), olive oil, balsamic vinegar or lemon juice, salt and pepper.</p>
+      <p><strong>Method:</strong> Tip the greens into a large bowl. Add the chickpeas, tomatoes, cucumber, and olives. Crumble the feta over the top. Drizzle generously with olive oil and balsamic, season with salt and pepper, and toss gently. That is genuinely it.</p>
+      <p><strong>Why it works:</strong> Chickpeas provide complete plant-based protein (15g per tin), the feta adds satisfying fat, and the vegetables cover your micronutrient bases for the evening. It keeps well in the fridge overnight with the dressing left off — make a double portion for tomorrow's lunch.</p>
+      <p><strong>Upgrade it:</strong> Add a soft-boiled egg for extra protein. A spoonful of hummus on the side turns it into a full meal. Swap feta for avocado for a dairy-free version.</p>
+
+      <h3>2. Quick Chicken &amp; Broccoli Stir-Fry</h3>
+      <p><em>One pan. Gas-stove friendly. Done in 12 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R45–R65</p>
+      <p><strong>You need:</strong> 300g chicken breast (thinly sliced, or use frozen strips defrosted in warm water), 1 bag frozen stir-fry vegetables (or fresh broccoli, snap peas, carrots — whatever you have), 3 cloves garlic (minced), 1 tsp fresh ginger (grated), 3 tbsp soy sauce, 1 tsp sesame oil, 1 tsp cornstarch mixed with 2 tbsp water, 2 portions quick-cook noodles.</p>
+      <p><strong>Method:</strong> Get your pan screaming hot with a splash of oil. Season the chicken with salt and add to the pan — cook without stirring for 2 minutes until golden on one side, then toss. Add the garlic and ginger, stir for 30 seconds until fragrant. Add the vegetables and toss everything together for 3–4 minutes. Pour over the soy sauce, sesame oil, and cornstarch mixture. Toss to coat — the sauce will thicken in about 60 seconds. Cook the noodles according to the packet (2 minutes). Serve the stir-fry over the noodles immediately.</p>
+      <p><strong>The cornstarch trick:</strong> Mixing cornstarch with the sauce creates a glossy, restaurant-quality coating that clings to everything. Do not skip it.</p>
+      <p><strong>Upgrade it:</strong> Add a tablespoon of oyster sauce or hoisin sauce for depth. Finish with a sprinkle of sesame seeds and sliced spring onions. Swap chicken for tofu (press it first) for a plant-based version.</p>
+
       <h3>3. Creamy Pesto Pasta with Cherry Tomatoes</h3>
-      <p>Boil your favorite pasta until al dente. Drain, but keep a little pasta water. While it's steaming hot, stir in a generous dollop of high-quality basil pesto, halved cherry tomatoes, and grated parmesan cheese. Delicious, comforting, and incredibly fast.</p>
-      
-      <p>If you're looking for a quick, low-carb dessert after these meals, try baking our famous <a href="{{BASE_PATH}}recipes/desserts/keto-brownies.html">Guilt-Free Keto Brownies</a> over the weekend!</p>
+      <p><em>One pot. Vegetarian. Done in 15 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R30–R45</p>
+      <p><strong>You need:</strong> 200g pasta (any shape), 3 heaped tbsp good basil pesto (Woolworths or Checkers house brand both work well), 150g cherry tomatoes (halved), 50g parmesan or pecorino (grated), salt, pepper, reserved pasta water.</p>
+      <p><strong>Method:</strong> Boil salted water and cook pasta until al dente. Before draining, scoop out a mug of the starchy cooking water — this is the secret ingredient. Drain the pasta, return to the hot pot, and immediately add the pesto and about 4 tablespoons of pasta water. Toss vigorously — the starch in the water emulsifies with the pesto oil to create a creamy sauce that coats every piece of pasta. Add the cherry tomatoes and most of the parmesan, toss again, and season generously with black pepper. Serve immediately with the remaining parmesan over the top.</p>
+      <p><strong>Why pasta water matters:</strong> The starch dissolved in pasta cooking water is what makes the sauce cling and turn creamy rather than oily. It is the single technique that separates good pasta from great pasta.</p>
+      <p><strong>Upgrade it:</strong> Add a tin of drained tuna or a handful of baby spinach wilted into the hot pasta. Crispy bacon or pancetta pieces take it firmly into comfort-food territory.</p>
+
+      <h3>4. Spicy Tuna &amp; Rice Bowl</h3>
+      <p><em>No cooking if using microwave rice. Loadshedding-friendly with a gas ring. Done in 8 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R25–R40</p>
+      <p><strong>You need:</strong> 2 sachets microwave rice (or leftover cooked rice — this is the best use for yesterday's rice), 2 tins tuna in oil (drained), 2 tbsp mayonnaise, 1–2 tsp sriracha or any chilli sauce, 1 tbsp soy sauce, 1 avocado (sliced), 2 spring onions (sliced), sesame seeds, cucumber (sliced).</p>
+      <p><strong>Method:</strong> Mix the drained tuna, mayonnaise, sriracha, and soy sauce together in a bowl. Heat the rice. Divide the rice between two bowls. Top each with the spicy tuna mixture, sliced avocado, cucumber, spring onions, and a sprinkle of sesame seeds. Drizzle with a little extra soy sauce and sriracha to taste.</p>
+      <p><strong>Upgrade it:</strong> Add a soft-boiled or fried egg on top (4 minutes to soft-boil). A drizzle of sesame oil over everything lifts all the flavours. Pickled ginger from a jar adds a sharp, cleansing element.</p>
+
+      <h3>5. Black Bean &amp; Corn Quesadillas</h3>
+      <p><em>Gas-stove perfect. Vegetarian. Done in 12 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R30–R45</p>
+      <p><strong>You need:</strong> 4 large flour tortillas, 1 tin black beans (drained and rinsed), 1 tin sweetcorn (drained), 1 cup grated cheese (cheddar or mozzarella), 1 tsp cumin, ½ tsp smoked paprika, salt, oil. To serve: sour cream, sliced avocado or guacamole, fresh coriander if you have it.</p>
+      <p><strong>Method:</strong> Mix the black beans, corn, cumin, paprika, and a pinch of salt together. Heat a flat pan over medium heat with a tiny splash of oil. Lay one tortilla in the pan. Scatter half the bean mixture over one half of the tortilla, then add a generous handful of cheese over the filling. Fold the empty half over the filling to create a half-moon. Press down with a spatula and cook for 2–3 minutes until golden and crisp underneath, then carefully flip and cook for another 2 minutes. Remove, slice into wedges, and repeat with the remaining tortillas and filling. Serve with sour cream and avocado.</p>
+      <p><strong>Upgrade it:</strong> Add leftover shredded chicken or sliced jalapeños to the filling. A simple fresh salsa of diced tomato, red onion, coriander, and lime juice alongside is exceptional and takes 3 minutes to make.</p>
+
+      <h3>6. Sardines on Toast with Tomato &amp; Chilli</h3>
+      <p><em>Entirely gas-stove / braai-friendly. Done in 8 minutes. Genuinely underrated.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R20–R35</p>
+      <p><strong>You need:</strong> 2 tins sardines in olive oil (Lucky Star is perfectly good), 4 slices sourdough or thick-cut white bread, 2 large ripe tomatoes (sliced), 1 fresh chilli (sliced, or dried chilli flakes), 2 cloves garlic (halved), juice of half a lemon, fresh parsley or spring onion, salt and pepper.</p>
+      <p><strong>Method:</strong> Toast the bread (in a pan on a gas ring works perfectly — dry pan, medium heat, 2 minutes per side until golden). While it's hot, rub the cut side of the garlic clove over the surface of each slice — this infuses garlic flavour into the bread without any oil. Layer sliced tomatoes on the toast and season well with salt. Drain the sardines and arrange over the tomatoes. Scatter sliced chilli, squeeze over the lemon juice, add a drizzle of the oil from the tin, and finish with parsley or spring onion. Eat immediately.</p>
+      <p><strong>Why sardines deserve more respect:</strong> Sardines are one of the most nutritionally dense, sustainably sourced, and affordable proteins available in South Africa. Two tins contain more omega-3 fatty acids than most salmon portions, significant calcium (from the edible bones), and more Vitamin D than almost any other food. They are a genuine superfood in a humble tin.</p>
+
+      <h3>7. 15-Minute Chicken &amp; Chickpea Harissa Bowl</h3>
+      <p><em>One pan. High protein. Done in 15 minutes.</em></p>
+      <p><strong>Serves:</strong> 2 &nbsp;|&nbsp; <strong>Cost per serving:</strong> ~R50–R70</p>
+      <p><strong>You need:</strong> 300g chicken breast or thigh (cut into bite-sized pieces), 1 tin chickpeas (drained), 1 tin chopped tomatoes, 2 tbsp harissa paste (available at most Checkers and Woolworths), 3 cloves garlic (minced), 1 tsp cumin, olive oil, salt. To serve: plain yoghurt, fresh coriander or parsley, flatbread or couscous.</p>
+      <p><strong>Method:</strong> Heat oil in a pan over high heat. Season the chicken and cook for 4–5 minutes until golden and cooked through. Remove and set aside. In the same pan, add the garlic and cook for 30 seconds. Add the harissa paste and cumin — stir for another 30 seconds until fragrant. Add the chopped tomatoes and chickpeas. Stir everything together and simmer for 5 minutes. Return the chicken to the pan, stir to coat in the sauce, and cook for 2 more minutes. Serve over couscous (just add boiling water and leave for 5 minutes — done) or with flatbread. A generous dollop of cold yoghurt over the hot stew is non-negotiable — the contrast is everything.</p>
+      <p><strong>Harissa paste:</strong> If you have not cooked with harissa yet, it is one of the most useful condiments you can keep in the fridge. A jar lasts for weeks and turns a tin of chickpeas or a chicken breast into something genuinely exciting with no effort.</p>
+
+      <h3>Tips for Even Faster Weeknight Cooking</h3>
+      <ul>
+        <li><strong>Sunday prep pays weekday dividends:</strong> 30 minutes on Sunday — washing and chopping vegetables, cooking a batch of rice or lentils, marinating a protein — cuts your weeknight cooking time in half for the entire week.</li>
+        <li><strong>Double portions deliberately:</strong> If you are cooking anyway, double the recipe. Tomorrow's lunch is free and effortless.</li>
+        <li><strong>Keep the pantry stocked, not the fridge:</strong> Fridges empty by Wednesday. A well-stocked pantry of tinned goods, grains, and condiments means you can always make something decent regardless of whether you've been to the shops.</li>
+        <li><strong>Loadshedding strategy:</strong> Keep a gas burner or camp stove accessible, and stock at least four tins of protein (tuna, chickpeas, sardines, beans) specifically for power-cut evenings. Three of the seven recipes above require zero electricity.</li>
+      </ul>
+      <p>For a weekend baking project, try our <a href="{{BASE_PATH}}recipes/desserts/keto-brownies.html">Guilt-Free Keto Brownies</a> — make them on a Saturday and enjoy them all week. And for a taste of authentic South African cooking, explore our traditional recipe collection including <a href="{{BASE_PATH}}recipes/sa-classics/bobotie.html">classic Bobotie</a> and <a href="{{BASE_PATH}}recipes/desserts/malva-pudding.html">Malva Pudding</a>.</p>
     `
   },
   {
@@ -1338,31 +1400,75 @@ const articles = [
     date: "March 18, 2026",
     image: "brownies.png",
     content: `
-      <h2>Indulge Without the Sugar Crash</h2>
-      <p>Satisfy your intense sweet tooth without the guilt with these delicious low carb chocolate brownies. They are incredibly fudgey, rich, completely gluten-free, and perfectly keto-friendly.</p>
-      
-      <h3>Ingredients You Will Need:</h3>
+      <h2>The Best Keto Chocolate Brownies — Fudgy, Rich, and Genuinely Satisfying</h2>
+      <p>If you have tried low-carb baking before and been disappointed by dry, crumbly, or suspiciously cardboard-textured results, this recipe is going to change your opinion. These brownies are genuinely, deeply chocolatey — dense and fudgy in the centre with slightly crisp edges — and they deliver the full emotional satisfaction of a real brownie without the 40-gram sugar hit that comes with a conventional one.</p>
+      <p>They are completely gluten-free, low-carb, keto-compliant, and can be made diabetic-friendly depending on your sweetener choice. They are also one of the most forgiving bakes in the low-carb repertoire — the batter is almost impossible to mess up, they store beautifully, and they get better on day two as the flavours deepen.</p>
+      <p>Whether you are following a strict ketogenic diet, eating low-carb for blood sugar management, or simply trying to reduce your refined sugar intake without giving up dessert entirely, this recipe belongs in your permanent rotation.</p>
+
+      <h3>Understanding the Ingredients</h3>
+      <p>Low-carb baking uses different building blocks than conventional baking, and understanding what each ingredient does helps you troubleshoot and adapt with confidence:</p>
       <ul>
-        <li>1 cup Super-Fine Almond Flour</li>
-        <li>1/4 cup Unsweetened Cocoa Powder (High Quality)</li>
-        <li>2 tbsp Coconut Flour</li>
-        <li>1/2 cup Erythritol, Xylitol, or your preferred keto granular sweetener</li>
-        <li>1/2 cup Grass-Fed Butter (Melted)</li>
-        <li>3 Large Free-Range Eggs</li>
-        <li>1 tsp Pure Vanilla Extract</li>
-        <li>Optional: Sugar-free chocolate chips or chopped walnuts</li>
+        <li><strong>Almond flour:</strong> The primary flour base. Use super-fine blanched almond flour (not almond meal, which is coarser and gives a grainier texture). In South Africa, Faithful to Nature, Checkers, and Dis-Chem all stock good options. Almond flour adds moisture, fat, and a subtle nuttiness that works beautifully with chocolate.</li>
+        <li><strong>Coconut flour:</strong> Used in small quantities to absorb excess moisture and add structure. Coconut flour is extraordinarily absorbent — 2 tablespoons in this recipe is genuinely all you need. Do not substitute or increase it.</li>
+        <li><strong>Unsweetened cocoa powder:</strong> Use the best quality you can find. Dutch-processed cocoa (darker, less acidic) gives a deeper, richer chocolate flavour. Woolworths and Checkers both stock good options.</li>
+        <li><strong>Keto sweetener:</strong> Erythritol is the most widely available in SA (Dis-Chem, health food stores). It has 70% of the sweetness of sugar, so you may want to increase the quantity slightly to taste. Xylitol is sweeter and measures cup-for-cup with sugar, but is highly toxic to dogs — keep it away from pets. Monk fruit sweetener blends are excellent but can be harder to find and more expensive.</li>
+        <li><strong>Butter:</strong> The fat that makes these brownies fudgy and rich. Use real butter — not margarine. Grass-fed butter has a richer flavour but standard SA butter works perfectly well.</li>
+        <li><strong>Eggs:</strong> Three eggs provide structure and binding. Do not reduce the eggs or the brownies will not hold together.</li>
       </ul>
-      
-      <h3>Baking Instructions:</h3>
+
+      <h3>Ingredients</h3>
+      <p><em>Makes 16 brownies &nbsp;|&nbsp; Prep time: 10 minutes &nbsp;|&nbsp; Bake time: 22–25 minutes</em></p>
+      <ul>
+        <li>1 cup (100g) super-fine blanched almond flour</li>
+        <li>¼ cup (25g) unsweetened cocoa powder, sifted</li>
+        <li>2 tbsp (16g) coconut flour</li>
+        <li>½ cup (100g) erythritol or xylitol granular sweetener</li>
+        <li>½ tsp baking powder</li>
+        <li>¼ tsp fine sea salt</li>
+        <li>½ cup (113g) unsalted butter, melted and slightly cooled</li>
+        <li>3 large free-range eggs, at room temperature</li>
+        <li>1 tsp pure vanilla extract</li>
+        <li><strong>Optional add-ins:</strong> ½ cup sugar-free chocolate chips, ½ cup roughly chopped walnuts or pecans, 1 tsp instant espresso powder (intensifies chocolate flavour dramatically)</li>
+      </ul>
+
+      <h3>Method</h3>
       <ol>
-        <li>Preheat your oven to 180°C. Line an 8x8 inch baking pan with parchment paper to prevent sticking.</li>
-        <li>In a large mixing bowl, whisk together all the dry ingredients (almond flour, cocoa, coconut flour, sweetener) to remove any lumps.</li>
-        <li>Stir in the melted butter, eggs, and vanilla extract. Mix until a smooth, thick batter forms. Fold in chocolate chips if using.</li>
-        <li>Pour the batter into the prepared pan and smooth the top with a spatula. Bake for 20-25 minutes until the edges are set but the center is still slightly soft.</li>
-        <li>Let them cool completely in the pan before cutting—this is the hardest part, but it ensures they don't crumble!</li>
+        <li><strong>Prepare your tin and oven:</strong> Preheat your oven to 175°C (fan) or 180°C (conventional). Line a 20cm × 20cm (8×8 inch) square baking tin with parchment paper, leaving an overhang on two sides — this makes lifting the brownies out effortless after cooling. Lightly grease the sides of the tin.</li>
+        <li><strong>Mix the dry ingredients:</strong> In a large mixing bowl, whisk together the almond flour, sifted cocoa powder, coconut flour, sweetener, baking powder, and salt. Sifting the cocoa is important — it breaks up any lumps that would create uneven pockets in the finished brownie.</li>
+        <li><strong>Combine the wet ingredients:</strong> In a separate smaller bowl, whisk together the melted (and slightly cooled — not hot) butter, the eggs, and vanilla extract. Ensure the butter is not hot when you add the eggs or they will begin to scramble.</li>
+        <li><strong>Bring it together:</strong> Pour the wet mixture into the dry mixture and stir with a spatula until just combined — a thick, glossy batter should form. Do not overmix. Fold in any optional add-ins at this point.</li>
+        <li><strong>Bake:</strong> Scrape the batter into the prepared tin and spread it evenly with a spatula — the batter is thick and will need encouragement into the corners. Bake for 22–25 minutes. The edges should be set and pulling slightly away from the sides of the tin, while the centre should still have a very slight wobble when you gently shake the tin. This is correct — the centre will continue cooking as it cools.</li>
+        <li><strong>Cool completely — this is non-negotiable:</strong> Remove from the oven and allow to cool in the tin for at least 30 minutes, then use the parchment overhang to lift onto a cooling rack and cool for a further 30 minutes before cutting. Cutting warm keto brownies will result in crumbling. The texture firms up and the flavour deepens significantly as they cool. Overnight in the fridge makes them even better.</li>
+        <li><strong>Cut and serve:</strong> Use a sharp knife, cleaning the blade between cuts for neat squares. Cut into 16 pieces for a manageable serving size.</li>
       </ol>
-      
-      <p>If you enjoy these, you'll also be utterly obsessed with our <a href="{{BASE_PATH}}recipes/desserts/keto-doughnuts.html">Low Carb Chocolate Doughnuts</a> recipe!</p>
+
+      <h3>Why Are My Brownies Dry? (Troubleshooting)</h3>
+      <p><strong>Overbaked:</strong> This is the most common problem. Almond flour bakes faster than conventional flour and the visual cues are different — these brownies will look underdone in the centre when they should come out of the oven. Trust the timing and the wobble test, not the appearance.</p>
+      <p><strong>Wrong almond flour:</strong> Almond meal (coarser, often made from unblanched almonds) produces a drier, grainier result. You need super-fine blanched almond flour specifically.</p>
+      <p><strong>Too much coconut flour:</strong> Coconut flour is extremely absorbent. Even one extra tablespoon can make the batter too dry. Measure precisely.</p>
+      <p><strong>Cold eggs:</strong> Cold eggs do not incorporate as smoothly into the batter and can affect texture. Bring them to room temperature before using, or place them in warm (not hot) water for 5 minutes.</p>
+
+      <h3>Variations Worth Trying</h3>
+      <ul>
+        <li><strong>Peanut butter marble:</strong> Warm 3 tablespoons of natural peanut butter until pourable. Pour the brownie batter into the tin, dollop the peanut butter over the surface, and use a skewer or chopstick to swirl it through in long strokes. The peanut butter creates a salted, nutty ribbon through the chocolate that is exceptional.</li>
+        <li><strong>Mexican chocolate:</strong> Add 1 tsp cinnamon and ¼ tsp cayenne pepper to the dry ingredients. The warmth of the spice builds in the back of the throat and turns these brownies into something genuinely sophisticated.</li>
+        <li><strong>Mint chocolate:</strong> Replace the vanilla extract with ½ tsp peppermint extract (not spearmint — it is too sharp). A handful of sugar-free dark chocolate chips folded into the batter makes these taste like a significantly better version of a Peppermint Crisp.</li>
+        <li><strong>Double chocolate:</strong> Melt 50g of 85%+ dark chocolate with the butter instead of using butter alone. This adds an extra dimension of real chocolate flavour that takes the recipe from great to extraordinary.</li>
+      </ul>
+
+      <h3>Storage</h3>
+      <p>Store in an airtight container at room temperature for up to 3 days. Refrigerated, they keep for up to 10 days and the texture firms into something approaching a dense fudge — many people actually prefer them cold. They freeze exceptionally well: wrap individual squares in cling wrap and freeze for up to 3 months. Defrost at room temperature for 30 minutes before eating.</p>
+
+      <h3>Nutritional Information (Per Brownie, Based on 16 Servings)</h3>
+      <p><em>Approximate values — vary based on specific brands and add-ins used:</em></p>
+      <ul>
+        <li><strong>Calories:</strong> ~145 kcal</li>
+        <li><strong>Fat:</strong> ~13g</li>
+        <li><strong>Net carbs:</strong> ~2g (total carbs ~5g minus fibre ~3g)</li>
+        <li><strong>Protein:</strong> ~4g</li>
+        <li><strong>Sugar:</strong> ~0.5g (from natural sources only)</li>
+      </ul>
+      <p>For more South African baking and traditional desserts, try our <a href="{{BASE_PATH}}recipes/desserts/malva-pudding.html">classic Malva Pudding</a> recipe or our <a href="{{BASE_PATH}}recipes/desserts/melktert.html">traditional Melktert</a> — both are beloved South African classics that belong on every table.</p>
     `
   },
   {
@@ -1542,6 +1648,341 @@ const articles = [
       <p>This is generally considered the fairest and most popular choice for modern couples. What you bring into the marriage remains yours alone (protecting prior wealth). However, the wealth built *during* the marriage is shared equally upon divorce or death, recognizing that both partners contribute to the marriage (even if one is a stay-at-home parent).</p>
       
       <p>Always speak to a Notary Public well before your wedding day to draft an ANC that suits both of your financial needs.</p>
+    `
+  },
+  {
+    title: "Classic South African Bobotie",
+    slug: "bobotie",
+    category: "recipes",
+    subCategory: "sa-classics",
+    author: "Chef Zola",
+    date: "April 5, 2026",
+    image: "healthy_dinner.png",
+    content: `
+      <h2>Bobotie — South Africa's Beloved National Dish</h2>
+      <p>Bobotie (pronounced ba-BOO-tee) is arguably the most iconic dish in the South African culinary canon — a warmly spiced, Cape Malay-inspired bake of minced meat, dried fruit, and aromatics, topped with a golden egg custard and finished with bay leaves. It is a dish that has been feeding South African families for centuries, and for very good reason: it is extraordinary.</p>
+      <p>The origins of Bobotie trace back to the Cape Malay community of the 17th and 18th centuries — the descendants of enslaved people brought to the Cape Colony from Malaysia, Indonesia, and India by the Dutch East India Company. They brought with them a rich tradition of spiced cooking that merged over generations with the ingredients and tastes of the Cape to produce one of the world's truly unique national cuisines. Bobotie is the centrepiece of that culinary heritage.</p>
+      <p>What makes Bobotie special is its balance: the sweet raisins and apricot jam against the savoury mince, the warm spices (turmeric, curry, cumin) without any heat, the silky egg custard topping that sets into something between a soufflé and a quiche. Served with yellow rice, chutney, and a fresh salad, it is a complete, deeply satisfying meal that improves the next day and freezes beautifully.</p>
+
+      <h3>Ingredients</h3>
+      <p><em>Serves: 6 &nbsp;|&nbsp; Prep time: 20 minutes &nbsp;|&nbsp; Cook time: 45 minutes</em></p>
+      <p><strong>For the mince filling:</strong></p>
+      <ul>
+        <li>1kg lean beef mince (or lamb mince for a more traditional flavour)</li>
+        <li>2 medium onions, finely diced</li>
+        <li>3 cloves garlic, minced</li>
+        <li>2 tbsp vegetable oil</li>
+        <li>2 tbsp mild curry powder</li>
+        <li>1 tsp turmeric</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 tsp ground coriander</li>
+        <li>½ tsp mixed spice (or allspice)</li>
+        <li>2 slices white bread, crusts removed</li>
+        <li>½ cup (125ml) full-cream milk (for soaking the bread)</li>
+        <li>2 tbsp Mrs Ball's chutney (non-negotiable — or any good fruit chutney)</li>
+        <li>1 tbsp apricot jam</li>
+        <li>½ cup (80g) seedless raisins or sultanas</li>
+        <li>¼ cup (50g) dried apricots, roughly chopped</li>
+        <li>2 tbsp white wine vinegar or apple cider vinegar</li>
+        <li>1 tsp salt, black pepper to taste</li>
+        <li>2 tbsp flaked almonds (optional but traditional)</li>
+      </ul>
+      <p><strong>For the egg custard topping:</strong></p>
+      <ul>
+        <li>3 large free-range eggs</li>
+        <li>1 cup (250ml) full-cream milk</li>
+        <li>½ tsp turmeric</li>
+        <li>¼ tsp salt</li>
+        <li>6–8 fresh or dried bay leaves</li>
+      </ul>
+      <p><strong>For the yellow rice (to serve):</strong></p>
+      <ul>
+        <li>2 cups long-grain white rice</li>
+        <li>1 tsp turmeric</li>
+        <li>1 tsp sugar</li>
+        <li>½ cup raisins</li>
+        <li>1 tbsp butter</li>
+        <li>1 tsp salt</li>
+      </ul>
+
+      <h3>Method</h3>
+      <ol>
+        <li><strong>Soak the bread:</strong> Place the bread slices in a shallow bowl and pour the milk over them. Leave to soak for 5 minutes while you prepare the filling. This bread is what gives the Bobotie its characteristic moist, slightly loose texture — do not skip it.</li>
+        <li><strong>Cook the aromatics:</strong> Heat the oil in a large, heavy-based pan over medium heat. Add the onions and cook, stirring occasionally, for 8–10 minutes until soft and golden. Add the garlic and cook for another minute. Add all the spices (curry powder, turmeric, cumin, coriander, mixed spice) and stir for 60 seconds until the pan is fragrant.</li>
+        <li><strong>Brown the mince:</strong> Add the mince to the pan and cook, breaking it up with a spoon, until no pink remains — about 8 minutes. Do not rush this step; properly browned mince has significantly more flavour than grey, steamed mince. Drain off any excess fat if the mince is particularly fatty.</li>
+        <li><strong>Add the flavour elements:</strong> Squeeze the soaked bread over the bowl to catch the milk (reserve the milk for the custard topping). Tear the bread into pieces and add to the mince. Stir in the chutney, apricot jam, raisins, dried apricots, vinegar, and almonds if using. Season generously with salt and pepper. Taste — the filling should be fragrant, sweet-savoury, and complex. Adjust seasoning as needed.</li>
+        <li><strong>Transfer to the baking dish:</strong> Preheat your oven to 180°C. Transfer the filling to a greased, deep oven dish (approximately 30cm × 20cm). Smooth the surface evenly.</li>
+        <li><strong>Make the custard topping:</strong> Whisk together the eggs, the reserved milk from soaking the bread (top up to 250ml with fresh milk if needed), turmeric, and salt until smooth. Pour gently and evenly over the surface of the mince filling. Press the bay leaves decoratively into the surface of the custard.</li>
+        <li><strong>Bake:</strong> Bake uncovered for 35–40 minutes until the custard topping is set, golden, and slightly puffed. A knife inserted into the centre should come out clean. Do not overbake — the custard should be just set, not rubbery.</li>
+        <li><strong>Make the yellow rice:</strong> While the Bobotie bakes, cook the rice with turmeric, sugar, raisins, butter, and salt added to the cooking water. The turmeric turns the rice a beautiful golden yellow — this pairing with the Bobotie is non-negotiable in a traditional South African serving.</li>
+        <li><strong>Rest and serve:</strong> Allow the Bobotie to rest for 5 minutes before serving. Serve with yellow rice, extra Mrs Ball's chutney on the side, sliced banana (traditional), desiccated coconut, and a simple tomato and onion salad.</li>
+      </ol>
+
+      <h3>Tips for the Best Bobotie</h3>
+      <ul>
+        <li><strong>Quality chutney matters:</strong> Mrs Ball's Original Chutney is the authentic South African choice and is genuinely irreplaceable in this recipe. Its specific sweet-spicy-tangy balance is part of what makes a proper Bobotie taste like a proper Bobotie.</li>
+        <li><strong>Make it a day ahead:</strong> Bobotie is one of those magical dishes that tastes better the next day. The flavours meld and deepen overnight in the fridge. Reheat gently at 160°C covered with foil for 20 minutes.</li>
+        <li><strong>Freezes perfectly:</strong> Portion and freeze the cooked Bobotie for up to 3 months. Defrost overnight in the fridge and reheat as above. An excellent meal prep option.</li>
+        <li><strong>For a vegetarian version:</strong> Replace the mince with 2 tins of brown lentils (drained) and 1 tin of chickpeas. Reduce the cooking time in step 3 to 5 minutes. The flavour profile is remarkably similar and genuinely satisfying.</li>
+      </ul>
+    `
+  },
+  {
+    title: "Classic South African Malva Pudding",
+    slug: "malva-pudding",
+    category: "recipes",
+    subCategory: "desserts",
+    author: "Lisa B.",
+    date: "April 8, 2026",
+    image: "brownies.png",
+    content: `
+      <h2>Malva Pudding — The Warm, Sticky Heart of South African Baking</h2>
+      <p>If there is a single dessert that defines the South African table, it is Malva Pudding. This deeply beloved warm sponge pudding — caramelised, sticky, impossibly moist, and soaked in a buttery cream sauce — has been appearing on South African restaurant menus, family dinner tables, and church fundraiser spreads for generations. It is the dessert that makes every South African who has been abroad for more than six months feel a sudden, inexplicable longing for home.</p>
+      <p>The name "Malva" is thought to derive from the Afrikaans word for marshmallow (mauve), possibly referring to its pillowy, yielding texture, or from the Dutch word for mallow flowers. Its origins are Cape Dutch, with the signature ingredient — apricot jam — reflecting the Cape Malay culinary influence that has shaped South African cooking so profoundly. Whatever its precise history, Malva Pudding is a dish that belongs to all South Africans now, and learning to make it properly is a genuine rite of passage.</p>
+      <p>The secret to a proper Malva Pudding is the sauce — poured over the hot pudding the moment it comes out of the oven, it soaks through the sponge and transforms it from a simple bake into something altogether extraordinary. Served with cold, pourable cream, vanilla ice cream, or warm custard, it is one of the great comfort desserts of the world.</p>
+
+      <h3>Ingredients</h3>
+      <p><em>Serves: 8–10 &nbsp;|&nbsp; Prep time: 15 minutes &nbsp;|&nbsp; Bake time: 35–40 minutes</em></p>
+      <p><strong>For the pudding:</strong></p>
+      <ul>
+        <li>1 cup (200g) white sugar</li>
+        <li>2 large free-range eggs</li>
+        <li>2 tbsp smooth apricot jam</li>
+        <li>1½ cups (185g) cake flour</li>
+        <li>1 tsp bicarbonate of soda</li>
+        <li>½ tsp salt</li>
+        <li>1 tbsp butter, softened</li>
+        <li>1 tsp white wine vinegar or apple cider vinegar</li>
+        <li>1 cup (250ml) full-cream milk</li>
+      </ul>
+      <p><strong>For the sauce (this is the soul of the dish):</strong></p>
+      <ul>
+        <li>1 cup (250ml) fresh cream</li>
+        <li>½ cup (113g) butter</li>
+        <li>¾ cup (150g) white sugar</li>
+        <li>½ cup (125ml) boiling water</li>
+        <li>1 tsp pure vanilla extract</li>
+      </ul>
+      <p><strong>To serve:</strong> Cold fresh cream (poured), vanilla ice cream, or warm vanilla custard</p>
+
+      <h3>Method</h3>
+      <ol>
+        <li><strong>Prepare:</strong> Preheat your oven to 180°C. Grease a large, deep oven dish (approximately 30cm × 20cm or a similar 2-litre capacity dish) generously with butter.</li>
+        <li><strong>Make the batter:</strong> In a large mixing bowl, beat the sugar and eggs together with an electric beater or whisk until pale, thick, and creamy — about 3–4 minutes. This step is important: properly beaten eggs and sugar create a lighter sponge. Beat in the apricot jam and softened butter until incorporated.</li>
+        <li><strong>Add the dry and wet ingredients alternately:</strong> Sift the flour, bicarb, and salt together in a separate bowl. With the mixer on low (or stirring by hand), add half the flour mixture to the egg mixture, then half the milk, then the remaining flour, then the remaining milk. Finally, stir in the vinegar. Mix until just smooth — do not overmix. The batter will be quite liquid; this is correct.</li>
+        <li><strong>Bake:</strong> Pour the batter into the prepared dish and bake for 35–40 minutes until the pudding is deep golden brown on top, pulling away from the sides, and a skewer inserted in the centre comes out clean. The top should be deeply caramelised — almost on the edge of what looks right. This is correct; that caramelisation is essential to the flavour.</li>
+        <li><strong>Make the sauce while it bakes:</strong> Combine the cream, butter, sugar, and boiling water in a saucepan over medium heat. Stir until the butter is melted and the sugar dissolved. Do not bring to a boil — you want a warm, pourable sauce, not a toffee. Remove from heat and stir in the vanilla extract.</li>
+        <li><strong>The critical step — pour immediately:</strong> The moment the pudding comes out of the oven, use a skewer or fork to poke deep holes all over the surface (this helps the sauce penetrate). Pour the warm sauce slowly and evenly over the hot pudding, working in stages to allow each pour to be absorbed before adding more. The pudding will initially seem to be drowning — this is exactly right. All the sauce must go in. Allow to stand for 5–10 minutes as the sauce absorbs and the pudding puffs back up slightly.</li>
+        <li><strong>Serve:</strong> Serve warm, directly from the dish, with cold pourable cream over the top. The contrast of warm, sticky pudding and cold cream is essential to the experience. Vanilla ice cream is the alternative — equally perfect.</li>
+      </ol>
+
+      <h3>Tips for a Perfect Malva Pudding</h3>
+      <ul>
+        <li><strong>The vinegar is not optional:</strong> It reacts with the bicarb to create the characteristic rise and airy texture of the sponge. Do not skip it and do not substitute with lemon juice — the flavour profile changes.</li>
+        <li><strong>Pour the sauce immediately:</strong> If the sauce cools before you pour it, it thickens and does not penetrate the sponge properly. If the pudding cools before you pour, the sauce sits on top rather than soaking through. Both must be hot at the moment of meeting.</li>
+        <li><strong>Make it ahead:</strong> Malva Pudding reheats beautifully. Make it up to the point of adding the sauce, refrigerate, and reheat in a 160°C oven covered with foil for 20 minutes. Make a fresh batch of sauce, warm it, and pour over just before serving.</li>
+        <li><strong>Individual portions:</strong> This batter works beautifully in individual ramekins for a dinner party — reduce bake time to 20–25 minutes.</li>
+      </ul>
+
+      <p>For more South African baking classics, try our <a href="{{BASE_PATH}}recipes/desserts/melktert.html">traditional Melktert</a> recipe — another essential Cape Dutch dessert that every South African should know how to make. And our <a href="{{BASE_PATH}}recipes/sa-classics/bobotie.html">classic Bobotie</a> makes the perfect main course to precede this pudding for the ultimate South African Sunday lunch.</p>
+    `
+  },
+  {
+    title: "Durban Bunny Chow",
+    slug: "bunny-chow",
+    category: "recipes",
+    subCategory: "sa-classics",
+    author: "Chef Zola",
+    date: "April 10, 2026",
+    image: "healthy_dinner.png",
+    content: `
+      <h2>Bunny Chow — Durban's Most Iconic Street Food</h2>
+      <p>Few dishes in the South African food story carry as much cultural weight, culinary history, and sheer deliciousness as the Bunny Chow. A hollowed-out quarter or half loaf of unsliced white bread filled to overflowing with curry — mutton, chicken, bean, or prawn — the Bunny is Durban's most iconic street food and one of the most uniquely South African eating experiences that exists anywhere in the world.</p>
+      <p>The origins of the Bunny Chow trace back to Durban's Indian community, most likely in the 1940s, when Indian food vendors in the Grey Street area needed a convenient, portable way to serve curry to workers who could not return home for lunch and were not permitted to eat at white-owned restaurants under apartheid segregation. The hollowed bread loaf solved both problems elegantly: it was its own container, it was filling, and the bread soaked up the curry sauce in a way that no conventional vessel could replicate. The "lid" — the piece of bread excavated from the loaf — sits on top and is eaten last, when it is saturated with curry.</p>
+      <p>Today, the Bunny Chow is eaten by South Africans of every background, celebrated in food festivals, and considered a cornerstone of national culinary identity. But the best Bunnies are still found in Durban, eaten with your hands (always — there is no cutlery involved), at a takeaway counter or on a plastic chair, with the juice running down your wrist.</p>
+      <p>This recipe makes a full-flavoured Durban-style curry that is worthy of a proper Bunny. The curry can also be served conventionally over rice, but do make it in a Bunny at least once — the bread-to-sauce ratio changes the entire experience.</p>
+
+      <h3>Ingredients</h3>
+      <p><em>Serves: 4 &nbsp;|&nbsp; Prep time: 20 minutes &nbsp;|&nbsp; Cook time: 60–75 minutes (or 30 minutes for chicken)</em></p>
+      <p><strong>For the curry (mutton version — the classic):</strong></p>
+      <ul>
+        <li>1kg mutton or bone-in lamb pieces (shoulder or knuckles work best — bone adds enormous flavour)</li>
+        <li>2 large onions, finely diced</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1 tbsp fresh ginger, grated</li>
+        <li>3 tbsp vegetable oil or ghee</li>
+        <li>3 tbsp Durban curry powder (Rajah Hot or a proper Durban masala blend — this is not the same as mild Cape curry powder)</li>
+        <li>1 tsp turmeric</li>
+        <li>1 tsp ground cumin</li>
+        <li>1 tsp ground coriander</li>
+        <li>½ tsp garam masala</li>
+        <li>4 medium potatoes, peeled and quartered</li>
+        <li>2 large ripe tomatoes, roughly chopped (or 1 tin chopped tomatoes)</li>
+        <li>1 cup (250ml) water</li>
+        <li>Salt to taste</li>
+        <li>Fresh coriander to finish</li>
+      </ul>
+      <p><strong>For the bread:</strong></p>
+      <ul>
+        <li>2 unsliced white bread loaves (the standard SA white bread — Albany or Sasko. The Bunny lives or dies on the bread)</li>
+      </ul>
+
+      <h3>Method</h3>
+      <ol>
+        <li><strong>Brown the meat:</strong> Heat the oil or ghee in a large, heavy-based pot (a cast iron potjie is traditional) over high heat. Season the mutton pieces with salt and add to the pot in batches — do not crowd the pan. Brown on all sides for 3–4 minutes per batch. Properly browned meat adds deep flavour to the final curry; grey, steamed meat does not. Remove browned meat and set aside.</li>
+        <li><strong>Build the base:</strong> Reduce heat to medium. Add the onions to the pot and cook in the remaining oil for 10 minutes, stirring occasionally, until deep golden and soft. Add the garlic and ginger, stir for 1 minute. Add all the spices (curry powder, turmeric, cumin, coriander, garam masala) and stir for 60–90 seconds until the pot is fragrant and the spices are toasted.</li>
+        <li><strong>Add the tomatoes:</strong> Add the chopped tomatoes and stir well, scraping up any browned bits from the bottom of the pot. Cook for 5 minutes until the tomatoes break down and the oil begins to separate from the masala base (you will see it pooling around the edges). This separation — called "bhunoing" — indicates the spices are properly cooked and the curry will have depth rather than rawness.</li>
+        <li><strong>Slow cook the curry:</strong> Return the browned mutton to the pot. Add the water and stir to combine. Bring to a boil, then reduce heat to the lowest possible setting, cover tightly, and simmer for 45 minutes. Add the potato quarters and continue cooking for a further 25–30 minutes until both the meat and potatoes are completely tender and the sauce has thickened. Taste and adjust salt. The curry should be rich, fragrant, and have a deep reddish-orange colour. Finish with fresh coriander.</li>
+        <li><strong>Prepare the bread:</strong> Cut each loaf into two equal halves to make quarter bunnies (or leave whole for a half bunny — a true Durban portion). Using your hands or a knife, hollow out the inside of each bread quarter, leaving a wall of bread approximately 2cm thick on all sides. Keep the excavated bread — this is the "lid" and will be eaten last. Do not toast, do not modify — the Bunny must be made from fresh, untoasted white bread.</li>
+        <li><strong>Load the Bunny:</strong> Fill each bread hollow generously with curry, ensuring each portion has a piece of meat and some potato. Ladle extra sauce over the top — the Bunny should be full to overflowing. Place the excavated bread piece on top as the lid.</li>
+        <li><strong>Eat correctly:</strong> Hold the bread base with both hands. There are no utensils. Eat the curry-soaked walls of the bread as you go. Eat the lid last when it is completely saturated. Have plenty of napkins. Enjoy completely.</li>
+      </ol>
+
+      <h3>Variations</h3>
+      <ul>
+        <li><strong>Chicken Bunny:</strong> Replace mutton with 1kg bone-in chicken pieces. Reduce the slow-cooking time to 30–35 minutes total. Chicken Bunny has a cleaner, lighter flavour that many people prefer.</li>
+        <li><strong>Bean Bunny (vegetarian):</strong> Replace the meat with 2 tins of kidney beans and 1 tin of chickpeas, both drained. Reduce cooking time to 20 minutes after adding the tomatoes. Bean Bunny is the most affordable version and is genuinely delicious — the beans absorb the curry sauce beautifully.</li>
+        <li><strong>Prawn Bunny:</strong> Add 500g large peeled prawns in the last 5 minutes of cooking. Prawn Bunny is the luxury version, popular in coastal Durban.</li>
+      </ul>
+
+      <h3>What to Serve Alongside</h3>
+      <p>A traditional Bunny Chow needs nothing alongside it except perhaps a cold glass of water or a cold Coke. Some Durban establishments serve a simple carrot and onion salad (kachumber) on the side — thinly sliced carrots and onion dressed with lemon juice and fresh coriander. This cuts through the richness of the curry perfectly.</p>
+    `
+  },
+  {
+    title: "Traditional South African Melktert (Milk Tart)",
+    slug: "melktert",
+    category: "recipes",
+    subCategory: "desserts",
+    author: "Lisa B.",
+    date: "April 12, 2026",
+    image: "doughnut.png",
+    content: `
+      <h2>Melktert — The Classic South African Milk Tart</h2>
+      <p>Melktert — literally "milk tart" in Afrikaans — is one of the oldest and most beloved desserts in South African culinary history. A delicate, creamy, cinnamon-dusted custard filling nestled in a crisp, buttery pastry shell, the Melktert has been made in South African kitchens since the earliest days of the Cape Colony, when Dutch settlers adapted their European custard tarts using the abundant milk produced by cattle at the Cape.</p>
+      <p>Every South African family has a slightly different Melktert recipe — and every family believes, with complete sincerity, that theirs is the correct one. Some use a baked filling set with eggs; others use a stovetop custard thickened with cornstarch and poured into a pre-baked shell. Both are authentic. Both are delicious. This recipe uses the stovetop method — it produces a silkier, creamier filling that many people find more satisfying than the baked version, and it is impossible to overcook.</p>
+      <p>A proper Melktert is not overly sweet. It should taste primarily of warm, full-cream milk and vanilla, with cinnamon providing a gentle aromatic top note. The pastry should be thin, short, and crisp — a contrast to the soft, trembling filling. Served cool or at room temperature, it is one of the most elegant, understated desserts imaginable.</p>
+
+      <h3>Ingredients</h3>
+      <p><em>Makes: One 23cm tart (8–10 slices) &nbsp;|&nbsp; Prep time: 30 minutes &nbsp;|&nbsp; Cook time: 25 minutes &nbsp;|&nbsp; Chilling time: 2–3 hours</em></p>
+      <p><strong>For the short crust pastry:</strong></p>
+      <ul>
+        <li>1½ cups (185g) cake flour, plus extra for rolling</li>
+        <li>¼ cup (50g) icing sugar, sifted</li>
+        <li>¼ tsp salt</li>
+        <li>125g cold butter, cut into small cubes</li>
+        <li>1 large egg yolk</li>
+        <li>2–3 tbsp ice cold water</li>
+      </ul>
+      <p><strong>For the milk custard filling:</strong></p>
+      <ul>
+        <li>1 litre full-cream milk (do not use low-fat — the fat is what gives the filling its body and flavour)</li>
+        <li>1 cup (200g) white sugar</li>
+        <li>4 tbsp (40g) cornstarch (Maizena)</li>
+        <li>3 tbsp (30g) cake flour</li>
+        <li>3 large free-range eggs, beaten</li>
+        <li>2 tbsp butter</li>
+        <li>1 tsp pure vanilla extract</li>
+        <li>¼ tsp salt</li>
+        <li>1 stick cinnamon (for infusing the milk)</li>
+      </ul>
+      <p><strong>To finish:</strong> Ground cinnamon for dusting (essential)</p>
+
+      <h3>Method</h3>
+      <p><strong>Make the pastry:</strong></p>
+      <ol>
+        <li>In a food processor (or by hand using your fingertips), combine the flour, icing sugar, and salt. Add the cold butter cubes and pulse (or rub) until the mixture resembles coarse breadcrumbs with some pea-sized butter pieces remaining — do not overwork it.</li>
+        <li>Add the egg yolk and 2 tablespoons of cold water. Pulse briefly until the dough just comes together. If it is still crumbly, add the third tablespoon of water. The dough should hold together when pressed but should not be sticky.</li>
+        <li>Turn onto a lightly floured surface, shape into a flat disc, wrap in cling wrap, and refrigerate for at least 30 minutes. Resting the pastry is non-negotiable — it relaxes the gluten and prevents shrinking during baking.</li>
+        <li>Preheat your oven to 190°C. Roll the chilled pastry on a floured surface into a circle slightly larger than your tart tin. Carefully transfer to the tin, pressing it gently into the corners without stretching. Trim the excess. Prick the base all over with a fork. Line with baking paper and fill with baking weights or dried beans.</li>
+        <li>Blind bake for 15 minutes, then remove the weights and paper and bake for a further 8–10 minutes until the pastry is golden and fully dry. Allow to cool completely before adding the filling.</li>
+      </ol>
+      <p><strong>Make the filling:</strong></p>
+      <ol>
+        <li>Pour the milk into a medium saucepan and add the cinnamon stick. Heat over medium heat until the milk just begins to steam and small bubbles appear at the edges — do not boil. Remove the cinnamon stick.</li>
+        <li>In a separate bowl, whisk together the sugar, cornstarch, flour, and salt. Add the beaten eggs and whisk until smooth — this prevents any lumps in the finished custard.</li>
+        <li>Gradually pour the hot milk into the egg mixture, whisking constantly — add it in a thin stream to temper the eggs gently (adding all the hot milk at once will scramble them). Pour the mixture back into the saucepan.</li>
+        <li>Cook over medium-low heat, stirring constantly with a wooden spoon or silicone spatula, reaching all corners of the pan. The custard will suddenly thicken — this happens quickly once it reaches temperature. Continue stirring for 2 minutes after it thickens to cook out the flour taste. Remove from heat.</li>
+        <li>Stir in the butter and vanilla extract until the butter is melted and incorporated. The filling should be thick, smooth, and glossy.</li>
+        <li>Pour immediately into the cooled pastry shell, smoothing the top gently. Allow to cool at room temperature for 20 minutes, then refrigerate uncovered for at least 2 hours until fully set and cold.</li>
+        <li>Just before serving, dust the entire surface generously with ground cinnamon — applied through a fine sieve for an even coating. This step is what makes a Melktert look like a Melktert.</li>
+      </ol>
+
+      <h3>Tips for a Perfect Melktert</h3>
+      <ul>
+        <li><strong>Full-cream milk only:</strong> The fat content of full-cream milk is essential to the body and flavour of the filling. Low-fat milk produces a thinner, less satisfying custard.</li>
+        <li><strong>Never stop stirring the custard:</strong> The moment you leave stovetop custard unattended, it catches on the bottom of the pan and burns. Keep stirring, especially once it begins to thicken.</li>
+        <li><strong>Serve it cool:</strong> Melktert is always served cold or at room temperature. A warm Melktert has a loose, almost liquid filling that has not set properly. The minimum chilling time is 2 hours; overnight is better.</li>
+        <li><strong>Crustless Melktert:</strong> Many traditional South African recipes make a crustless Melktert — the filling is poured directly into a greased pie dish and baked at 180°C for 25–30 minutes until just set. It is quicker and equally delicious, if less traditional in appearance.</li>
+      </ul>
+      <p>For another classic South African dessert experience, try our <a href="{{BASE_PATH}}recipes/desserts/malva-pudding.html">warm Malva Pudding</a> — the perfect cold-weather companion to this elegant cold tart.</p>
+    `
+  },
+  {
+    title: "South African Chakalaka",
+    slug: "chakalaka",
+    category: "recipes",
+    subCategory: "sa-classics",
+    author: "Chef Zola",
+    date: "April 15, 2026",
+    image: "healthy_dinner.png",
+    content: `
+      <h2>Chakalaka — South Africa's Spicy Vegetable Relish</h2>
+      <p>Chakalaka is one of South Africa's most versatile and beloved condiments — a vibrant, spiced vegetable relish that appears alongside pap at township braais, on white linen at Sunday lunches, tucked into a Bunny Chow, and ladled over bread at any informal gathering from Limpopo to the Cape. It is vegan, gluten-free, inexpensive, nutritious, and deeply flavourful. It is also one of the easiest things you can make in a South African kitchen.</p>
+      <p>The origins of Chakalaka are rooted in the mining communities and townships of Johannesburg during the apartheid era. Workers needed cheap, nutritious, and flavourful food that could be prepared quickly from easily available ingredients — tinned beans, canned tomatoes, onions, peppers, and whatever spices were at hand. The result was a relish that carried real heat and a complex depth of flavour from its layered aromatics. Over time, Chakalaka spread from the township to the suburban braai to the restaurant table, and it is now considered a cornerstone of South African cuisine.</p>
+      <p>Every region — and every family — has their own version. Some are heavy with baked beans; others are more vegetable-forward. Some have the heat level of a friendly warning; others are genuinely intense. This recipe sits in the middle: well-spiced and aromatic with a pleasant warmth that builds rather than burns, and a generous helping of beans for substance. Adjust the chilli to your preference.</p>
+
+      <h3>Ingredients</h3>
+      <p><em>Serves: 6–8 as a side &nbsp;|&nbsp; Prep time: 15 minutes &nbsp;|&nbsp; Cook time: 25 minutes</em></p>
+      <ul>
+        <li>3 tbsp vegetable oil</li>
+        <li>2 medium onions, finely diced</li>
+        <li>4 cloves garlic, minced</li>
+        <li>1 tbsp fresh ginger, grated</li>
+        <li>2 green peppers, seeded and diced</li>
+        <li>2 medium carrots, grated or finely diced</li>
+        <li>2 medium tomatoes, diced (or 1 tin chopped tomatoes)</li>
+        <li>2 tins (800g total) baked beans in tomato sauce (the traditional ingredient — do not substitute)</li>
+        <li>1–2 fresh chillies, seeded and finely chopped (adjust to taste)</li>
+        <li>1 tsp medium curry powder</li>
+        <li>1 tsp turmeric</li>
+        <li>1 tsp cumin</li>
+        <li>½ tsp paprika (smoked paprika adds a lovely depth)</li>
+        <li>Salt and black pepper to taste</li>
+        <li>Fresh coriander or parsley to finish (optional)</li>
+      </ul>
+
+      <h3>Method</h3>
+      <ol>
+        <li><strong>Soften the aromatics:</strong> Heat the oil in a large, deep frying pan or medium saucepan over medium heat. Add the onions and cook, stirring occasionally, for 8–10 minutes until softened and beginning to turn golden at the edges. The onions need proper time here — rushing this step produces a sharp, harsh base rather than the sweet, complex foundation that great Chakalaka requires.</li>
+        <li><strong>Add the garlic, ginger, and chilli:</strong> Add the minced garlic, grated ginger, and chopped chilli to the pan. Stir for 1–2 minutes until fragrant.</li>
+        <li><strong>Toast the spices:</strong> Add the curry powder, turmeric, cumin, and paprika. Stir constantly for 60 seconds — the spices will toast in the oil and the kitchen will fill with an extraordinary aroma. This step is what gives Chakalaka its depth; spices added to liquid rather than oil-toasted produce a flatter, less complex flavour.</li>
+        <li><strong>Add the vegetables:</strong> Add the diced green pepper and grated carrots. Stir to coat in the spiced oil and cook for 5 minutes until slightly softened but still with some texture — you want the vegetables to have bite in the finished relish.</li>
+        <li><strong>Add the tomatoes:</strong> Add the fresh or tinned tomatoes and stir well. Cook for 5–8 minutes until the tomatoes break down and the mixture becomes saucy and cohesive. The oil should begin to separate and pool slightly around the edges of the pan — this is the sign that the base is properly cooked.</li>
+        <li><strong>Add the baked beans:</strong> Tip in both tins of baked beans (including their sauce) and stir to combine everything well. The bean sauce adds body, sweetness, and a characteristic richness that is integral to proper Chakalaka. Reduce heat to low and simmer for 10 minutes, stirring occasionally, until the Chakalaka has thickened to a cohesive, saucy consistency that holds its shape on a spoon without being watery.</li>
+        <li><strong>Season and finish:</strong> Taste and adjust salt, pepper, and chilli. If it is too thick, add a splash of water. Finish with fresh coriander or parsley if using. Chakalaka should taste bold, spiced, slightly sweet from the tomato and bean sauce, and have a warmth from the chilli that is present but not overpowering.</li>
+      </ol>
+
+      <h3>How to Serve Chakalaka</h3>
+      <p>Chakalaka is one of the most versatile condiments in the South African kitchen. It can be served:</p>
+      <ul>
+        <li><strong>With pap (mealie pap):</strong> The definitive pairing. Soft pap with Chakalaka spooned over the top is the quintessential South African township staple — warm, filling, nutritious, and deeply satisfying.</li>
+        <li><strong>At a braai:</strong> Serve cold or at room temperature as a relish alongside grilled boerewors, chops, and braaibroodjies. It cuts through the richness of the meat perfectly.</li>
+        <li><strong>On bread or rolls:</strong> A thick layer of Chakalaka on fresh white bread is one of the great South African working-class lunches — simple, filling, and genuinely delicious.</li>
+        <li><strong>With rice:</strong> Serve warm Chakalaka over steamed white rice for a complete, plant-based meal that requires nothing else.</li>
+        <li><strong>As a braaibroodjie filling:</strong> Spread Chakalaka inside a toasted cheese sandwich on the braai for a deeply flavoured, uniquely South African grilled sandwich.</li>
+        <li><strong>With <a href="{{BASE_PATH}}recipes/sa-classics/bobotie.html">Bobotie</a>:</strong> A small bowl of Chakalaka on the side adds a spiced, textural contrast to the mild sweetness of the Bobotie.</li>
+      </ul>
+
+      <h3>Storage and Make-Ahead Tips</h3>
+      <p>Chakalaka improves dramatically over 24 hours as the flavours meld and deepen. Make it a day ahead whenever possible. It stores in an airtight container in the refrigerator for up to 5 days. It also freezes very well — portion into freezer bags or containers and freeze for up to 3 months. Defrost overnight in the fridge and reheat gently in a saucepan with a splash of water if needed.</p>
+
+      <h3>Variations</h3>
+      <ul>
+        <li><strong>Hot Chakalaka:</strong> Double the chilli and add a teaspoon of dried chilli flakes with the spices. This is the version preferred at many township braais.</li>
+        <li><strong>With cabbage:</strong> Some versions include ¼ of a small head of cabbage, finely shredded, added with the carrots and peppers. It adds bulk and a pleasant texture.</li>
+        <li><strong>Without baked beans:</strong> Replace the baked beans with 2 tins of kidney beans or black beans, drained and rinsed, plus 1 tin of chopped tomatoes. The result is less sweet but equally good — closer to the versions made in restaurants.</li>
+      </ul>
     `
   },
   {
