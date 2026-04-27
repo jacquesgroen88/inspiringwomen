@@ -1,0 +1,17 @@
+[build]
+  # The command to run to build the site
+  command = "node build.js"
+  # The directory to publish (the root directory)
+  publish = "."
+
+[build.environment]
+  # Set Node.js version if needed
+  NODE_VERSION = "18"
+
+# Optional: Add headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
