@@ -26,3 +26,4 @@
 | 5 Skincare Mistakes You're Making | beauty | 2283 | Premium (A+) |
 | A Guide to Drafting a Will: What Every SA Woman Needs to Know | legal | 218 | Short (C) |
 | Marriage Contracts in SA: In Community vs Out of Community | legal | 235 | Short (C) |
+| 12 Side Hustles South African Women Are Starting With Under R500 in 2026 | career | 2500 | Premium (A+) |
