@@ -26,6 +26,11 @@
 | 5 Skincare Mistakes You're Making | beauty | 2283 | Premium (A+) |
 | A Guide to Drafting a Will: What Every SA Woman Needs to Know | legal | 218 | Short (C) |
 | Marriage Contracts in SA: In Community vs Out of Community | legal | 235 | Short (C) |
+| Divorce Law in South Africa: Know Your Rights Before You Sign | legal | 1192 | Premium (A+) |
+| Tenant Rights in South Africa: What Every Woman Renting Should Know | legal | 1172 | Premium (A+) |
+| Women's Employment Rights in South Africa: What Your Employer Must Do | legal | 1168 | Premium (A+) |
+| How to Register Your Business in South Africa: A Step-by-Step Guide | legal | 1106 | Premium (A+) |
+| Life Insurance in South Africa: What Women Need to Know Before They Buy | legal | 1331 | Premium (A+) |
 | Classic South African Bobotie | recipes | 972 | High Quality (A) |
 | Classic South African Malva Pudding | recipes | 948 | High Quality (A) |
 | Durban Bunny Chow | recipes | 1067 | Premium (A+) |

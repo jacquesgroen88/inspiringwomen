@@ -1633,7 +1633,7 @@ const articles = [
     subCategory: "marriage",
     author: "Adv. Smith",
     date: "April 20, 2026",
-    image: "summer_holiday.png", 
+    image: "home_office.png",
     content: `
       <h2>Understand Your Matrimonial Property Regime Before You Sign</h2>
       <p>Before you say "I do" and start worrying about your future, you absolutely need to understand the severe legal and financial implications of marriage in South Africa. Love is grand, but marriage is a binding legal contract.</p>
@@ -1648,6 +1648,453 @@ const articles = [
       <p>This is generally considered the fairest and most popular choice for modern couples. What you bring into the marriage remains yours alone (protecting prior wealth). However, the wealth built *during* the marriage is shared equally upon divorce or death, recognizing that both partners contribute to the marriage (even if one is a stay-at-home parent).</p>
       
       <p>Always speak to a Notary Public well before your wedding day to draft an ANC that suits both of your financial needs.</p>
+    `
+  },
+  {
+    title: "Divorce Law in South Africa: Know Your Rights Before You Sign",
+    slug: "divorce-law-sa",
+    category: "legal",
+    subCategory: "family-law",
+    author: "Adv. Smith",
+    date: "April 22, 2026",
+    image: "home_office.png",
+    content: `
+      <h2>Understanding Divorce in South Africa</h2>
+      <p>Divorce is one of the most financially and emotionally significant legal events a woman can go through. In South Africa, divorce is governed primarily by the <strong>Divorce Act 70 of 1979</strong> and the <strong>Matrimonial Property Act 88 of 1984</strong>. Understanding your rights before you sign anything — or before you even consult a lawyer — can mean the difference between walking away protected or being left financially vulnerable.</p>
+      <p>South Africa has a no-fault divorce system, which means the court only needs to be satisfied that the marriage has broken down irretrievably. You do not have to prove adultery, abuse, or any specific wrongdoing to be granted a divorce. The only requirement is that the marriage is genuinely over.</p>
+
+      <h2>How Your Marriage Contract Affects the Divorce</h2>
+      <p>The single most important factor in any South African divorce is your matrimonial property regime — the type of marriage contract (or lack thereof) you signed before the wedding. If you are unsure which regime applies to you, read our guide on <a href="{{BASE_PATH}}legal/marriage/marriage-contracts-sa.html">marriage contracts in SA</a>.</p>
+
+      <h3>In Community of Property</h3>
+      <p>If you married without an Antenuptial Contract (ANC), you are in community of property by default. Your joint estate — everything both of you own and owe — is split 50/50 upon divorce. This includes all assets acquired before and during the marriage, as well as all debts. If your spouse had significant debt when you married, you share responsibility for that debt in a divorce.</p>
+
+      <h3>Out of Community (Without Accrual)</h3>
+      <p>Each spouse keeps their own assets and debts entirely. There is no sharing upon divorce. If you were the primary caregiver and your spouse was the primary earner, you may walk away with significantly less despite having contributed equally to the household. Spousal maintenance may partially compensate, but it is not guaranteed.</p>
+
+      <h3>Out of Community (With Accrual)</h3>
+      <p>This is the most common and often fairest regime. Each spouse keeps what they brought into the marriage, but the growth in wealth accumulated during the marriage is divided equally. A formula is used: accrual = (estate value at divorce) minus (estate value at date of marriage, adjusted for inflation). This protects a spouse who stepped back from their career to raise children.</p>
+
+      <h2>Division of the Family Home</h2>
+      <p>The family home is often the largest and most contested asset in a divorce. South African courts look at several factors:</p>
+      <ul>
+        <li>Which regime applies (community or accrual)</li>
+        <li>Who the primary caregiver of minor children is</li>
+        <li>Whether the bond is in one or both names</li>
+        <li>Whether one party can afford to buy out the other</li>
+      </ul>
+      <p>The court will typically award the home to the parent with primary care of the children where possible, but the other spouse's share of the equity must still be paid out — either by refinancing, selling the home, or offsetting against other assets.</p>
+
+      <h2>Spousal Maintenance (Alimony)</h2>
+      <p>South African courts can award spousal maintenance — a monthly payment from one spouse to the other — where there is a significant financial imbalance. Maintenance is not automatic. The court considers:</p>
+      <ul>
+        <li>The duration of the marriage</li>
+        <li>Each spouse's earning capacity and employability</li>
+        <li>The standard of living during the marriage</li>
+        <li>Any sacrifices made (e.g., leaving the workforce to raise children)</li>
+        <li>Each party's assets and liabilities</li>
+      </ul>
+      <p>Maintenance can be structured as a lump sum, monthly payments for a defined period (rehabilitative maintenance), or permanent maintenance in long marriages where one spouse cannot reasonably become self-supporting.</p>
+
+      <h2>Children: Parental Rights and Maintenance</h2>
+      <p>The Children's Act 38 of 2005 governs all matters relating to children in a divorce. South African courts are guided by one principle above all others: <strong>the best interests of the child</strong>.</p>
+
+      <h3>Primary Residence vs Joint Care</h3>
+      <p>Courts no longer use the term "custody." Instead, they determine <em>primary residence</em> (where the child mainly lives) and <em>contact</em> (the other parent's right to spend time with the child). Joint care arrangements, where children split time between both homes, are increasingly common but require good co-parenting communication to work.</p>
+
+      <h3>Child Maintenance</h3>
+      <p>Both parents are legally obligated to maintain their children in proportion to their respective incomes, regardless of who has primary residence. Child maintenance is calculated using the Maintenance Act 99 of 1998 and considers:</p>
+      <ul>
+        <li>School fees and extracurricular activities</li>
+        <li>Medical aid contributions</li>
+        <li>Daily living costs (food, clothing, transport)</li>
+        <li>Each parent's net income</li>
+      </ul>
+      <p>If a parent fails to pay maintenance, you can approach the Maintenance Court — it's free of charge and the court has wide powers to enforce payment, including garnishing salaries.</p>
+
+      <h2>Pension and Retirement Interests</h2>
+      <p>One of the most significant — and often overlooked — assets in a divorce is pension and retirement fund interests. Under the <strong>Pension Funds Act</strong> and the <strong>Divorce Act</strong>, a non-member spouse is entitled to a share of the member spouse's pension interest as at the date of divorce. This is called a "clean break" principle: the non-member spouse can be paid their share directly from the fund without waiting for the member to retire.</p>
+      <p>This applies to pension funds, provident funds, and retirement annuities. It does not automatically apply to living annuities (post-retirement products) or group life insurance.</p>
+
+      <h2>The Divorce Process in South Africa</h2>
+      <p>There are two routes to finalising a divorce:</p>
+
+      <h3>Uncontested Divorce</h3>
+      <p>Both parties agree on all terms — division of assets, maintenance, and parenting arrangements. A settlement agreement is drafted, and both parties sign. The matter is placed before a judge for a short hearing (often 15–30 minutes). An uncontested divorce can be finalised in as little as 6–8 weeks and is significantly cheaper, often costing R5,000–R15,000 in total legal fees.</p>
+
+      <h3>Contested Divorce</h3>
+      <p>The parties cannot agree on one or more issues. The matter is litigated through the High Court or Regional Magistrate's Court. Contested divorces can take 1–4 years to finalise and can cost R50,000–R500,000 or more in legal fees. Mediation is strongly recommended before proceeding to full litigation — it is faster, cheaper, and less emotionally destructive, especially where children are involved.</p>
+
+      <h2>Practical Steps If You Are Considering Divorce</h2>
+      <ol>
+        <li><strong>Locate your marriage certificate</strong> and determine your matrimonial regime.</li>
+        <li><strong>Gather financial records</strong>: bank statements, bond statements, vehicle papers, pension fund statements, investment accounts, and tax returns for the past 3 years.</li>
+        <li><strong>Open a personal bank account</strong> in your name only if you don't already have one.</li>
+        <li><strong>Consult a family law attorney</strong> for an initial consultation — many offer the first session at a reduced rate.</li>
+        <li><strong>Consider mediation</strong> as a first step before issuing divorce proceedings.</li>
+        <li><strong>Update your will</strong> — a divorce does not automatically cancel bequests to a former spouse in some circumstances.</li>
+      </ol>
+
+      <h2>Your Financial Future After Divorce</h2>
+      <p>Divorce is not the end — it is often a financial reset that, handled well, can lead to greater independence and security. Update your beneficiary nominations on all life insurance policies, pension funds, and investments. Review your <a href="{{BASE_PATH}}legal/estate-planning/drafting-a-will.html">will</a> immediately after your divorce is finalised. Build an emergency fund as your first post-divorce financial priority.</p>
+      <p>South African women are increasingly financially independent, and the legal system is designed to protect both parties equitably. Know your rights, get professional advice, and do not sign anything without fully understanding the implications.</p>
+    `
+  },
+  {
+    title: "Tenant Rights in South Africa: What Every Woman Renting Should Know",
+    slug: "tenant-rights-sa",
+    category: "legal",
+    subCategory: "tenant-rights",
+    author: "Adv. Smith",
+    date: "April 24, 2026",
+    image: "indoor_plants_sa.png",
+    content: `
+      <h2>Your Rights as a Tenant Under South African Law</h2>
+      <p>Renting a home in South Africa is a significant financial commitment, yet many tenants — particularly women renting for the first time — are unaware of the robust legal protections available to them. South African rental law is comprehensive and firmly tilted toward protecting tenants from exploitative landlords, illegal evictions, and unfair lease conditions. Knowing your rights is the first step to exercising them.</p>
+      <p>The primary legislation governing the rental of residential property in South Africa is the <strong>Rental Housing Act 50 of 1999</strong> (as amended by the Rental Housing Amendment Act 2014), supplemented by the <strong>Consumer Protection Act (CPA)</strong> and the <strong>Prevention of Illegal Eviction from and Unlawful Occupation of Land Act (PIE Act)</strong>.</p>
+
+      <h2>The Lease Agreement: What Must Be in Writing</h2>
+      <p>While verbal lease agreements are technically legal, they leave you almost entirely unprotected. A written lease is strongly recommended and must include:</p>
+      <ul>
+        <li>Full names and contact details of both landlord and tenant</li>
+        <li>Address of the rental property</li>
+        <li>Monthly rental amount and escalation clause (how much it increases each year)</li>
+        <li>Deposit amount and the bank account in which it will be held</li>
+        <li>Lease duration (fixed-term or month-to-month)</li>
+        <li>Notice period required by either party to terminate</li>
+        <li>Which utilities are included and which are for the tenant's account</li>
+        <li>Rules regarding pets, subletting, and alterations</li>
+      </ul>
+      <p>Under the Consumer Protection Act, if your lease is a fixed-term agreement of 24 months or less, you have the right to cancel it early with 20 business days' written notice. The landlord may charge a reasonable cancellation penalty, but cannot hold you indefinitely to a fixed-term lease.</p>
+
+      <h2>The Rental Deposit: Your Money, Your Rights</h2>
+      <p>The rental deposit is one of the most frequently abused areas of landlord-tenant law in South Africa. Here is exactly what the law requires:</p>
+
+      <h3>How the Deposit Must Be Held</h3>
+      <p>Your landlord is legally required to invest your deposit in an interest-bearing bank account for the duration of your lease. The interest earned belongs to you — not the landlord — and must be returned to you along with your deposit at the end of the tenancy. Ask your landlord for proof of the interest-bearing account within 30 days of paying your deposit.</p>
+
+      <h3>Joint Inspection and Snag List</h3>
+      <p>Before you move in, your landlord must conduct a <strong>joint inspection</strong> of the property with you and document all existing defects in writing. This is your ingoing inspection report. Keep your signed copy — it is your protection against being blamed for pre-existing damage when you move out.</p>
+      <p>When you vacate, another joint inspection must take place within three days of your departure. The landlord may only deduct costs for damage caused by you or your guests, beyond fair wear and tear, from the deposit.</p>
+
+      <h3>Deposit Refund Timeline</h3>
+      <p>If there is no damage: the deposit plus interest must be refunded within <strong>7 days</strong> of the lease ending. If there is damage: the landlord may deduct repair costs but must provide you with receipts and proof of all deductions, and refund the balance within <strong>14 days</strong> of completing repairs.</p>
+      <p>If a landlord withholds your deposit without justification, you can approach the Rental Housing Tribunal (free of charge) for the full return of your deposit, plus the interest.</p>
+
+      <h2>Maintenance: Who Is Responsible for What?</h2>
+      <p>Under the Rental Housing Act, the landlord is responsible for maintaining the property in a habitable condition throughout the tenancy. This includes:</p>
+      <ul>
+        <li>Structural integrity of the property (roof, walls, windows)</li>
+        <li>Electrical systems (wiring, plug points, distribution board)</li>
+        <li>Plumbing (burst pipes, blocked drains, geysers)</li>
+        <li>Security features that were present at move-in (burglar bars, security gates, locks)</li>
+      </ul>
+      <p>The tenant is responsible for minor day-to-day maintenance (replacing light bulbs, keeping the property clean) and for reporting defects to the landlord promptly in writing. Always report maintenance issues via WhatsApp or email — written proof protects you if a dispute arises.</p>
+
+      <h2>Rent Increases: What Is Legal?</h2>
+      <p>Your landlord cannot increase your rent arbitrarily during a fixed-term lease unless your lease agreement includes a specific escalation clause. During a month-to-month lease, a landlord may increase the rent with one calendar month's written notice.</p>
+      <p>There is no statutory cap on rental increases in South Africa (unlike some other countries), but increases significantly above inflation may be challenged through the Rental Housing Tribunal if they are deemed unreasonable.</p>
+      <p>If you receive a rental increase notice, counter-offer in writing. Landlords often prefer a slightly lower increase to the cost and inconvenience of finding a new tenant.</p>
+
+      <h2>Illegal Eviction: The PIE Act Protects You</h2>
+      <p>This is arguably the most important protection South African tenants have. A landlord <strong>cannot evict you without a court order</strong>, full stop. It does not matter how many months of rent you owe, how difficult the relationship has become, or what the landlord says in a WhatsApp message. The following actions are illegal:</p>
+      <ul>
+        <li>Changing the locks while you are still in occupation</li>
+        <li>Removing your belongings from the property</li>
+        <li>Cutting off your water or electricity to force you out</li>
+        <li>Threatening or intimidating you to vacate</li>
+        <li>Entering the property without reasonable notice (except in a genuine emergency)</li>
+      </ul>
+      <p>Even if you have not paid rent, the landlord must follow the legal eviction process: give written notice, apply to the court for an eviction order, and have the sheriff of the court serve the order. The court will also consider whether you have alternative accommodation — particularly if you have minor children. This process typically takes several months.</p>
+      <p>If your landlord attempts an illegal eviction, call the South African Police Service immediately and report it as an illegal eviction. You can also approach the Rental Housing Tribunal.</p>
+
+      <h2>The Rental Housing Tribunal: Free Justice for Tenants</h2>
+      <p>Every province has a Rental Housing Tribunal — a free government body that resolves disputes between landlords and tenants. You can lodge a complaint about:</p>
+      <ul>
+        <li>Unlawful deposit deductions or non-return of deposit</li>
+        <li>Harassment or intimidation by the landlord</li>
+        <li>Failure to maintain the property</li>
+        <li>Illegal eviction attempts</li>
+        <li>Unfair lease conditions</li>
+      </ul>
+      <p>The process is free, no lawyers are required, and decisions are binding on both parties. To find your provincial Rental Housing Tribunal, search "[your province] Rental Housing Tribunal" — each province has its own contact details and online complaint forms.</p>
+
+      <h2>Practical Checklist Before You Sign a Lease</h2>
+      <ol>
+        <li>Read the entire lease before signing — do not be rushed.</li>
+        <li>Confirm the landlord owns the property (ask to see title deed or rates account).</li>
+        <li>Ensure the deposit amount and interest-bearing account clause are specified.</li>
+        <li>Complete and sign the ingoing inspection report with the landlord before moving in.</li>
+        <li>Take time-stamped photos of every room and every defect on move-in day.</li>
+        <li>Keep all communication with your landlord in writing.</li>
+        <li>Know the notice period required by both parties before moving out.</li>
+      </ol>
+      <p>Renting should be straightforward and fair. South African law gives you the tools to enforce your rights — you simply need to know what they are. For related financial planning advice, read our guide on <a href="{{BASE_PATH}}finance/budgeting/manage-finances-2026.html">managing your finances in 2026</a>.</p>
+    `
+  },
+  {
+    title: "Women's Employment Rights in South Africa: What Your Employer Must Do",
+    slug: "employment-rights-women-sa",
+    category: "legal",
+    subCategory: "employment-law",
+    author: "Adv. Smith",
+    date: "April 26, 2026",
+    image: "home_office.png",
+    content: `
+      <h2>Know What the Law Guarantees You at Work</h2>
+      <p>South African labour law is among the most comprehensive in Africa, offering significant protections to employees — particularly women, who face unique workplace challenges ranging from pay gaps to pregnancy discrimination to sexual harassment. Understanding your rights is not just academic: it can protect your income, your health, your dignity, and your career.</p>
+      <p>The four key pieces of legislation every employed South African woman should know are: the <strong>Basic Conditions of Employment Act (BCEA)</strong>, the <strong>Employment Equity Act (EEA)</strong>, the <strong>Labour Relations Act (LRA)</strong>, and the <strong>Code of Good Practice on Sexual Harassment</strong>.</p>
+
+      <h2>Maternity Leave: Your Rights Under the BCEA</h2>
+      <p>The Basic Conditions of Employment Act guarantees every pregnant employee <strong>four consecutive months of maternity leave</strong>. Key points:</p>
+      <ul>
+        <li>You may begin maternity leave at any time from 4 weeks before your expected due date.</li>
+        <li>You may not return to work within 6 weeks of giving birth without a medical certificate confirming you are fit to do so.</li>
+        <li>Your employer is not required by law to pay you during maternity leave — payment comes from the <strong>UIF (Unemployment Insurance Fund)</strong>, which typically pays 38%–58% of your salary for up to 17.32 weeks, depending on your earnings.</li>
+        <li>Your employer cannot dismiss you, demote you, or disadvantage you in any way because of your pregnancy or maternity leave.</li>
+        <li>You are entitled to return to the same or equivalent position after maternity leave.</li>
+      </ul>
+      <p>Importantly, fathers are entitled to <strong>10 consecutive days of parental leave</strong> (not maternity leave) under the BCEA, also claimable from UIF. Adoptive parents also have specific leave entitlements.</p>
+
+      <h2>Equal Pay for Equal Work</h2>
+      <p>The Employment Equity Act prohibits unfair discrimination in pay on the grounds of gender, race, disability, or any other listed ground. If you are performing the same or substantially similar work as a male colleague and earning less without justification, this may constitute unfair discrimination.</p>
+      <p>In practice, proving a pay gap requires access to payroll information — which many employers guard carefully. However, the EEA places the burden of proof on the employer to justify pay differences. If you suspect a gender pay gap, you can:</p>
+      <ul>
+        <li>Request an explanation from HR in writing.</li>
+        <li>Lodge a complaint with the Commission for Conciliation, Mediation and Arbitration (CCMA).</li>
+        <li>Report it to the Department of Labour for an Employment Equity audit.</li>
+      </ul>
+
+      <h2>Protection Against Sexual Harassment</h2>
+      <p>Sexual harassment in the workplace is both a labour law violation and potentially a criminal offence in South Africa. The Code of Good Practice on Sexual Harassment defines it broadly as any unwanted conduct of a sexual nature that affects the dignity of the recipient. This includes:</p>
+      <ul>
+        <li>Verbal harassment: sexual jokes, comments about your body, or unsolicited remarks about your personal life</li>
+        <li>Non-verbal harassment: inappropriate staring, lewd gestures, or displaying sexual content</li>
+        <li>Physical harassment: unwanted touching, groping, or assault</li>
+        <li>Quid pro quo harassment: "sleep with me or lose your promotion/job"</li>
+      </ul>
+      <p>If you experience sexual harassment at work:</p>
+      <ol>
+        <li>Document every incident with dates, times, locations, and witnesses.</li>
+        <li>Report it in writing to HR or your employer using your company's grievance procedure.</li>
+        <li>If the employer fails to act, refer the matter to the CCMA as unfair labour practice.</li>
+        <li>For criminal conduct (assault, exposure), open a case with the SAPS.</li>
+      </ol>
+      <p>An employer who knows about harassment and fails to act can be held vicariously liable. Your job is protected: you cannot be dismissed for reporting sexual harassment.</p>
+
+      <h2>Unfair Dismissal: Your Protection Under the LRA</h2>
+      <p>The Labour Relations Act makes every dismissal subject to a fairness test. A dismissal must be both substantively fair (there must be a valid reason) and procedurally fair (the correct disciplinary process must have been followed). Common situations women face:</p>
+
+      <h3>Dismissal Related to Pregnancy</h3>
+      <p>Dismissing an employee because she is pregnant, intends to become pregnant, or is on maternity leave is automatically unfair. No disciplinary process can save it. You can refer this to the CCMA immediately — the employer bears the full burden of proving the dismissal was for a completely unrelated reason.</p>
+
+      <h3>Constructive Dismissal</h3>
+      <p>If your employer makes your working conditions so intolerable that you feel forced to resign, this constitutes constructive dismissal. It is as valid as a direct dismissal and can be referred to the CCMA. Document the intolerable conditions thoroughly before resigning — once you resign, you bear the burden of proving constructive dismissal.</p>
+
+      <h3>Retrenchment</h3>
+      <p>Retrenchment (dismissal for economic reasons) must follow a specific consultation process. Your employer must consult with you or your union, explore alternatives to retrenchment, and apply fair selection criteria. Retrenchment packages are calculated based on your length of service (one week's remuneration per completed year of service, in addition to any notice pay and leave pay owed).</p>
+
+      <h2>The CCMA: Free Labour Dispute Resolution</h2>
+      <p>The Commission for Conciliation, Mediation and Arbitration is a free government body that resolves most labour disputes in South Africa. You do not need a lawyer to approach the CCMA. You must refer a dispute within <strong>30 days</strong> of the dismissal or unfair labour practice (or within 6 months for an unfair labour practice that is ongoing). The CCMA process involves:</p>
+      <ol>
+        <li><strong>Conciliation</strong>: a commissioner tries to help both parties reach a settlement (usually within 30 days of referral).</li>
+        <li><strong>Arbitration</strong>: if conciliation fails, the commissioner makes a binding ruling after hearing both sides.</li>
+      </ol>
+      <p>Most matters are resolved at conciliation without needing to proceed to arbitration. The process is significantly faster and less expensive than going to the Labour Court.</p>
+
+      <h2>Working Hours, Leave, and Basic Conditions</h2>
+      <p>The BCEA sets the following minimum conditions for all employees:</p>
+      <ul>
+        <li><strong>Maximum working hours</strong>: 45 hours per week (9 hours per day for a 5-day week), excluding a 30-minute meal break</li>
+        <li><strong>Overtime</strong>: must be agreed to in writing and paid at 1.5× your normal rate (or 2× on Sundays and public holidays)</li>
+        <li><strong>Annual leave</strong>: minimum 15 consecutive working days per leave cycle (21 calendar days)</li>
+        <li><strong>Sick leave</strong>: 30 days in every 3-year cycle (pro-rated for new employees)</li>
+        <li><strong>Family responsibility leave</strong>: 3 days per year for the birth/illness of a child or death of a close family member</li>
+      </ul>
+      <p>Your employer cannot require you to work on a Sunday or public holiday without your agreement. If you do work on these days, you must be paid at double your normal rate.</p>
+
+      <h2>Know Your Resources</h2>
+      <p>If you believe your rights have been violated at work, your first step is always to attempt to resolve it internally. If that fails, the following resources are available:</p>
+      <ul>
+        <li><strong>CCMA</strong> — for dismissal, unfair labour practice, and wage disputes</li>
+        <li><strong>Department of Labour</strong> — for BCEA violations (unpaid leave, unpaid overtime)</li>
+        <li><strong>Labour Court</strong> — for urgent injunctions and matters not covered by the CCMA</li>
+        <li><strong>Legal Aid South Africa</strong> — free legal representation if you cannot afford an attorney</li>
+      </ul>
+      <p>Your dignity, your income, and your career are worth protecting. For advice on building financial resilience alongside your career, see our guide on <a href="{{BASE_PATH}}career/entrepreneurship/side-hustles-sa.html">SA side hustles</a> and our article on <a href="{{BASE_PATH}}finance/budgeting/manage-finances-2026.html">managing your finances</a>.</p>
+    `
+  },
+  {
+    title: "How to Register Your Business in South Africa: A Step-by-Step Guide",
+    slug: "register-business-sa",
+    category: "legal",
+    subCategory: "business-law",
+    author: "Adv. Smith",
+    date: "April 28, 2026",
+    image: "home_office.png",
+    content: `
+      <h2>Making Your Hustle Official: Business Registration in South Africa</h2>
+      <p>Whether you've been running a successful side hustle from your kitchen table or you're launching a new venture from scratch, there comes a point where formalising your business makes both financial and legal sense. Operating as a registered entity protects you personally from business debts, opens doors to business banking, government contracts, and funding, and gives your clients confidence that they are dealing with a legitimate operation.</p>
+      <p>South Africa offers several business structures, each with different legal and tax implications. This guide walks you through the most common options and the exact steps to register each one.</p>
+
+      <h2>Choosing Your Business Structure</h2>
+
+      <h3>Sole Proprietorship</h3>
+      <p>The simplest form of business — you and the business are legally the same entity. There is no registration required (other than a tax number), and all profits are taxed as your personal income. The critical downside: you have unlimited personal liability. If the business incurs debts or faces a lawsuit, your personal assets (home, car, savings) are at risk.</p>
+      <p>Best for: freelancers, tutors, domestic workers, informal traders who are just starting out and want zero setup cost.</p>
+
+      <h3>Private Company (Pty) Ltd</h3>
+      <p>The most popular formal business structure in South Africa. A private company is a separate legal entity from its owners (shareholders), meaning your personal assets are protected from business creditors. A (Pty) Ltd can have 1–50 shareholders and must have at least one director.</p>
+      <p>Best for: any business with growth ambitions, clients requiring formal invoicing, anyone seeking business funding or tenders.</p>
+
+      <h3>Non-Profit Company (NPC)</h3>
+      <p>Used for organisations whose income is not distributed to members or directors, but used to pursue a public benefit or social objective. Required for NGOs, charities, and community organisations that want to register with the Department of Social Development (DSD) and apply for government grants or tax-exempt status.</p>
+
+      <h3>Cooperative</h3>
+      <p>A member-owned and democratically controlled business, ideal for community initiatives, stokvels formalising into a business, or agricultural groups. Registered under the Co-operatives Act.</p>
+
+      <h2>Step-by-Step: Registering a (Pty) Ltd with CIPC</h2>
+      <p>The Companies and Intellectual Property Commission (CIPC) is the government body responsible for company registration in South Africa. The entire process can be completed online at <strong>bizportal.gov.za</strong> — the government's one-stop business registration portal.</p>
+
+      <h3>Step 1: Reserve Your Company Name</h3>
+      <p>Before registering, check whether your desired company name is available using the CIPC name search function. Names that are too similar to existing registered companies, or that contain restricted words (like "bank," "national," or a person's surname without consent) will be rejected. Reserve your name through CIPC — this costs approximately R50 and holds the name for 6 months.</p>
+
+      <h3>Step 2: Register via BizPortal</h3>
+      <p>BizPortal (bizportal.gov.za) allows you to register a company and simultaneously apply for a SARS tax number, UIF registration, and Compensation Fund registration. You will need:</p>
+      <ul>
+        <li>A certified copy of your South African ID or valid passport (foreign nationals)</li>
+        <li>Your chosen company name (or registration without a name — the company will be assigned a number as its name)</li>
+        <li>Full details of all directors (ID numbers, contact details, residential addresses)</li>
+        <li>Your Memorandum of Incorporation (MOI) — BizPortal provides a standard template you can use or customise</li>
+      </ul>
+      <p>Registration fees: approximately R175 for a standard (Pty) Ltd registration.</p>
+
+      <h3>Step 3: Open a Business Bank Account</h3>
+      <p>Once you receive your company registration certificate (COR14.3), open a dedicated business bank account. Mixing personal and business finances is one of the most common mistakes new business owners make — it creates accounting nightmares and erodes the legal protection that separate incorporation provides. Most South African banks offer starter business accounts with low monthly fees.</p>
+
+      <h3>Step 4: Register for Tax with SARS</h3>
+      <p>If BizPortal did not automatically register you for Income Tax, you must do so via SARS eFiling. A company pays Corporate Income Tax at a flat rate of 27% on taxable profit (2024/25 rate — check sars.gov.za for updates). You are required to register for VAT once your taxable turnover exceeds R1 million per year, but you may register voluntarily from R50,000.</p>
+
+      <h3>Step 5: Register for PAYE, UIF, and SDL (If You Have Employees)</h3>
+      <p>If you employ staff, you must register as an employer with SARS for:</p>
+      <ul>
+        <li><strong>PAYE (Pay As You Earn)</strong>: monthly deduction and payment of employee income tax</li>
+        <li><strong>UIF (Unemployment Insurance Fund)</strong>: 1% of each employee's remuneration, plus 1% employer contribution</li>
+        <li><strong>SDL (Skills Development Levy)</strong>: 1% of your monthly payroll if your annual payroll exceeds R500,000</li>
+      </ul>
+
+      <h3>Step 6: Register with the Compensation Fund (COIDA)</h3>
+      <p>The Compensation for Occupational Injuries and Diseases Act (COIDA) requires all employers with employees to register with the Compensation Fund. This provides employees with compensation for workplace injuries and occupational diseases without needing to sue the employer personally.</p>
+
+      <h2>Ongoing Compliance: What You Must Do After Registration</h2>
+      <ul>
+        <li><strong>Annual Return to CIPC</strong>: Filed online every year on the anniversary of your registration. Fees range from R100–R450 depending on company size. Failure to file results in your company being deregistered.</li>
+        <li><strong>Annual Financial Statements</strong>: Required by CIPC. Small companies can use internally prepared statements; larger companies may require an independent review or full audit.</li>
+        <li><strong>Provisional Tax</strong>: Companies must pay provisional tax twice a year (August and February) based on estimated annual taxable income. Missing these deadlines attracts penalties and interest from SARS.</li>
+        <li><strong>VAT Returns</strong>: If VAT-registered, submit returns monthly or bi-monthly to SARS via eFiling.</li>
+      </ul>
+
+      <h2>BEE (Broad-Based Black Economic Empowerment)</h2>
+      <p>If your business intends to supply to government, large corporations, or parastatals, you will need a <strong>B-BBEE Certificate</strong>. Small businesses with turnover under R10 million per year qualify as Exempted Micro Enterprises (EMEs) and automatically receive a Level 4 B-BBEE status — which is decent for most procurement requirements. Obtain your EME certificate from a SANAS-accredited verification agency.</p>
+
+      <h2>Protecting Your Intellectual Property</h2>
+      <p>If your business has a unique brand, product, or process, consider protecting it through CIPC's Intellectual Property division:</p>
+      <ul>
+        <li><strong>Trademark</strong>: protects your business name, logo, or tagline (valid for 10 years, renewable)</li>
+        <li><strong>Patent</strong>: protects a new invention or unique process (valid for 20 years)</li>
+        <li><strong>Copyright</strong>: automatic protection for original creative works (writing, design, music)</li>
+      </ul>
+      <p>For small businesses, at minimum, register your trademark — it prevents competitors from trading under a similar name and is a valuable business asset if you ever sell the company.</p>
+
+      <h2>Get Advice Before You Register</h2>
+      <p>While registration itself is relatively straightforward, the structure you choose has long-term tax and legal implications. A one-hour consultation with a registered accountant or business attorney before you register can save you significant money and headaches down the line. For additional income ideas while you build your business, see our article on <a href="{{BASE_PATH}}career/entrepreneurship/12-side-hustles-under-r500.html">12 side hustles under R500</a>.</p>
+    `
+  },
+  {
+    title: "Life Insurance in South Africa: What Women Need to Know Before They Buy",
+    slug: "life-insurance-sa",
+    category: "legal",
+    subCategory: "estate-planning",
+    author: "Adv. Smith",
+    date: "April 30, 2026",
+    image: "home_office.png",
+    content: `
+      <h2>Why Life Insurance Is a Financial Planning Essential, Not an Optional Extra</h2>
+      <p>Life insurance is one of the most misunderstood financial products in South Africa. Many women either have far too little coverage (or none at all), or they are paying for policies that don't actually serve their needs. Understanding the basics — the types of cover available, how premiums are calculated, the difference between a policy and a group benefit, and the critical role beneficiary nominations play — will help you make decisions that genuinely protect the people who depend on you.</p>
+      <p>Life insurance intersects directly with estate planning, tax law, and family law. Getting it right is not just about the payout when you die — it is about what that payout will actually do for your family.</p>
+
+      <h2>Types of Life Insurance Available in South Africa</h2>
+
+      <h3>Term Life Insurance</h3>
+      <p>The simplest and most affordable form of life cover. You pay a monthly premium for a defined term (e.g., 20 years), and if you die within that term, a lump sum is paid to your beneficiaries. If you survive the term, the policy expires with no payout. Term insurance is ideal for covering specific financial obligations with a finite lifespan — a home loan, raising children to adulthood, or supporting a spouse until retirement.</p>
+
+      <h3>Whole of Life Insurance</h3>
+      <p>Cover that lasts your entire life, with no fixed term. As long as you pay the premiums, the policy pays out on death regardless of when you die. Whole of life premiums are significantly higher than term insurance for the same sum assured, but the guaranteed payout makes it a useful estate planning tool. Many people use whole of life policies specifically to provide liquidity in their estate to pay executor's fees and estate duty.</p>
+
+      <h3>Funeral Cover</h3>
+      <p>A lower-cost, short-term policy designed specifically to cover funeral expenses — typically between R10,000 and R100,000. Payouts are fast (often within 48 hours of a valid claim), which is important because funeral expenses are immediate. Many funeral policies also cover extended family members. Note: funeral cover is not a substitute for life insurance — it covers burial costs, not your family's ongoing living expenses.</p>
+
+      <h3>Credit Life Insurance</h3>
+      <p>Automatically bundled into most South African home loans, vehicle finance agreements, and credit cards. It pays off the specific debt if you die, are disabled, or are retrenched. By law (under the National Credit Act regulations), credit life insurance premiums are capped. You also have the right to use your own life insurance policy to cover a credit agreement — you do not have to use the lender's product — though you must demonstrate equivalent cover.</p>
+
+      <h3>Disability and Dread Disease Cover</h3>
+      <p>While not strictly "life" insurance, these are often purchased alongside life cover:</p>
+      <ul>
+        <li><strong>Disability cover</strong> pays a lump sum or monthly income if you become permanently or temporarily unable to work due to illness or injury.</li>
+        <li><strong>Income protector</strong> pays a percentage of your salary (typically 75%) if you are unable to work due to illness or injury, for a defined waiting period and benefit period.</li>
+        <li><strong>Dread disease (critical illness) cover</strong> pays a lump sum on diagnosis of specified serious conditions: cancer, heart attack, stroke, organ failure. This is used to fund private treatment and cover loss of income during recovery.</li>
+      </ul>
+      <p>For employed women, check your employer's group risk benefit first — many company pension funds include group life, disability, and dread disease cover as standard, often at significantly lower cost than buying individually.</p>
+
+      <h2>How Much Life Cover Do You Actually Need?</h2>
+      <p>A commonly used rule of thumb is <strong>10× your annual salary</strong>. However, a more accurate calculation considers:</p>
+      <ul>
+        <li>Outstanding debts (home loan balance, vehicle finance, personal loans)</li>
+        <li>Number of years until your youngest child is financially independent</li>
+        <li>Your spouse's or partner's income and earning capacity</li>
+        <li>Childcare and education costs if you are the primary caregiver</li>
+        <li>Your executor's fees and estate duty liability (approximately 3.5% of estate value in executor fees, plus 20% estate duty on assets above R3.5 million)</li>
+        <li>Emergency fund your family will need in the immediate aftermath of your death</li>
+      </ul>
+      <p>A qualified financial planner (CFP) can run this calculation accurately for your specific situation. Many offer an initial consultation at no charge.</p>
+
+      <h2>Beneficiary Nominations: The Most Critical Step</h2>
+      <p>Your life insurance policy's beneficiary nomination determines who receives the payout — and it operates entirely outside your will. This is both a major advantage and a common source of mistakes.</p>
+
+      <h3>Why It Falls Outside Your Estate</h3>
+      <p>Life insurance pays directly to the nominated beneficiary, not into your estate. This means it is not subject to the estate administration process (which can take 12–24 months), not available to settle estate debts, and not subject to estate duty — assuming you have properly nominated a natural person. The beneficiary receives the payout directly and relatively quickly, providing your family with immediate liquidity when they need it most.</p>
+
+      <h3>Common Beneficiary Mistakes</h3>
+      <ul>
+        <li><strong>Not nominating a beneficiary at all</strong>: the payout falls into your estate, loses its protection from creditors and estate duty, and takes months to reach your family.</li>
+        <li><strong>Nominating your estate as beneficiary</strong>: same problem as above — your family waits and your creditors have access to the funds.</li>
+        <li><strong>Nominating a minor child directly</strong>: insurers cannot pay large sums directly to children. The money is paid into the Guardian's Fund (administered by the Master of the High Court) until the child turns 18 — a slow, bureaucratic process. Rather nominate the child's surviving parent or a testamentary trust.</li>
+        <li><strong>Never updating your nomination</strong>: a beneficiary nomination made 15 years ago may name an ex-husband, a deceased parent, or a person whose relationship to you has fundamentally changed. Review your nominations every 2–3 years and after every major life event (marriage, divorce, birth of a child).</li>
+      </ul>
+
+      <h2>Life Insurance and Your Will: How They Work Together</h2>
+      <p>Because life insurance bypasses your will, it is possible to have a carefully drafted will that leaves everything to your children — and a life insurance policy that pays out to your ex-husband because you forgot to update the beneficiary nomination after your divorce. The documents are entirely independent of each other.</p>
+      <p>Review your will and your insurance beneficiary nominations simultaneously and treat them as a coordinated system. Read our guide on <a href="{{BASE_PATH}}legal/estate-planning/drafting-a-will.html">drafting a will in South Africa</a> for the full picture on estate planning.</p>
+
+      <h2>Tax Treatment of Life Insurance</h2>
+      <p>In South Africa:</p>
+      <ul>
+        <li><strong>Premiums</strong>: personal life insurance premiums are not tax deductible (unlike disability income insurance premiums paid by your employer).</li>
+        <li><strong>Payouts</strong>: life insurance payouts are generally not subject to income tax when received by a nominated beneficiary.</li>
+        <li><strong>Estate duty</strong>: if the policy is paid into the estate (no valid nomination), the payout is included in the estate for estate duty purposes. If paid to a nominated beneficiary, it is excluded — this is a significant tax advantage.</li>
+        <li><strong>Policies on the life of an employee</strong>: where a company pays premiums on a key person policy (insuring a director or key employee), the premiums may be deductible for the company, but the payout will be taxable to the company when received.</li>
+      </ul>
+
+      <h2>Questions to Ask Before You Buy</h2>
+      <ol>
+        <li>Is this a term or whole-of-life policy, and why does that suit my needs?</li>
+        <li>What specific exclusions apply? (Common exclusions: suicide within 2 years, self-inflicted injury, hazardous activities)</li>
+        <li>What happens to my premium and cover if I miss a payment?</li>
+        <li>Does the premium increase with age, or is it level for the term?</li>
+        <li>Can I cede the policy as security for a loan, and how does that affect my beneficiary nomination?</li>
+        <li>What is the insurer's claims turnaround time and what documentation is required to claim?</li>
+      </ol>
+      <p>Life insurance is a long-term commitment. Take the time to compare at least three quotes, use a registered independent financial advisor (not a tied agent who only sells one insurer's products), and ensure the cover you buy actually fits your life — not just the one you had when you first signed up.</p>
     `
   },
   {
