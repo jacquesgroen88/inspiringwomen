@@ -14,9 +14,9 @@
 | Natural SA Ingredients for Glowing Skin | beauty | 1697 | Premium (A+) |
 | How to Transition Your Skincare Routine for Winter | beauty | 1722 | Premium (A+) |
 | Summer Holidays - How To Survive The Silly Season! | lifestyle | 240 | Short (C) |
-| Setting Up Your Home Office - Creating Your Workspace | career | 569 | Good (B) |
-| Why Working From Home Is So Stressful (and How to Handle It) | career | 518 | Good (B) |
-| Top 5 Side Hustles for South African Women in 2026 | career | 581 | Good (B) |
+| Setting Up Your Home Office - Creating Your Workspace | career | 2319 | Premium (A+) |
+| Why Working From Home Is So Stressful (and How to Handle It) | career | 2200 | Premium (A+) |
+| Top 5 Side Hustles for South African Women in 2026 | career | 2384 | Premium (A+) |
 | Setting Up a Small Business in South Africa | business | 217 | Short (C) |
 | Mental Health Resources for Women in SA | health | 166 | Short (C) |
 | Affordable Local Beauty Brands You Need to Try | beauty | 1806 | Premium (A+) |
