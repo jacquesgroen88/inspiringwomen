@@ -5,11 +5,11 @@
 | What to Pack in Your Hospital Bag: A 2026 Guide | health | 709 | Good (B) |
 | How To Manage Your Finances in 2026: A Guide for SA Women | finance | 560 | Good (B) |
 | The Ultimate Guide to Retinol for Beginners | beauty | 1663 | Premium (A+) |
-| 5 Low-Maintenance Indoor Plants for SA Homes | lifestyle | 402 | Short (C) |
-| Maximizing Small Balcony Spaces in the City | lifestyle | 384 | Short (C) |
-| Sustainable Gardening: A Guide to Water-Wise Plants | lifestyle | 341 | Short (C) |
-| Budget-Friendly Home Decor Tips for a Luxury Feel | lifestyle | 440 | Short (C) |
-| Organizing Your Kitchen for Maximum Efficiency | lifestyle | 404 | Short (C) |
+| 5 Low-Maintenance Indoor Plants for SA Homes | lifestyle | 2304 | Premium (A+) |
+| Maximizing Small Balcony Spaces in the City | lifestyle | 1825 | Premium (A+) |
+| Sustainable Gardening: A Guide to Water-Wise Plants | lifestyle | 2023 | Premium (A+) |
+| Budget-Friendly Home Decor Tips for a Luxury Feel | lifestyle | 2144 | Premium (A+) |
+| Organizing Your Kitchen for Maximum Efficiency | lifestyle | 2158 | Premium (A+) |
 | Fat Freeze vs Laser Lipo: Which Works Best? | health | 463 | Short (C) |
 | Natural SA Ingredients for Glowing Skin | beauty | 1697 | Premium (A+) |
 | How to Transition Your Skincare Routine for Winter | beauty | 1722 | Premium (A+) |
