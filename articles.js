@@ -6,7 +6,7 @@ const articles = [
     subCategory: "pregnancy",
     author: "Jessica M.",
     date: "October 12, 2026",
-    image: "pregnancy_hospital_bag.png",
+    image: "hospital_bag_1777368456721.png",
     content: `
       <h2>The Ultimate South African Hospital Bag Checklist</h2>
       <p>Expecting a baby soon? Congratulations! It's time to start packing your hospital bag. Whether you're a first-time mom in Johannesburg or adding to your growing family in Cape Town, having everything ready can drastically ease your mind when labor starts. In 2026, many South African hospitals have moved toward more patient-centric care, but being prepared with your own essentials is still the best way to ensure comfort.</p>
@@ -962,7 +962,7 @@ const articles = [
     subCategory: "mental-health",
     author: "Michelle D.",
     date: "April 15, 2026",
-    image: "wfh_stress.png",
+    image: "wfh_stress_1777368407302.png",
     content: `
       <h2>The Hidden Psychology of Remote Work Stress — and How to Take Back Control</h2>
       <p>Working from home sounds like the ultimate professional dream. No commute. Flexible hours. Your own fridge within arms reach. Yet for millions of South African women who made the shift to remote or hybrid work, the reality has turned out to be something quite different — and for many, significantly more stressful than the office life they left behind.</p>
@@ -1063,7 +1063,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Nomsa V.",
     date: "April 22, 2026",
-    image: "side_hustle_entrepreneur.png",
+    image: "side_hustles_1777368424127.png",
     content: `
       <h2>The Best Side Hustles for South African Women in 2026 — Ranked by Income Potential</h2>
       <p>The cost of living in South Africa has increased significantly over the past three years. Fuel, food, rent, and school fees have all risen faster than salary increases in most sectors. Meanwhile, the digital economy has opened up income opportunities that simply did not exist a decade ago — opportunities that require little to no startup capital, can be built entirely from your home office, and can scale from a few thousand rands a month to a full replacement income.</p>
@@ -1217,7 +1217,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "April 26, 2026",
-    image: "natural_sa_beauty.png",
+    image: "local_beauty_1777368389079.png",
     content: `
       <h2>Local is Lekker: The Best South African Skincare Brands for 2026</h2>
       <p>Here is a fact that too many South African women don't know: some of the world's most innovative, clinically effective skincare is being formulated right here in our own country — at a fraction of the price of imported equivalents. While we queue to order The Ordinary from iHerb or spend R800 on a moisturizer from a department store counter, a quiet revolution in South African beauty has been building for years. Local brands formulated with indigenous botanical ingredients, clean chemistry, and sophisticated active delivery systems are quietly outperforming many imported products — and doing so at prices that make good skincare accessible to every woman.</p>
@@ -2439,7 +2439,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "InspiringWomen",
     date: "April 1, 2026",
-    image: "home_office.png",
+    image: "side_hustles_500_1777368441129.png",
     content: `
       <h2>Real Hustles. Real Money. R500 to Start.</h2>
       <p>You don't need a business plan, a loan, or a lucky break. You need R500, a smartphone, and the honesty to pick one thing and stick with it for 90 days. That's it. These are the 12 side hustles South African women are actually building income from right now — not hypotheticals, not get-rich schemes. Real ones.</p>
