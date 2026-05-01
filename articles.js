@@ -2528,6 +2528,132 @@ const articles = [
       <p>Financial independence doesn't arrive as a windfall. It's built in the quiet hours, one customer at a time, one consistent week after another. South African women have been building things from nothing for generations. This is just the latest version of that story.</p>
       <p>Your R500 and your phone are enough to begin. When you're ready to take the next step and formalize your hustle, read our guide to <a href="{{BASE_PATH}}business/startups/small-business-sa.html">setting up a small business in South Africa</a> — covering CIPC registration, SARS tax obligations, and everything you need to grow legally and confidently.</p>
     `
+  },
+  {
+    title: "Understanding Your Credit Score in South Africa (And How to Improve It Fast)",
+    slug: "understanding-credit-score-sa",
+    category: "finance",
+    subCategory: "credit",
+    author: "Thandiwe N.",
+    date: "May 1, 2026",
+    image: "credit_score_sa.png",
+    content: `
+      <h2>The Key to Financial Freedom</h2>
+      <p>In South Africa, your credit score is the key that unlocks major financial milestones, from buying your dream home to financing a car. But what exactly is a credit score, and how can you improve yours? Let's demystify it.</p>
+      
+      <h3>What is a Credit Score?</h3>
+      <p>Your credit score is a number ranging from 0 to 999 that indicates your creditworthiness to lenders. It is calculated based on your credit history, including how well you pay your bills, the amount of debt you have, and the length of your credit history. A higher score means you are a lower risk to lenders, which can result in better interest rates and higher credit limits.</p>
+      
+      <h3>How to Check Your Score</h3>
+      <p>Every South African is entitled to one free credit report per year from each of the major credit bureaus: TransUnion, Experian, Compuscan, and XDS. Make it a habit to check your report annually to ensure there are no errors or fraudulent accounts in your name.</p>
+      
+      <h3>5 Strategies to Improve Your Score Fast</h3>
+      <ol>
+        <li><strong>Pay on time, every time:</strong> Payment history is the most significant factor in your credit score. Set up debit orders to ensure you never miss a payment.</li>
+        <li><strong>Keep your credit utilization low:</strong> Try to use less than 30% of your available credit limit. For example, if you have a credit card with a R10,000 limit, try to keep your balance below R3,000.</li>
+        <li><strong>Don't close old accounts:</strong> The length of your credit history matters. Keeping older accounts open, even if you don't use them frequently, can positively impact your score.</li>
+        <li><strong>Limit new credit applications:</strong> Every time you apply for credit, a "hard inquiry" is placed on your report, which can temporarily lower your score. Apply for credit sparingly.</li>
+        <li><strong>Dispute errors immediately:</strong> If you spot an error on your credit report, contact the credit bureau immediately to have it investigated and corrected.</li>
+      </ol>
+      
+      <p>Improving your credit score takes time and discipline, but the financial benefits are well worth the effort. Start implementing these strategies today and watch your score soar!</p>
+    `
+  },
+  {
+    title: "Tax-Free Savings Accounts (TFSA) in SA: Are You Maximizing Yours?",
+    slug: "tax-free-savings-accounts-sa",
+    category: "finance",
+    subCategory: "investing",
+    author: "Sarah Jenkins",
+    date: "April 20, 2026",
+    image: "tfsa_investing_sa.png",
+    content: `
+      <h2>Grow Your Wealth Tax-Free</h2>
+      <p>Tax-Free Savings Accounts (TFSAs) were introduced in South Africa to encourage a culture of saving. If you are not utilizing this powerful financial tool, you are leaving money on the table. Here is everything you need to know about maximizing your TFSA.</p>
+      
+      <h3>The Benefits of a TFSA</h3>
+      <p>The primary benefit of a TFSA is that all the growth your investment generates—whether it's interest, dividends, or capital gains—is completely tax-free. When you eventually withdraw the funds, you won't pay a cent of tax on the returns. Over the long term, this tax advantage can significantly boost your overall wealth.</p>
+      
+      <h3>Contribution Limits</h3>
+      <p>It's important to understand the contribution limits associated with TFSAs. Currently, you can contribute up to R36,000 per tax year (1 March to 28/29 February). There is also a lifetime contribution limit of R500,000. It is crucial not to exceed these limits, as any excess contributions will be heavily penalized by SARS at a rate of 40%.</p>
+      
+      <h3>Where to Invest Your TFSA</h3>
+      <p>A common misconception is that a TFSA is simply a cash savings account. However, you can invest your TFSA in various assets, including unit trusts, Exchange Traded Funds (ETFs), and fixed deposits. For long-term growth, investing in a diversified portfolio of equities through ETFs is often recommended, as it allows you to harness the power of compound interest while avoiding taxes on the growth.</p>
+      
+      <h3>When to Withdraw</h3>
+      <p>While you can withdraw from your TFSA at any time, it's generally best to treat it as a long-term investment. Remember that any withdrawals you make cannot be replaced. For example, if you contribute your R36,000 limit for the year and then withdraw R10,000, you cannot put that R10,000 back in during the same tax year without incurring penalties. Therefore, it's best to use your TFSA for long-term goals, such as supplementing your retirement savings.</p>
+    `
+  },
+  {
+    title: "How to Start Investing in South Africa with Just R500 a Month",
+    slug: "investing-with-r500-sa",
+    category: "finance",
+    subCategory: "investing",
+    author: "Lebo M.",
+    date: "April 15, 2026",
+    image: "investing_r500_sa.png",
+    content: `
+      <h2>Investing is for Everyone</h2>
+      <p>Many people believe that you need thousands of Rands to start investing. This is a myth. Thanks to modern investment platforms and the power of compound interest, you can start building wealth with as little as R500 a month in South Africa.</p>
+      
+      <h3>The Power of Compound Interest</h3>
+      <p>Albert Einstein supposedly called compound interest the "eighth wonder of the world," and for good reason. It's the process of earning interest on your interest. Over time, this compounding effect can turn small, regular contributions into a substantial nest egg. The key is to start as early as possible and be consistent.</p>
+      
+      <h3>Low-Cost Platforms to Get Started</h3>
+      <p>There are several excellent platforms in South Africa that allow you to start investing with low minimums:</p>
+      <ul>
+        <li><strong>EasyEquities:</strong> This platform is famous for its low fees and the ability to buy fractional shares. You can invest any amount, making it perfect for the R500-a-month strategy. They offer a wide range of local and international shares, as well as ETFs.</li>
+        <li><strong>Satrix:</strong> Satrix is a pioneer of index tracking in South Africa. Their platform allows you to invest in a variety of index funds, which are a great way to achieve diversification at a low cost.</li>
+        <li><strong>Franc:</strong> Franc is an app designed to make investing simple and accessible. They offer a choice between a cash fund and an equity fund, making it easy for beginners to get started.</li>
+      </ul>
+      
+      <h3>What to Invest In</h3>
+      <p>For beginners, Exchange Traded Funds (ETFs) are often the best starting point. An ETF is a basket of assets (like shares or bonds) that tracks a specific index, such as the JSE Top 40 or the S&P 500. By investing in an ETF, you instantly achieve diversification, which reduces your risk compared to buying individual shares.</p>
+      
+      <h3>Set It and Forget It</h3>
+      <p>The most effective way to build wealth is to automate your investments. Set up a debit order for R500 to go straight into your chosen investment platform on payday. By "paying yourself first," you remove the temptation to spend the money and ensure that your wealth is consistently growing in the background.</p>
+    `
+  },
+  {
+    title: "Debt Review vs Debt Counselling in South Africa: What You Need to Know",
+    slug: "debt-review-counselling-sa",
+    category: "finance",
+    subCategory: "debt",
+    author: "Thandiwe N.",
+    date: "April 5, 2026",
+    image: "debt_counselling_sa.png",
+    content: `
+      <h2>Finding Your Way Out of Debt</h2>
+      <p>If you are struggling to keep up with your monthly debt repayments in South Africa, you are not alone. High inflation and rising interest rates have left many consumers over-indebted. The good news is that there are legal mechanisms in place to help you regain control. Two common terms you will hear are "debt review" and "debt counselling," but what do they mean, and are they the right choice for you?</p>
+      
+      <h3>Debt Review and Debt Counselling: Are They the Same?</h3>
+      <p>Yes, debt review and debt counselling refer to the same legal process introduced by the National Credit Act (NCA). A registered Debt Counsellor will assess your financial situation to determine if you are over-indebted. If you are, they will formally place you under debt review.</p>
+      
+      <h3>How the Process Works</h3>
+      <ol>
+        <li><strong>Assessment:</strong> The Debt Counsellor reviews your income, expenses, and debts to confirm you are over-indebted.</li>
+        <li><strong>Protection:</strong> Once under debt review, you are legally protected from your creditors. They can no longer contact you or take legal action, such as repossessing your car or home.</li>
+        <li><strong>Restructuring:</strong> The Debt Counsellor negotiates with your creditors to reduce your monthly installments and interest rates, extending the repayment period.</li>
+        <li><strong>Single Payment:</strong> You make one consolidated monthly payment to a Payment Distribution Agency (PDA), which then distributes the funds to your creditors according to the agreed-upon restructured plan.</li>
+      </ol>
+      
+      <h3>The Pros and Cons</h3>
+      <p><strong>Pros:</strong></p>
+      <ul>
+        <li>Legal protection from creditors and asset repossession.</li>
+        <li>Reduced monthly installments, providing immediate cash flow relief.</li>
+        <li>Simplified debt management with a single monthly payment.</li>
+      </ul>
+      <p><strong>Cons:</strong></p>
+      <ul>
+        <li>You cannot apply for new credit while under debt review.</li>
+        <li>A debt review flag will be placed on your credit profile (though this is removed once you complete the process).</li>
+        <li>The process can take several years to complete, depending on the amount of debt.</li>
+      </ul>
+      
+      <h3>Is it Right for You?</h3>
+      <p>Debt review is not a quick fix; it is a commitment to rehabilitating your finances. It is best suited for individuals who have a steady income but are unable to meet their monthly debt obligations. If you are drowning in debt, consulting with an NCR-registered Debt Counsellor can provide the guidance and structured plan you need to achieve financial freedom.</p>
+    `
   }
 ];
 
