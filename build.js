@@ -78,7 +78,7 @@ articles.forEach(article => {
     // Generate Related Articles
     const related = (categoryMap[article.category] || [])
         .filter(a => a.slug !== article.slug)
-        .slice(0, 3);
+        .slice(0, 6);
         
     let relatedHtml = '';
     if (related.length > 0) {
@@ -89,7 +89,7 @@ articles.forEach(article => {
         `;
         related.forEach(rel => {
             relatedHtml += `
-                    <div class="related-article-card" style="background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                    <div class="related-article-card" style="background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 5px solid #ff4785;">
                         <a href="${basePath}articles/${rel.category}/${rel.subCategory}/${rel.slug}.html" style="text-decoration: none; color: inherit;">
                             <div class="related-article-img" style="height: 150px; background-image: url('${basePath}assets/${rel.image}'); background-size: cover; background-position: center;"></div>
                             <div class="related-article-info" style="padding: 15px;">
@@ -205,5 +205,35 @@ articles.forEach(art => {
 
 fs.writeFileSync('article_inventory.md', inventoryMd);
 console.log('Article inventory generated!');
+
+// Generate sitemap.xml
+let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://inspiringwomen.co.za/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>`;
+
+articles.forEach(article => {
+    sitemapXml += `
+    <url>
+        <loc>https://inspiringwomen.co.za/articles/${article.category}/${article.subCategory}/${article.slug}.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>`;
+});
+
+for (const category of Object.keys(categoryMap)) {
+    sitemapXml += `
+    <url>
+        <loc>https://inspiringwomen.co.za/articles/${category}/index.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>`;
+}
+
+sitemapXml += `\n</urlset>`;
+fs.writeFileSync('sitemap.xml', sitemapXml);
 
 console.log('Site build complete!');

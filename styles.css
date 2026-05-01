@@ -218,6 +218,7 @@ a:hover {
     overflow: hidden;
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
+    border-top: 5px solid var(--primary-color);
 }
 
 .featured-post:hover {
@@ -342,6 +343,7 @@ a:hover {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: var(--shadow-sm);
+    border-top: 5px solid var(--primary-color);
 }
 
 .grid-post .post-image {

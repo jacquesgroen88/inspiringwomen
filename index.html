@@ -13,6 +13,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspiring Women | South Africa</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <meta name="description" content="Inspiring Women covers business, recipes, beauty, legal, career, and health topics for South African women.">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="search.css">
@@ -289,5 +290,78 @@
 
     <script>window.APP_BASE_PATH = '';</script>
     <script src="search.js"></script>
+    <script>
+        // Infinite scroll logic for More Articles section
+        document.addEventListener('DOMContentLoaded', () => {
+            const moreArticlesContainer = document.querySelector('.more-articles');
+            let searchDataCache = null;
+            let currentArticleIndex = 0;
+            let isLoading = false;
+            
+            // Only initialize if we're on the page with more-articles
+            if (!moreArticlesContainer) return;
+
+            // Define loadMore function
+            const loadMoreArticles = async () => {
+                if (isLoading) return;
+                isLoading = true;
+
+                if (!searchDataCache) {
+                    try {
+                        const response = await fetch('search-data.json');
+                        searchDataCache = await response.json();
+                        // Filter out articles already in the DOM (approximate by skipping first few)
+                        // Or better, randomly shuffle or just load from end
+                        searchDataCache.reverse(); 
+                    } catch (err) {
+                        console.error('Failed to load search data:', err);
+                        isLoading = false;
+                        return;
+                    }
+                }
+
+                // Load next 3 articles
+                const nextArticles = searchDataCache.slice(currentArticleIndex, currentArticleIndex + 3);
+                if (nextArticles.length === 0) {
+                    window.removeEventListener('scroll', scrollHandler);
+                    return; // No more articles
+                }
+
+                nextArticles.forEach(art => {
+                    const articleHTML = `
+                        <article class="list-post" style="opacity: 0; transition: opacity 0.5s ease; border-top: 4px solid var(--primary-color);">
+                            <div class="post-header">
+                                <span class="category">${(art.subCategory || art.category).toUpperCase()}</span>
+                                <h3><a href="${art.url}">${art.title}</a></h3>
+                            </div>
+                            <div class="post-body">
+                                <p>${art.excerpt || ''}...</p>
+                                <a href="${art.url}" class="read-more-button">Read More</a>
+                            </div>
+                        </article>
+                    `;
+                    moreArticlesContainer.insertAdjacentHTML('beforeend', articleHTML);
+                    
+                    // Fade in effect
+                    setTimeout(() => {
+                        const added = moreArticlesContainer.lastElementChild;
+                        if(added) added.style.opacity = '1';
+                    }, 50);
+                });
+
+                currentArticleIndex += 3;
+                isLoading = false;
+            };
+
+            const scrollHandler = () => {
+                // If user is near bottom of the page
+                if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) {
+                    loadMoreArticles();
+                }
+            };
+
+            window.addEventListener('scroll', scrollHandler);
+        });
+    </script>
 </body>
 </html>

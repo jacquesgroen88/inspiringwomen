@@ -2241,7 +2241,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 10, 2026",
-    image: "bunny_chow_durban.png",
+    image: "bunny_chow_sa.png",
     content: `
       <h2>Bunny Chow — Durban's Most Iconic Street Food</h2>
       <p>Few dishes in the South African food story carry as much cultural weight, culinary history, and sheer deliciousness as the Bunny Chow. A hollowed-out quarter or half loaf of unsliced white bread filled to overflowing with curry — mutton, chicken, bean, or prawn — the Bunny is Durban's most iconic street food and one of the most uniquely South African eating experiences that exists anywhere in the world.</p>
