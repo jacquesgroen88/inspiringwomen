@@ -44,6 +44,9 @@
 
     <main class="main-content">
         <div class="container">
+            <div class="ad-banner-horizontal" style="text-align: center; margin: 20px 0 40px;">
+                <img src="assets/ad_728x90.png" alt="Advertise with us" style="width: 100%; max-width: 728px; height: auto; border-radius: 8px; box-shadow: var(--shadow-sm); display: block; margin: 0 auto;">
+            </div>
             <div class="content-layout">
                 
                 <!-- Main Column -->
@@ -171,41 +174,7 @@
                     <!-- More Articles List -->
                     <section class="more-articles">
                         <div class="article-list">
-                            <article class="list-post">
-                                <div class="post-header">
-                                    <span class="category">BEAUTY</span>
-                                    <h3><a href="articles/beauty/makeup/baking-vs-strobing.html">Baking vs Strobing: What is the Difference?</a></h3>
-                                    <span class="author">By Lauren</span>
-                                </div>
-                                <div class="post-body">
-                                    <p>Makeup trends are always changing, and keeping up can be tough! In this article we explore the difference between baking and strobing, and how you can achieve these looks at home.</p>
-                                    <a href="articles/beauty/makeup/baking-vs-strobing.html" class="read-more-button">Read More</a>
-                                </div>
-                            </article>
-
-                            <article class="list-post">
-                                <div class="post-header">
-                                    <span class="category">BRIDES</span>
-                                    <h3><a href="articles/brides/budgeting/wedding-budget-guilt.html">How To Deal With Wedding Budget Guilt</a></h3>
-                                    <span class="author">By Sarah</span>
-                                </div>
-                                <div class="post-body">
-                                    <p>Weddings are expensive, and it's easy to feel guilty about spending so much money on one day. Here are some tips to help you manage your budget and enjoy your special day guilt-free.</p>
-                                    <a href="articles/brides/budgeting/wedding-budget-guilt.html" class="read-more-button">Read More</a>
-                                </div>
-                            </article>
-
-                            <article class="list-post">
-                                <div class="post-header">
-                                    <span class="category">CAREER</span>
-                                    <h3><a href="articles/career/mental-health/wfh-stress.html">Why Working From Home Is So Stressful (and How to Handle It)</a></h3>
-                                    <span class="author">By Michelle</span>
-                                </div>
-                                <div class="post-body">
-                                    <p>Working from home sounds like a dream, but it can actually be very stressful. From managing your time to dealing with distractions, here are some tips to help you stay productive and sane.</p>
-                                    <a href="articles/career/mental-health/wfh-stress.html" class="read-more-button">Read More</a>
-                                </div>
-                            </article>
+                            <!-- Articles will be loaded here dynamically -->
                         </div>
                     </section>
                     
@@ -261,13 +230,15 @@
                         </article>
                     </div>
 
-                    <!-- Ad Widget -->
-                    <div class="widget ad-widget">
-                        <div class="sidebar-ad">
-                            <span>ADVERTISEMENT</span>
-                        </div>
+                    <!-- Ad Widget 300x300 -->
+                    <div class="widget ad-widget" style="margin-top: 30px; text-align: center;">
+                        <img src="assets/ad_300x600.png" alt="Advertise with us" style="width: 300px; height: 300px; object-fit: cover; border-radius: 8px; box-shadow: var(--shadow-sm);">
                     </div>
 
+                    <!-- Ad Widget 300x600 -->
+                    <div class="widget ad-widget" style="margin-top: 30px; text-align: center;">
+                        <img src="assets/ad_300x600.png" alt="Advertise with us" style="width: 300px; height: 600px; object-fit: cover; border-radius: 8px; box-shadow: var(--shadow-sm);">
+                    </div>
                 </aside>
 
             </div>
@@ -279,10 +250,11 @@
             <div class="footer-content">
                 <p>&copy; 2026 Inspiring Women. All Rights Reserved.</p>
                 <div class="footer-links">
-                    <a href="#">About Us</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="about.html">About Us</a>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Advertise with us</a>
                 </div>
             </div>
         </div>
@@ -329,14 +301,17 @@
 
                 nextArticles.forEach(art => {
                     const articleHTML = `
-                        <article class="list-post" style="opacity: 0; transition: opacity 0.5s ease; border-top: 4px solid var(--primary-color);">
-                            <div class="post-header">
-                                <span class="category">${(art.subCategory || art.category).toUpperCase()}</span>
-                                <h3><a href="${art.url}">${art.title}</a></h3>
-                            </div>
-                            <div class="post-body">
-                                <p>${art.excerpt || ''}...</p>
-                                <a href="${art.url}" class="read-more-button">Read More</a>
+                        <article class="list-post" style="opacity: 0; transition: opacity 0.5s ease; border-top: 4px solid var(--primary-color); padding-top: 20px; display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
+                            ${art.image ? \`<div class="list-post-img" style="flex: 0 0 250px; height: 180px; background-image: url('assets/\${art.image}'); background-size: cover; background-position: center; border-radius: 8px;"></div>\` : ''}
+                            <div class="list-post-content" style="flex: 1;">
+                                <div class="post-header">
+                                    <span class="category" style="color: var(--primary-color); font-weight: bold; font-size: 0.8rem; letter-spacing: 1px;">\${(art.subCategory || art.category).toUpperCase()}</span>
+                                    <h3 style="margin: 10px 0 15px; font-family: var(--font-serif); font-size: 1.5rem;"><a href="\${art.url}" style="color: var(--text-dark); text-decoration: none;">\${art.title}</a></h3>
+                                </div>
+                                <div class="post-body">
+                                    <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 15px;">\${art.excerpt || ''}</p>
+                                    <a href="\${art.url}" class="read-more-button pink" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">Read More &rarr;</a>
+                                </div>
                             </div>
                         </article>
                     `;
@@ -361,6 +336,9 @@
             };
 
             window.addEventListener('scroll', scrollHandler);
+            
+            // Load first batch immediately
+            loadMoreArticles();
         });
     </script>
 </body>

@@ -72,13 +72,20 @@ articles.forEach(article => {
         url: relativeUrlPath,
         category: article.category,
         subCategory: article.subCategory,
-        excerpt: excerpt
+        excerpt: excerpt,
+        image: article.image
     });
     
     // Generate Related Articles
-    const related = (categoryMap[article.category] || [])
-        .filter(a => a.slug !== article.slug)
-        .slice(0, 6);
+    let related = (categoryMap[article.category] || [])
+        .filter(a => a.slug !== article.slug);
+        
+    if (related.length < 6) {
+        const otherArticles = articles.filter(a => a.slug !== article.slug && a.category !== article.category);
+        related = related.concat(otherArticles.slice(0, 6 - related.length));
+    }
+    
+    related = related.slice(0, 6);
         
     let relatedHtml = '';
     if (related.length > 0) {
