@@ -37,7 +37,7 @@
 | Traditional South African Melktert (Milk Tart) | recipes | 986 | High Quality (A) |
 | South African Chakalaka | recipes | 1060 | Premium (A+) |
 | 12 Side Hustles South African Women Are Starting With Under R500 in 2026 | career | 2500 | Premium (A+) |
-| Understanding Your Credit Score in South Africa (And How to Improve It Fast) | finance | 344 | Short (C) |
-| Tax-Free Savings Accounts (TFSA) in SA: Are You Maximizing Yours? | finance | 310 | Short (C) |
-| How to Start Investing in South Africa with Just R500 a Month | finance | 355 | Short (C) |
-| Debt Review vs Debt Counselling in South Africa: What You Need to Know | finance | 373 | Short (C) |
+| Understanding Your Credit Score in South Africa (And How to Improve It Fast) | finance | 1202 | Premium (A+) |
+| Tax-Free Savings Accounts (TFSA) in SA: Are You Maximizing Yours? | finance | 879 | High Quality (A) |
+| How to Start Investing in South Africa with Just R500 a Month | finance | 832 | High Quality (A) |
+| Debt Review vs Debt Counselling in South Africa: What You Need to Know | finance | 899 | High Quality (A) |
