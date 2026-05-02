@@ -2721,7 +2721,7 @@ const articles = [
     `
   },
   {
-    title: "Debt Review vs Debt Counselling in South Africa: What You Need to Know",
+    title: "Debt Review in South Africa: The Complete 2026 Guide (How It Works, Costs & Alternatives)",
     slug: "debt-review-counselling-sa",
     category: "finance",
     subCategory: "debt",
@@ -2729,51 +2729,175 @@ const articles = [
     date: "April 5, 2026",
     image: "debt_counselling_sa.png",
     content: `
-      <h2>Debt Review vs Debt Counselling in South Africa: A Comprehensive Survival Guide</h2>
-      <p>South African consumers are under immense financial pressure. A combination of aggressive interest rate hikes, rising inflation, and a stagnant economy has resulted in a cost-of-living crisis. If you find yourself using one credit card to pay off another, or dodging calls from collection agencies, you are not alone—millions of South Africans are classified as over-indebted.</p>
-      <p>When the financial walls close in, two terms are frequently heavily advertised: "Debt Review" and "Debt Counselling." This comprehensive guide clarifies exactly what these processes entail, their legal implications, and whether they are the correct path to rehabilitating your financial health.</p>
-      
-      <h3>Clarifying the Terminology: Are They Different?</h3>
-      <p>The short answer is no. <strong>Debt Review and Debt Counselling refer to the exact same statutory process</strong>, which was formally introduced by the National Credit Act (NCA) of 2005.</p>
-      <p>A registered "Debt Counsellor" is the professional who facilitates the process, while "Debt Review" is the legal state your financial profile enters while you are undergoing the rehabilitation. The goal of this process is to protect over-indebted consumers from asset repossession while ensuring credit providers eventually receive the money owed to them.</p>
-      
-      <h3>The Step-by-Step Debt Review Process</h3>
-      <p>Entering debt review is a significant legal step. Here is exactly how the process unfolds:</p>
-      <ol>
-        <li><strong>The Assessment Phase:</strong> You consult with a Debt Counsellor registered with the National Credit Regulator (NCR). They analyze your income, essential living expenses (rent, food, school fees), and total debt obligations. If your expenses and debt repayments exceed your income, you are legally declared "over-indebted."</li>
-        <li><strong>Formal Notification & Protection:</strong> The counsellor notifies all your credit providers and the credit bureaus that you have applied for debt review. From this moment, you are legally protected. Creditors can no longer harass you with phone calls, and they cannot take legal action to repossess your house or car, provided those assets haven't already been attached by a court order.</li>
-        <li><strong>The Restructuring Proposal:</strong> Your Debt Counsellor calculates how much disposable income you have available to pay toward debts each month. They then negotiate with your creditors to restructure your debt. This usually involves significantly extending the repayment terms and slashing the interest rates—sometimes down to 0% for unsecured loans.</li>
-        <li><strong>Court Order:</strong> Once a restructuring plan is agreed upon, the Debt Counsellor takes the proposal to a Magistrate's Court to have it made an official court order, binding all parties to the new terms.</li>
-        <li><strong>Single Monthly Payment:</strong> Instead of paying 10 different creditors, you make one single, affordable monthly payment to an independent Payment Distribution Agency (PDA), which legally distributes the funds to your creditors according to the court order.</li>
-      </ol>
-      
-      <h3>The Major Advantages of Debt Review</h3>
-      <ul>
-        <li><strong>Immediate Cash Flow Relief:</strong> By extending terms and cutting interest rates, your total monthly debt repayment is drastically reduced, freeing up cash so you can afford basic living expenses.</li>
-        <li><strong>Asset Protection:</strong> It stops the repo-man in his tracks. Your primary residence and vehicle are protected from legal attachment.</li>
-        <li><strong>Stress Reduction:</strong> All communication with creditors is handled by the Debt Counsellor. The harassing phone calls stop immediately.</li>
-      </ul>
-      
-      <h3>The Severe Disadvantages and Limitations</h3>
-      <p>Debt review is not a get-out-of-jail-free card. It carries serious consequences that you must weigh carefully:</p>
-      <ul>
-        <li><strong>Zero Access to New Credit:</strong> While under debt review, you are flagged at the credit bureaus. It is illegal for any registered credit provider to lend you money, give you a store card, or issue a credit card.</li>
-        <li><strong>Long-Term Commitment:</strong> Because your monthly payments are reduced, the time it takes to pay off the debt is extended. A process can take anywhere from 3 to 5 years (or much longer if a bond is included).</li>
-        <li><strong>Professional Fees:</strong> Debt Counsellors charge restructuring fees, monthly aftercare fees, and legal fees for the court application. These are strictly regulated by the NCR and are built into your monthly payment, but they do add to your total cost.</li>
-        <li><strong>Strict Compliance:</strong> If you miss even one restructured monthly payment, the court order can be rescinded, and creditors can immediately resume legal action against you.</li>
-      </ul>
-      
-      <h3>The Exit Strategy: The Clearance Certificate (Form 19)</h3>
-      <p>You cannot simply "cancel" debt review when you feel like it. The only way to exit the process and clear your name at the credit bureaus is by obtaining a Clearance Certificate from your Debt Counsellor. This is issued when:</p>
-      <ul>
-        <li>All your restructured unsecured debts (credit cards, personal loans, retail accounts, vehicle finance) are paid in full.</li>
-        <li>Your only remaining debt is a home loan, and your account is completely up to date according to the original agreement.</li>
-      </ul>
-      <p>Once the Clearance Certificate is issued, the credit bureaus have 21 days to completely remove the "Debt Review" flag from your profile. Your <a href="../../../articles/finance/credit/understanding-credit-score-sa.html">credit score</a> will start recovering, and you can access credit again.</p>
+      <p>South Africa has one of the highest household debt-to-income ratios in the developing world. According to the National Credit Regulator (NCR), more than 10 million South African credit consumers are currently classified as <strong>over-indebted</strong> — meaning their monthly debt repayments exceed what they can realistically afford. If you are one of them, you have likely come across two terms advertised everywhere: <em>debt review</em> and <em>debt counselling</em>.</p>
+      <p>This guide covers everything you need to know: what these terms actually mean, exactly how the process works step by step, who qualifies, what it costs, how it affects your home loan and your marriage, and — critically — when it is <em>not</em> the right choice and what to do instead.</p>
 
-      <h3>Is Debt Review the Right Choice for You?</h3>
-      <p>Debt review is a powerful lifeline for consumers who are drowning, but it is extreme. If you simply have one expensive credit card or are struggling with minor cash flow issues, consider alternatives like <strong>Debt Consolidation Loans</strong> or implementing aggressive budgeting strategies (like the <a href="../../../articles/finance/budgeting/manage-finances-2026.html">Avalanche Method</a>) before resorting to debt review.</p>
-      <p>However, if you are genuinely unable to feed your family and pay your minimum installments, entering debt review with a reputable, NCR-registered counsellor is the most responsible and effective way to reclaim your financial freedom.</p>
+      <h2>Debt Review vs Debt Counselling: Are They the Same Thing?</h2>
+      <p>Yes — completely. <strong>Debt review and debt counselling are two names for the exact same statutory process</strong> established under Section 86 of the National Credit Act (NCA) 34 of 2005. The terminology difference simply reflects two angles of the same procedure:</p>
+      <ul>
+        <li><strong>Debt Counselling</strong> refers to the professional service provided by a registered Debt Counsellor.</li>
+        <li><strong>Debt Review</strong> refers to the legal status flag applied to your credit profile at the credit bureaus while you undergo the process.</li>
+      </ul>
+      <p>Any company advertising "debt counselling" is offering the same NCA-regulated service as one advertising "debt review." What matters is that the practitioner is registered with the <strong>National Credit Regulator (NCR)</strong> — you can verify any counsellor's registration on the NCR website before signing anything.</p>
+
+      <h2>Who Qualifies for Debt Review in South Africa?</h2>
+      <p>Not everyone who has debt qualifies. To enter debt review you must meet a specific legal threshold — you must be <strong>over-indebted</strong> as defined by the NCA. This means a registered Debt Counsellor must formally assess that your total monthly income, after essential living expenses (food, rent/bond, school fees, utilities, transport), is insufficient to cover all your minimum debt repayments.</p>
+      <p>You also cannot apply if:</p>
+      <ul>
+        <li>A creditor has already obtained a court judgment against you and initiated legal enforcement proceedings for a specific debt.</li>
+        <li>You have already been sequestrated (declared insolvent).</li>
+        <li>You are a juristic person (a business entity — debt review is for <em>natural persons only</em>).</li>
+      </ul>
+      <p>If a creditor <em>has</em> already started enforcement proceedings, the Section 86 application will still protect you for all other debts — but that specific creditor may continue with their existing court process. This is why timing your application correctly matters enormously.</p>
+
+      <h2>The Step-by-Step Debt Review Process Explained</h2>
+      <p>Entering debt review is a significant, legally binding decision. Here is exactly what happens at each stage:</p>
+
+      <h3>Step 1 — The Free Assessment</h3>
+      <p>Your first consultation with an NCR-registered Debt Counsellor is free. They will request three months of bank statements, a list of all your credit agreements, your payslip or proof of income, and a breakdown of your monthly living costs. Using an NCR-prescribed formula, they calculate your debt-to-income ratio and determine whether you meet the over-indebtedness threshold. Never pay for an assessment — any firm charging an upfront fee before confirming your eligibility is a red flag.</p>
+
+      <h3>Step 2 — Submitting the Form 16 Application</h3>
+      <p>If you qualify and choose to proceed, you sign a <strong>Form 16</strong> (the formal debt review application). Within five business days, your Debt Counsellor is legally required to notify all your credit providers and the credit bureaus. From this point forward, <strong>you are legally protected</strong>: credit providers cannot harass you, and they cannot take steps to repossess your assets or sue you for outstanding debt, provided the asset has not already been repossessed or a court has not already granted execution.</p>
+
+      <h3>Step 3 — The Restructuring Proposal</h3>
+      <p>Your counsellor calculates your realistic "available for debt repayment" figure — what is left after every legitimate living expense is accounted for. They then negotiate with each creditor to restructure your debt. Typical outcomes include:</p>
+      <ul>
+        <li>Unsecured debt (credit cards, personal loans, retail store accounts): interest rates often reduced to <strong>0–9%</strong>, repayment terms extended significantly.</li>
+        <li>Vehicle finance: terms extended, interest rate reduced (within NCR guidelines).</li>
+        <li>Home loan (mortgage bond): usually kept close to original terms or slightly extended; the primary goal is making the monthly instalment affordable.</li>
+      </ul>
+
+      <h3>Step 4 — The Magistrate's Court Order</h3>
+      <p>Once creditors agree to the restructured terms (which the NCA compels them to engage with in good faith), your Debt Counsellor files the restructured repayment plan in the <strong>Magistrate's Court</strong> as a consent order. This court order is legally binding on all parties. Skipping this step — which unscrupulous operators sometimes do — leaves you with no legal protection.</p>
+
+      <h3>Step 5 — Single Monthly Payment via a PDA</h3>
+      <p>Instead of juggling separate payments to multiple creditors, you make <strong>one single monthly payment</strong> to an NCR-registered <strong>Payment Distribution Agency (PDA)</strong>. The PDA then distributes funds proportionally to all your creditors according to the court order. Your Debt Counsellor's monthly aftercare fee is included in this single payment. Never pay your debt review instalment directly into a counsellor's personal or business account — it must always go to an NCR-registered PDA.</p>
+
+      <h2>How Debt Review Affects Your Home Loan</h2>
+      <p>Your mortgage bond receives special treatment under debt review — and it is important to understand this clearly before applying.</p>
+      <p>Home loans are <strong>secured debts</strong> tied to a physical asset. The NCA allows your home loan to be included in a debt review restructuring, but banks are generally less flexible with bonds than with unsecured debt. The most common outcomes are:</p>
+      <ul>
+        <li>The monthly instalment is reduced slightly by extending the remaining term.</li>
+        <li>The interest rate reduction on a bond is usually minimal compared to unsecured debt.</li>
+        <li>Your home is protected from repossession <em>only while you remain compliant with your restructured payments</em>.</li>
+      </ul>
+      <p>Critically: if your bond is already in arrears and the bank has already obtained a court order to repossess, entering debt review will <strong>not</strong> stop that specific enforcement process. The protection window opens the moment you submit Form 16 — so do not delay if you are falling behind on your bond.</p>
+
+      <h2>Debt Review and Your Vehicle Finance</h2>
+      <p>Your car is also a secured asset. Once you are under debt review, your vehicle is protected from repossession — but the same compliance caveat applies. Miss a single restructured payment to the PDA and your creditors can approach the court to rescind the consent order, after which the vehicle finance company can legally repossess your car within days.</p>
+      <p>If your vehicle is already under a repossession order before you apply, the vehicle is unfortunately not recoverable through debt review. Act before it reaches that stage.</p>
+
+      <h2>What Does Debt Review Cost? (NCR-Regulated Fee Structure)</h2>
+      <p>Debt Counsellor fees are strictly regulated by the NCR — no legitimate counsellor can charge more than these prescribed maximums. All fees are built into your monthly PDA payment, not charged separately upfront:</p>
+      <ul>
+        <li><strong>Application fee:</strong> R50 (once-off, paid on application).</li>
+        <li><strong>Restructuring fee:</strong> The first month's restructured payment, capped at R8,000 for a single applicant or R9,000 for a joint application.</li>
+        <li><strong>Legal fee:</strong> R750 for a single Magistrate's Court application or R1,500 for a combined application.</li>
+        <li><strong>Monthly aftercare fee:</strong> 3% of the monthly instalment paid to creditors, capped at R450/month (single) or R500/month (joint), plus VAT.</li>
+        <li><strong>PDA administration fee:</strong> Usually R65–R100 per month for distributing your payment to creditors.</li>
+      </ul>
+      <p>Be very suspicious of any debt review company quoting fees higher than these NCR maximums, or asking for large upfront payments before a consent order is in place.</p>
+
+      <h2>How Long Does Debt Review Take in South Africa?</h2>
+      <p>This is entirely dependent on how much total debt you owe and how much you can realistically afford to pay each month. General timelines:</p>
+      <ul>
+        <li><strong>Unsecured debt only (credit cards, personal loans):</strong> typically 3–5 years.</li>
+        <li><strong>Including vehicle finance:</strong> typically 4–6 years, depending on the remaining term.</li>
+        <li><strong>Including a home loan:</strong> the process only formally ends once all unsecured debts and vehicle finance are settled. Your bond can continue after your Clearance Certificate is issued. For some consumers, this means 10–15 years total before every creditor is fully settled.</li>
+      </ul>
+      <p>The single most effective way to shorten your debt review period is to make additional lump-sum payments whenever you receive a bonus, tax refund, or inheritance. These payments reduce your outstanding balance directly and can cut years off your timeline.</p>
+
+      <h2>Married? How Debt Review Works for Couples</h2>
+      <p>If you are married <strong>in community of property</strong>, both spouses legally share all assets and liabilities. Both partners must apply for debt review together as a joint application — you cannot enter debt review individually if your estate is shared.</p>
+      <p>If you are married <strong>out of community of property</strong> (with an antenuptial contract), each spouse has a separate estate and can apply individually. However, if your combined household income is being assessed for affordability, both incomes and both debt schedules will need to be examined by the counsellor.</p>
+
+      <h2>The Advantages of Debt Review</h2>
+      <ul>
+        <li><strong>Immediate legal protection from creditors:</strong> Phone calls, letters, and legal action stop from the day your Form 16 is submitted.</li>
+        <li><strong>Significantly reduced monthly repayments:</strong> Most consumers see their combined monthly debt obligation drop by 30–60%.</li>
+        <li><strong>Asset protection:</strong> Your home and vehicle are shielded from repossession as long as you remain compliant.</li>
+        <li><strong>Reduced interest rates:</strong> Unsecured debt interest is often slashed to near-zero, meaning more of every rand goes toward paying down the actual debt.</li>
+        <li><strong>Simplified finances:</strong> One payment, one date, zero negotiation — the PDA handles all distributions.</li>
+        <li><strong>Regulated and legal:</strong> Unlike informal "debt settlement" scams, the NCA process is court-supervised and your rights are protected by law.</li>
+      </ul>
+
+      <h2>The Disadvantages and Serious Limitations</h2>
+      <ul>
+        <li><strong>Complete credit blackout:</strong> You cannot obtain any new credit whatsoever while under debt review — no store cards, no personal loans, no credit cards, no overdraft facilities. This is a legal restriction, not just a bureau policy.</li>
+        <li><strong>Long-term commitment:</strong> You are legally bound to the process until your Clearance Certificate is issued. You cannot simply withdraw without creditors resuming full enforcement action.</li>
+        <li><strong>It costs more overall:</strong> Because you are extending repayment terms, you pay more total interest over the life of the debt — even with reduced rates. You are trading lower monthly payments for a higher total repayment amount.</li>
+        <li><strong>Zero-tolerance compliance:</strong> Miss a single monthly PDA payment and your protection collapses. Creditors can apply to court to rescind the consent order and resume repossession proceedings within days.</li>
+        <li><strong>Employment implications:</strong> Some employers — particularly those in financial services — conduct credit checks. A "debt review" flag on your credit profile may affect employment or promotion prospects in certain regulated industries.</li>
+        <li><strong>Cannot include all debts:</strong> Debts not regulated by the NCA — such as SARS tax debt, municipal rates, maintenance orders, and NSFAS student loans — are excluded from the restructuring.</li>
+      </ul>
+
+      <h2>How to Exit Debt Review: The Clearance Certificate (Form 19)</h2>
+      <p>You exit debt review in one of two ways:</p>
+      <ol>
+        <li><strong>Completion — the Clearance Certificate:</strong> When all restructured debts (excluding your home loan) are fully paid, your Debt Counsellor is obligated to issue you a <strong>Clearance Certificate (Form 19)</strong>. This is then submitted to all credit bureaus, which have <strong>21 business days</strong> to remove the "Under Debt Review" flag from your profile. Your <a href="{{BASE_PATH}}articles/finance/credit/understanding-credit-score-sa.html">credit score</a> will begin recovering immediately, and you can apply for credit again.</li>
+        <li><strong>Court-ordered withdrawal (before a consent order is granted):</strong> If no court order has been issued yet and your financial circumstances have genuinely improved, a Magistrate's Court can order that the debt review be rescinded. This requires legal proceedings and is not a quick exit.</li>
+      </ol>
+      <p><strong>Important:</strong> Your Debt Counsellor is legally obligated to issue your Form 19 once the qualifying conditions are met. If they delay or refuse, you can lodge a complaint with the NCR directly at ncr.org.za.</p>
+
+      <h2>Debt Review vs Your Other Options: A Comparison</h2>
+      <p>Debt review is not your only option. Before committing to a multi-year legal process, understand what else is available:</p>
+
+      <h3>Debt Consolidation Loan</h3>
+      <p>A debt consolidation loan combines multiple debts into one loan with a single monthly payment, ideally at a lower interest rate. Unlike debt review, you remain creditworthy and there is no bureau flag. <strong>Best for:</strong> consumers who are struggling but not yet over-indebted, who have a strong enough credit score to qualify for a consolidation loan at a competitive rate.</p>
+
+      <h3>Administration Order (Section 74 of the Magistrates Courts Act)</h3>
+      <p>Administration orders apply only to debt of <strong>R50,000 or less</strong> in total. An administrator is appointed by the court to distribute a monthly payment across your creditors. Like debt review, you cannot access new credit. <strong>Best for:</strong> consumers with small total debt amounts and very limited income.</p>
+
+      <h3>Voluntary Sequestration (Personal Insolvency)</h3>
+      <p>Sequestration is formal personal insolvency — your estate is surrendered to a liquidator, who sells your assets to pay creditors. You are discharged from debt after a rehabilitation period (usually 4 years). <strong>Best for:</strong> consumers with substantial assets whose liabilities far exceed those assets, or professionals who need a clean slate. <strong>Not suitable</strong> if you want to keep your home or vehicle — they will be liquidated.</p>
+
+      <h3>Aggressive Budgeting and Direct Creditor Negotiation</h3>
+      <p>Many South Africans do not realise that credit providers — especially banks — will negotiate payment holidays, restructured terms, or settlement discounts directly with distressed consumers, without any formal legal process. If you are only one or two months behind, a direct call to your bank's hardship or collections department may produce a temporary arrangement. Pair this with the <a href="{{BASE_PATH}}articles/finance/budgeting/manage-finances-2026.html">debt avalanche or debt snowball method</a> for maximum impact.</p>
+
+      <h2>Warning Signs of Debt Review Scams</h2>
+      <p>South Africa's debt distress industry attracts bad actors. Watch out for these red flags:</p>
+      <ul>
+        <li>Charging large upfront fees before any assessment or court order.</li>
+        <li>Claiming they can "remove" you from debt review before all debts are settled.</li>
+        <li>Asking you to pay your monthly instalment into a personal or unregistered bank account instead of a PDA.</li>
+        <li>Not having a verifiable NCR registration number.</li>
+        <li>Promising a specific outcome before reviewing your documents.</li>
+        <li>Failing to file a court application — collecting your payments without obtaining a binding consent order.</li>
+      </ul>
+
+      <h2>Life After Debt Review: Rebuilding Your Credit Score</h2>
+      <p>Once your Form 19 is issued and the bureau flag is removed, you start with a relatively clean slate — but your credit score will still reflect the payment history from your debt review period. Rebuilding takes discipline:</p>
+      <ul>
+        <li>Apply for one small credit facility (a low-limit store account or secured credit card) and pay it in full every month — this starts rebuilding your payment history.</li>
+        <li>Keep your credit utilisation below 30% of any available limit.</li>
+        <li>Do not apply for multiple credit products simultaneously — each hard inquiry lowers your score temporarily.</li>
+        <li>Check your credit report at all five major bureaus (TransUnion, Experian, Compuscan, Xpert Decision Systems, and Lightstone) to ensure the debt review flag has been removed and no incorrect data remains.</li>
+      </ul>
+      <p>Most consumers who exit debt review and follow disciplined rebuilding habits have a functional credit score within 12–18 months. Read our guide on <a href="{{BASE_PATH}}articles/finance/credit/understanding-credit-score-sa.html">understanding and improving your credit score in South Africa</a> for a full breakdown of what affects your score and what moves the needle fastest.</p>
+
+      <h2>Frequently Asked Questions About Debt Review in South Africa</h2>
+
+      <h3>Can I apply for debt review online?</h3>
+      <p>Yes — many NCR-registered Debt Counsellors accept applications online and conduct the initial assessment via video call or WhatsApp. However, you will still need to provide physical or scanned copies of your documents, and the Form 16 must be formally submitted. Always verify the counsellor's NCR registration number before sharing any personal or financial documents.</p>
+
+      <h3>Will debt review affect my job?</h3>
+      <p>For most jobs, no. Your employer is not automatically notified. However, in sectors regulated by the Financial Sector Conduct Authority (FSCA) — such as banking, insurance brokering, and investment advisory — having a debt review flag can be a licensing issue. Check with your industry regulator if you are unsure.</p>
+
+      <h3>Can I cancel debt review after it starts?</h3>
+      <p>Once a court consent order has been granted, you cannot simply cancel. You are legally bound to complete the process. Before the court order is granted, it is technically possible to withdraw, but your creditors will immediately resume enforcement action with full back-interest, and you will have lost the protection period.</p>
+
+      <h3>What happens if I miss a payment while under debt review?</h3>
+      <p>Missing one payment triggers a legal process that can unravel your protection. Creditors can issue a Section 86(11) notice, apply to court to set aside the consent order, and resume repossession or legal proceedings. Contact your Debt Counsellor <em>immediately</em> if you anticipate a missed payment — proactive communication sometimes leads to a short-term arrangement before enforcement kicks in.</p>
+
+      <h3>Does debt review cover all my debts?</h3>
+      <p>No. Only debts regulated by the National Credit Act are included. SARS tax debt, municipality accounts, maintenance orders, NSFAS student loans, and body corporate levies fall outside the NCA and cannot be restructured through debt review. You will still need to manage these separately.</p>
+
+      <h3>Can my spouse and I apply separately?</h3>
+      <p>If you are married in community of property, no — you must apply jointly because your estates are legally merged. If you are married out of community of property, yes, each spouse can technically apply individually, though a good counsellor will assess your combined household cash flow to ensure the proposed payments are sustainable.</p>
+
+      <h2>The Bottom Line: Is Debt Review Right for You?</h2>
+      <p>Debt review is a powerful, legally enforceable lifeline — but it is not a quick fix, and it is not for everyone. Use it if you are genuinely over-indebted, at risk of losing your home or vehicle, and have exhausted less drastic options. Do not use it as a shortcut to avoid a manageable cash flow problem that budgeting and direct creditor negotiation could solve.</p>
+      <p>If you are on the fence, the free initial assessment from any NCR-registered counsellor costs nothing and gives you concrete numbers to make an informed decision. Knowledge is your best financial tool — use it.</p>
     `
   }
 ];
