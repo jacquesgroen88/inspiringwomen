@@ -5,7 +5,8 @@
       "Bash(node -e ' *)",
       "Bash(grep -n \"^\\\\`$\\\\|^    \\\\`$\\\\|^  \\\\`$\" articles.js)",
       "Bash(awk -F: '$2 ~ /^[ \\\\t]*`$/ {print NR\": \"$0}')",
-      "Bash(grep -n \"^    \\\\`$\" articles.js)"
+      "Bash(grep -n \"^    \\\\`$\" articles.js)",
+      "Bash(node expand_articles.js)"
     ]
   }
 }
