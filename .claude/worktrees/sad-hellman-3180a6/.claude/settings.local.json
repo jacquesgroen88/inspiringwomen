@@ -6,7 +6,23 @@
       "Bash(grep -n \"^\\\\`$\\\\|^    \\\\`$\\\\|^  \\\\`$\" articles.js)",
       "Bash(awk -F: '$2 ~ /^[ \\\\t]*`$/ {print NR\": \"$0}')",
       "Bash(grep -n \"^    \\\\`$\" articles.js)",
-      "Bash(node expand_articles.js)"
+      "Bash(node expand_articles.js)",
+      "Bash(node add_career_1.js)",
+      "Bash(node add_career_2.js)",
+      "Bash(node add_career_3.js)",
+      "Bash(rm add_career_1.js add_career_2.js add_career_3.js)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(node build.js)",
+      "mcp__3756b442-27d7-4771-a8e4-4935e6a0b99b__data-store-records_create",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(10,20\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(20,30\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(30,40\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(40,50\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(50,60\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(60,70\\)\\)\\);\")",
+      "Bash(node -e \"const r = require\\('./iw_post_queue.json'\\); console.log\\(JSON.stringify\\(r.slice\\(70,79\\)\\)\\);\")"
     ]
   }
 }

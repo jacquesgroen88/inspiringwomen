@@ -2,7 +2,7 @@
 
 | Article Title | Category | Word Count | SEO Quality Rating |
 | :--- | :--- | :--- | :--- |
-| What to Pack in Your Hospital Bag: A 2026 Guide | health | 709 | Good (B) |
+| What to Pack in Your Hospital Bag: A 2026 Guide | health | 1556 | Premium (A+) |
 | How To Manage Your Finances in 2026: A Guide for SA Women | finance | 1730 | Premium (A+) |
 | The Ultimate Guide to Retinol for Beginners | beauty | 1663 | Premium (A+) |
 | 5 Low-Maintenance Indoor Plants for SA Homes | lifestyle | 2304 | Premium (A+) |
@@ -10,15 +10,15 @@
 | Sustainable Gardening: A Guide to Water-Wise Plants | lifestyle | 2023 | Premium (A+) |
 | Budget-Friendly Home Decor Tips for a Luxury Feel | lifestyle | 2144 | Premium (A+) |
 | Organizing Your Kitchen for Maximum Efficiency | lifestyle | 2158 | Premium (A+) |
-| Fat Freeze vs Laser Lipo: Which Works Best? | health | 463 | Short (C) |
+| Fat Freeze vs Laser Lipo: Which Works Best? | health | 1278 | Premium (A+) |
 | Natural SA Ingredients for Glowing Skin | beauty | 1697 | Premium (A+) |
 | How to Transition Your Skincare Routine for Winter | beauty | 1722 | Premium (A+) |
 | Summer Holidays - How To Survive The Silly Season! | lifestyle | 240 | Short (C) |
 | Setting Up Your Home Office - Creating Your Workspace | career | 2319 | Premium (A+) |
 | Why Working From Home Is So Stressful (and How to Handle It) | career | 2200 | Premium (A+) |
 | Top 5 Side Hustles for South African Women in 2026 | career | 2384 | Premium (A+) |
-| Setting Up a Small Business in South Africa | business | 217 | Short (C) |
-| Mental Health Resources for Women in SA | health | 166 | Short (C) |
+| Setting Up a Small Business in South Africa | business | 1200 | Premium (A+) |
+| Mental Health Resources for Women in SA | health | 1312 | Premium (A+) |
 | Affordable Local Beauty Brands You Need to Try | beauty | 1806 | Premium (A+) |
 | Easy 15-Min Dinners - Perfect for Busy Evenings! | recipes | 1924 | Premium (A+) |
 | Guilt-Free Chocolate Brownies - Low Carb & Keto | recipes | 1298 | Premium (A+) |
@@ -51,3 +51,33 @@
 | The Best Affordable Natural Hair Products Available at Clicks and Dis-Chem in 2026 | beauty | 1149 | Premium (A+) |
 | 20 No-Cook Load Shedding Meal Ideas for Stage 6 (Quick, Filling, and Delicious) | recipes | 1421 | Premium (A+) |
 | 5 Safe and Beautiful Hiking Trails for Women in Cape Town (2026 Guide) | lifestyle | 1544 | Premium (A+) |
+| 10 Legitimate Remote Data Entry Jobs in South Africa (2026) | career | 1022 | Premium (A+) |
+| Best Companies Hiring for Remote Customer Service Jobs in SA (2026) | career | 897 | High Quality (A) |
+| How to Ask Your South African Boss for Remote Work (With Email Template) | career | 1063 | Premium (A+) |
+| Home Office Tax Deductions in South Africa: The Complete SARS Guide | career | 951 | High Quality (A) |
+| Load Shedding Survival Guide for Remote Workers in SA (2026) | career | 1141 | Premium (A+) |
+| How to Negotiate Your Salary in South Africa (Scripts Included) | career | 1012 | Premium (A+) |
+| What Is a Cost to Company (CTC) Package in South Africa? | career | 921 | High Quality (A) |
+| Maternity Leave Pay in SA: How Much Should You Expect? | career | 929 | High Quality (A) |
+| How to Ask for a Raise When Inflation is High (SA Guide) | career | 1031 | Premium (A+) |
+| Average Tech Salaries for Women in South Africa (2026) | career | 857 | High Quality (A) |
+| How to Register a Company with CIPC in 2026: Step-by-Step Guide | career | 1036 | Premium (A+) |
+| 10 Low-Cost Franchise Opportunities for Women in South Africa (2026) | career | 914 | High Quality (A) |
+| How to Start a Dropshipping Business in South Africa (2026 Guide) | career | 924 | High Quality (A) |
+| Best Small Business Bank Accounts in South Africa Compared (2026) | career | 871 | High Quality (A) |
+| Selling on Takealot vs Shopify: Which Is Better for SA Beginners? | career | 955 | High Quality (A) |
+| CCMA Guide: How to Handle Unfair Dismissal in South Africa | career | 1006 | Premium (A+) |
+| Retrenchment Rights in South Africa: What You Are Entitled To | career | 935 | High Quality (A) |
+| Workplace Harassment in SA: Your Legal Rights and What to Do | career | 896 | High Quality (A) |
+| Taking Sick Leave for Mental Health in South Africa: Know Your Rights | career | 1051 | Premium (A+) |
+| Understanding the Basic Conditions of Employment Act (BCEA) in SA | career | 986 | High Quality (A) |
+| Free Online Courses with Certificates in South Africa (2026 Guide) | career | 910 | High Quality (A) |
+| How to Write a CV for the South African Job Market (2026 Guide) | career | 995 | High Quality (A) |
+| 5 Tech Skills SA Employers Are Desperate For Right Now (2026) | career | 1041 | Premium (A+) |
+| How to Answer "Tell Me About Yourself" in a South African Interview | career | 1073 | Premium (A+) |
+| Best SETA Accredited Short Courses to Boost Your Career in SA | career | 810 | High Quality (A) |
+| How to Explain a Career Gap on Your CV (For SA Moms and Caregivers) | career | 887 | High Quality (A) |
+| Top Career Changes for South African Women Over 40 | career | 951 | High Quality (A) |
+| How to Build a Professional Network from Scratch in South Africa | career | 910 | High Quality (A) |
+| LinkedIn Profile Tips for 2026: A Step-by-Step Optimisation Guide | career | 938 | High Quality (A) |
+| Moving from Corporate to Freelancing in South Africa: What You Need to Know | career | 1129 | Premium (A+) |
