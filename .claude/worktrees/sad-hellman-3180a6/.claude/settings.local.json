@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"require\\('J:/IW 2026/inspiringwomen/articles.js'\\); console.log\\('valid'\\);\")",
+      "Bash(node -e ' *)",
+      "Bash(grep -n \"^\\\\`$\\\\|^    \\\\`$\\\\|^  \\\\`$\" articles.js)",
+      "Bash(awk -F: '$2 ~ /^[ \\\\t]*`$/ {print NR\": \"$0}')",
+      "Bash(grep -n \"^    \\\\`$\" articles.js)"
+    ]
+  }
+}
