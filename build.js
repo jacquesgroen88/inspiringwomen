@@ -59,12 +59,19 @@ articles.forEach(article => {
     const filePath = path.join(subCategoryPath, `${article.slug}.html`);
     const relativeUrlPath = `articles/${article.category}/${article.subCategory}/${article.slug}.html`;
     const basePath = '../../../'; // Go up from articles/category/subcategory/
+    const siteBase = 'https://inspiringwomen.co.za';
+    const canonicalUrl = `${siteBase}/${relativeUrlPath}`;
+    const fullImageUrl = `${siteBase}/assets/${article.image}`;
 
     console.log(`Generating ${relativeUrlPath}`);
 
-    // Create a plain text excerpt for search
-    const textContent = article.content.replace(/<[^>]+>/g, '').trim();
+    // Create a plain text excerpt for search and meta description
+    const textContent = article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const excerpt = textContent.substring(0, 150) + '...';
+
+    // Auto-generate meta description: first 155 chars of plain text content
+    const rawMetaDesc = textContent.substring(0, 155).replace(/\s+\S*$/, '');
+    const metaDescription = (rawMetaDesc.length > 50 ? rawMetaDesc : textContent.substring(0, 155)) + '...';
 
     // Add to search index
     searchData.push({
@@ -113,9 +120,40 @@ articles.forEach(article => {
         `;
     }
 
+    // Build JSON-LD Article structured data
+    const structuredData = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article.title,
+        "description": metaDescription,
+        "image": fullImageUrl,
+        "author": {
+            "@type": "Person",
+            "name": article.author
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Inspiring Women",
+            "logo": {
+                "@type": "ImageObject",
+                "url": `${siteBase}/assets/logo.png`
+            }
+        },
+        "datePublished": article.date,
+        "dateModified": article.date,
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": canonicalUrl
+        }
+    }, null, 2);
+
     // Replace all occurrences of placeholders
     let html = templateHtml
         .replace(/\{\{TITLE\}\}/g, article.title)
+        .replace(/\{\{META_DESCRIPTION\}\}/g, metaDescription.replace(/"/g, '&quot;'))
+        .replace(/\{\{CANONICAL_URL\}\}/g, canonicalUrl)
+        .replace(/\{\{FULL_IMAGE_URL\}\}/g, fullImageUrl)
+        .replace(/\{\{STRUCTURED_DATA\}\}/g, structuredData)
         .replace(/\{\{CATEGORY\}\}/g, article.category.toUpperCase())
         .replace(/\{\{AUTHOR\}\}/g, article.author)
         .replace(/\{\{DATE\}\}/g, article.date)
@@ -223,9 +261,12 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     </url>`;
 
 articles.forEach(article => {
+    const dateObj = new Date(article.date);
+    const lastmod = isNaN(dateObj) ? new Date().toISOString().split('T')[0] : dateObj.toISOString().split('T')[0];
     sitemapXml += `
     <url>
         <loc>https://inspiringwomen.co.za/articles/${article.category}/${article.subCategory}/${article.slug}.html</loc>
+        <lastmod>${lastmod}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>`;
