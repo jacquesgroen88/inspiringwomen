@@ -56,28 +56,103 @@ const articles = [
     date: "January 5, 2026",
     image: "finance_budgeting.png",
     content: `
-      <h2>Taking Control of Your Money Amidst Economic Shifts</h2>
-      <p>Managing finances in South Africa requires strategic planning. With inflation, fluctuating interest rates, and the rising cost of living in 2026, financial literacy is more important than ever for women. This isn't just about saving pennies; it's about building a legacy and ensuring long-term security for yourself and your family. Here is a comprehensive guide to taking control of your financial future.</p>
-      
-      <h3>1. Track Every Single Rand (Zero-Based Budgeting)</h3>
-      <p>You cannot manage what you do not measure. In 2026, digital tools are your best friend. Use a budgeting app like 22seven or a simple Excel spreadsheet to track your income and expenses. Assign every rand a "job" before the month begins. You'll be surprised where your money leaks—those daily coffees and subscription services add up quickly! A zero-based budget ensures that your income minus expenses equals zero, meaning every cent is accounted for.</p>
-      
-      <h3>2. Build an Aggressive Emergency Fund</h3>
-      <p>Aim to save at least 3-6 months of essential living expenses. This fund is strictly for true emergencies—like a burst geyser, urgent car repairs, or unexpected medical bills—not for a holiday or a new pair of shoes. In the current SA climate, an emergency fund provides a vital safety net that prevents you from spiraling into debt when life happens. Keep this money in a high-yield savings account or a money market fund where it is easily accessible but earning better interest than a standard savings account.</p>
-      
-      <h3>3. Pay Off High-Interest Debt (The Avalanche Method)</h3>
-      <p>Credit card debt and personal loans carry exorbitant interest rates that eat away at your wealth. Focus on paying these off using the avalanche method: list your debts from the highest interest rate to the lowest. Pay minimums on everything, and put every extra cent toward the highest interest debt first. This method saves you the most money in interest payments over time compared to the "snowball" method.</p>
-      
-      <h3>4. Start a Side Hustle to Accelerate Goals</h3>
-      <p>If you have cut your expenses and still need extra income to reach your financial goals or pay off debt faster, consider starting a small business. The digital economy in South Africa is booming, offering numerous opportunities for remote work and service-based businesses. Explore our <a href="{{BASE_PATH}}career/entrepreneurship/side-hustles-sa.html">Top 5 Side Hustles for SA Women</a> for ideas that require minimal startup capital but offer high growth potential.</p>
+      <p>South Africa's economic environment in 2026 is demanding more financial discipline than ever before. With the prime lending rate still elevated after years of rate hikes, food inflation biting into household budgets, and load shedding adding invisible costs to every home and small business, the gap between women who manage their money with intention and those who don't is widening fast. This guide gives you a complete, practical framework — not generic advice — for taking control of your financial life in the South African context right now.</p>
 
-      <h3>5. Invest for the Long Term and Retirement</h3>
-      <p>Don't just save; invest. Utilize your Tax-Free Savings Account (TFSA) allowance each year (currently R36,000 per year). This is a powerful tool where all growth, dividends, and interest are completely tax-free. Consider low-cost Exchange Traded Funds (ETFs) on platforms like EasyEquities to build wealth over time. Don't forget to review your Retirement Annuity (RA) or pension fund to ensure you're taking advantage of the tax deductions available for retirement contributions.</p>
+      <h2>Step 1: Know Your Real Numbers (The South African Reality Check)</h2>
+      <p>Before any strategy, you need the truth about your money. Most South Africans have a vague sense of what they earn and spend, but almost nobody knows the precise breakdown. Your first task is a <strong>one-month spending audit</strong>:</p>
+      <ul>
+        <li>Download your last three months of bank statements from your online banking portal.</li>
+        <li>Categorise every transaction: Housing, Food, Transport, Debt Repayments, Insurance, Entertainment, Children, Load Shedding Costs (generator fuel, UPS, candles), and Subscriptions.</li>
+        <li>Calculate your true monthly expenses — including irregular ones like school fees, car services, and annual insurance premiums (divide these by 12).</li>
+        <li>Compare against your take-home salary after tax and UIF deductions.</li>
+      </ul>
+      <p>This single exercise — which takes about two hours — is more valuable than any financial product you will ever buy. It reveals where your money actually goes versus where you think it goes. For most people in South Africa, the largest unexpected leak is a combination of food delivery apps, streaming subscriptions, and petrol costs from inefficient trip planning.</p>
 
-      <h3>6. Protect Your Assets with Insurance</h3>
-      <p>Ensure you have adequate life, disability, and dread disease cover, especially if you have dependents. Medical aid is also non-negotiable in SA for access to quality private healthcare. Review your policies annually to make sure they still meet your needs as your life circumstances change.</p>
+      <h2>Step 2: Build a Budget That Works in South Africa's Reality</h2>
+      <p>There are multiple budgeting methods. Here are the three most effective for the South African context:</p>
 
-      <p>Financial freedom is a marathon, not a sprint. By staying disciplined and informed, you can navigate the 2026 economic landscape with confidence. Remember, the best time to start was yesterday; the second best time is today.</p>
+      <h3>The 50/30/20 Method (Simplified)</h3>
+      <p>Allocate your take-home pay as follows: 50% to needs (rent/bond, food, transport, insurance, minimum debt repayments, utilities), 30% to wants (dining out, entertainment, clothing beyond basics), and 20% to savings and extra debt repayment. In South Africa's 2026 cost environment, the "needs" category often pushes above 60% for many households — which is a signal that either income needs to increase (side hustles, salary negotiation) or the needs category needs to be cut (downgrade housing, cheaper transport).</p>
+
+      <h3>Zero-Based Budgeting (Most Effective for Debt Payoff)</h3>
+      <p>Assign every single rand of income a job before the month begins, so that Income minus Expenses equals zero. This does not mean spending everything — your savings and investment contributions are "expenses" in this system, they are just expenses to your future self. Apps like <strong>22seven</strong> (which syncs directly with South African banks) make zero-based budgeting practical without a spreadsheet. Alternatively, a simple Excel or Google Sheets template works perfectly.</p>
+
+      <h3>Pay Yourself First (Best for Consistent Savers)</h3>
+      <p>The moment your salary arrives, immediately transfer your savings and investment contributions to separate accounts. Live on what remains. This removes the willpower equation entirely — you cannot spend what you have already moved. Set up an automated debit order on salary day to a separate savings or investment account. Even R500 per month automated consistently beats R2,000 saved sporadically.</p>
+
+      <h2>Step 3: Build Your Emergency Fund</h2>
+      <p>In South Africa, an emergency fund is not optional — it is the foundation of every other financial strategy. Without one, every unexpected expense (a burst geyser, a car repair, a medical emergency, a load-shedding-caused appliance failure) destroys your budget and pushes you into expensive debt.</p>
+      <p><strong>Your emergency fund target:</strong> 3–6 months of your essential living expenses — not your full lifestyle, but the bare minimum to keep your household running: rent/bond, food, transport, insurance, and utility bills. For a household spending R15,000/month on essentials, this means R45,000–R90,000 in emergency savings.</p>
+      <p><strong>Where to keep it:</strong> It must be instantly accessible (not locked in a notice deposit) but separate from your cheque account so you are not tempted to spend it. Best options in South Africa:</p>
+      <ul>
+        <li><strong>Capitec's Global One Savings Plan</strong> — flexible withdrawal, above-prime interest on higher balances</li>
+        <li><strong>TymeBank GoalSave</strong> — bucket-based savings with competitive interest</li>
+        <li><strong>FNB's Savings Account or Fixed Deposit with break option</strong></li>
+        <li><strong>Allan Gray Money Market Fund</strong> — for amounts above R20,000, offering better interest than most bank savings accounts</li>
+      </ul>
+      <p>Build this fund before investing in anything else, except for any employer-matched pension contributions (those are instant 100% returns you cannot afford to miss).</p>
+
+      <h2>Step 4: Eliminate High-Interest Debt Strategically</h2>
+      <p>Consumer debt — credit cards, store accounts, personal loans, payday loans — typically carries interest rates of 20–29% per year in South Africa. No investment in the world reliably returns 25% per year. Paying off high-interest debt is the best risk-free return available to you.</p>
+
+      <h3>The Avalanche Method (Mathematically Optimal)</h3>
+      <p>List all your debts in order from highest interest rate to lowest. Pay minimum amounts on all debts, then throw every extra rand at the highest-rate debt first. Once it is paid off, redirect that payment to the next highest-rate debt. This method saves the maximum amount of interest over time.</p>
+      <p>Typical South African debt interest rates (2026): Payday loans 60%+, credit cards 20–22%, store accounts 20–22%, personal loans 15–22%, vehicle finance 11–15%, home loans 11.75%.</p>
+
+      <h3>The Snowball Method (Psychologically Effective)</h3>
+      <p>Pay off the smallest balance first regardless of interest rate. This builds momentum through quick wins. Research shows people with multiple debts are more likely to stay committed to a debt payoff plan using this method, even though it costs slightly more in total interest. If motivation is your challenge, use the snowball.</p>
+
+      <h3>Should You Consolidate?</h3>
+      <p>A debt consolidation loan replaces multiple high-interest debts with a single lower-interest loan. It makes sense if: (1) you can genuinely qualify for a lower interest rate than your current average, and (2) you close the accounts you pay off and do not run them up again. The second condition is where consolidation most often fails. Be honest with yourself before applying.</p>
+
+      <h2>Step 5: Invest for Long-Term Wealth</h2>
+      <p>Once your emergency fund is in place and your high-interest debt is under control, invest — consistently, automatically, and for the long term. For South African women, the priority order is:</p>
+      <ol>
+        <li><strong>Maximize any employer pension match</strong> — free money, always first.</li>
+        <li><strong>Max your Tax-Free Savings Account (TFSA) — R36,000 per year</strong>, invested in low-cost ETFs on EasyEquities or Sygnia. All growth is tax-free forever. Read our <a href="{{BASE_PATH}}finance/investing/tax-free-savings-accounts-sa.html">complete TFSA guide</a> for the full strategy.</li>
+        <li><strong>Contribute to a Retirement Annuity (RA)</strong> — contributions are tax-deductible up to 27.5% of your taxable income. This is free money from SARS via a tax refund.</li>
+        <li><strong>Taxable ETF investing</strong> — once TFSA and RA are maximized, continue investing in a regular brokerage account. See our guide on <a href="{{BASE_PATH}}finance/investing/investing-with-r500-sa.html">starting with just R500 a month</a>.</li>
+      </ol>
+
+      <h2>Step 6: Protect What You Build (Insurance)</h2>
+      <p>Building wealth without protection is like building a house without a roof. The right insurance prevents a single catastrophic event from wiping out years of financial progress. In South Africa, every household should have:</p>
+      <ul>
+        <li><strong>Life cover:</strong> If anyone depends on your income, you need life insurance. A general rule of thumb is 10–15x your annual income as a cover amount. Get quotes from Sanlam, Old Mutual, Discovery, and 1Life — compare on a broker platform like Hippo.co.za.</li>
+        <li><strong>Disability and income protection:</strong> Statistically, you are far more likely to become disabled during your working years than to die. Disability insurance replaces your income if you cannot work. This is non-negotiable for the self-employed.</li>
+        <li><strong>Dread disease (critical illness) cover:</strong> Pays a lump sum on diagnosis of a serious illness (cancer, heart attack, stroke). Covers costs your medical aid does not: income replacement during treatment, home modifications, childcare.</li>
+        <li><strong>Medical aid:</strong> Even a hospital plan (the most affordable tier) protects against catastrophic medical bills. Compare on Discovery Health, Momentum Health, or Bonitas.</li>
+        <li><strong>Short-term insurance:</strong> Home contents, vehicle, and household goods. Do not skip this — one theft or fire without insurance can be financially devastating.</li>
+      </ul>
+      <p>Review your insurance annually — your needs change as your income, assets, and family circumstances change.</p>
+
+      <h2>Step 7: Plan Your Taxes Like a Business Owner</h2>
+      <p>Most employed South Africans pay their taxes through PAYE and never think about tax planning. But there are legal, accessible ways to reduce your tax bill that millions of South Africans are not using:</p>
+      <ul>
+        <li><strong>Retirement Annuity contributions</strong> are deductible up to 27.5% of your taxable income. If you contribute R24,000 per year to an RA and your marginal tax rate is 36%, you get R8,640 back from SARS as a tax refund.</li>
+        <li><strong>Medical aid contributions and medical expenses</strong> generate tax credits — check your tax return is capturing these correctly.</li>
+        <li><strong>Home office deductions</strong> if you work from home (for self-employed or commission earners).</li>
+        <li><strong>Business expenses</strong> if you have a side hustle — every legitimate business cost reduces your taxable profit.</li>
+      </ul>
+      <p>File your tax return on eFiling (efiling.sars.gov.za) every year by the deadline (typically end of October for non-provisional taxpayers). Unclaimed refunds expire.</p>
+
+      <h2>Step 8: Set Clear Financial Goals with Deadlines</h2>
+      <p>Vague intentions produce vague results. "Save more money" is not a goal — it is a wish. Specific, dated goals produce specific behaviours:</p>
+      <ul>
+        <li>"I will save R30,000 for a deposit on a car by December 2026 by saving R2,500/month from February."</li>
+        <li>"I will pay off my Woolworths account (R8,400 balance) by August 2026 by paying R1,200/month."</li>
+        <li>"I will have 3 months of emergency fund savings (R18,000) by September 2026."</li>
+      </ul>
+      <p>Write your three current financial goals down. Put them somewhere you see them daily. Review them every month-end with your budget review.</p>
+
+      <h2>The Best Free Financial Tools for South African Women in 2026</h2>
+      <ul>
+        <li><strong>22seven</strong> (app) — syncs with all SA banks, auto-categorises spending, tracks budgets in real time. Free.</li>
+        <li><strong>SARS eFiling</strong> (efiling.sars.gov.za) — file your own tax return in under an hour once you understand the basics. Free.</li>
+        <li><strong>ClearScore</strong> (clearscore.com) — free credit score and report updated monthly, powered by Experian data. Free forever.</li>
+        <li><strong>EasyEquities</strong> (easyequities.co.za) — invest from R1. TFSA account, regular account, US stocks. No monthly fees. Free to open.</li>
+        <li><strong>Old Mutual's Budget Calculator</strong> — free online budgeting tool specific to the SA context.</li>
+      </ul>
+      <p>Financial freedom in South Africa in 2026 is not about earning a six-figure salary — it is about making what you earn work harder than you do. Start where you are. Use what you have. The most expensive financial decision you will ever make is waiting to start.</p>
     `
   },
   {
@@ -1610,20 +1685,102 @@ const articles = [
     date: "April 18, 2026",
     image: "estate_planning_will.png",
     content: `
-      <h2>Protecting Your Legacy, Assets, and Loved Ones</h2>
-      <p>Many South Africans put off drafting a will because it's an uncomfortable, morbid topic. However, dying intestate (without a valid will) means the Master of the High Court dictates how your assets are divided according to the Intestate Succession Act. This can cause massive delays, frozen bank accounts, and severe financial distress for your family.</p>
-      
-      <h3>Why You Absolutely Need a Will</h3>
-      <p>A legally binding will allows you to clearly dictate exactly who inherits your hard-earned assets, who assumes guardianship of your minor children, and who executes your estate affairs.</p>
-      
-      <h3>Key Components of a Solid Will</h3>
+      <p>More than 70% of South Africans die without a valid will. The consequences for their families are severe: frozen bank accounts, assets distributed according to a formula that ignores personal relationships, minor children's futures decided by courts rather than parents, and estates that take years — sometimes decades — to wind up while the family waits. Drafting a will is not morbid. It is one of the most loving and practical things you can do for the people who depend on you.</p>
+
+      <h2>What Happens If You Die Without a Will in South Africa?</h2>
+      <p>Dying without a valid will is called dying <strong>intestate</strong>. When this happens, your estate is distributed according to the <strong>Intestate Succession Act 81 of 1987</strong> — a rigid formula that does not care about your wishes, your relationships, or your circumstances. Under this formula:</p>
       <ul>
-        <li><strong>The Executor:</strong> Name a trustworthy, financially savvy person or professional institution to administer your estate. They handle everything from paying outstanding taxes to distributing funds.</li>
-        <li><strong>Guardianship clause:</strong> This is crucial for mothers. Without this clause, the courts will decide who raises your children if both parents pass away.</li>
-        <li><strong>Testamentary Trust:</strong> If your children are under 18, they cannot inherit directly. A testamentary trust ensures the funds are managed properly until they come of age.</li>
+        <li>If you are married with children: your spouse inherits a child's share or R250,000 (whichever is greater), and the rest is divided equally among your children.</li>
+        <li>If you have children but no spouse: everything goes to your children in equal shares.</li>
+        <li>If you have a spouse but no children: everything goes to your spouse.</li>
+        <li>If you have neither spouse nor children: assets pass to your parents, then siblings, then extended family.</li>
+        <li><strong>Your life partner, boyfriend, or girlfriend receives nothing</strong> under intestate succession, regardless of how long you were together, unless you were in a registered civil union or a valid customary marriage.</li>
+        <li>Your unmarried partner's children may not inherit from you even if you raised them as your own, unless you formally adopted them.</li>
       </ul>
-      
-      <p>It is highly recommended to consult a legal professional or your bank rather than using a basic internet template, which may not meet SA legal requirements. Also, ensure your will explicitly aligns with your specific <a href="{{BASE_PATH}}legal/marriage/marriage-contracts-sa.html">marriage contract</a>.</p>
+      <p>Beyond the distribution problem, dying intestate means the Master of the High Court appoints an executor — who may be a stranger — to administer your estate. The process is significantly slower, more expensive, and more stressful for your family than a properly documented estate with a named executor.</p>
+
+      <h2>Legal Requirements for a Valid Will in South Africa</h2>
+      <p>A will is governed by the <strong>Wills Act 7 of 1953</strong>. For a will to be legally valid in South Africa, it must meet the following strict requirements:</p>
+      <ul>
+        <li><strong>You must be at least 16 years old</strong> to make a valid will.</li>
+        <li><strong>The will must be in writing</strong> — typed or handwritten. Verbal wills are not valid in South Africa.</li>
+        <li><strong>You must sign every page</strong> of the will, at the bottom of each page. If you cannot sign, you may instruct another person to sign on your behalf in your presence.</li>
+        <li><strong>Two competent witnesses</strong> must be present when you sign, must witness your signature, and must sign each page in your presence. They must be over 14 years old and must not be beneficiaries under the will (or spouses of beneficiaries) — otherwise their bequest is voided, though the will remains valid.</li>
+        <li>The witnesses and the testator (you) must all be in the same room when signing — you cannot sign pages separately and send them around.</li>
+        <li>If you make changes to an existing will, the changes must be initialled by you and both witnesses, or the amended will must be re-executed from scratch.</li>
+      </ul>
+      <p>A will that does not meet these requirements is invalid and your estate will be distributed as if it does not exist.</p>
+
+      <h2>The Key Components Every Will Should Include</h2>
+
+      <h3>1. The Executor</h3>
+      <p>The executor administers your estate — collecting assets, paying debts and taxes, and distributing the inheritance. You must name one in your will. Options:</p>
+      <ul>
+        <li><strong>A family member or friend:</strong> Inexpensive but potentially overwhelming for someone without legal or financial experience. They can appoint a professional to assist them (at cost to the estate).</li>
+        <li><strong>A professional executor (attorney, accountant, bank):</strong> More efficient but charges a fee — regulated by the Administration of Estates Act at a maximum of 3.5% (plus VAT) of the gross estate value. On a R2 million estate, that is R70,000 in executor fees.</li>
+        <li><strong>A corporate trust company:</strong> Standard Bank Trust, ABSA Trust, FNB Trust Services, and Sanlam Trust all offer executor services and are experienced in complex estates.</li>
+      </ul>
+      <p>Name an alternate executor in case your first choice predeceases you or is unable to serve.</p>
+
+      <h3>2. Beneficiaries and Their Shares</h3>
+      <p>Clearly name every beneficiary (heir) and specify exactly what they receive. Vague language like "share my estate among my children equally" is acceptable but can cause disputes. Be specific about significant assets: "My immovable property at [address] to my daughter [full name], ID [number]." Use full names and ID numbers for all beneficiaries to avoid ambiguity.</p>
+      <p>Always name an alternate beneficiary for each bequest — what happens to that asset if the primary beneficiary predeceases you? Without an alternate, that portion falls back to your residual estate (the "rest and remainder"), which is distributed to whoever you name as your residual beneficiary.</p>
+
+      <h3>3. Guardianship of Minor Children</h3>
+      <p>This is the single most important clause for mothers. If you and the other parent both die simultaneously (in an accident, for example), the courts will appoint a guardian for your children. Without your expressed preference on record, they have no guidance. Name your preferred guardian(s) — someone who shares your values, has the capacity to raise your children, and has agreed to take on this responsibility. Discuss it with them first.</p>
+
+      <h3>4. A Testamentary Trust</h3>
+      <p>Minor children (under 18) cannot legally inherit directly. If your estate passes to a minor without a testamentary trust, the Guardian's Fund (administered by the Master of the High Court) holds the inheritance until the child turns 18, at which point they receive the full amount at once. This is often not ideal — an 18-year-old inheriting a large sum without financial guidance rarely manages it well. A testamentary trust in your will allows you to:</p>
+      <ul>
+        <li>Appoint a trusted trustee to manage the funds.</li>
+        <li>Specify how funds are used (education, maintenance, healthcare) before the trust ends.</li>
+        <li>Set the age at which children access their full inheritance (commonly 25 or 30).</li>
+      </ul>
+
+      <h3>5. Specific Bequests</h3>
+      <p>If you want specific items to go to specific people — jewellery to a sister, a car to a friend, a painting to a charity — these are called specific bequests. List them clearly. Everything not specifically mentioned falls into your residual estate.</p>
+
+      <h3>6. Digital Assets</h3>
+      <p>Increasingly important in 2026: cryptocurrency, PayPal accounts, investment platform accounts, social media accounts, intellectual property, and online businesses all need to be addressed. You cannot bequeath passwords in a will (they become public record), but you can direct your executor to a sealed letter with access details, or use a digital estate planning service. Specifically address what should happen to significant digital assets.</p>
+
+      <h2>How to Draft Your Will: Your Options</h2>
+
+      <h3>Option 1 — Your Bank (Most Accessible)</h3>
+      <p>All major South African banks offer will drafting services, often free for account holders. Standard Bank, FNB, ABSA, Nedbank, and Capitec all provide this service. The bank's trust company typically serves as executor. The drafting is professionally done and legally compliant. Limitations: they use standard templates that may not accommodate complex arrangements.</p>
+
+      <h3>Option 2 — An Attorney</h3>
+      <p>A qualified attorney (especially one specialising in estate planning) can draft a bespoke will that covers complex situations: multiple marriages, minor children from different relationships, business interests, international assets, or a specific trust structure. Cost: typically R1,500–R5,000 for a straightforward will, more for complex estates.</p>
+
+      <h3>Option 3 — LegalWise or Similar Legal Insurance</h3>
+      <p>If you have a LegalWise membership (R139–R250/month covers many legal services), will drafting is often included. This is one of the most cost-effective ways to get a professionally drafted will.</p>
+
+      <h3>Option 4 — DIY Templates (Use with Caution)</h3>
+      <p>Downloadable will templates exist, but they carry risk. A single error — missing a witness signature, an ambiguous clause, or an invalid beneficiary designation — can invalidate the will or create expensive legal disputes. If you use a template, have an attorney review it before you sign.</p>
+
+      <h2>Storing Your Will Safely</h2>
+      <p>A will that cannot be found when you die is treated as if it does not exist. Store your original signed will:</p>
+      <ul>
+        <li>At your bank or with your attorney (they will charge a small annual storage fee).</li>
+        <li>With the Master of the High Court (free registration service at any Master's Office).</li>
+        <li>In a fireproof safe at home — and ensure your executor or a trusted person knows exactly where it is.</li>
+      </ul>
+      <p>Keep a photocopy with your important documents. Tell at least two trusted people where the original is stored.</p>
+
+      <h2>When to Update Your Will</h2>
+      <p>Your will should be reviewed and potentially updated after any major life event:</p>
+      <ul>
+        <li>Marriage (a new marriage revokes a previous will under South African law, unless the will was drafted "in contemplation of marriage").</li>
+        <li>Divorce (revokes any bequest to a former spouse).</li>
+        <li>Birth of a child or grandchild.</li>
+        <li>Death of a named beneficiary or executor.</li>
+        <li>Significant change in assets (acquiring property, starting a business, receiving a large inheritance).</li>
+        <li>Moving from one province to another (Master's offices are provincial).</li>
+      </ul>
+      <p>As a general rule: review your will every three to five years, or after any event listed above. A will is a living document — it should reflect your current life, not the life you had when you first drafted it.</p>
+
+      <h2>Important: Beneficiary Nominations Are Separate from Your Will</h2>
+      <p>Life insurance policies, pension funds, provident funds, and retirement annuities are <strong>not governed by your will</strong>. They pass directly to whoever you have nominated as beneficiary on those specific policies and fund forms. A will does not override a policy nomination. This means you could have a perfectly drafted will leaving everything to your children, but if your ex-spouse is still nominated as beneficiary on your pension fund, your ex-spouse receives the pension payout regardless.</p>
+      <p>Update your beneficiary nominations on every policy, fund, and retirement account every time your personal circumstances change. This is a task that takes 30 minutes and can make an enormous difference to your family's financial outcome. Read our guide on <a href="{{BASE_PATH}}legal/marriage/marriage-contracts-sa.html">marriage contracts</a> to understand how your matrimonial property regime interacts with your estate planning.</p>
     `
   },
   {
@@ -1635,19 +1792,98 @@ const articles = [
     date: "April 20, 2026",
     image: "marriage_contract.png",
     content: `
-      <h2>Understand Your Matrimonial Property Regime Before You Sign</h2>
-      <p>Before you say "I do" and start worrying about your future, you absolutely need to understand the severe legal and financial implications of marriage in South Africa. Love is grand, but marriage is a binding legal contract.</p>
-      
-      <h3>1. In Community of Property (The Default)</h3>
-      <p>This is the default regime in SA if you do NOT sign an Antenuptial Contract (ANC) before the wedding. All assets and liabilities acquired before and during the marriage are merged into one joint estate shared 50/50. Crucially, you are fully responsible for your partner's debts—if they are sequestrated, you are sequestrated.</p>
-      
-      <h3>2. Out of Community of Property (Without Accrual)</h3>
-      <p>You sign an ANC. Your assets and debts remain entirely separate, both before and during the marriage. What is yours is yours, and what is his is his. This offers complete financial protection from a spouse's creditors.</p>
-      
-      <h3>3. Out of Community of Property (With Accrual)</h3>
-      <p>This is generally considered the fairest and most popular choice for modern couples. What you bring into the marriage remains yours alone (protecting prior wealth). However, the wealth built *during* the marriage is shared equally upon divorce or death, recognizing that both partners contribute to the marriage (even if one is a stay-at-home parent).</p>
-      
-      <p>Always speak to a Notary Public well before your wedding day to draft an ANC that suits both of your financial needs.</p>
+      <p>Marriage in South Africa is not just a romantic commitment — it is one of the most significant financial and legal decisions you will ever make. The matrimonial property regime you choose (or default into) will determine who owns what during your marriage, what happens to your assets if you divorce, and how your estate is distributed when you die. Most couples in South Africa make this decision with almost no understanding of the implications. This guide changes that.</p>
+
+      <h2>The Three Matrimonial Property Regimes in South Africa</h2>
+      <p>South African law recognises three property regimes for civil marriages. The regime that applies to you depends on whether you signed an Antenuptial Contract (ANC) before your marriage, and if so, what it contains.</p>
+
+      <h2>Regime 1: In Community of Property (The Default — No ANC)</h2>
+      <p>If you get married without signing an Antenuptial Contract before the ceremony, South African law automatically places you in community of property. This is the default — it requires no action or agreement, it simply applies. Approximately 60% of South African marriages are in community of property, often because couples did not know the alternative existed or could not afford a notary.</p>
+
+      <h3>How it works</h3>
+      <p>All assets and all debts — yours, your spouse's, and all that you accumulate together during the marriage — are merged into a single, jointly-owned estate. The estate is owned 50/50 by both spouses, regardless of who earned what or who held the asset before the marriage.</p>
+      <ul>
+        <li>Your pre-marriage savings become part of the joint estate.</li>
+        <li>Your spouse's pre-marriage debt becomes your debt too.</li>
+        <li>A business you start during the marriage is jointly owned.</li>
+        <li>An inheritance you receive during the marriage (unless specifically excluded by the will of the person leaving it to you) falls into the joint estate.</li>
+      </ul>
+
+      <h3>The critical debt risk</h3>
+      <p>This is the most dangerous aspect of community of property: <strong>both spouses are fully liable for each other's debts</strong>. If your spouse takes out a personal loan, runs up credit card debt, or has business debts — creditors can pursue you personally for repayment. If your spouse is sequestrated (declared insolvent), the sequestration covers the joint estate, which is your half too. You can lose your share of your jointly-held home because of your spouse's separate financial decisions. This risk is real and has devastated many South African women who had no idea they shared their spouse's debts.</p>
+
+      <h3>When community of property makes sense</h3>
+      <p>It is appropriate for couples who are starting with no assets, no debts, and no prior financial commitments — who truly want everything pooled from day one. It also has one practical advantage: on divorce, the estate is divided equally without complex accrual calculations, which can simplify matters when there is little to dispute.</p>
+
+      <h2>Regime 2: Out of Community of Property — Without Accrual</h2>
+      <p>This regime requires a signed and registered Antenuptial Contract (ANC) that specifies the marriage is out of community of property, without the accrual system applying. Under this regime, each spouse's financial life remains entirely separate.</p>
+
+      <h3>How it works</h3>
+      <ul>
+        <li>What you owned before the marriage remains yours alone.</li>
+        <li>What you earn and acquire during the marriage remains yours alone.</li>
+        <li>Your debts are yours alone — your spouse's creditors cannot touch your assets.</li>
+        <li>If you divorce, each person takes what they own — there is no sharing of assets accumulated during the marriage.</li>
+      </ul>
+
+      <h3>The significant disadvantage for women</h3>
+      <p>This regime offers maximum financial protection, but it can be profoundly unfair to the lower-earning spouse or the spouse who stepped back from their career to raise children. If one partner works and accumulates significant wealth while the other raises children and sacrifices career advancement, the "out without accrual" spouse who stayed home may walk away from a 20-year marriage with almost nothing — despite having contributed equally (or more) to the household's functioning. This regime is common among wealthy individuals with significant pre-marriage assets to protect, but it is important to understand the full implications.</p>
+
+      <h2>Regime 3: Out of Community of Property — With Accrual (Most Recommended)</h2>
+      <p>This is the most widely recommended regime for modern South African couples, combining the protection of financial separation with the fairness of sharing what was built together. It requires an ANC that specifically includes the accrual system.</p>
+
+      <h3>How the accrual works</h3>
+      <p>Each spouse records their net asset value on the date of marriage (the "commencement value"). This figure is written into the ANC. During the marriage, your assets and debts remain separate — you are financially independent. When the marriage ends (by divorce or death), each spouse's estate growth during the marriage is calculated:</p>
+      <p><strong>Accrual = Net estate value at dissolution of marriage − Commencement value (adjusted for inflation)</strong></p>
+      <p>The spouse whose estate grew more during the marriage owes half the difference to the other spouse. This recognises that both partners contributed to the growth of the marriage's wealth — whether through earning income or through managing the home and raising children.</p>
+
+      <h3>Example</h3>
+      <p>At marriage, you had R50,000 and your partner had R100,000. At divorce 15 years later, you have R300,000 and your partner has R1,200,000. Your accrual: R250,000. Their accrual: R1,100,000. The difference: R850,000. You are entitled to half — R425,000 from your partner's estate.</p>
+      <p>This system specifically protects the spouse who took time out of the workforce to raise children and therefore accumulated less formal wealth — a situation that disproportionately affects women.</p>
+
+      <h2>What Is an Antenuptial Contract (ANC)?</h2>
+      <p>An Antenuptial Contract is a legal agreement signed by both parties before a civil marriage that sets out the matrimonial property regime that will govern the marriage. Key facts about ANCs in South Africa:</p>
+      <ul>
+        <li>It <strong>must be drafted and signed before the marriage ceremony</strong>. An ANC cannot be entered into after the marriage. Changing your regime after marriage requires a complex and expensive High Court application under Section 21 of the Matrimonial Property Act — possible, but rare.</li>
+        <li>It must be drafted by a <strong>qualified Notary Public</strong> (a specialist attorney admitted to practise as a notary). Not all attorneys are notaries — check before you book an appointment.</li>
+        <li>The ANC must be <strong>registered in the Deeds Registry</strong> within three months of execution. Your notary handles this registration.</li>
+        <li>If the ANC is not registered in time, it is void and your marriage defaults to community of property.</li>
+      </ul>
+
+      <h2>What Does an ANC Cost?</h2>
+      <p>ANC fees vary by notary and by the complexity of the contract:</p>
+      <ul>
+        <li>Simple ANC (standard out of community with accrual): R2,500–R5,000 in notary fees, plus Deeds Registry registration fees (approximately R400–R800).</li>
+        <li>Complex ANC (business protection clauses, exclusion of specific assets, bespoke terms): R5,000–R15,000+.</li>
+      </ul>
+      <p>This is a once-off cost for a document that governs your financial life for potentially decades. It is worth every rand. Do not let cost prevent you from getting this right — a legal clinic or LegalWise member may access these services at reduced rates.</p>
+
+      <h2>Special Clauses You Can Include in Your ANC</h2>
+      <p>An ANC is not a one-size-fits-all document. Depending on your circumstances, you may want to include:</p>
+      <ul>
+        <li><strong>Exclusion of inheritance:</strong> Ensuring that inheritances received during the marriage are excluded from the accrual calculation (they do not count toward either spouse's growth).</li>
+        <li><strong>Commencement value declaration:</strong> Precisely recording what each party owned at the date of marriage — important for accurate accrual calculation later.</li>
+        <li><strong>Business protection clause:</strong> If you own a business, excluding it from the accrual can protect it from division on divorce. This requires careful drafting to be enforceable.</li>
+        <li><strong>Forfeiture of benefits:</strong> A clause specifying that if the marriage ends due to one partner's misconduct, that partner forfeits their accrual claim. This is controversial and not always enforced by courts, but it exists as an option.</li>
+      </ul>
+
+      <h2>How Your Marriage Regime Affects Your Business</h2>
+      <p>If you own or plan to start a business, your matrimonial property regime has serious implications:</p>
+      <ul>
+        <li><strong>In community of property:</strong> Your spouse co-owns 50% of your business from day one. If your spouse has creditors, they can potentially attach business assets. Your spouse must co-sign major business transactions. Selling or pledging business assets without your spouse's consent can be legally challenged.</li>
+        <li><strong>Out of community (with or without accrual):</strong> Your business is yours alone. Your spouse's creditors cannot touch it. You can operate, sell, and pledge it without your spouse's written consent. This is the appropriate regime for any serious entrepreneur.</li>
+      </ul>
+
+      <h2>Can You Change Your Matrimonial Property Regime After Marriage?</h2>
+      <p>Yes — but it is difficult, expensive, and requires a High Court order. Both spouses must apply jointly, demonstrate sound reasons why the change is necessary and will not prejudice creditors, and publish the proposed change in the Government Gazette to give creditors the opportunity to object. The process typically costs R15,000–R40,000 in legal fees and takes several months. It is far easier to get the regime right before the wedding than to change it afterwards.</p>
+
+      <h2>Marriage Contracts and Your Will</h2>
+      <p>Your matrimonial property regime directly affects estate planning. In community of property, half the joint estate always passes to the surviving spouse — your will only governs your half. Out of community, your entire estate is governed by your will. Ensure your will and your ANC are aligned — your estate planner or attorney should review both together. Read our guide on <a href="{{BASE_PATH}}legal/estate-planning/drafting-a-will.html">drafting a will in South Africa</a> for the full picture.</p>
+
+      <h2>The Bottom Line: Which Regime Should You Choose?</h2>
+      <p>For most modern South African couples, <strong>out of community of property with accrual</strong> is the most balanced and fair regime. It protects each partner from the other's debts during the marriage, while ensuring that both partners share equally in the wealth built during the marriage on dissolution. It specifically protects the partner who sacrifices career advancement for family responsibilities.</p>
+      <p>The only scenario where out of community without accrual makes sense is when one partner has significant pre-existing wealth that they want to ensure is never subject to division — typically in second marriages or business owner situations where specific asset protection is needed.</p>
+      <p>Whatever you decide: see a Notary Public. The conversation costs nothing, the advice is invaluable, and the ANC is the most financially protective document you will ever sign.</p>
     `
   },
   {
@@ -2538,69 +2774,105 @@ const articles = [
     date: "May 1, 2026",
     image: "credit_score_sa.png",
     content: `
-      <h2>The Ultimate Guide to Understanding and Improving Your Credit Score in South Africa</h2>
-      <p>In South Africa's current economic climate, your credit score is the most critical number attached to your name. It is the master key that unlocks major financial milestones—from buying your dream home and financing a reliable vehicle, to securing favorable interest rates and even renting an apartment in a desirable neighborhood. However, despite its importance, the mechanics behind credit scores remain a mystery to many.</p>
-      <p>Whether you are looking to enter the property market, applying for a business loan, or simply wanting to clean up your financial profile, understanding how credit works in South Africa is non-negotiable. This comprehensive, SEO-optimized guide will demystify the credit scoring system and provide you with actionable, proven strategies to improve your score fast.</p>
-      
-      <h3>What Exactly is a Credit Score?</h3>
-      <p>Your credit score is a three-digit number, typically ranging from 0 to 999, that indicates your creditworthiness to lenders. Think of it as a financial report card. It is calculated based on your historical behavior with credit—including how reliably you pay your bills, the total amount of debt you owe, the length of your credit history, and the types of credit you utilize.</p>
-      <p>A higher score signifies to banks and lenders that you are a low-risk borrower. This translates directly into tangible financial benefits: significantly lower interest rates, higher credit limits, and faster loan approvals. Conversely, a low score can lead to application rejections or exorbitant interest rates that cost you thousands of Rands over the lifespan of a loan.</p>
+      <p>Your credit score is arguably the single most financially consequential number in your life. It determines whether you qualify for a home loan, what interest rate you pay on vehicle finance, whether a landlord accepts your rental application, and in some industries, whether you get hired. Yet the majority of South Africans have never seen their credit report, do not know their score, and have no strategy for managing it. This comprehensive guide fixes that.</p>
 
-      <h3>How is Your Credit Score Calculated in South Africa?</h3>
-      <p>While the exact algorithms used by credit bureaus are proprietary, they generally weigh the following factors:</p>
+      <h2>What Is a Credit Score and Why Does It Matter?</h2>
+      <p>A credit score is a three-digit number — in South Africa typically ranging from 0 to 999 — that represents your creditworthiness to lenders. It is a numerical summary of your entire credit history: how reliably you pay accounts, how much debt you carry relative to your limits, how long you have had credit, and how recently you have applied for new credit.</p>
+      <p>Here is why it matters in concrete, financial terms:</p>
       <ul>
-        <li><strong>Payment History (approx. 35%):</strong> Do you pay your bills on time? Even a single missed payment can negatively impact your score.</li>
-        <li><strong>Credit Utilization (approx. 30%):</strong> How much of your available credit are you using? Maxing out your credit cards is a massive red flag to lenders.</li>
-        <li><strong>Length of Credit History (approx. 15%):</strong> How long have you had active credit accounts? Older accounts with good standing boost your score.</li>
-        <li><strong>New Credit (approx. 10%):</strong> How many new accounts have you opened recently? Multiple applications in a short period suggest financial distress.</li>
-        <li><strong>Credit Mix (approx. 10%):</strong> Do you have a healthy mix of revolving credit (like credit cards) and installment loans (like a car loan)?</li>
+        <li><strong>Home loan qualification:</strong> Most major banks require a minimum score of approximately 600–650 to even consider a home loan application. A score above 700 typically qualifies you for prime-linked rates. A score below 550 means most banks will decline outright.</li>
+        <li><strong>Interest rate impact:</strong> On a R1 million home loan over 20 years, the difference between a 0.5% better interest rate (which a higher credit score unlocks) is approximately R80,000 in total interest savings over the life of the loan. Your credit score has a direct, measurable rand value.</li>
+        <li><strong>Vehicle finance:</strong> A poor credit score means either rejection or interest rates 3–5% higher than someone with an excellent score. On a R200,000 car financed over 60 months, that is R15,000–R25,000 in additional interest.</li>
+        <li><strong>Rental applications:</strong> Landlords and property management companies routinely run credit checks. A poor score or adverse listings can result in rental application rejections in competitive areas like Cape Town and Johannesburg.</li>
       </ul>
-      
-      <h3>The Major Credit Bureaus in South Africa</h3>
-      <p>In South Africa, lender data is collected and managed by several major credit bureaus. The prominent ones include:</p>
+
+      <h2>Credit Score Ranges in South Africa Explained</h2>
+      <p>Different bureaus use slightly different scales, but as a general guide:</p>
       <ul>
-        <li><strong>TransUnion:</strong> One of the most widely used bureaus by major SA banks.</li>
-        <li><strong>Experian:</strong> Provides detailed consumer credit reports and scores.</li>
-        <li><strong>Compuscan / Experian:</strong> Commonly used by retailers and micro-lenders.</li>
-        <li><strong>XDS (Xpert Decision Systems):</strong> Another key player in the SA credit landscape.</li>
+        <li><strong>750–999 — Excellent:</strong> You will qualify for the best interest rates and the largest credit limits. Banks compete for your business.</li>
+        <li><strong>700–749 — Good:</strong> You qualify for most credit products at competitive rates, though not always the absolute best rates.</li>
+        <li><strong>650–699 — Fair:</strong> You can access most mainstream credit products, but interest rates will be higher and you may face stricter conditions.</li>
+        <li><strong>600–649 — Below Average:</strong> You may qualify for some products (especially store credit and entry-level vehicle finance) but will face high interest rates and frequent rejections.</li>
+        <li><strong>Below 600 — Poor:</strong> Mainstream lenders will mostly decline. You may only qualify for very high-rate micro-lenders, which is a debt trap to avoid.</li>
+        <li><strong>0 — No Score (Thin File):</strong> You have no credit history. This is also a problem — you cannot demonstrate creditworthiness. Building credit responsibly from zero is your path forward.</li>
       </ul>
-      <p>Under the National Credit Act (NCA), every South African is entitled to <strong>one free credit report per year</strong> from each of these bureaus. Make it an annual financial health habit to download and review your reports.</p>
-      
-      <h2>7 Proven Strategies to Improve Your Credit Score Fast</h2>
-      <p>If your score isn't where you want it to be, don't panic. Credit scores are dynamic. Here are seven highly effective, actionable strategies to boost your score:</p>
 
-      <h3>1. Automate Your Minimum Payments</h3>
-      <p>Your payment history is the single largest component of your credit score. Missing a payment by just a few days can trigger a negative mark. To prevent human error, set up automated debit orders for the minimum amount due on all your accounts. You can always make manual additional payments, but the debit order ensures you never get flagged for a late payment.</p>
+      <h2>How Is Your Credit Score Calculated in South Africa?</h2>
+      <p>Credit bureaus use proprietary algorithms, but the major factors and their approximate weights are:</p>
+      <ul>
+        <li><strong>Payment history (~35%):</strong> The most important factor. Every on-time payment strengthens your score. One missed payment by 30+ days can drop an excellent score by 50–100 points.</li>
+        <li><strong>Credit utilisation (~30%):</strong> The percentage of your available revolving credit that you are using. Keep this below 30% across all accounts. If your combined credit limits total R40,000 and your outstanding balances total R32,000, your utilisation is 80% — severely damaging your score.</li>
+        <li><strong>Credit history length (~15%):</strong> The average age of your open credit accounts. A 10-year-old account in good standing contributes more than a 6-month-old account.</li>
+        <li><strong>New credit applications (~10%):</strong> Every hard inquiry (when a lender checks your score for a credit application) causes a small, temporary score drop. Multiple applications in a short period — even if not all approved — signal financial distress.</li>
+        <li><strong>Credit mix (~10%):</strong> A mix of installment loans (vehicle, personal loan) and revolving credit (credit card, store account) shows lenders you can manage different debt types responsibly.</li>
+      </ul>
 
-      <h3>2. Slay Your Credit Utilization Ratio</h3>
-      <p>Your credit utilization ratio is the percentage of your total available credit that you are currently using. Financial experts recommend keeping this ratio below 30%. For example, if you have a credit card with a R20,000 limit, you should aim to keep the outstanding balance below R6,000. If your utilization is currently high, prioritize paying down the balances on your revolving credit lines. This is often the fastest way to see a jump in your score.</p>
+      <h2>The Five Credit Bureaus in South Africa — and Your Free Reports</h2>
+      <p>South Africa has five registered credit bureaus. The National Credit Act (NCA) gives you the right to one free credit report per year from each bureau:</p>
+      <ul>
+        <li><strong>TransUnion</strong> (mytransunion.co.za) — used by most major banks including Standard Bank, Nedbank, and Absa</li>
+        <li><strong>Experian</strong> (experian.co.za) — widely used by banks and employers</li>
+        <li><strong>Compuscan</strong> (now part of Experian) — commonly used by retailers and micro-lenders</li>
+        <li><strong>XDS (Xpert Decision Systems)</strong> (xds.co.za) — used by many municipalities and utility providers</li>
+        <li><strong>Lightstone Consumer</strong> — property and consumer data</li>
+      </ul>
+      <p>For ongoing monitoring, <strong>ClearScore</strong> (clearscore.com/za) provides your Experian-powered score and report for free, updated monthly. <strong>MyTransUnion</strong> gives you one free report per year, with premium monitoring available. Pull your free reports from all bureaus at least once a year — errors at one bureau may not appear at another.</p>
 
-      <h3>3. Do Not Close Old, Paid-Off Accounts</h3>
-      <p>It is a common misconception that closing an old credit card or retail account will improve your score. In reality, closing an old account reduces your total available credit (which spikes your utilization ratio) and shortens your average credit history length. If an old card has no annual fees, keep it open and use it occasionally for small purchases, paying it off immediately.</p>
+      <h2>What Negative Events Do to Your Score (And How Long They Last)</h2>
+      <p>Understanding the timeline of negative listings helps you plan your credit repair strategy:</p>
+      <ul>
+        <li><strong>Late payment (1–29 days late):</strong> May or may not be reported, depending on the lender. Impact is moderate. Clears with consistent on-time payments.</li>
+        <li><strong>Late payment (30+ days):</strong> Formally reported as a missed payment. Significant negative impact. The listing remains for 1 year after settlement.</li>
+        <li><strong>Default listing ("handed over" or "written off"):</strong> Remains on your profile for 1 year after the debt is settled, or 1 year from the date it was listed (whichever is later).</li>
+        <li><strong>Debt review flag:</strong> Removed within 21 business days of your Debt Counsellor issuing a Clearance Certificate (Form 19). See our <a href="{{BASE_PATH}}finance/debt/debt-review-counselling-sa.html">complete debt review guide</a>.</li>
+        <li><strong>Court judgment:</strong> Remains on your profile for 5 years from date of judgment, or until the judgment is rescinded (paid and the court removes it).</li>
+        <li><strong>Sequestration (insolvency):</strong> Remains for 5 years, or until a rehabilitation order is granted.</li>
+        <li><strong>Hard inquiry (credit application):</strong> Small impact, remains for approximately 2 years but diminishes significantly after 12 months.</li>
+      </ul>
 
-      <h3>4. Dispute Inaccuracies Ruthlessly</h3>
-      <p>Credit bureaus make mistakes. You might find a late payment marked against you that you actually paid on time, or even a fraudulent account opened in your name. When you download your free annual report, scrutinize it line by line. If you find an error, immediately log a formal dispute with the bureau. Under SA law, they have 20 days to investigate and resolve the issue.</p>
+      <h2>8 Proven Strategies to Improve Your Credit Score</h2>
 
-      <h3>5. Limit "Hard Inquiries"</h3>
-      <p>Every time you apply for a new loan, credit card, or store account, the lender performs a "hard inquiry" on your profile. Too many hard inquiries within a 12-month period signal to lenders that you are desperate for credit, which lowers your score. Only apply for new credit when absolutely necessary.</p>
+      <h3>1. Automate Every Minimum Payment</h3>
+      <p>Payment history is the single largest component of your score. Set up a debit order for the minimum payment on every account. You can always pay more manually, but the debit order ensures you never miss the minimum and trigger a negative listing. Do this for every account: credit card, store accounts, vehicle finance, personal loans, and your home loan.</p>
 
-      <h3>6. Diversify Your Credit Mix</h3>
-      <p>Lenders like to see that you can responsibly manage different types of debt. A profile that only contains clothing store accounts is not as strong as one that shows a mix of a credit card, a vehicle finance loan, and a retail account—all managed perfectly. However, do not open new accounts solely for the purpose of mixing; do it organically as your financial needs evolve.</p>
+      <h3>2. Attack Your Credit Utilisation Ratio</h3>
+      <p>If you are using more than 30% of your available revolving credit limits, paying down those balances is the fastest lever you can pull to improve your score. Unlike payment history (which takes months to improve), reducing utilisation can reflect in your score within 30–60 days of the bureau receiving updated balance information from your lender. If you have a credit card with R20,000 limit and R16,000 outstanding, paying it down to R6,000 can produce a notable score improvement quickly.</p>
 
-      <h3>7. Consider a Credit Builder Card</h3>
-      <p>If you have a very low score or no credit history at all, consider applying for a secured credit card or a low-limit credit builder card through your primary bank. Use it for basic monthly expenses (like groceries or petrol) and pay the full balance off before the due date every single month. This builds a positive payment history very quickly.</p>
-      
-      <h2>Frequently Asked Questions (FAQs)</h2>
-      <p><strong>How long does a bad debt stay on my credit profile in SA?</strong><br>
-      Adverse classifications (like "default" or "handed over") generally stay on your profile for 1 to 2 years, or until the debt is settled. Judgments stay on your profile for 5 years or until paid in full.</p>
-      
-      <p><strong>Will checking my own credit score lower it?</strong><br>
-      No. Checking your own score is considered a "soft inquiry" and does not impact your credit score at all. You can check it as often as you like via platforms like ClearScore or MyTransUnion.</p>
+      <h3>3. Request a Credit Limit Increase (Without Increasing Spending)</h3>
+      <p>If your bank increases your credit limit and your spending stays the same, your utilisation ratio drops — which improves your score. Call your bank and request a limit increase. Most banks will consider this if you have been a good customer with consistent payment history. Do not use the extra credit — it is purely a utilisation ratio management tool.</p>
 
-      <p><strong>Does being married in community of property affect my score?</strong><br>
-      Yes. If you are married in community of property in South Africa, you and your spouse share a joint estate. This means your spouse's debts and credit behavior directly impact your financial standing and borrowing capacity. Read more about <a href="../../../articles/legal/marriage/marriage-contracts-sa.html">Marriage Contracts in SA here</a>.</p>
+      <h3>4. Never Close Your Oldest Account</h3>
+      <p>Closing an old account removes that account's positive payment history from your active profile and reduces your total available credit (raising your utilisation ratio). Your oldest open account — even if you barely use it — should be kept open indefinitely, provided it has no annual fee. If it has a fee, weigh the cost against the credit history benefit.</p>
 
-      <p>Building an excellent credit score is a marathon, not a sprint. By implementing these strategies consistently, you will build a robust financial foundation that will serve you for decades to come.</p>
+      <h3>5. Dispute Errors Immediately</h3>
+      <p>Bureau errors are more common than most people realise — paid-off accounts still showing balances, accounts belonging to a different person with a similar name, incorrect late payment listings, or paid judgments still showing as unpaid. Errors can cost you dozens of points. Under the NCA, a bureau must investigate a dispute within 20 business days and remove or correct inaccurate information. Dispute in writing (via the bureau's online portal or registered letter), keep records, and follow up.</p>
+
+      <h3>6. Space Out Credit Applications</h3>
+      <p>Each credit application triggers a hard inquiry. Multiple inquiries within a short period signal financial distress to lenders, even if each individual application was for a modest amount. Space credit applications at least 3–6 months apart where possible. If you are rate shopping for a home loan (approaching multiple banks in a short period), most scoring models treat multiple mortgage inquiries within 14–45 days as a single inquiry — but this does not apply to different types of credit.</p>
+
+      <h3>7. Settle Adverse Listings and Get Removal Confirmation in Writing</h3>
+      <p>If you have adverse listings (defaults, accounts handed over), settling the debt is essential — but settlement alone does not automatically remove the listing. After settling, obtain a <strong>paid-up letter</strong> from the credit provider and submit it to each credit bureau with a request to update your profile. Follow up to confirm the listing has been updated. Do not assume it happens automatically.</p>
+
+      <h3>8. Build Credit from Zero Strategically</h3>
+      <p>If you have no credit history (a "thin file"), lenders cannot assess your risk. Building credit responsibly from zero takes 6–18 months. The fastest path: apply for one store account (Woolworths, Edgars, or Mr Price all have accessible entry-level credit) or a low-limit credit card through your main bank. Use it for one or two small purchases per month. Pay the full balance before the due date every single month without fail. After 6 months of perfect payment history, apply for a second account. After 12 months, your score will be meaningfully established.</p>
+
+      <h2>How Marriage Affects Your Credit Score in South Africa</h2>
+      <p>If you are married <strong>in community of property</strong>, your spouse's credit behaviour directly affects your financial profile. Your estates are merged, meaning your spouse's defaults and judgments can impair your ability to get credit. This is one of the most financially significant arguments for signing an Antenuptial Contract. Read our complete guide on <a href="{{BASE_PATH}}legal/marriage/marriage-contracts-sa.html">marriage contracts in South Africa</a>.</p>
+      <p>If you are married <strong>out of community of property</strong>, your credit profiles remain separate. Your spouse's financial difficulties cannot directly damage your score.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>How long does it take to improve a bad credit score?</h3>
+      <p>Small improvements (from consistent payment history and reduced utilisation) can be visible within 60–90 days. Significant rebuilding — from a score below 600 to above 700 — typically takes 12–24 months of disciplined behaviour. Recovering from a judgment or sequestration takes 3–5 years of consistent positive history.</p>
+
+      <h3>Can I pay someone to clean my credit record?</h3>
+      <p>Legitimate adverse listings — real late payments, real defaults, real judgments — cannot be legally removed before their regulated expiry date by anyone. Companies that promise to "clean" or "clear" your credit record for a fee are either referring to legitimate dispute resolution (which you can do yourself for free) or are fraudulent. Report any company promising to remove legitimate listings to the National Credit Regulator (ncr.org.za).</p>
+
+      <h3>Will checking my own score lower it?</h3>
+      <p>No. Checking your own score is a "soft inquiry" and has zero impact on your score. Check it as often as you like via ClearScore or MyTransUnion — it is a healthy habit. Only "hard inquiries" (when a lender checks in response to your credit application) affect your score.</p>
+
+      <h3>What credit score do I need for a home loan?</h3>
+      <p>As a guideline, most major South African banks want a minimum score of approximately 600 for a home loan application. A score of 680+ gives you a meaningful chance of approval at competitive rates. A score above 750 puts you in the strongest position. Note that credit score is only one factor — banks also assess your income, expenses, employment stability, and deposit size.</p>
     `
   },
   {
@@ -2612,54 +2884,97 @@ const articles = [
     date: "April 20, 2026",
     image: "tfsa_investing_sa.png",
     content: `
-      <h2>Tax-Free Savings Accounts (TFSA) in South Africa: The Ultimate Wealth Building Guide</h2>
-      <p>Introduced by the South African government in 2015 to foster a culture of domestic saving, the Tax-Free Savings Account (TFSA) is arguably the most powerful wealth-creation tool available to the average citizen. If you are investing money in a standard savings account or taxable brokerage account before maximizing your TFSA, you are effectively giving your wealth away to SARS.</p>
-      <p>Despite its name, a TFSA should be viewed as a long-term investment vehicle rather than a simple savings account. This comprehensive guide covers everything you need to know about TFSAs, contribution limits, asset allocation, and how to maximize your tax-free returns.</p>
-      
-      <h3>The Unmatched Benefits of a TFSA</h3>
-      <p>The primary and most profound benefit of a TFSA is absolute tax immunity. In a standard investment account, you are subject to Dividend Withholding Tax (20%), Capital Gains Tax (up to 18%), and Income Tax on interest earned. In a TFSA, <strong>all growth—every cent of interest, every dividend paid, and all capital appreciation—is 100% tax-free.</strong></p>
-      <p>Furthermore, when you eventually withdraw your funds (whether that is in 5 years or 40 years), the withdrawal is completely exempt from income tax. Over a multi-decade investing horizon, the absence of tax drag allows your money to compound at a significantly accelerated rate compared to taxable accounts.</p>
-      
-      <h3>Understanding the Strict Contribution Limits</h3>
-      <p>To prevent wealthy individuals from exploiting the system, the National Treasury has placed strict limits on TFSA contributions:</p>
-      <ul>
-        <li><strong>Annual Limit:</strong> You may contribute up to <strong>R36,000 per tax year</strong> (which runs from 1 March to 28/29 February). This breaks down to R3,000 per month if you automate your investments.</li>
-        <li><strong>Lifetime Limit:</strong> You may contribute a maximum of <strong>R500,000 over your lifetime</strong>. At the maximum annual contribution rate, it will take you roughly 14 years to reach this limit.</li>
-      </ul>
-      <p><strong>CRITICAL WARNING:</strong> Do not exceed the contribution limits! Any amount contributed over the annual R36,000 or lifetime R500,000 is subject to a brutal <strong>40% penalty tax</strong> by SARS. For example, if you contribute R40,000 in a tax year, you will be penalized 40% on the R4,000 over-contribution (R1,600 penalty).</p>
-      
-      <h3>Where Should You Invest Your TFSA?</h3>
-      <p>The name "Tax-Free Savings Account" is somewhat misleading, as it prompts many South Africans to open a cash-based TFSA at their local bank. While cash TFSAs exist, they generally offer interest rates that barely beat inflation. If you use your TFSA for cash savings, you are wasting its potential.</p>
-      <p>To truly maximize a TFSA, it should be heavily allocated towards high-growth asset classes, primarily equities. Under SA law, you can invest your TFSA in:</p>
-      <ul>
-        <li><strong>Exchange Traded Funds (ETFs):</strong> This is the recommended route for most investors. ETFs tracking local indices (like the Satrix 40) or global indices (like the MSCI World or S&P 500) offer excellent diversification, low fees, and high long-term growth potential.</li>
-        <li><strong>Unit Trusts:</strong> Actively managed funds are allowed, though their higher fees can eat into your compounding returns.</li>
-        <li><strong>Retail Savings Bonds:</strong> Government bonds offering fixed returns, suitable for very conservative investors nearing retirement.</li>
-      </ul>
-      <p>Platforms like EasyEquities, Sygnia, and Satrix allow you to open a TFSA and invest directly into a wide range of low-cost ETFs.</p>
-      
-      <h3>TFSA vs. Retirement Annuity (RA)</h3>
-      <p>A common question is whether to prioritize a TFSA or a Retirement Annuity (RA). Both offer tax advantages, but they operate differently:</p>
-      <ul>
-        <li><strong>Tax Timing:</strong> An RA gives you a tax deduction <em>now</em> (contributions are tax-deductible up to 27.5% of your income), but you pay tax on the withdrawals in retirement. A TFSA gives you no tax deduction now, but withdrawals are completely tax-free later.</li>
-        <li><strong>Accessibility:</strong> You cannot access RA funds before age 55. You can withdraw from a TFSA at any time (though it is not recommended).</li>
-        <li><strong>Regulation 28:</strong> RAs are subject to Regulation 28 of the Pension Funds Act, which limits offshore exposure (currently max 45%). A TFSA can be invested 100% in offshore ETFs (like an S&P 500 tracker).</li>
-      </ul>
-      <p>Ideally, a robust financial plan utilizes both vehicles. Many financial advisors recommend maximizing your matched employer pension contributions first, then maximizing your R36k TFSA allocation, and finally topping up an RA for further tax deductions.</p>
+      <p>South Africa's Tax-Free Savings Account (TFSA) is the most powerful wealth-building tool available to the average South African — and one of the most misunderstood. Millions of South Africans have opened one at their local bank branch and left it sitting in a cash account earning 5% interest, not realising they have access to a vehicle that, invested correctly over 20 years, can generate R1 million in completely tax-free growth. This guide covers everything: the rules, the limits, the best providers, the right investments, and how a TFSA fits into your broader financial plan.</p>
 
-      <h3>The Golden Rule of TFSA Withdrawals</h3>
-      <p>While you <em>can</em> withdraw from a TFSA at any time without penalty, <strong>withdrawals do not reset your contribution limits</strong>. </p>
-      <p>If you have contributed R30,000 this year and experience an emergency, you can withdraw R10,000. However, you cannot "replace" that R10,000. Your remaining contribution allowance for the year remains R6,000. Because the lifetime limit of R500,000 is based purely on <em>contributions</em>, every withdrawal permanently reduces the total amount of capital you are allowed to shelter from tax.</p>
-      <p>For this reason, you should have a separate, accessible <a href="../../../articles/finance/budgeting/manage-finances-2026.html">Emergency Fund</a> to cover short-term crises, leaving your TFSA untouched to compound over decades.</p>
+      <h2>What Is a Tax-Free Savings Account?</h2>
+      <p>A TFSA is a savings and investment account introduced by the South African government on 1 March 2015 under the <strong>Income Tax Act (Section 12T)</strong>. Its defining feature is that <strong>all growth within the account is completely exempt from tax</strong> — every rand of interest earned, every dividend received, and every capital gain made within a TFSA is never reported to SARS and never taxed.</p>
+      <p>In a standard investment account, South African investors pay:</p>
+      <ul>
+        <li><strong>Dividend Withholding Tax (DWT):</strong> 20% on all dividends received.</li>
+        <li><strong>Capital Gains Tax (CGT):</strong> Up to 18% on investment gains (at the highest marginal rate).</li>
+        <li><strong>Income Tax on interest:</strong> Interest income above the annual exemption (R23,800 for under-65s) is taxed at your marginal rate.</li>
+      </ul>
+      <p>In a TFSA, none of these taxes apply. The compounding effect of not paying these taxes year after year over a 20–30 year investment horizon is staggering.</p>
 
-      <h3>Action Plan: Getting Started Today</h3>
+      <h2>The Contribution Limits — Understand These Before You Invest</h2>
+      <p>National Treasury has set strict limits to prevent the wealthy from exploiting the tax benefit:</p>
+      <ul>
+        <li><strong>Annual limit:</strong> R36,000 per tax year (1 March to 28/29 February). This equals R3,000 per month if you automate contributions evenly across the year.</li>
+        <li><strong>Lifetime limit:</strong> R500,000 in total contributions (not account value — contributions). At the maximum annual rate of R36,000, it takes approximately 13.9 years to reach the lifetime limit.</li>
+      </ul>
+      <p><strong>The 40% penalty — the most expensive mistake in personal finance:</strong> If you contribute more than R36,000 in any tax year or exceed the R500,000 lifetime limit, SARS levies a <strong>40% tax on every rand over the limit</strong>. This is not a small administrative fee — it is genuinely punishing. On a R10,000 over-contribution, you owe SARS R4,000. The penalty is reported in your annual tax return. Never exceed the limits.</p>
+      <p><strong>Critical withdrawal rule:</strong> Withdrawals do not restore your contribution room. If you have contributed R30,000 this tax year and withdraw R10,000, your remaining annual allowance is still only R6,000 — not R16,000. The R10,000 withdrawal has permanently reduced the capital you can shelter from tax over your lifetime. This is why a TFSA should be treated as untouchable until retirement, and why a separate emergency fund is essential.</p>
+
+      <h2>Why a Cash TFSA Is a Wasted Opportunity</h2>
+      <p>The name "Tax-Free Savings Account" causes most South Africans to open one at their bank and leave it in a cash savings product. The bank offers perhaps 5–7% interest on a cash TFSA. After inflation (currently 5–6%), your real return is 1–2% per year. You have used your annual allowance — which you can never recover — to earn almost nothing in real terms.</p>
+      <p>A TFSA invested in equity ETFs has historically returned 10–15% per year over 15+ year periods. The tax-free benefit is most powerful precisely on high-growth assets. The more growth you generate inside the TFSA, the more tax you avoid. Using your TFSA for cash savings is using a Ferrari as a grocery trolley.</p>
+
+      <h2>What to Invest in Your TFSA</h2>
+
+      <h3>Exchange Traded Funds (ETFs) — The Recommended Approach</h3>
+      <p>ETFs are the ideal TFSA investment for most South Africans. They are passively managed (tracking an index rather than having a fund manager picking stocks), which means their fees (Total Expense Ratios, or TERs) are very low — typically 0.10–0.40% per year versus 1.5–2.5% for actively managed unit trusts. Lower fees mean more of your money compounds.</p>
+      <p>Recommended ETF categories for a TFSA:</p>
+      <ul>
+        <li><strong>Global equity ETF (core holding):</strong> A fund tracking the MSCI World Index (over 1,500 companies across 23 developed countries) gives you exposure to the best companies globally — Apple, Microsoft, LVMH, Nestle. Options: Satrix MSCI World ETF, 1nvest MSCI World Feeder ETF, CoreShares S&P Global 100.</li>
+        <li><strong>South African equity ETF (local growth):</strong> Satrix 40 ETF tracks the JSE's top 40 companies. Good for local market exposure but subject to SA economic risk. Consider limiting to 20–30% of your TFSA if you already have significant SA exposure through your employment and property.</li>
+        <li><strong>US equity ETF (global tech exposure):</strong> Sygnia Itrix S&P 500, or 1nvest S&P 500 Feeder ETF. Concentrated US exposure — high return historically but higher volatility.</li>
+      </ul>
+
+      <h3>Unit Trusts</h3>
+      <p>Actively managed unit trusts are permitted in a TFSA, but their higher fees (1.5–2.5% TER) significantly erode compounding returns over time. For most investors, low-cost ETFs outperform actively managed funds after fees over long periods. Only consider unit trusts if you have a specific reason to believe the manager adds enough value to justify the fee premium.</p>
+
+      <h3>Cash and Money Market</h3>
+      <p>Appropriate only if: (1) you are within 1–2 years of needing the funds (reducing market risk), or (2) you are a very conservative investor who truly cannot tolerate short-term volatility. For everyone else with a 5+ year horizon: equities, not cash.</p>
+
+      <h2>Best TFSA Providers in South Africa (2026 Comparison)</h2>
+
+      <h3>EasyEquities TFSA</h3>
+      <p>The most popular platform for self-directed investors. No monthly account fees. Access to all JSE-listed ETFs, US stocks, and international ETFs. Fractional shares mean you can start investing from R1. The TFSA interface clearly shows your annual contribution tracker. <strong>Best for:</strong> DIY investors who want to choose their own ETFs. easyequities.co.za</p>
+
+      <h3>Sygnia TFSA</h3>
+      <p>Sygnia is a South African investment manager known for ultra-low-cost index funds. Their TFSA offers access to the Sygnia ETF range (including the Sygnia Itrix S&P 500 and Sygnia Skeleton Balanced Fund) at very competitive TERs. Minimum investment R500/month. <strong>Best for:</strong> investors who want a simple, low-cost solution managed by a reputable local institution. sygnia.co.za</p>
+
+      <h3>Satrix TFSA (via SatrixNOW)</h3>
+      <p>Satrix pioneered index investing in South Africa. Their TFSA is focused exclusively on their own ETF range. No brokerage commissions on Satrix ETFs. Simple, clean interface. Minimum R300/month. <strong>Best for:</strong> investors who want to invest solely in Satrix products. satrix.co.za</p>
+
+      <h3>Franc</h3>
+      <p>The simplest TFSA option available. Two investment choices only: a money market fund (for conservative investors) and the Satrix Top 40 ETF (for growth investors). No financial jargon, slider-based allocation tool. Minimum R100/month. <strong>Best for:</strong> absolute beginners who want simplicity above all else. franc.co.za</p>
+
+      <h3>Allan Gray TFSA</h3>
+      <p>Allan Gray is one of South Africa's most respected investment managers. Their TFSA gives access to the Allan Gray range of unit trusts (actively managed). Higher fees than ETF options, but Allan Gray has a long track record of outperformance. Minimum R500/month. <strong>Best for:</strong> investors who specifically want Allan Gray's active management. allangray.co.za</p>
+
+      <h2>TFSA vs Retirement Annuity (RA) — Which to Prioritise?</h2>
+      <p>Both are tax-advantaged. They complement each other rather than competing, but the priority order matters:</p>
+      <ul>
+        <li><strong>First:</strong> Maximize employer pension/provident fund matching. An employer match is a 100% immediate return — always prioritise this above everything else.</li>
+        <li><strong>Second:</strong> Max your TFSA (R36,000/year). The completely tax-free withdrawal in retirement is its killer feature — an RA forces you to pay income tax on 2/3 of the fund value at withdrawal. A TFSA does not.</li>
+        <li><strong>Third:</strong> Top up an RA for the tax deduction. RA contributions are deductible up to 27.5% of taxable income (capped at R350,000/year). If you are in the 41% or 45% tax bracket, the RA tax deduction is extremely valuable.</li>
+        <li><strong>Fourth:</strong> Taxable investment account (EasyEquities regular account) for any additional savings beyond the above.</li>
+      </ul>
+
+      <h2>The Power of Starting Early: Real Numbers</h2>
+      <p>This table shows what happens when you invest R3,000/month into a TFSA earning 12% per year (a reasonable long-term equity return):</p>
+      <ul>
+        <li><strong>After 10 years:</strong> Contributed R360,000. Account value approximately R700,000. Tax-free growth: R340,000.</li>
+        <li><strong>After 14 years (lifetime limit reached):</strong> Contributed R500,000. Account value approximately R1,200,000. Tax-free growth: R700,000.</li>
+        <li><strong>After 20 years (no new contributions after year 14):</strong> Account value approximately R2,300,000. Total tax-free growth: R1,800,000.</li>
+        <li><strong>After 30 years:</strong> Account value approximately R7,200,000. Every rand of that growth is completely tax-free when you withdraw.</li>
+      </ul>
+      <p>The lifetime contribution limit of R500,000, invested wisely and left to compound for 30 years, can realistically produce R5–8 million in tax-free wealth. Start as early as possible — the difference between starting at 25 versus 35 is measured in millions, not thousands.</p>
+
+      <h2>What Happens to Your TFSA When You Die?</h2>
+      <p>Your TFSA forms part of your estate and is distributed according to your will (or the Intestate Succession Act if you have no will). The surviving spouse can receive a TFSA as an inheritance and continue contributing to it without it counting toward their own lifetime limit — a significant benefit. Nominate a beneficiary with your TFSA provider to ensure the funds transfer efficiently without going through the full estate administration process. Read our guide on <a href="{{BASE_PATH}}legal/estate-planning/drafting-a-will.html">drafting a will</a> to ensure your TFSA is properly addressed in your estate planning.</p>
+
+      <h2>How to Open Your TFSA: Step by Step</h2>
       <ol>
-        <li>Open a TFSA through a low-cost, execution-only platform like EasyEquities or a provider like Sygnia.</li>
-        <li>Select a broadly diversified, low-cost global equity ETF (e.g., a globally diversified MSCI World tracker).</li>
-        <li>Set up an automated monthly debit order of up to R3,000 to ensure consistent investing.</li>
-        <li>Never withdraw the funds until retirement.</li>
+        <li>Choose your platform (EasyEquities, Sygnia, or Satrix recommended for most people).</li>
+        <li>Register online with your SA ID number, selfie, and bank details (FICA compliance — takes 5–15 minutes).</li>
+        <li>Select "Tax-Free Savings Account" as your account type when opening.</li>
+        <li>Choose your investment (a single globally diversified ETF like the MSCI World is a perfectly complete strategy).</li>
+        <li>Set up an automated monthly debit order for the amount you can commit — even R500/month is a powerful start.</li>
+        <li>Set a calendar reminder: never exceed R36,000 per tax year. Your platform should track this for you, but verify manually.</li>
       </ol>
-      <p>By leveraging the immense power of tax-free compounding, your TFSA can become a cornerstone of your financial independence.</p>
+      <p>The most common reason South Africans do not have a TFSA is that they intend to start "when they have more money." Start with R200/month. Start today. The value of a TFSA is its tax-free compounding over decades — every month you delay is a month of compounding you can never recover.</p>
     `
   },
   {
@@ -2671,53 +2986,89 @@ const articles = [
     date: "April 15, 2026",
     image: "investing_r500_sa.png",
     content: `
-      <h2>How to Start Investing in South Africa with Just R500 a Month</h2>
-      <p>There is a pervasive myth in South Africa that investing is an exclusive club reserved for the wealthy. Many women believe that unless they have tens of thousands of Rands to spare, the stock market is out of their reach. This couldn't be further from the truth. In 2026, the democratization of finance means that you can start building generational wealth with as little as R500 a month.</p>
-      <p>This in-depth guide will break down exactly how you can start investing today on a budget, utilizing low-cost platforms and the mathematical miracle of compound interest to secure your financial future.</p>
-      
-      <h3>The Magic Mathematical Force: Compound Interest</h3>
-      <p>To understand why R500 a month matters, you must understand compound interest. Compound interest is the process of earning interest not only on your initial investment (your principal), but also on the accumulated interest from previous periods. Over time, your money begins to make money by itself.</p>
-      <p>Imagine you invest R500 a month into an equity fund that averages an annualized return of 10%. 
+      <p>The biggest financial lie told to South African women is that investing is only for the wealthy. The truth: the most powerful force in investing is not the size of your initial capital — it is the consistency of your contributions and the length of time you stay invested. R500 invested monthly from age 25, in the right vehicle, will outperform R50,000 invested as a lump sum at 45. This guide shows you exactly how to start, where to invest, what to buy, and how to stay the course when markets get uncomfortable.</p>
+
+      <h2>The Mathematical Case for Starting with R500</h2>
+      <p>Compound interest is the mechanism by which small, regular investments become large amounts of wealth. It works by generating returns not just on your original investment, but on all the accumulated returns from previous periods. Over time, your money makes money — and then that money makes money. The longer this runs, the more explosive the effect.</p>
+      <p>At a 12% average annual return (a reasonable long-term expectation for a globally diversified equity ETF), here is what R500 per month produces:</p>
       <ul>
-        <li>After 10 years, you would have contributed R60,000, but your investment would be worth roughly R102,000.</li>
-        <li>After 20 years, you would have contributed R120,000, but your investment would be worth roughly R382,000.</li>
-        <li>After 30 years, your total contribution of R180,000 transforms into an astonishing <strong>R1.13 million</strong>.</li>
+        <li><strong>After 5 years:</strong> R30,000 contributed → approximately R41,000 in total value</li>
+        <li><strong>After 10 years:</strong> R60,000 contributed → approximately R116,000 in total value</li>
+        <li><strong>After 20 years:</strong> R120,000 contributed → approximately R499,000 in total value</li>
+        <li><strong>After 30 years:</strong> R180,000 contributed → approximately R1,730,000 in total value</li>
+        <li><strong>After 40 years:</strong> R240,000 contributed → approximately R5,890,000 in total value</li>
       </ul>
-      <p>The secret ingredient is <strong>time</strong>. The earlier you start your R500 monthly investment, the harder compound interest works for you.</p>
-      
-      <h3>The Best Low-Cost Investment Platforms in SA</h3>
-      <p>Traditional stockbrokers used to charge high minimum fees that made small monthly investments mathematically unviable. Today, several fintech platforms in South Africa have eliminated these barriers:</p>
-      
-      <h4>1. EasyEquities</h4>
-      <p>EasyEquities is the undisputed leader for accessible investing in SA. They introduced "fractional shares," meaning if a share costs R2,000 and you only have R500, you can buy exactly a quarter of that share. They charge zero minimum monthly fees and very low transaction costs. You can invest in local JSE companies, US stocks, Australian stocks, and a massive variety of ETFs.</p>
-      
-      <h4>2. SatrixNOW</h4>
-      <p>Satrix pioneered index tracking in South Africa. Their platform, SatrixNOW (which is actually powered by EasyEquities technology), is designed specifically for investors who want to buy Satrix ETFs without paying broker commissions. It is incredibly user-friendly and perfect for a "set it and forget it" strategy.</p>
-      
-      <h4>3. Franc</h4>
-      <p>Franc is an award-winning mobile app designed to make investing as simple as possible. It removes the paradox of choice by offering just two funds: the Allan Gray Money Market Fund (for short-term cash savings) and the Satrix Top 40 ETF (for long-term equity growth). You use a slider to determine your split based on your risk profile. It is the ultimate platform for beginners.</p>
-      
-      <h3>What Should You Buy With Your R500?</h3>
-      <p>When you are starting out, picking individual company stocks (like Naspers, Tesla, or Apple) is highly risky. If that company performs poorly, your entire investment suffers. The smartest, most widely recommended strategy for beginners is to buy <strong>Exchange Traded Funds (ETFs)</strong>.</p>
-      <p>An ETF is a "basket" of shares that tracks an entire market index. When you buy one unit of an ETF, you are buying a tiny piece of dozens or hundreds of top companies simultaneously, providing instant diversification.</p>
-      
-      <h4>Recommended ETF Strategies for Beginners:</h4>
-      <ul>
-        <li><strong>The Local Play: Satrix Top 40 ETF.</strong> This tracks the 40 largest companies listed on the Johannesburg Stock Exchange. You instantly own a piece of Standard Bank, MTN, Naspers, and Shoprite.</li>
-        <li><strong>The Global Play: Satrix MSCI World ETF or Sygnia Itrix S&P 500.</strong> The South African economy represents less than 1% of the global economy. A global ETF gives you exposure to the biggest tech, healthcare, and financial companies in the US, Europe, and Asia, protecting your wealth against Rand depreciation.</li>
-      </ul>
-      <p>A common strategy for a R500 budget is to put the entire R500 into a globally diversified ETF every month, utilizing your <a href="../../../articles/finance/investing/tax-free-savings-accounts-sa.html">Tax-Free Savings Account (TFSA)</a> allocation.</p>
-      
-      <h3>The "Set It and Forget It" Methodology</h3>
-      <p>Human psychology is the biggest threat to investment returns. We get scared when the market drops and excited when it rises, leading to buying high and selling low. To combat this, you must automate your investing.</p>
+      <p>The numbers become increasingly dramatic because compound growth is exponential, not linear. <strong>Time is your most powerful investment tool</strong>, and it is the one thing you cannot buy back once it has passed.</p>
+
+      <h2>Before You Invest: The Three Non-Negotiables</h2>
+      <p>Investing with debt is often financially counterproductive. Before allocating R500/month to investments, confirm:</p>
       <ol>
-        <li>Set up a recurring debit order on your investment platform to deduct R500 from your bank account the day after you get paid.</li>
-        <li>Configure the platform to automatically invest that R500 into your chosen ETF (e.g., MSCI World).</li>
-        <li>Ensure that "Dividend Reinvestment" is turned on. When the companies in your ETF pay dividends, that cash should automatically buy more ETF units, accelerating the compounding effect.</li>
-        <li>Delete the app from your home screen. Do not check your portfolio daily. Investing is a 10-to-20-year game.</li>
+        <li><strong>High-interest debt is under control:</strong> Credit card and store account debt at 20–22% interest means paying that off first gives you a guaranteed, risk-free 20% return — better than most investments.</li>
+        <li><strong>You have an emergency fund:</strong> Without 3 months of living expenses in accessible savings, the first unexpected crisis will force you to sell your investments at a loss. Build your emergency fund first. See our <a href="{{BASE_PATH}}finance/budgeting/manage-finances-2026.html">complete financial management guide</a>.</li>
+        <li><strong>Your employer pension match is maximized:</strong> An employer pension match is an immediate 50–100% return on your contribution. Nothing else competes with this — always maximise it before investing privately.</li>
       </ol>
 
-      <p>Starting with R500 a month changes your identity from a consumer to an investor. Once you build the habit, you will naturally find ways to increase that amount over time. The most crucial step is simply to start today.</p>
+      <h2>Understanding Investment Risk — Finding Your Profile</h2>
+      <p>All investments involve risk. The key is matching your risk tolerance and time horizon to the right type of investment:</p>
+      <ul>
+        <li><strong>Equities (shares and equity ETFs):</strong> Highest long-term return potential (10–15% annually over long periods), but highest short-term volatility. Appropriate for 7+ year horizons.</li>
+        <li><strong>Balanced funds:</strong> Mix of equities, bonds, and cash. Lower return (7–10% over long periods) but significantly less volatility.</li>
+        <li><strong>Fixed income / bonds:</strong> Predictable, lower returns (5–8%). Appropriate for capital needed within 2–5 years or as a defensive retirement allocation.</li>
+        <li><strong>Money market / cash:</strong> Very low risk, low return (8–9% currently in SA). Appropriate for your emergency fund and capital needed within 12 months. Not appropriate for long-term wealth building.</li>
+      </ul>
+      <p>For a first-time investor with R500/month and a 10+ year horizon, a broadly diversified global equity ETF is the default recommendation of most financial advisors. You have time to ride out short-term volatility and benefit from long-term equity returns.</p>
+
+      <h2>The Best Investment Platforms for R500/Month</h2>
+
+      <h3>EasyEquities (Recommended for Most)</h3>
+      <p>No monthly account fees. Fractional shares (invest from R1). Access to JSE ETFs, US stocks, and an integrated Tax-Free Savings Account. Over 2 million South African users. FSCA regulated. easyequities.co.za</p>
+
+      <h3>Franc (Best for Absolute Beginners)</h3>
+      <p>Two investment choices only: Allan Gray Money Market Fund or Satrix Top 40 ETF. Slider-based allocation. No financial knowledge required. Minimum R100/month. franc.co.za</p>
+
+      <h3>Sygnia (Lowest Fees)</h3>
+      <p>Some of South Africa's lowest-cost ETFs including the Sygnia Itrix S&P 500 ETF (TER ~0.20%). Includes TFSA option. Minimum R500/month. sygnia.co.za</p>
+
+      <h3>Satrix</h3>
+      <p>Pioneer of index investing in South Africa. Zero brokerage on their own ETF range. Minimum R300/month. Clean, simple interface. satrix.co.za</p>
+
+      <h2>What to Buy: ETFs Explained for Complete Beginners</h2>
+      <p>An Exchange Traded Fund (ETF) is a basket of shares that trades on the stock exchange like a single share. When you buy one unit of an ETF, you instantly own tiny pieces of all the companies inside that basket — giving you <strong>instant diversification</strong> without needing to pick individual stocks.</p>
+
+      <h3>The Best ETFs for a R500/Month Beginner Investor</h3>
+      <ul>
+        <li><strong>Satrix MSCI World ETF</strong> — tracks 1,500+ companies across 23 developed countries. The core holding for most long-term investors. TER ~0.35%. This single ETF is a complete global portfolio.</li>
+        <li><strong>Sygnia Itrix S&P 500 ETF</strong> — tracks the 500 largest US companies. Excellent long-term historical return. TER ~0.20%.</li>
+        <li><strong>Satrix 40 ETF</strong> — tracks the 40 largest JSE-listed companies. Local SA exposure: Naspers, Standard Bank, Shoprite. TER ~0.10%.</li>
+        <li><strong>CoreShares Total World ETF</strong> — tracks both developed AND emerging markets globally. The most diversified single-fund option in SA. TER ~0.25%.</li>
+      </ul>
+      <p>A simple, complete portfolio: put everything into the Satrix MSCI World ETF inside your <a href="{{BASE_PATH}}finance/investing/tax-free-savings-accounts-sa.html">Tax-Free Savings Account</a>. That is it. Complexity does not improve returns — it usually reduces them.</p>
+
+      <h2>The Rand-Cost Averaging Strategy</h2>
+      <p>Rand-cost averaging means investing a fixed amount (R500) at regular intervals (monthly) regardless of whether the market is up or down. When markets are high, your R500 buys fewer units. When markets are low, your R500 buys more units. Over time, this averages out to a competitive purchase price and removes the anxiety of trying to time the market.</p>
+      <p>This is why automating your investment is critical. Set up a debit order on salary day. The investment happens before you can second-guess it based on market news. The worst investment decisions come from people who react emotionally to daily price movements. The best results come from people who invest mechanically and never touch their portfolio during market drops.</p>
+
+      <h2>The Emotional Danger of Market Crashes</h2>
+      <p>Every investor will experience a significant market crash. The JSE dropped over 30% in March 2020 (COVID). Global markets have had multiple 20–40% drops over the past 30 years. Each time, markets recovered — investors who stayed invested participated fully in the recovery; those who sold at the bottom locked in permanent losses.</p>
+      <p>When your R30,000 portfolio shows a paper loss of R8,000 during a crash: that loss is not real unless you sell. Your job during a crash is to continue your monthly investment (you are buying units at a discount), not to sell in panic. If volatility is genuinely distressing, a balanced multi-asset fund — less volatile but lower return — may suit your temperament better.</p>
+
+      <h2>When to Increase Your Investment</h2>
+      <ul>
+        <li>Every salary increase: commit 50% of the increase to your investment debit order before adjusting your lifestyle.</li>
+        <li>Every bonus: invest at least 30% before spending any of it.</li>
+        <li>Every time a debt is paid off: redirect that payment to your investment account. You were already living without it — keep living without it and invest it instead.</li>
+      </ul>
+      <p>The goal is to reach the TFSA maximum of R3,000/month as quickly as your income allows. Above R3,000/month, continue in a regular (taxable) investment account on EasyEquities. The TFSA is always the first R3,000/month — it is the most tax-efficient vehicle available to you.</p>
+
+      <h2>Tax Considerations for SA Investors</h2>
+      <ul>
+        <li><strong>TFSA investments:</strong> All growth completely tax-free. Always invest here first, up to the R36,000 annual limit.</li>
+        <li><strong>Taxable account — dividends:</strong> 20% Dividend Withholding Tax is automatically deducted. Nothing to declare separately for most ETF investors.</li>
+        <li><strong>Taxable account — capital gains:</strong> Annual exclusion of R40,000 — you only pay CGT on gains above this threshold in a tax year. For most small investors, normal monthly investing rarely triggers CGT.</li>
+        <li><strong>Retirement funds (RA):</strong> Contributions are tax-deductible up to 27.5% of income. Growth is tax-deferred. Tax paid at withdrawal in retirement.</li>
+      </ul>
+      <p>The most tax-efficient starting strategy: 100% of your R500/month into a TFSA invested in a global equity ETF. Simple, legal, optimised. Start today — not next month, not when you "have more money." The most expensive financial decision you will ever make is the months and years of compounding you lose by waiting.</p>
+
     `
   },
   {
