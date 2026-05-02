@@ -40,4 +40,14 @@
 | Understanding Your Credit Score in South Africa (And How to Improve It Fast) | finance | 1202 | Premium (A+) |
 | Tax-Free Savings Accounts (TFSA) in SA: Are You Maximizing Yours? | finance | 879 | High Quality (A) |
 | How to Start Investing in South Africa with Just R500 a Month | finance | 832 | High Quality (A) |
-| Debt Review vs Debt Counselling in South Africa: What You Need to Know | finance | 899 | High Quality (A) |
+| Debt Review in South Africa: The Complete 2026 Guide (How It Works, Costs & Alternatives) | finance | 2997 | Premium (A+) |
+| The Complete Guide to Claiming UIF Maternity Benefits in South Africa (2026) | finance | 1637 | Premium (A+) |
+| 5 Profitable Side Hustles You Can Start in South Africa with Under R1,000 | finance | 1202 | Premium (A+) |
+| A Complete Guide to Government Grants for Women-Owned Businesses in South Africa | career | 1245 | Premium (A+) |
+| How to Spot a Fake Remote Job Offer in South Africa (And What to Do If You've Been Scammed) | career | 1213 | Premium (A+) |
+| What Are Your Rights in a Customary Marriage? A Complete Legal Guide for South African Women | legal | 1178 | Premium (A+) |
+| Renting Without a Lease in South Africa? Here Are Your Rights as a Tenant | legal | 1324 | Premium (A+) |
+| 10 Proudly South African Skincare Brands You Need to Try in 2026 | beauty | 1085 | Premium (A+) |
+| The Best Affordable Natural Hair Products Available at Clicks and Dis-Chem in 2026 | beauty | 1149 | Premium (A+) |
+| 20 No-Cook Load Shedding Meal Ideas for Stage 6 (Quick, Filling, and Delicious) | recipes | 1421 | Premium (A+) |
+| 5 Safe and Beautiful Hiking Trails for Women in Cape Town (2026 Guide) | lifestyle | 1544 | Premium (A+) |
