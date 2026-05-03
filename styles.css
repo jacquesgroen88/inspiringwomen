@@ -742,3 +742,23 @@ a:hover {
         font-size: 1.6rem;
     }
 }
+
+/* Hide empty/unfilled AdSense auto-ad slots that leave blank gaps */
+ins.adsbygoogle[data-ad-status="unfilled"] {
+    display: none !important;
+}
+ins.adsbygoogle:empty {
+    display: none !important;
+}
+
+/* Mobile: stack list-post image above content on small screens */
+@media (max-width: 640px) {
+    article.list-post {
+        flex-direction: column !important;
+    }
+    .list-post-img {
+        flex: none !important;
+        width: 100% !important;
+        height: 200px !important;
+    }
+}
