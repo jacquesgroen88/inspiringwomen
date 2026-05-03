@@ -6,7 +6,7 @@ const articles = [
     subCategory: "pregnancy",
     author: "Jessica M.",
     date: "October 12, 2026",
-    image: "hospital_bag_1777368456721.png",
+    image: "hospital_bag_1777368456721.webp",
     content: `
       <p>Whether you are a first-time mother or adding to your family, the hospital bag is one of those tasks that feels overwhelming until you have a clear, comprehensive list. South African hospitals — whether you are delivering at a Netcare, Mediclinic, Life Healthcare private facility, or a public hospital — have specific requirements and culture around what to bring. This guide covers everything: what to pack, what to leave at home, how to prepare differently for a natural birth versus a C-section, and how to handle the early postpartum days with confidence.</p>
 
@@ -138,7 +138,7 @@ const articles = [
     subCategory: "budgeting",
     author: "Thandiwe N.",
     date: "January 5, 2026",
-    image: "finance_budgeting.png",
+    image: "finance_budgeting.webp",
     content: `
       <p>South Africa's economic environment in 2026 is demanding more financial discipline than ever before. With the prime lending rate still elevated after years of rate hikes, food inflation biting into household budgets, and load shedding adding invisible costs to every home and small business, the gap between women who manage their money with intention and those who don't is widening fast. This guide gives you a complete, practical framework — not generic advice — for taking control of your financial life in the South African context right now.</p>
 
@@ -246,7 +246,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "May 1, 2026",
-    image: "retinol_skincare.png",
+    image: "retinol_skincare.webp",
     content: `
       <h2>Unlock the Power of Vitamin A for Your Skin</h2>
       <p>Retinol is often hailed as the "gold standard" in skincare, and for very good reason. Backed by decades of clinical research, it remains one of the most powerful anti-aging, acne-fighting, and skin-renewing ingredients available without a prescription. Yet for many South African women, the word "retinol" still triggers anxiety — fear of flakiness, redness, or simply not knowing where to begin. If that sounds like you, this guide will walk you through everything you need to know to start your retinol journey safely, confidently, and with real results.</p>
@@ -342,7 +342,7 @@ const articles = [
     subCategory: "home-garden",
     author: "Megan W.",
     date: "May 12, 2026",
-    image: "indoor_plants_sa.png",
+    image: "indoor_plants_sa.webp",
     content: `
       <h2>The Best Low-Maintenance Indoor Plants for South African Homes</h2>
       <p>There is something profoundly restorative about living with plants. Research published in the Journal of Physiological Anthropology found that interacting with indoor plants reduces physiological and psychological stress — measurably lowering cortisol levels and blood pressure. NASA's landmark Clean Air Study documented the ability of specific indoor plants to remove volatile organic compounds (VOCs) like benzene, formaldehyde, and trichloroethylene from indoor air — compounds that off-gas from furniture, paint, carpets, and cleaning products, and that accumulate in South African homes where windows are frequently kept closed during cold Highveld winters or humid coastal summers.</p>
@@ -439,7 +439,7 @@ const articles = [
     subCategory: "home-garden",
     author: "Sarah T.",
     date: "May 15, 2026",
-    image: "small_balcony_decor.png",
+    image: "small_balcony_decor.webp",
     content: `
       <h2>How to Transform a Small Balcony Into a Beautiful Urban Sanctuary</h2>
       <p>Apartment living in South Africa's major cities — Johannesburg, Cape Town, Durban, Pretoria — has become the norm for millions of urban women. Smaller footprints, higher-rise living, and the densification of city centres mean that for many of us, a balcony is our only private outdoor space. It may be modest in size. It may currently be used as storage for things that don't fit inside. But with the right approach, even the most unpromising concrete slab can be transformed into a space you genuinely love to spend time in — a morning coffee retreat, an evening cocktail spot, a reading nook, or a small growing garden that connects you to nature in the middle of the city.</p>
@@ -515,7 +515,7 @@ const articles = [
     subCategory: "home-garden",
     author: "Admin",
     date: "May 18, 2026",
-    image: "water_wise_garden.png",
+    image: "water_wise_garden.webp",
     content: `
       <h2>The Complete Guide to Water-Wise Gardening in South Africa</h2>
       <p>South Africa is a water-scarce country. We receive less than half the global average annual rainfall, and that rainfall is unevenly distributed — with the Western Cape Mediterranean climate delivering rain in winter, the summer rainfall regions of Gauteng, KwaZulu-Natal, and Limpopo relying on seasonal thunderstorms, and large portions of the Northern Cape and Karoo existing in near-desert conditions year-round. Cape Town's Day Zero water crisis of 2018 sent a warning to the entire country that cannot be ignored: the way most South African gardens are currently planted and maintained is ecologically and financially unsustainable.</p>
@@ -610,7 +610,7 @@ const articles = [
     subCategory: "home-garden",
     author: "Michelle D.",
     date: "May 20, 2026",
-    image: "luxury_home_decor.png",
+    image: "luxury_home_decor.webp",
     content: `
       <h2>How to Make Your Home Look Expensive on a South African Budget</h2>
       <p>The most beautifully designed homes in the world share a surprising secret: the majority of what makes them look expensive has nothing to do with expensive furniture. It has to do with proportion, restraint, light, texture, and the quality of a few carefully chosen details. In 2026, the dominant interior design movement globally — and increasingly in South African homes — is "quiet luxury": a style defined not by flashy labels or maximalist displays, but by calm, considered spaces where every element feels intentional and every material rewards close inspection.</p>
@@ -684,7 +684,7 @@ const articles = [
     subCategory: "home-garden",
     author: "Chef Zola",
     date: "May 22, 2026",
-    image: "kitchen_organization.png",
+    image: "kitchen_organization.webp",
     content: `
       <h2>The Complete Kitchen Organization Guide for South African Homes</h2>
       <p>The kitchen is the most used room in almost every South African home — the place where meals are prepared, conversations happen, homework is done at the counter, and the day begins and ends. Yet for most households, it is also the room that causes the most daily stress: searching for the right pan, discovering you have three jars of the same spice but none of the one you need, clearing counter clutter before you can even begin cooking, or navigating an overcrowded fridge that somehow never contains what you actually need for dinner.</p>
@@ -766,7 +766,7 @@ const articles = [
     subCategory: "fitness",
     author: "Dr. Sarah T.",
     date: "November 5, 2026",
-    image: "fat_freeze.png",
+    image: "fat_freeze.webp",
     content: `
       <p>Stubborn pockets of fat that resist diet and exercise are one of the most common frustrations women bring to aesthetic clinics across South Africa. The two most popular non-surgical solutions — <strong>Fat Freeze (Cryolipolysis)</strong> and <strong>Laser Lipo</strong> — are both widely available in SA, but they work very differently, suit different goals, and vary significantly in cost. This guide breaks down exactly how each treatment works, what to expect, what it costs in 2026, and how to choose the right one for your body.</p>
 
@@ -879,7 +879,7 @@ const articles = [
     subCategory: "skincare",
     author: "Nandi M.",
     date: "May 5, 2026",
-    image: "natural_sa_beauty.png",
+    image: "natural_sa_beauty.webp",
     content: `
       <h2>Embrace Homegrown Botanical Secrets for a Radiant Complexion</h2>
       <p>South Africa is not only one of the world's most biodiverse nations — it is also one of the most underrated sources of world-class skincare ingredients. The fynbos biome of the Western Cape alone contains over 9,000 plant species, many of which have been used by indigenous communities for centuries to heal, protect, and beautify the skin. Today, cutting-edge cosmetic science is catching up with this ancient wisdom, and the global beauty industry is increasingly turning to our shores for its most potent natural actives. The best part? As South African women, we have direct, affordable access to these botanical powerhouses right here at home.</p>
@@ -972,7 +972,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "May 10, 2026",
-    image: "winter_skincare.png",
+    image: "winter_skincare.webp",
     content: `
       <h2>Protect Your Glow from the Highveld Dryness</h2>
       <p>South African winters are deceptively brutal on the skin. Unlike the cold, grey, rainy winters of the northern hemisphere, our winter months bring clear, blue skies that lull you into a false sense of sun-safety — while cold winds, bone-dry air, and high-altitude UV radiation quietly wreak havoc on your moisture barrier. Whether you live on the Highveld (where Johannesburg winters are notoriously harsh and dry), the Western Cape (where the cold front systems bring damp, wind-battered conditions), or KwaZulu-Natal (where winters are milder but the air still dries out), your skin requires a different strategy from June to August.</p>
@@ -1067,7 +1067,7 @@ const articles = [
     subCategory: "entertainment",
     author: "Megan W.",
     date: "December 1, 2026",
-    image: "summer_holiday.png",
+    image: "summer_holiday.webp",
     content: `
       <h2>Embracing the South African Summer Without the Stress</h2>
       <p>The South African "Silly Season" is infamous. Between the year-end corporate functions, extended family gatherings, endless weekend braais, and trying to keep the kids entertained, December can quickly feel more exhausting than the rest of the year combined! Here’s how to survive and thrive.</p>
@@ -1092,7 +1092,7 @@ const articles = [
     subCategory: "wfh",
     author: "Nandi M.",
     date: "January 15, 2026",
-    image: "home_office.png",
+    image: "home_office.webp",
     content: `
       <h2>The Complete Guide to Setting Up a Productive Home Office in South Africa</h2>
       <p>Remote and hybrid work have permanently reshaped how South African professionals operate. What began as an emergency response to the global pandemic has evolved into a fundamental shift in the way we work — and in 2026, the ability to work effectively from home is not a luxury or a perk. It is a core professional competency. Yet the gap between "working from home" and "working effectively from home" is enormous, and most people never bridge it because they never invest in the physical foundation: a properly designed workspace.</p>
@@ -1204,7 +1204,7 @@ const articles = [
     subCategory: "mental-health",
     author: "Michelle D.",
     date: "April 15, 2026",
-    image: "wfh_stress_1777368407302.png",
+    image: "wfh_stress_1777368407302.webp",
     content: `
       <h2>The Hidden Psychology of Remote Work Stress — and How to Take Back Control</h2>
       <p>Working from home sounds like the ultimate professional dream. No commute. Flexible hours. Your own fridge within arms reach. Yet for millions of South African women who made the shift to remote or hybrid work, the reality has turned out to be something quite different — and for many, significantly more stressful than the office life they left behind.</p>
@@ -1305,7 +1305,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Nomsa V.",
     date: "April 22, 2026",
-    image: "side_hustles_1777368424127.png",
+    image: "side_hustles_1777368424127.webp",
     content: `
       <h2>The Best Side Hustles for South African Women in 2026 — Ranked by Income Potential</h2>
       <p>The cost of living in South Africa has increased significantly over the past three years. Fuel, food, rent, and school fees have all risen faster than salary increases in most sectors. Meanwhile, the digital economy has opened up income opportunities that simply did not exist a decade ago — opportunities that require little to no startup capital, can be built entirely from your home office, and can scale from a few thousand rands a month to a full replacement income.</p>
@@ -1411,7 +1411,7 @@ const articles = [
     subCategory: "startups",
     author: "Admin",
     date: "April 24, 2026",
-    image: "small_business_sa.png",
+    image: "small_business_sa.webp",
     content: `
       <p>Turning your <a href="{{BASE_PATH}}career/entrepreneurship/side-hustles-sa.html">side hustle</a> or business idea into a formal, legally compliant entity in South Africa is more straightforward than most people think — but there are specific steps you need to follow in the right order. This guide walks you through registration, tax compliance, funding, and the practical realities of running a small business as a South African woman in 2026.</p>
 
@@ -1497,7 +1497,7 @@ const articles = [
     subCategory: "mental-health",
     author: "Dr. Kelly R.",
     date: "April 25, 2026",
-    image: "mental_health_wellness.png",
+    image: "mental_health_wellness.webp",
     content: `
       <p>South Africa has one of the highest rates of depression and anxiety in Sub-Saharan Africa, yet mental health remains deeply stigmatised — especially for women expected to hold everything together. Whether you are navigating postpartum depression, <a href="{{BASE_PATH}}career/mental-health/wfh-stress.html">workplace burnout</a>, relationship trauma, or a general sense that something is wrong, this guide covers every resource available to you in South Africa and what to expect when you reach out.</p>
 
@@ -1624,7 +1624,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "April 26, 2026",
-    image: "local_beauty_1777368389079.png",
+    image: "local_beauty_1777368389079.webp",
     content: `
       <h2>Local is Lekker: The Best South African Skincare Brands for 2026</h2>
       <p>Here is a fact that too many South African women don't know: some of the world's most innovative, clinically effective skincare is being formulated right here in our own country — at a fraction of the price of imported equivalents. While we queue to order The Ordinary from iHerb or spend R800 on a moisturizer from a department store counter, a quiet revolution in South African beauty has been building for years. Local brands formulated with indigenous botanical ingredients, clean chemistry, and sophisticated active delivery systems are quietly outperforming many imported products — and doing so at prices that make good skincare accessible to every woman.</p>
@@ -1719,7 +1719,7 @@ const articles = [
     subCategory: "quick-meals",
     author: "Chef Zola",
     date: "March 12, 2026",
-    image: "healthy_dinner.png",
+    image: "healthy_dinner.webp",
     content: `
       <h2>7 Quick, Healthy, and Loadshedding-Friendly Weeknight Dinners</h2>
       <p>It is 6pm. You have just walked through the door, your feet hurt, there is homework to supervise, and the electricity has been off for the past two hours. Sound familiar? Weeknight cooking in South Africa in 2026 requires a very particular skill set — fast, flexible, genuinely nutritious, and adaptable to whatever stage of loadshedding is currently trying to ruin your evening.</p>
@@ -1805,7 +1805,7 @@ const articles = [
     subCategory: "desserts",
     author: "Lisa B.",
     date: "March 18, 2026",
-    image: "brownies.png",
+    image: "brownies.webp",
     content: `
       <h2>The Best Keto Chocolate Brownies — Fudgy, Rich, and Genuinely Satisfying</h2>
       <p>If you have tried low-carb baking before and been disappointed by dry, crumbly, or suspiciously cardboard-textured results, this recipe is going to change your opinion. These brownies are genuinely, deeply chocolatey — dense and fudgy in the centre with slightly crisp edges — and they deliver the full emotional satisfaction of a real brownie without the 40-gram sugar hit that comes with a conventional one.</p>
@@ -1885,7 +1885,7 @@ const articles = [
     subCategory: "membership",
     author: "Admin",
     date: "February 2, 2026",
-    image: "inspiring_women_community.png",
+    image: "inspiring_women_community.webp",
     content: `
       <h2>Be Part of a Powerful South African Movement</h2>
       <p>Are you looking to elevate your career, expand your social circle, or find support for your business? There are countless reasons to join the Inspiring Women community. Here are the top 6 reasons you should become a member today:</p>
@@ -1909,7 +1909,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "February 14, 2026",
-    image: "retinol_skincare.png",
+    image: "retinol_skincare.webp",
     content: `
       <h2>The Skincare Mistakes Silently Sabotaging Your Skin (And How to Fix Every One)</h2>
       <p>You have invested in a skincare routine. You cleanse, you moisturize, maybe you've added a serum or two. And yet your skin isn't where you want it to be — the pigmentation persists, the breakouts keep coming, the texture isn't improving. If this sounds familiar, the problem is rarely the products. It's the habits surrounding them. South African women face some of the most challenging skincare conditions in the world — intense UV radiation, dry Highveld winters, humid coastal summers, a wide spectrum of skin tones and types — and common mistakes that might be forgiven in lower-UV environments can have real, lasting consequences here.</p>
@@ -2015,7 +2015,7 @@ const articles = [
     subCategory: "estate-planning",
     author: "Adv. Smith",
     date: "April 18, 2026",
-    image: "estate_planning_will.png",
+    image: "estate_planning_will.webp",
     content: `
       <p>More than 70% of South Africans die without a valid will. The consequences for their families are severe: frozen bank accounts, assets distributed according to a formula that ignores personal relationships, minor children's futures decided by courts rather than parents, and estates that take years — sometimes decades — to wind up while the family waits. Drafting a will is not morbid. It is one of the most loving and practical things you can do for the people who depend on you.</p>
 
@@ -2122,7 +2122,7 @@ const articles = [
     subCategory: "marriage",
     author: "Adv. Smith",
     date: "April 20, 2026",
-    image: "marriage_contract.png",
+    image: "marriage_contract.webp",
     content: `
       <p>Marriage in South Africa is not just a romantic commitment — it is one of the most significant financial and legal decisions you will ever make. The matrimonial property regime you choose (or default into) will determine who owns what during your marriage, what happens to your assets if you divorce, and how your estate is distributed when you die. Most couples in South Africa make this decision with almost no understanding of the implications. This guide changes that.</p>
 
@@ -2225,7 +2225,7 @@ const articles = [
     subCategory: "family-law",
     author: "Adv. Smith",
     date: "April 22, 2026",
-    image: "divorce_law.png",
+    image: "divorce_law.webp",
     content: `
       <h2>Understanding Divorce in South Africa</h2>
       <p>Divorce is one of the most financially and emotionally significant legal events a woman can go through. In South Africa, divorce is governed primarily by the <strong>Divorce Act 70 of 1979</strong> and the <strong>Matrimonial Property Act 88 of 1984</strong>. Understanding your rights before you sign anything — or before you even consult a lawyer — can mean the difference between walking away protected or being left financially vulnerable.</p>
@@ -2315,7 +2315,7 @@ const articles = [
     subCategory: "tenant-rights",
     author: "Adv. Smith",
     date: "April 24, 2026",
-    image: "tenant_renting.png",
+    image: "tenant_renting.webp",
     content: `
       <h2>Your Rights as a Tenant Under South African Law</h2>
       <p>Renting a home in South Africa is a significant financial commitment, yet many tenants — particularly women renting for the first time — are unaware of the robust legal protections available to them. South African rental law is comprehensive and firmly tilted toward protecting tenants from exploitative landlords, illegal evictions, and unfair lease conditions. Knowing your rights is the first step to exercising them.</p>
@@ -2407,7 +2407,7 @@ const articles = [
     subCategory: "employment-law",
     author: "Adv. Smith",
     date: "April 26, 2026",
-    image: "women_employment.png",
+    image: "women_employment.webp",
     content: `
       <h2>Know What the Law Guarantees You at Work</h2>
       <p>South African labour law is among the most comprehensive in Africa, offering significant protections to employees — particularly women, who face unique workplace challenges ranging from pay gaps to pregnancy discrimination to sexual harassment. Understanding your rights is not just academic: it can protect your income, your health, your dignity, and your career.</p>
@@ -2499,7 +2499,7 @@ const articles = [
     subCategory: "business-law",
     author: "Adv. Smith",
     date: "April 28, 2026",
-    image: "business_registration.png",
+    image: "business_registration.webp",
     content: `
       <h2>Making Your Hustle Official: Business Registration in South Africa</h2>
       <p>Whether you've been running a successful side hustle from your kitchen table or you're launching a new venture from scratch, there comes a point where formalising your business makes both financial and legal sense. Operating as a registered entity protects you personally from business debts, opens doors to business banking, government contracts, and funding, and gives your clients confidence that they are dealing with a legitimate operation.</p>
@@ -2585,7 +2585,7 @@ const articles = [
     subCategory: "estate-planning",
     author: "Adv. Smith",
     date: "April 30, 2026",
-    image: "life_insurance.png",
+    image: "life_insurance.webp",
     content: `
       <h2>Why Life Insurance Is a Financial Planning Essential, Not an Optional Extra</h2>
       <p>Life insurance is one of the most misunderstood financial products in South Africa. Many women either have far too little coverage (or none at all), or they are paying for policies that don't actually serve their needs. Understanding the basics — the types of cover available, how premiums are calculated, the difference between a policy and a group benefit, and the critical role beneficiary nominations play — will help you make decisions that genuinely protect the people who depend on you.</p>
@@ -2672,7 +2672,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 5, 2026",
-    image: "bobotie_sa.png",
+    image: "bobotie_sa.webp",
     content: `
       <h2>Bobotie — South Africa's Beloved National Dish</h2>
       <p>Bobotie (pronounced ba-BOO-tee) is arguably the most iconic dish in the South African culinary canon — a warmly spiced, Cape Malay-inspired bake of minced meat, dried fruit, and aromatics, topped with a golden egg custard and finished with bay leaves. It is a dish that has been feeding South African families for centuries, and for very good reason: it is extraordinary.</p>
@@ -2749,7 +2749,7 @@ const articles = [
     subCategory: "desserts",
     author: "Lisa B.",
     date: "April 8, 2026",
-    image: "malva_pudding_sa.png",
+    image: "malva_pudding_sa.webp",
     content: `
       <h2>Malva Pudding — The Warm, Sticky Heart of South African Baking</h2>
       <p>If there is a single dessert that defines the South African table, it is Malva Pudding. This deeply beloved warm sponge pudding — caramelised, sticky, impossibly moist, and soaked in a buttery cream sauce — has been appearing on South African restaurant menus, family dinner tables, and church fundraiser spreads for generations. It is the dessert that makes every South African who has been abroad for more than six months feel a sudden, inexplicable longing for home.</p>
@@ -2809,7 +2809,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 10, 2026",
-    image: "bunny_chow_sa.png",
+    image: "bunny_chow_sa.webp",
     content: `
       <h2>Bunny Chow — Durban's Most Iconic Street Food</h2>
       <p>Few dishes in the South African food story carry as much cultural weight, culinary history, and sheer deliciousness as the Bunny Chow. A hollowed-out quarter or half loaf of unsliced white bread filled to overflowing with curry — mutton, chicken, bean, or prawn — the Bunny is Durban's most iconic street food and one of the most uniquely South African eating experiences that exists anywhere in the world.</p>
@@ -2871,7 +2871,7 @@ const articles = [
     subCategory: "desserts",
     author: "Lisa B.",
     date: "April 12, 2026",
-    image: "melktert_milk_tart.png",
+    image: "melktert_milk_tart.webp",
     content: `
       <h2>Melktert — The Classic South African Milk Tart</h2>
       <p>Melktert — literally "milk tart" in Afrikaans — is one of the oldest and most beloved desserts in South African culinary history. A delicate, creamy, cinnamon-dusted custard filling nestled in a crisp, buttery pastry shell, the Melktert has been made in South African kitchens since the earliest days of the Cape Colony, when Dutch settlers adapted their European custard tarts using the abundant milk produced by cattle at the Cape.</p>
@@ -2940,7 +2940,7 @@ const articles = [
     subCategory: "sa-classics",
     author: "Chef Zola",
     date: "April 15, 2026",
-    image: "chakalaka_sa.png",
+    image: "chakalaka_sa.webp",
     content: `
       <h2>Chakalaka — South Africa's Spicy Vegetable Relish</h2>
       <p>Chakalaka is one of South Africa's most versatile and beloved condiments — a vibrant, spiced vegetable relish that appears alongside pap at township braais, on white linen at Sunday lunches, tucked into a Bunny Chow, and ladled over bread at any informal gathering from Limpopo to the Cape. It is vegan, gluten-free, inexpensive, nutritious, and deeply flavourful. It is also one of the easiest things you can make in a South African kitchen.</p>
@@ -3007,7 +3007,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "InspiringWomen",
     date: "April 1, 2026",
-    image: "side_hustles_500_1777368441129.png",
+    image: "side_hustles_500_1777368441129.webp",
     content: `
       <h2>Real Hustles. Real Money. R500 to Start.</h2>
       <p>You don't need a business plan, a loan, or a lucky break. You need R500, a smartphone, and the honesty to pick one thing and stick with it for 90 days. That's it. These are the 12 side hustles South African women are actually building income from right now — not hypotheticals, not get-rich schemes. Real ones.</p>
@@ -3104,7 +3104,7 @@ const articles = [
     subCategory: "credit",
     author: "Thandiwe N.",
     date: "May 1, 2026",
-    image: "credit_score_sa.png",
+    image: "credit_score_sa.webp",
     content: `
       <p>Your credit score is arguably the single most financially consequential number in your life. It determines whether you qualify for a home loan, what interest rate you pay on vehicle finance, whether a landlord accepts your rental application, and in some industries, whether you get hired. Yet the majority of South Africans have never seen their credit report, do not know their score, and have no strategy for managing it. This comprehensive guide fixes that.</p>
 
@@ -3214,7 +3214,7 @@ const articles = [
     subCategory: "investing",
     author: "Sarah Jenkins",
     date: "April 20, 2026",
-    image: "tfsa_investing_sa.png",
+    image: "tfsa_investing_sa.webp",
     content: `
       <p>South Africa's Tax-Free Savings Account (TFSA) is the most powerful wealth-building tool available to the average South African — and one of the most misunderstood. Millions of South Africans have opened one at their local bank branch and left it sitting in a cash account earning 5% interest, not realising they have access to a vehicle that, invested correctly over 20 years, can generate R1 million in completely tax-free growth. This guide covers everything: the rules, the limits, the best providers, the right investments, and how a TFSA fits into your broader financial plan.</p>
 
@@ -3316,7 +3316,7 @@ const articles = [
     subCategory: "investing",
     author: "Lebo M.",
     date: "April 15, 2026",
-    image: "investing_r500_sa.png",
+    image: "investing_r500_sa.webp",
     content: `
       <p>The biggest financial lie told to South African women is that investing is only for the wealthy. The truth: the most powerful force in investing is not the size of your initial capital — it is the consistency of your contributions and the length of time you stay invested. R500 invested monthly from age 25, in the right vehicle, will outperform R50,000 invested as a lump sum at 45. This guide shows you exactly how to start, where to invest, what to buy, and how to stay the course when markets get uncomfortable.</p>
 
@@ -3410,7 +3410,7 @@ const articles = [
     subCategory: "debt",
     author: "Thandiwe N.",
     date: "April 5, 2026",
-    image: "debt_counselling_sa.png",
+    image: "debt_counselling_sa.webp",
     content: `
       <p>South Africa has one of the highest household debt-to-income ratios in the developing world. According to the National Credit Regulator (NCR), more than 10 million South African credit consumers are currently classified as <strong>over-indebted</strong> — meaning their monthly debt repayments exceed what they can realistically afford. If you are one of them, you have likely come across two terms advertised everywhere: <em>debt review</em> and <em>debt counselling</em>.</p>
       <p>This guide covers everything you need to know: what these terms actually mean, exactly how the process works step by step, who qualifies, what it costs, how it affects your home loan and your marriage, and — critically — when it is <em>not</em> the right choice and what to do instead.</p>
@@ -3590,7 +3590,7 @@ const articles = [
     subCategory: "benefits",
     author: "Thandiwe N.",
     date: "May 2, 2026",
-    image: "uif_maternity_benefits.png",
+    image: "uif_maternity_benefits.webp",
     content: `
       <p>Falling pregnant while employed in South Africa means you are entitled to one of the most valuable financial safety nets in the country: <strong>UIF maternity benefits</strong>. Yet every year, thousands of women either miss out entirely or receive far less than they are owed — simply because the Department of Labour's official process is genuinely confusing. This guide walks you through every step, document by document, so you claim every rand you are entitled to.</p>
 
@@ -3708,7 +3708,7 @@ const articles = [
     subCategory: "side-hustles",
     author: "Lerato M.",
     date: "May 2, 2026",
-    image: "side_hustles_sa.png",
+    image: "side_hustles_sa.webp",
     content: `
       <p>South Africa's cost of living has never been higher. Between load shedding, rising food prices, and interest rates that have squeezed disposable income to breaking point, millions of South Africans are no longer waiting for a salary increase to save them — they are building additional income streams themselves. The good news: you do not need capital, connections, or a business degree to start. Here are five proven, realistic side hustles that South African women have started with R1,000 or less — and scaled into meaningful income.</p>
 
@@ -3804,7 +3804,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Nomvula D.",
     date: "May 2, 2026",
-    image: "women_business_grants_sa.png",
+    image: "women_business_grants_sa.webp",
     content: `
       <p>South Africa has one of the most ambitious female entrepreneurship support landscapes in Africa — yet most women business owners have no idea the funding exists, let alone how to access it. The challenge is not a lack of grants: it is the fragmented, bureaucratic landscape that makes finding and applying for them feel impossible. This guide consolidates every major funding programme available to women-owned businesses in 2026, with direct links, eligibility requirements, and honest guidance on what actually gets funded.</p>
 
@@ -3914,7 +3914,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Lerato M.",
     date: "May 2, 2026",
-    image: "fake_remote_jobs_sa.png",
+    image: "fake_remote_jobs_sa.webp",
     content: `
       <p>South Africa has become a prime hunting ground for remote job scammers. A combination of high unemployment (hovering around 33%), growing internet access, and the post-pandemic normalisation of remote work has created the perfect conditions for fraudsters to exploit desperate job seekers. The South African Banking Risk Information Centre (SABRIC) and the South African Fraud Prevention Service (SAFPS) report that job scam losses run into tens of millions of rands every year. This guide arms you with everything you need to identify a fake job offer before you lose money, time, or your personal data.</p>
 
@@ -4003,7 +4003,7 @@ const articles = [
     subCategory: "marriage",
     author: "Advocate Zinhle K.",
     date: "May 2, 2026",
-    image: "customary_marriage_sa.png",
+    image: "customary_marriage_sa.webp",
     content: `
       <p>Millions of South African women are in customary marriages — yet many have only a vague understanding of the legal rights and protections those marriages afford them. This is not a trivial knowledge gap. It affects property ownership, inheritance, divorce rights, the status of children, and financial security. This guide explains the law clearly, so you know exactly where you stand.</p>
 
@@ -4070,7 +4070,7 @@ const articles = [
     subCategory: "tenant-rights",
     author: "Advocate Zinhle K.",
     date: "May 2, 2026",
-    image: "tenant_rights_sa.png",
+    image: "tenant_rights_sa.webp",
     content: `
       <p>Millions of South Africans rent a room, backyard cottage, or flat without a written lease agreement. Whether the landlord "doesn't do paperwork," it was a verbal arrangement between family, or you simply moved in and started paying — no written lease does <strong>not</strong> mean no rights. South African law protects tenants in oral rental agreements just as firmly as those in written ones. Here is exactly what you are entitled to and what your landlord legally cannot do to you.</p>
 
@@ -4156,7 +4156,7 @@ const articles = [
     subCategory: "skincare",
     author: "Chloe S.",
     date: "May 2, 2026",
-    image: "sa_skincare_brands.png",
+    image: "sa_skincare_brands.webp",
     content: `
       <p>South Africa's skincare industry has quietly undergone a revolution. While global beauty giants still dominate the shelves, a wave of proudly local brands — many founded by South African women — are producing formulations specifically designed for African skin tones, our unique climate, and our diverse hair and skin needs. These brands understand the hyperpigmentation challenges of melanin-rich skin, the dryness of Highveld winters, and the coastal humidity of KwaZulu-Natal. Here are ten South African skincare brands worth every rand.</p>
 
@@ -4217,7 +4217,7 @@ const articles = [
     subCategory: "haircare",
     author: "Chloe S.",
     date: "May 2, 2026",
-    image: "natural_hair_products_sa.png",
+    image: "natural_hair_products_sa.webp",
     content: `
       <p>The natural hair movement has firmly taken root in South Africa. From protective styles to wash-and-go routines, more and more South African women are embracing their natural curl patterns and textures — and actively looking for products that work without requiring a trip to a specialty store or an international shipping wait. The good news: Clicks and Dis-Chem now stock an impressive range of natural hair products across every budget. Here is the definitive 2026 guide, organised by hair need and hair type.</p>
 
@@ -4300,7 +4300,7 @@ const articles = [
     subCategory: "loadshedding",
     author: "Chef Amahle B.",
     date: "May 2, 2026",
-    image: "load_shedding_meals.png",
+    image: "load_shedding_meals.webp",
     content: `
       <p>Load shedding is South Africa's most exhausting domestic reality. When Stage 6 hits and you are off the grid for four to six hours at a stretch — sometimes twice a day — cooking a hot meal simply is not always possible. But that does not mean you need to eat badly. These 20 no-cook meals are filling, nutritious, quick to assemble, and use ingredients you can keep on hand during any stage of load shedding without refrigeration concerns.</p>
 
@@ -4407,7 +4407,7 @@ const articles = [
     subCategory: "outdoors",
     author: "Mia van der Berg",
     date: "May 2, 2026",
-    image: "hiking_trails_cape_town.png",
+    image: "hiking_trails_cape_town.webp",
     content: `
       <p>Cape Town is one of the most spectacular hiking destinations in the world — and it sits right in the backyard of its residents. Table Mountain National Park alone contains over 350 kilometres of trails. But safety is a genuine concern for women hiking in South Africa, particularly solo hikers or small groups. This guide selects five trails that balance natural beauty with safety considerations, including accessibility, crowd levels, emergency contacts, and practical safety tips specific to the Cape Town context.</p>
 
@@ -4482,7 +4482,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "remote_data_entry.png",
+    image: "remote_data_entry.webp",
     content: `
       <p>Data entry is one of the most accessible entry points into remote work — you do not need a degree, specialised software skills, or years of experience to get started. In South Africa, where commuting costs and load shedding have made work-from-home arrangements increasingly attractive, legitimate remote data entry jobs are genuinely available. This guide covers the 10 best platforms and companies where South African women are finding paid data entry work in 2026, what you need to get started, and how to protect yourself from scams.</p>
 
@@ -4575,7 +4575,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "remote_customer_service.png",
+    image: "remote_customer_service.webp",
     content: `
       <p>Remote customer service is one of the most stable and accessible work-from-home career paths in South Africa. Unlike many remote roles, customer service positions are often available to candidates without a degree, offer full-time hours, and are actively advertised by major SA employers. This guide covers the top companies hiring for remote customer service roles in 2026, what they pay, what equipment you need, and how to stand out in the application process.</p>
 
@@ -4657,7 +4657,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "ask_for_remote_work.png",
+    image: "ask_for_remote_work.webp",
     content: `
       <p>You want to work from home — at least partially — but you are not sure how to raise it with your manager without it looking like you just want to avoid the office. The good news is that in 2026, requesting remote or hybrid work is increasingly normalised in South Africa, and with the right approach, most reasonable employers will at least consider it. This guide gives you the exact strategy, timing, and email template you need to make the ask with confidence.</p>
 
@@ -4743,7 +4743,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "home_office_tax.png",
+    image: "home_office_tax.webp",
     content: `
       <p>If you work from home in South Africa, you may be able to claim a portion of your home expenses as a tax deduction — but the rules differ significantly depending on whether you are an employee or self-employed, and SARS has specific requirements that many remote workers unknowingly fail to meet. This guide explains exactly who qualifies, what you can claim, how to calculate it, and how to submit it on eFiling without triggering an audit.</p>
 
@@ -4826,7 +4826,7 @@ const articles = [
     subCategory: "remote-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "load_shedding_remote_work.png",
+    image: "load_shedding_remote_work.webp",
     content: `
       <p>Load shedding is the single biggest practical barrier to remote work in South Africa. Stage 4 or 6 load shedding can mean 8 to 12 hours without grid power per day — enough to derail any home office setup. But tens of thousands of South Africans have solved this problem without spending R100,000 on a full solar system. This guide covers every practical backup power and connectivity solution available in South Africa in 2026, with realistic costs so you can choose what works for your budget and situation.</p>
 
@@ -4912,7 +4912,7 @@ const articles = [
     subCategory: "salary",
     author: "Admin",
     date: "May 2, 2026",
-    image: "salary_negotiation.png",
+    image: "salary_negotiation.webp",
     content: `
       <p>Salary negotiation is one of the highest-return activities you can invest time in. A single successful negotiation — adding even R3,000 per month to your package — compounds to over R180,000 in additional earnings over five years, before considering future percentage increases on a higher base. Yet most South African women accept the first offer or feel too uncomfortable to push back. This guide gives you the research method, timing, and exact scripts to negotiate with confidence in the SA job market.</p>
 
@@ -4988,7 +4988,7 @@ const articles = [
     subCategory: "salary",
     author: "Admin",
     date: "May 2, 2026",
-    image: "ctc_package_sa.png",
+    image: "ctc_package_sa.webp",
     content: `
       <p>You applied for a job in South Africa and the offer says "R420,000 CTC per annum." You expected to take home R35,000 per month, but your first payslip shows R24,000 in your bank account. This is one of the most common financial shocks for South African job seekers — and it happens because most people do not fully understand what Cost to Company (CTC) means or how to calculate their actual take-home pay. This guide explains everything.</p>
 
@@ -5068,7 +5068,7 @@ const articles = [
     subCategory: "salary",
     author: "Admin",
     date: "May 2, 2026",
-    image: "maternity_leave_pay.png",
+    image: "maternity_leave_pay.webp",
     content: `
       <p>Maternity leave in South Africa is governed by two separate systems that many women confuse: your statutory leave entitlement under the Basic Conditions of Employment Act (BCEA) and the UIF maternity benefit you claim from the Department of Employment and Labour. Understanding both — and how they interact with your employer's own top-up policy — is essential to financial planning before your baby arrives.</p>
 
@@ -5144,7 +5144,7 @@ const articles = [
     subCategory: "salary",
     author: "Admin",
     date: "May 2, 2026",
-    image: "ask_raise_inflation.png",
+    image: "ask_raise_inflation.webp",
     content: `
       <p>When consumer inflation is high, a standard annual increase often feels like a pay cut. In South Africa, where CPI regularly runs at 5% to 7%, an employer's "inflationary increase" of 3% means your purchasing power has declined in real terms. Asking for a raise that genuinely improves your financial position — not just keeps pace with rising costs — requires a specific strategy. This guide shows you how.</p>
 
@@ -5222,7 +5222,7 @@ const articles = [
     subCategory: "salary",
     author: "Admin",
     date: "May 2, 2026",
-    image: "women_tech_salaries.png",
+    image: "women_tech_salaries.webp",
     content: `
       <p>South Africa's technology sector is growing rapidly, and it is one of the most accessible pathways to a high-income career — with or without a traditional computer science degree. For women specifically, understanding the market rates for tech roles is the first step to negotiating fairly and recognising when you are underpaid. This guide covers 2026 salary ranges for the most common tech roles in South Africa, the gender pay gap in SA tech, and how to close it.</p>
 
@@ -5324,7 +5324,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Admin",
     date: "May 2, 2026",
-    image: "cipc_registration.png",
+    image: "cipc_registration.webp",
     content: `
       <p>Registering a company through the Companies and Intellectual Property Commission (CIPC) is the foundation of any formal business in South Africa. In 2026, the process is primarily done online through the BizPortal platform, and it is more streamlined than many people expect. This step-by-step guide walks you through the entire CIPC registration process, from name reservation to receiving your company registration certificate — including the mistakes that cause delays and how to avoid them.</p>
 
@@ -5427,7 +5427,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Admin",
     date: "May 2, 2026",
-    image: "franchise_opportunities_sa.png",
+    image: "franchise_opportunities_sa.webp",
     content: `
       <p>Franchising offers a powerful shortcut for women who want to run their own business: you get a proven brand, a training system, and ongoing support — reducing (but not eliminating) the risks of starting from scratch. South Africa has a well-developed franchise sector, and there are genuine opportunities at every investment level. This guide covers 10 of the most accessible franchise opportunities for South African women in 2026, with realistic investment ranges and what each one requires.</p>
 
@@ -5497,7 +5497,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Admin",
     date: "May 2, 2026",
-    image: "dropshipping_sa.png",
+    image: "dropshipping_sa.webp",
     content: `
       <p>Dropshipping — selling products online without holding stock — is one of the most popular low-entry-cost business models globally. In South Africa, the model works but comes with specific challenges that most generic dropshipping guides do not address: long international shipping times, customs duties, exchange rate risk, and the unique dynamics of the SA e-commerce market. This guide covers everything you need to know to start a profitable dropshipping business in South Africa in 2026.</p>
 
@@ -5579,7 +5579,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Admin",
     date: "May 2, 2026",
-    image: "business_bank_accounts_sa.png",
+    image: "business_bank_accounts_sa.webp",
     content: `
       <p>Choosing the right business bank account in South Africa can save your small business thousands of Rands per year in fees and significantly impact how efficiently you manage cash flow. In 2026, SA entrepreneurs have more options than ever — from the traditional big four banks to digital-first options like Capitec Business and TymeBank Business. This guide compares the major options so you can make an informed decision for your specific business needs.</p>
 
@@ -5664,7 +5664,7 @@ const articles = [
     subCategory: "entrepreneurship",
     author: "Admin",
     date: "May 2, 2026",
-    image: "takealot_vs_shopify.png",
+    image: "takealot_vs_shopify.webp",
     content: `
       <p>Takealot and Shopify are the two most common platforms for South Africans selling products online. They serve fundamentally different purposes, charge fees in completely different ways, and suit different types of sellers and products. The "which is better" question has no universal answer — but after reading this guide, you will know exactly which one (or combination of both) makes sense for your specific product and situation.</p>
 
@@ -5772,7 +5772,7 @@ const articles = [
     subCategory: "hr-rights",
     author: "Admin",
     date: "May 2, 2026",
-    image: "ccma_unfair_dismissal.png",
+    image: "ccma_unfair_dismissal.webp",
     content: `
       <p>Being dismissed from your job is one of the most stressful experiences a person can face — and in South Africa, if that dismissal was unfair, you have legal recourse through the Commission for Conciliation, Mediation and Arbitration (CCMA). The CCMA is a free dispute resolution service, and you do not need a lawyer to use it. But the process has strict deadlines and specific steps that you must follow correctly to protect your rights. This guide explains everything.</p>
 
@@ -5862,7 +5862,7 @@ const articles = [
     subCategory: "hr-rights",
     author: "Admin",
     date: "May 2, 2026",
-    image: "retrenchment_rights_sa.png",
+    image: "retrenchment_rights_sa.webp",
     content: `
       <p>Retrenchment is one of the most feared words in the South African workplace — but your rights during a retrenchment process are extensive, and many employees accept less than they are legally entitled to simply because they do not know what to ask for. This guide explains the full legal framework governing retrenchment in South Africa, what you must be paid, and how to protect yourself if the process is handled unlawfully.</p>
 
@@ -5947,7 +5947,7 @@ const articles = [
     subCategory: "hr-rights",
     author: "Admin",
     date: "May 2, 2026",
-    image: "workplace_harassment_sa.png",
+    image: "workplace_harassment_sa.webp",
     content: `
       <p>Workplace harassment is more common than most South African employees realise, and it is significantly underreported. Many people endure harassment because they do not know their rights, fear retaliation, or believe nothing will change. In South Africa, the law provides strong protections — but you need to know how to use them. This guide explains what constitutes workplace harassment legally, what steps to take, and how to refer a dispute if your employer fails to act.</p>
 
@@ -6024,7 +6024,7 @@ const articles = [
     subCategory: "hr-rights",
     author: "Admin",
     date: "May 2, 2026",
-    image: "mental_health_sick_leave.png",
+    image: "mental_health_sick_leave.webp",
     content: `
       <p>Mental health conditions are medical conditions — not character flaws, not weakness, and not an excuse to avoid work. In South Africa, your right to take sick leave for a mental health condition is legally identical to your right to take sick leave for a physical illness. Yet many South African employees either do not know this or face stigma and resistance when they try to use it. This guide explains your exact rights, what your employer can and cannot ask for, and what to do if you face discrimination for a mental health absence.</p>
 
@@ -6109,7 +6109,7 @@ const articles = [
     subCategory: "hr-rights",
     author: "Admin",
     date: "May 2, 2026",
-    image: "bcea_guide_sa.png",
+    image: "bcea_guide_sa.webp",
     content: `
       <p>The Basic Conditions of Employment Act (BCEA) is the foundational legislation that governs the terms and conditions of employment for most workers in South Africa. It sets the minimum floors below which no employment contract can drop — meaning even if you signed a contract agreeing to less, the BCEA protections still apply. This guide summarises every key provision of the BCEA in plain English so you know exactly what you are entitled to as a South African employee.</p>
 
@@ -6205,7 +6205,7 @@ const articles = [
     subCategory: "upskilling",
     author: "Admin",
     date: "May 2, 2026",
-    image: "free_online_courses_sa.png",
+    image: "free_online_courses_sa.webp",
     content: `
       <p>Upskilling in South Africa does not have to cost a fortune. In 2026, a combination of global MOOC platforms, South African government-funded programmes, and corporate training initiatives means you can access quality, certifiable learning for free or at very low cost. This guide covers the best free online courses with certificates for South African women — what is genuinely free, what is worth paying for, and how to list these qualifications on your CV to maximum effect.</p>
 
@@ -6284,7 +6284,7 @@ const articles = [
     subCategory: "upskilling",
     author: "Admin",
     date: "May 2, 2026",
-    image: "cv_template_sa.png",
+    image: "cv_template_sa.webp",
     content: `
       <p>A South African CV has specific conventions that differ from the United States or United Kingdom — and getting them wrong can cost you interviews before you even know you are being considered. In 2026, with Applicant Tracking Systems (ATS) screening CVs before a human ever reads them, the format and keywords you choose are as important as the content. This guide tells you exactly how to structure, write, and optimise your CV for the South African job market.</p>
 
@@ -6377,7 +6377,7 @@ const articles = [
     subCategory: "upskilling",
     author: "Admin",
     date: "May 2, 2026",
-    image: "in_demand_tech_skills.png",
+    image: "in_demand_tech_skills.webp",
     content: `
       <p>South Africa faces a severe technology skills shortage. Major banks, insurance companies, telecoms, and retailers are competing for a small pool of qualified tech talent — and the gap is growing as digital transformation accelerates. This creates a genuine opportunity for South African women willing to invest time in building in-demand technical skills. This guide identifies the 5 skills with the highest employer demand in SA in 2026, what salary premium they command, and the most efficient way to acquire them.</p>
 
@@ -6454,7 +6454,7 @@ const articles = [
     subCategory: "upskilling",
     author: "Admin",
     date: "May 2, 2026",
-    image: "interview_tips_sa.png",
+    image: "interview_tips_sa.webp",
     content: `
       <p>"Tell me about yourself" is the most common opening question in job interviews — and one of the most commonly answered badly. It sounds like an invitation to summarise your life story, but it is actually an opportunity to deliver a concise, compelling narrative that frames everything that follows in your favour. This guide gives you the exact structure, examples for different career stages, and the other most commonly asked SA interview questions and how to answer them.</p>
 
@@ -6528,7 +6528,7 @@ const articles = [
     subCategory: "upskilling",
     author: "Admin",
     date: "May 2, 2026",
-    image: "seta_courses_sa.png",
+    image: "seta_courses_sa.webp",
     content: `
       <p>SETAs — Sector Education and Training Authorities — are South African government bodies responsible for skills development in specific economic sectors. SETA-accredited qualifications carry real weight with SA employers: they are registered on the National Qualifications Framework (NQF), verified by SAQA, and in many industries are a requirement for employment or promotion. More importantly, many SETA-funded training programmes are free or heavily subsidised. This guide explains how the system works and which SETA short courses are most likely to advance your career.</p>
 
@@ -6616,7 +6616,7 @@ const articles = [
     subCategory: "returning-to-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "career_gap_cv_mom.png",
+    image: "career_gap_cv_mom.webp",
     content: `
       <p>Career gaps used to be treated as red flags on a CV. In 2026, that stigma is largely gone — the pandemic normalised gaps, the discourse around caregiving as genuine work has grown, and most reasonable recruiters understand that life happens. The challenge now is not hiding your gap, but framing it in a way that positions you as a strong, self-aware candidate who is genuinely ready to return. This guide shows you how.</p>
 
@@ -6704,7 +6704,7 @@ const articles = [
     subCategory: "returning-to-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "career_change_40_sa.png",
+    image: "career_change_40_sa.webp",
     content: `
       <p>A career change at 40 in South Africa is not a crisis — it is an informed decision made by someone with two decades of professional experience, self-knowledge, and clarity about what they actually want. The challenge is not ability; it is translating your existing experience into a new context and overcoming the ageism that, while illegal, still exists in parts of the SA job market. This guide identifies the 5 most accessible and rewarding career pivots for South African women over 40, with practical steps to make each transition.</p>
 
@@ -6785,7 +6785,7 @@ const articles = [
     subCategory: "returning-to-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "professional_networking_sa.png",
+    image: "professional_networking_sa.webp",
     content: `
       <p>In South Africa, "it's not what you know, it's who you know" is not a cynical observation — it is career advice. Studies consistently show that 70%–80% of jobs are filled through networking rather than open advertising. Yet many South African women feel they do not have the "right" connections or find networking events intimidating and transactional. This guide shows you how to build a genuine, useful professional network from zero — regardless of your starting point.</p>
 
@@ -6866,7 +6866,7 @@ const articles = [
     subCategory: "returning-to-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "linkedin_profile_tips.png",
+    image: "linkedin_profile_tips.webp",
     content: `
       <p>LinkedIn is the most important professional tool a South African job seeker or career builder can invest time in — yet most people use it as a digital CV and nothing more. In 2026, recruiters and hiring managers in SA actively search LinkedIn for candidates, passive candidates get approached for roles they never applied for, and thought leadership content builds the kind of professional visibility that makes career opportunities come to you. This step-by-step guide optimises every section of your LinkedIn profile for the SA market.</p>
 
@@ -6935,7 +6935,7 @@ const articles = [
     subCategory: "returning-to-work",
     author: "Admin",
     date: "May 2, 2026",
-    image: "corporate_to_freelancing_sa.png",
+    image: "corporate_to_freelancing_sa.webp",
     content: `
       <p>The move from corporate employment to freelancing is one of the most liberating and terrifying career transitions a South African professional can make. The promise — autonomy, flexibility, and income uncapped by a salary band — is real. So is the reality: no more paid leave, no medical aid subsidy, no steady monthly salary, and a tax structure that requires you to manage your own affairs with SARS. This guide covers everything you need to know before and after making the switch, with specific South African context.</p>
 
