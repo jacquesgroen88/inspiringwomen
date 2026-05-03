@@ -23,7 +23,9 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="search.css">
+    <!-- Defer search.css — only needed after user opens search modal -->
+    <link rel="preload" href="search.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="search.css"></noscript>
 
     <!-- Non-render-blocking Google Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -355,83 +357,7 @@
     </footer>
 
     <script>window.APP_BASE_PATH = '';</script>
-    <script src="search.js"></script>
-    <script>
-        // Infinite scroll logic for More Articles section
-        document.addEventListener('DOMContentLoaded', () => {
-            const moreArticlesContainer = document.querySelector('.more-articles');
-            let searchDataCache = null;
-            let currentArticleIndex = 6;
-            let isLoading = false;
-            
-            // Only initialize if we're on the page with more-articles
-            if (!moreArticlesContainer) return;
-
-            // Define loadMore function
-            const loadMoreArticles = async () => {
-                if (isLoading) return;
-                isLoading = true;
-
-                if (!searchDataCache) {
-                    try {
-                        const response = await fetch('search-data.json');
-                        searchDataCache = await response.json();
-                        // Filter out articles already in the DOM (approximate by skipping first few)
-                        // Or better, randomly shuffle or just load from end
-                        searchDataCache.reverse(); 
-                    } catch (err) {
-                        console.error('Failed to load search data:', err);
-                        isLoading = false;
-                        return;
-                    }
-                }
-
-                // Load next 3 articles
-                const nextArticles = searchDataCache.slice(currentArticleIndex, currentArticleIndex + 3);
-                if (nextArticles.length === 0) {
-                    window.removeEventListener('scroll', scrollHandler);
-                    return; // No more articles
-                }
-
-                nextArticles.forEach(art => {
-                    const articleHTML = `
-                        <article class="list-post" style="opacity: 0; transition: opacity 0.5s ease; border-top: 4px solid var(--primary-color); padding-top: 20px; display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
-                            ${art.image ? \`<div class="list-post-img" style="flex: 0 0 250px; height: 180px; background-image: url('assets/\${art.image}'); background-size: cover; background-position: center; border-radius: 8px;"></div>\` : ''}
-                            <div class="list-post-content" style="flex: 1;">
-                                <div class="post-header">
-                                    <span class="category" style="color: var(--primary-color); font-weight: bold; font-size: 0.8rem; letter-spacing: 1px;">\${(art.subCategory || art.category).toUpperCase()}</span>
-                                    <h3 style="margin: 10px 0 15px; font-family: var(--font-serif); font-size: 1.5rem;"><a href="\${art.url}" style="color: var(--text-dark); text-decoration: none;">\${art.title}</a></h3>
-                                </div>
-                                <div class="post-body">
-                                    <p style="color: var(--text-muted); line-height: 1.6; margin-bottom: 15px;">\${art.excerpt || ''}</p>
-                                    <a href="\${art.url}" class="read-more-button pink" style="color: var(--primary-color); font-weight: bold; text-decoration: none;">Read More &rarr;</a>
-                                </div>
-                            </div>
-                        </article>
-                    `;
-                    moreArticlesContainer.insertAdjacentHTML('beforeend', articleHTML);
-                    
-                    // Fade in effect
-                    setTimeout(() => {
-                        const added = moreArticlesContainer.lastElementChild;
-                        if(added) added.style.opacity = '1';
-                    }, 50);
-                });
-
-                currentArticleIndex += 3;
-                isLoading = false;
-            };
-
-            const scrollHandler = () => {
-                // If user is near bottom of the page
-                if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) {
-                    loadMoreArticles();
-                }
-            };
-
-            window.addEventListener('scroll', scrollHandler);
-            
-            });
-    </script>
+    <script src="search.js" defer></script>
+    <script src="infinite-scroll.js" defer></script>
 </body>
 </html>
