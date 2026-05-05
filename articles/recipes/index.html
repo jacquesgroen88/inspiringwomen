@@ -822,12 +822,19 @@ a:hover {
             <div class="logo">
                 <a href="../../index.html"><img src="../../assets/logo.webp" alt="Inspiring Women Logo"></a>
             </div>
-            <nav class="main-nav">
+            <button class="burger-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </button>
+            <nav class="main-nav" id="main-nav">
                 <ul>
                     <li><a href="../../articles/beauty/index.html">BEAUTY</a></li>
                     <li><a href="../../articles/career/index.html">CAREER</a></li>
                     <li><a href="../../articles/health/index.html">HEALTH</a></li>
-                    <li><a href="../../articles/lifestyle/index.html">HOME & GARDEN</a></li>
+                    <li><a href="#">HOME &amp; GARDEN</a></li>
                     <li><a href="../../articles/recipes/index.html">RECIPES</a></li>
                     <li><a href="../../articles/legal/index.html">LEGAL</a></li>
                     <li><a href="../../articles/finance/index.html">FINANCE</a></li>
@@ -1033,5 +1040,6 @@ a:hover {
 
     <script>window.APP_BASE_PATH = '../../';</script>
     <script src="../../search.js"></script>
+    <script src="../../nav.js"></script>
 </body>
 </html>

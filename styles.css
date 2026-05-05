@@ -3,33 +3,37 @@
    ========================================= */
 
 :root {
-    --primary-color: #ff4785; /* Vibrant pink */
+    --primary-color: #ff4785;
     --primary-light: #ff7aa6;
     --primary-dark: #d62d66;
-    
+
     --text-dark: #333333;
     --text-muted: #777777;
     --text-light: #aaaaaa;
-    
+
     --bg-light: #fdfdfd;
     --bg-off-white: #f5f5f5;
     --bg-dark: #222222;
-    
+
     --border-color: #eaeaea;
-    
+
     --font-sans: 'Inter', sans-serif;
     --font-serif: 'Playfair Display', serif;
-    
+
     --max-width: 1200px;
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.05);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
     --transition: all 0.3s ease;
 }
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -38,6 +42,12 @@ body {
     background-color: var(--bg-light);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* Prevent scroll when mobile nav is open */
+body.nav-is-open {
+    overflow: hidden;
 }
 
 img {
@@ -82,9 +92,10 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
 }
 
+/* Desktop layout: logo centred above nav */
 .header-container {
     max-width: var(--max-width);
     margin: 0 auto;
@@ -101,6 +112,51 @@ a:hover {
 .logo img {
     height: 100px;
     object-fit: contain;
+}
+
+/* Burger button — hidden on desktop */
+.burger-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dark);
+    z-index: 200;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 22px;
+    height: 16px;
+}
+
+.burger-icon span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--text-dark);
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
+}
+
+/* Burger → X animation */
+.burger-btn.is-active .burger-icon span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+.burger-btn.is-active .burger-icon span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+}
+.burger-btn.is-active .burger-icon span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 .main-nav {
@@ -186,7 +242,6 @@ a:hover {
     align-items: center;
 }
 
-/* Placeholders for dynamic content */
 .placeholder-image {
     background-color: var(--bg-off-white);
     position: relative;
@@ -206,7 +261,6 @@ a:hover {
    Primary Column
    ========================================= */
 
-/* Featured Section */
 .featured-section {
     margin-bottom: 50px;
 }
@@ -408,6 +462,8 @@ a:hover {
     color: #f0f0f0;
     line-height: 1;
     font-family: var(--font-serif);
+    flex-shrink: 0;
+    min-width: 40px;
 }
 
 .news-content h4 {
@@ -538,7 +594,6 @@ a:hover {
     border-color: var(--primary-color);
 }
 
-
 /* =========================================
    Sidebar
    ========================================= */
@@ -559,7 +614,6 @@ a:hover {
     padding-bottom: 10px;
 }
 
-/* Social Widget */
 .social-links {
     display: flex;
     gap: 10px;
@@ -583,10 +637,9 @@ a:hover {
 }
 
 .social-btn.facebook:hover { background-color: #3b5998; }
-.social-btn.twitter:hover { background-color: #1da1f2; }
+.social-btn.twitter:hover  { background-color: #1da1f2; }
 .social-btn.pinterest:hover { background-color: #bd081c; }
 
-/* Popular Widget */
 .small-post-list {
     list-style: none;
 }
@@ -617,7 +670,6 @@ a:hover {
     font-weight: 600;
 }
 
-/* Trending Widget */
 .trending-post {
     border: 1px solid var(--border-color);
     border-radius: 8px;
@@ -655,7 +707,6 @@ a:hover {
     margin-bottom: 15px;
 }
 
-/* Ad Widget */
 .sidebar-ad {
     background-color: #f8f8f8;
     border: 1px solid var(--border-color);
@@ -702,44 +753,289 @@ a:hover {
 }
 
 /* =========================================
-   Responsive Adjustments
+   Tablet — collapse sidebar below content
    ========================================= */
 
 @media (max-width: 992px) {
     .content-layout {
         grid-template-columns: 1fr;
     }
-    
+
     .sidebar {
-        margin-top: 40px;
+        margin-top: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 30px;
     }
-    
+
     .sidebar-ad {
         height: 200px;
     }
 }
 
+/* =========================================
+   Mobile — burger menu & full overhaul
+   ========================================= */
+
 @media (max-width: 768px) {
+
+    /* — Container — */
+    .container {
+        padding: 0 16px;
+    }
+
+    /* — Header: row layout with burger — */
+    .header-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 16px;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .logo img {
+        height: 56px;
+    }
+
+    /* Show the burger button */
+    .burger-btn {
+        display: flex;
+    }
+
+    /* Mobile nav: hidden by default, absolute below header */
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: 2px solid var(--primary-color);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        z-index: 999;
+        max-height: calc(100vh - 80px);
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .main-nav.nav-open {
+        display: block;
+    }
+
     .main-nav ul {
-        gap: 15px;
+        flex-direction: column;
+        gap: 0;
+        padding: 6px 0;
+        justify-content: flex-start;
     }
-    
+
+    .main-nav li {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .main-nav li:last-child {
+        border-bottom: none;
+    }
+
     .main-nav li a {
-        font-size: 0.75rem;
+        padding: 14px 20px;
+        font-size: 0.85rem;
+        letter-spacing: 0.5px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
     }
-    
+
+    .main-nav li a::after {
+        display: none;
+    }
+
+    .main-nav li a:hover {
+        background: var(--bg-off-white);
+        color: var(--primary-color);
+    }
+
+    .search-icon {
+        justify-content: flex-start;
+    }
+
+    /* — Main content — */
+    .main-content {
+        padding: 24px 0 40px;
+    }
+
+    /* — Featured posts — */
+    .video-placeholder {
+        height: 220px;
+    }
+
+    .featured-post h2 {
+        font-size: 1.4rem;
+    }
+
+    .featured-post.secondary h2 {
+        font-size: 1.2rem;
+    }
+
+    .centered-content {
+        padding: 20px 16px;
+    }
+
+    .featured-post .excerpt {
+        font-size: 0.9rem;
+    }
+
+    .post-meta {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    /* — Ad banner — */
+    .ad-banner {
+        height: 80px;
+        margin-bottom: 30px;
+    }
+
+    /* — Two-col grids → single col — */
     .post-grid.two-cols {
         grid-template-columns: 1fr;
     }
-    
+
+    /* — News items — */
+    .news-item {
+        gap: 12px;
+    }
+
+    .news-number {
+        font-size: 2rem;
+        min-width: 32px;
+    }
+
+    .news-content h4 {
+        font-size: 1.1rem;
+    }
+
+    /* — Article list (category pages) — */
+    .list-post h3 {
+        font-size: 1.3rem;
+    }
+
+    .more-articles {
+        padding: 20px 16px;
+    }
+
+    /* — Sidebar: single column on mobile — */
     .sidebar {
         grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 16px;
     }
-    
+
+    /* — Footer — */
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .site-footer {
+        padding: 30px 0;
+    }
+}
+
+/* =========================================
+   Single Article — mobile overrides
+   (these override inline styles in template)
+   ========================================= */
+
+@media (max-width: 768px) {
+    .single-article {
+        padding: 20px 16px !important;
+        border-radius: 6px !important;
+    }
+
+    .single-article-header h1 {
+        font-size: 1.5rem !important;
+        line-height: 1.25 !important;
+    }
+
+    .single-article-image {
+        height: 220px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .single-article-meta {
+        flex-wrap: wrap;
+        gap: 8px !important;
+        font-size: 0.82rem !important;
+    }
+
+    .single-article-content h2 {
+        font-size: 1.4rem !important;
+        margin: 24px 0 12px !important;
+    }
+
+    .single-article-content h3 {
+        font-size: 1.15rem !important;
+    }
+
+    .single-article-content p,
+    .single-article-content li {
+        font-size: 0.97rem !important;
+    }
+
+    /* Related articles grid */
+    .related-articles-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* =========================================
+   Extra small screens (≤ 480px)
+   ========================================= */
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 48px;
+    }
+
+    .single-article {
+        padding: 16px 12px !important;
+    }
+
+    .single-article-header h1 {
+        font-size: 1.3rem !important;
+    }
+
+    .single-article-image {
+        height: 180px !important;
+    }
+
     .featured-post h2 {
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    .featured-post.secondary h2 {
+        font-size: 1.1rem;
+    }
+
+    .centered-content {
+        padding: 16px 12px;
+    }
+
+    .list-post h3 {
+        font-size: 1.2rem;
+    }
+
+    .news-content h4 {
+        font-size: 1rem;
+    }
+
+    .post-meta {
+        font-size: 0.75rem;
     }
 }
 
