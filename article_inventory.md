@@ -81,3 +81,15 @@
 | How to Build a Professional Network from Scratch in South Africa | career | 910 | High Quality (A) |
 | LinkedIn Profile Tips for 2026: A Step-by-Step Optimisation Guide | career | 938 | High Quality (A) |
 | Moving from Corporate to Freelancing in South Africa: What You Need to Know | career | 1129 | Premium (A+) |
+| Perimenopause Symptoms & Treatment in South Africa: A Complete Guide | health | 2800 | Premium (A+) |
+| How to Write a CV in South Africa: The 2026 Guide | career | 2188 | Premium (A+) |
+| The Best Affordable Skincare Routine for South African Women (Under R500) | beauty | 943 | High Quality (A) |
+| How to Treat Hyperpigmentation and Dark Marks on Melanin-Rich Skin (SA Guide) | beauty | 864 | High Quality (A) |
+| The Best Sunscreens for Dark Skin Tones in South Africa (No White Cast) | beauty | 814 | High Quality (A) |
+| Vitamin C Serums in South Africa: Best Picks and How to Use Them (2026) | beauty | 852 | High Quality (A) |
+| The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples) | finance | 878 | High Quality (A) |
+| How to Save Money on Groceries in South Africa: 20 Practical Tips for 2026 | finance | 846 | High Quality (A) |
+| How to Stop Living Paycheck to Paycheck in South Africa (2026) | finance | 857 | High Quality (A) |
+| Affordable Backup Power Options for Load Shedding in South Africa (2026) | lifestyle | 926 | High Quality (A) |
+| Small Kitchen Storage Ideas for South African Homes (Budget-Friendly) | lifestyle | 876 | High Quality (A) |
+| How to Start a Home Baking Business in South Africa (2026 Step-by-Step) | career | 916 | High Quality (A) |
