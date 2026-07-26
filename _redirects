@@ -1,0 +1,34 @@
+# Legacy WordPress URL redirects (site was rebuilt from WordPress to static after a hack).
+# NOTE: Search Console shows only ~22 external backlinks and they all point to the homepage,
+# so there is no meaningful link authority on these old deep URLs to "recover". These redirects
+# exist only to route any lingering bookmark or stale-index traffic to relevant live content
+# instead of a 404. All targets are live pages. Add more mappings here as needed.
+
+# --- Finance ---
+/5-simple-steps-saving-money/                         /articles/finance/budgeting/save-money-on-groceries-sa.html   301
+/3-simple-steps-create-budget/                        /articles/finance/budgeting/50-30-20-budget-rule-sa.html      301
+/3-ways-to-cut-down-on-your-compulsive-spending/      /articles/finance/budgeting/manage-finances-2026.html         301
+/3-tips-to-change-bad-financial-habits/               /articles/finance/budgeting/manage-finances-2026.html         301
+/5-rules-financial-planning-twenties/                 /articles/finance/budgeting/manage-finances-2026.html         301
+/5-rules-financial-planning-thirtys/                  /articles/finance/index.html                                  301
+/5-ways-manage-finances-divorce/                      /articles/finance/index.html                                  301
+/5-things-you-should-know-before-applying-for-car-loan/  /articles/finance/index.html                               301
+
+# --- Career / business ---
+/10-reasons-start-business/                           /articles/career/entrepreneurship/12-side-hustles-under-r500.html   301
+/5-easy-steps-write-marketing-proposal/               /articles/career/index.html                                   301
+
+# --- Beauty ---
+/5-minute-quick-fix-puffy-eyes/                       /articles/beauty/index.html                                   301
+/10-sexy-beauty-looks-for-valentines-day/             /articles/beauty/index.html                                   301
+/101-fashion-tips-tricks-need-know/                   /articles/beauty/index.html                                   301
+
+# --- Health / wellness ---
+/5-easy-yoga-poses-beginners/                         /articles/health/index.html                                   301
+/4-bodyweight-exercises-anywhere/                     /articles/health/index.html                                   301
+/5-early-pregnancy-signs/                             /articles/health/pregnancy/hospital-bag.html                  301
+/10-ways-to-stay-healthy-this-winter/                 /articles/health/index.html                                   301
+/4-ways-to-effectively-beat-stress/                   /articles/health/mental-health/mental-health-sa.html          301
+
+# --- Fallback for old feed/wp paths ---
+/feed/                                                /                                                             301

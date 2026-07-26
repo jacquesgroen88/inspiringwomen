@@ -93,3 +93,23 @@
 | Affordable Backup Power Options for Load Shedding in South Africa (2026) | lifestyle | 926 | High Quality (A) |
 | Small Kitchen Storage Ideas for South African Homes (Budget-Friendly) | lifestyle | 876 | High Quality (A) |
 | How to Start a Home Baking Business in South Africa (2026 Step-by-Step) | career | 916 | High Quality (A) |
+| What Are Peptides and How Do They Work for Weight Loss? A South African Guide | health | 920 | High Quality (A) |
+| Semaglutide in South Africa: How It Works, Cost, and How to Get It (2026) | health | 859 | High Quality (A) |
+| Ozempic vs Wegovy vs Saxenda: Weight Loss Injections Compared (South Africa 2026) | health | 773 | Good (B) |
+| How Much Do Weight Loss Injections Cost in South Africa? (2026 Price Guide) | health | 739 | Good (B) |
+| Ozempic Side Effects: What Every Woman Should Know Before Starting | health | 756 | Good (B) |
+| Weight Loss Injections and Women: Fertility, Periods and What to Expect | health | 763 | Good (B) |
+| How to Lose Weight After 40: A Realistic Guide for South African Women | health | 798 | Good (B) |
+| Intermittent Fasting for Women Over 40: A Beginner's Guide (South Africa) | health | 762 | Good (B) |
+| The Best Affordable Makeup at Clicks and Dis-Chem in South Africa (2026) | beauty | 757 | Good (B) |
+| How to Lose Belly Fat: Science-Backed Tips for South African Women | health | 722 | Good (B) |
+| How to Get Rid of Under-Eye Dark Circles: A South African Product Guide | beauty | 670 | Good (B) |
+| The Best Anti-Aging Skincare for Your 30s and 40s (South Africa) | beauty | 639 | Good (B) |
+| How to Build an Emergency Fund in South Africa (Step-by-Step Guide) | finance | 732 | Good (B) |
+| The Best Budgeting Apps in South Africa (2026) | finance | 715 | Good (B) |
+| How to Start Investing on the JSE for Beginners (South Africa 2026) | finance | 694 | Good (B) |
+| How to Survive Financially After a Divorce in South Africa | finance | 745 | Good (B) |
+| Early Signs of Pregnancy: The First Two Weeks (South African Guide) | health | 730 | Good (B) |
+| How to Manage Stress and Burnout as a Working Mom in South Africa | health | 750 | Good (B) |
+| How to Make Money Online in South Africa: Legit Ways for 2026 | career | 690 | Good (B) |
+| How to Start a Cleaning Business in South Africa (2026 Guide) | career | 691 | Good (B) |

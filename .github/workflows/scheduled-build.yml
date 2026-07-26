@@ -1,0 +1,20 @@
+name: Scheduled content publish
+
+# Triggers a Netlify rebuild on Mon/Wed/Fri mornings so that any article whose
+# publishDate has arrived goes live automatically (the scheduled content drip).
+# Build hook URL is stored in the repo secret NETLIFY_BUILD_HOOK.
+
+on:
+  schedule:
+    - cron: '10 4 * * 1,3,5'   # 04:10 UTC = 06:10 SAST, Mon/Wed/Fri
+  workflow_dispatch: {}          # allow manual "publish now" runs from the Actions tab
+
+jobs:
+  trigger-netlify-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Netlify build hook
+        run: |
+          echo "Triggering Netlify rebuild ($(date -u))"
+          curl -fsS -X POST -d '{}' "${{ secrets.NETLIFY_BUILD_HOOK }}"
+          echo "Build triggered."

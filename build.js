@@ -5,6 +5,13 @@ const articles = require('./articles.js');
 const templateHtml = fs.readFileSync('article_template.html', 'utf8');
 let indexHtml = fs.readFileSync('index.html', 'utf8');
 
+// Scheduled drip: only publish articles whose publishDate (YYYY-MM-DD) has arrived.
+// Articles with no publishDate are treated as already live (all legacy content).
+const TODAY_STR = new Date().toISOString().slice(0, 10);
+const isPublished = (a) => !a.publishDate || a.publishDate <= TODAY_STR;
+const publishedArticles = articles.filter(isPublished);
+console.log(`Publishing ${publishedArticles.length} of ${articles.length} articles (${articles.length - publishedArticles.length} scheduled for the future). Build date: ${TODAY_STR}`);
+
 // Directory for articles
 const articlesDir = path.join(__dirname, 'articles');
 if (!fs.existsSync(articlesDir)) {
@@ -39,7 +46,7 @@ rootFiles.forEach(file => {
     }
 });
 
-articles.forEach(article => {
+publishedArticles.forEach(article => {
     // Determine path based on category and subCategory
     const categoryPath = path.join(articlesDir, article.category);
     if (!fs.existsSync(categoryPath)) {
@@ -88,7 +95,7 @@ articles.forEach(article => {
         .filter(a => a.slug !== article.slug);
         
     if (related.length < 6) {
-        const otherArticles = articles.filter(a => a.slug !== article.slug && a.category !== article.category);
+        const otherArticles = publishedArticles.filter(a => a.slug !== article.slug && a.category !== article.category);
         related = related.concat(otherArticles.slice(0, 6 - related.length));
     }
     
@@ -260,7 +267,7 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
         <priority>1.0</priority>
     </url>`;
 
-articles.forEach(article => {
+publishedArticles.forEach(article => {
     const dateObj = new Date(article.date);
     const lastmod = isNaN(dateObj) ? new Date().toISOString().split('T')[0] : dateObj.toISOString().split('T')[0];
     sitemapXml += `
