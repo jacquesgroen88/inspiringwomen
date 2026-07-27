@@ -978,6 +978,10 @@ body.nav-is-open {
         .single-article-content ul, .single-article-content ol { margin-bottom: 20px; padding-left: 20px; font-size: 1.05rem; }
         .single-article-content li { margin-bottom: 10px; }
         .single-article-content a { color: var(--primary-color); font-weight: 600; text-decoration: underline; }
+        .breadcrumbs { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
+        .breadcrumbs a { color: var(--text-muted); }
+        .breadcrumbs a:hover { color: var(--primary-color); }
+        .breadcrumb-current { color: var(--text-dark); }
     </style>
 </head>
 <body>
@@ -1016,6 +1020,7 @@ body.nav-is-open {
                 <!-- Main Column -->
                 <div class="primary-column">
                     <article class="single-article">
+                        {{BREADCRUMBS}}
                         <div class="single-article-header">
                             <span class="category-tag">{{CATEGORY}}</span>
                             <h1>{{TITLE}}</h1>
@@ -1024,7 +1029,7 @@ body.nav-is-open {
                                 <span><i class="fas fa-calendar"></i> {{DATE}}</span>
                             </div>
                         </div>
-                        <img src="{{IMAGE}}" alt="{{TITLE}}" class="single-article-image">
+                        <img src="{{IMAGE}}" alt="{{IMAGE_ALT}}" width="800" height="450" class="single-article-image">
                         <div class="single-article-content">
                             {{CONTENT}}
                             

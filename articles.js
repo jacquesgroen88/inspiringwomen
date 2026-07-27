@@ -237,6 +237,7 @@ const articles = [
         <li><strong>Old Mutual's Budget Calculator</strong> — free online budgeting tool specific to the SA context.</li>
       </ul>
       <p>Financial freedom in South Africa in 2026 is not about earning a six-figure salary — it is about making what you earn work harder than you do. Start where you are. Use what you have. The most expensive financial decision you will ever make is waiting to start.</p>
+      <p>Ready to go deeper? Learn the simple <a href="{{BASE_PATH}}articles/finance/budgeting/50-30-20-budget-rule-sa.html">50/30/20 budgeting method</a> and <a href="{{BASE_PATH}}articles/finance/budgeting/save-money-on-groceries-sa.html">20 practical ways to save money on groceries</a>.</p>
     `
   },
   {
@@ -7906,6 +7907,7 @@ const articles = [
   {
     title: "What Are Peptides and How Do They Work for Weight Loss? A South African Guide",
     slug: "what-are-peptides-weight-loss-sa",
+    metaDescription: "What are peptides and how do weight-loss peptides like semaglutide actually work? A clear, safe South African guide, plus the products to avoid.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -7966,6 +7968,7 @@ const articles = [
   {
     title: "Semaglutide in South Africa: How It Works, Cost, and How to Get It (2026)",
     slug: "semaglutide-south-africa",
+    metaDescription: "Semaglutide (Ozempic, Wegovy) in South Africa: how it works, what it costs, side effects, and how to get it safely and legally. A 2026 guide.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8020,6 +8023,7 @@ const articles = [
   {
     title: "Ozempic vs Wegovy vs Saxenda: Weight Loss Injections Compared (South Africa 2026)",
     slug: "ozempic-wegovy-saxenda-compared-sa",
+    metaDescription: "Ozempic vs Wegovy vs Saxenda vs Mounjaro compared for South Africa: active ingredients, weekly vs daily, and how to choose with your doctor.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8076,6 +8080,7 @@ const articles = [
   {
     title: "How Much Do Weight Loss Injections Cost in South Africa? (2026 Price Guide)",
     slug: "weight-loss-injections-cost-sa",
+    metaDescription: "How much do weight-loss injections like Ozempic cost in South Africa in 2026? A realistic price guide, medical aid tips, and the hidden costs.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8132,6 +8137,7 @@ const articles = [
   {
     title: "Ozempic Side Effects: What Every Woman Should Know Before Starting",
     slug: "ozempic-side-effects-women",
+    metaDescription: "Ozempic side effects every woman should know before starting: what's common, how to manage nausea, and the serious warning signs to watch for.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8190,6 +8196,7 @@ const articles = [
   {
     title: "Weight Loss Injections and Women: Fertility, Periods and What to Expect",
     slug: "weight-loss-injections-women-fertility-sa",
+    metaDescription: "How weight-loss injections affect women's fertility, periods and hormones, plus the crucial pregnancy warning every SA woman should know.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8238,6 +8245,7 @@ const articles = [
   {
     title: "How to Lose Weight After 40: A Realistic Guide for South African Women",
     slug: "how-to-lose-weight-after-40-sa",
+    metaDescription: "How to lose weight after 40 as a South African woman: why it gets harder, what actually works, and realistic, sustainable steps (no crash diets).",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8299,6 +8307,7 @@ const articles = [
   {
     title: "Intermittent Fasting for Women Over 40: A Beginner's Guide (South Africa)",
     slug: "intermittent-fasting-women-over-40-sa",
+    metaDescription: "Intermittent fasting for women over 40: how it works, how to start gently, what to eat, and the cautions. A practical SA beginner's guide.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
@@ -8421,6 +8430,7 @@ const articles = [
   {
     title: "How to Lose Belly Fat: Science-Backed Tips for South African Women",
     slug: "how-to-lose-belly-fat-sa",
+    metaDescription: "How to lose belly fat: science-backed tips for South African women. What actually works, the foods that help, and why crunches aren't enough.",
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",

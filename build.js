@@ -12,6 +12,35 @@ const isPublished = (a) => !a.publishDate || a.publishDate <= TODAY_STR;
 const publishedArticles = articles.filter(isPublished);
 console.log(`Publishing ${publishedArticles.length} of ${articles.length} articles (${articles.length - publishedArticles.length} scheduled for the future). Build date: ${TODAY_STR}`);
 
+// Display labels for categories (breadcrumbs / schema)
+const CATEGORY_LABELS = { beauty: 'Beauty', career: 'Career', health: 'Health', lifestyle: 'Home & Garden', recipes: 'Recipes', legal: 'Legal', finance: 'Finance', business: 'Business', community: 'Community' };
+
+// Return YYYY-MM-DD for an article (prefers ISO publishDate, else parses the human date, else today)
+function toISODate(a) {
+    if (a.publishDate && /^\d{4}-\d{2}-\d{2}$/.test(a.publishDate)) return a.publishDate;
+    const d = new Date(a.date);
+    if (isNaN(d)) return TODAY_STR;
+    // Normalise to the calendar date regardless of build-machine timezone (avoids off-by-one)
+    return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+}
+
+// Build FAQPage JSON-LD from the article's FAQ block (h3 question + following p answer)
+function buildFaqSchema(content) {
+    const idx = content.search(/<h2[^>]*>\s*Frequently Asked Questions\s*<\/h2>/i);
+    if (idx === -1) return null;
+    const section = content.slice(idx);
+    const pairs = [];
+    const re = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
+    let m;
+    while ((m = re.exec(section)) !== null) {
+        const q = m[1].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+        const a = m[2].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+        if (q && a) pairs.push({ "@type": "Question", "name": q, "acceptedAnswer": { "@type": "Answer", "text": a } });
+    }
+    if (!pairs.length) return null;
+    return { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": pairs };
+}
+
 // Directory for articles
 const articlesDir = path.join(__dirname, 'articles');
 if (!fs.existsSync(articlesDir)) {
@@ -76,9 +105,10 @@ publishedArticles.forEach(article => {
     const textContent = article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const excerpt = textContent.substring(0, 150) + '...';
 
-    // Auto-generate meta description: first 155 chars of plain text content
+    // Meta description: use the custom field if provided, else auto (first ~155 chars, trimmed to a whole word)
     const rawMetaDesc = textContent.substring(0, 155).replace(/\s+\S*$/, '');
-    const metaDescription = (rawMetaDesc.length > 50 ? rawMetaDesc : textContent.substring(0, 155)) + '...';
+    const autoMetaDescription = (rawMetaDesc.length > 50 ? rawMetaDesc : textContent.substring(0, 155)) + '...';
+    const metaDescription = article.metaDescription ? article.metaDescription : autoMetaDescription;
 
     // Add to search index
     searchData.push({
@@ -127,32 +157,38 @@ publishedArticles.forEach(article => {
         `;
     }
 
-    // Build JSON-LD Article structured data
-    const structuredData = JSON.stringify({
+    // Breadcrumbs (UX + SERP display + site-wide internal linking to Home and Category)
+    const catLabel = CATEGORY_LABELS[article.category] || article.category;
+    const categoryUrl = `${basePath}articles/${article.category}/index.html`;
+    const breadcrumbsHtml = `<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="${basePath}index.html">Home</a> <span aria-hidden="true">&rsaquo;</span> <a href="${categoryUrl}">${catLabel}</a> <span aria-hidden="true">&rsaquo;</span> <span class="breadcrumb-current">${article.title}</span></nav>`;
+
+    // JSON-LD: Article + BreadcrumbList + FAQPage (when the article has an FAQ block)
+    const isoDate = toISODate(article);
+    const modifiedDate = (article.updated && /^\d{4}-\d{2}-\d{2}$/.test(article.updated)) ? article.updated : isoDate;
+    const articleSchema = {
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": article.title,
         "description": metaDescription,
         "image": fullImageUrl,
-        "author": {
-            "@type": "Person",
-            "name": article.author
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Inspiring Women",
-            "logo": {
-                "@type": "ImageObject",
-                "url": `${siteBase}/assets/logo.png`
-            }
-        },
-        "datePublished": article.date,
-        "dateModified": article.date,
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": canonicalUrl
-        }
-    }, null, 2);
+        "author": { "@type": "Person", "name": article.author },
+        "publisher": { "@type": "Organization", "name": "Inspiring Women", "logo": { "@type": "ImageObject", "url": `${siteBase}/assets/logo.png` } },
+        "datePublished": isoDate,
+        "dateModified": modifiedDate,
+        "mainEntityOfPage": { "@type": "WebPage", "@id": canonicalUrl }
+    };
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": `${siteBase}/` },
+            { "@type": "ListItem", "position": 2, "name": catLabel, "item": `${siteBase}/articles/${article.category}/index.html` },
+            { "@type": "ListItem", "position": 3, "name": article.title, "item": canonicalUrl }
+        ]
+    };
+    const faqSchema = buildFaqSchema(article.content);
+    const schemaBlocks = faqSchema ? [articleSchema, breadcrumbSchema, faqSchema] : [articleSchema, breadcrumbSchema];
+    const structuredData = JSON.stringify(schemaBlocks, null, 2);
 
     // Replace all occurrences of placeholders
     let html = templateHtml
@@ -165,6 +201,8 @@ publishedArticles.forEach(article => {
         .replace(/\{\{AUTHOR\}\}/g, article.author)
         .replace(/\{\{DATE\}\}/g, article.date)
         .replace(/\{\{IMAGE\}\}/g, `${basePath}assets/${article.image}`)
+        .replace(/\{\{IMAGE_ALT\}\}/g, (article.imageAlt || article.title).replace(/"/g, '&quot;'))
+        .replace(/\{\{BREADCRUMBS\}\}/g, breadcrumbsHtml)
         .replace(/\{\{BASE_PATH\}\}/g, basePath)
         .replace(/\{\{CONTENT\}\}/g, article.content.replace(/\{\{BASE_PATH\}\}/g, basePath))
         .replace(/\{\{RELATED_ARTICLES\}\}/g, relatedHtml);
@@ -206,10 +244,29 @@ for (const [category, catArticles] of Object.entries(categoryMap)) {
     });
     listHtml += `</div></div>`;
 
+    // Category-page head metadata (fixes the previously-unreplaced {{...}} placeholders on category pages)
+    const catLabel = CATEGORY_LABELS[category] || category;
+    const catCanonical = `https://inspiringwomen.co.za/articles/${category}/index.html`;
+    const catDesc = `Browse the latest ${catLabel} articles, tips and guides for South African women on Inspiring Women.`;
+    const catSchema = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": `${catLabel} | Inspiring Women`,
+        "description": catDesc,
+        "url": catCanonical
+    }, null, 2);
+
     // We inject this into the template by replacing the main article content
     let catHtml = templateHtml
         .replace(/<article class="single-article">[\s\S]*?<\/article>/, listHtml)
-        .replace(/<title>\{\{TITLE\}\} \| Inspiring Women<\/title>/, `<title>${category.toUpperCase()} | Inspiring Women</title>`)
+        .replace(/<title>\{\{TITLE\}\} \| Inspiring Women<\/title>/, `<title>${catLabel} | Inspiring Women</title>`)
+        .replace(/\{\{META_DESCRIPTION\}\}/g, catDesc.replace(/"/g, '&quot;'))
+        .replace(/\{\{CANONICAL_URL\}\}/g, catCanonical)
+        .replace(/\{\{FULL_IMAGE_URL\}\}/g, 'https://inspiringwomen.co.za/assets/logo.png')
+        .replace(/\{\{STRUCTURED_DATA\}\}/g, catSchema)
+        .replace(/\{\{TITLE\}\}/g, catLabel)
+        .replace(/\{\{BREADCRUMBS\}\}/g, '')
+        .replace(/\{\{IMAGE_ALT\}\}/g, catLabel)
         .replace(/\{\{BASE_PATH\}\}/g, basePath);
         
     // Fix navigation for category pages

@@ -35,31 +35,95 @@
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)",
-  "description": "If budgeting feels overwhelming, the 50/30/20 rule is the simplest place to start. It splits your take-home pay into three easy buckets, so you always...",
-  "image": "https://inspiringwomen.co.za/assets/finance_budgeting.webp",
-  "author": {
-    "@type": "Person",
-    "name": "Inspiring Women"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Inspiring Women",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://inspiringwomen.co.za/assets/logo.png"
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)",
+    "description": "If budgeting feels overwhelming, the 50/30/20 rule is the simplest place to start. It splits your take-home pay into three easy buckets, so you always...",
+    "image": "https://inspiringwomen.co.za/assets/finance_budgeting.webp",
+    "author": {
+      "@type": "Person",
+      "name": "Inspiring Women"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Inspiring Women",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://inspiringwomen.co.za/assets/logo.png"
+      }
+    },
+    "datePublished": "2026-07-26",
+    "dateModified": "2026-07-26",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://inspiringwomen.co.za/articles/finance/budgeting/50-30-20-budget-rule-sa.html"
     }
   },
-  "datePublished": "July 26, 2026",
-  "dateModified": "July 26, 2026",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://inspiringwomen.co.za/articles/finance/budgeting/50-30-20-budget-rule-sa.html"
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://inspiringwomen.co.za/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Finance",
+        "item": "https://inspiringwomen.co.za/articles/finance/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)",
+        "item": "https://inspiringwomen.co.za/articles/finance/budgeting/50-30-20-budget-rule-sa.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is the 50/30/20 rule realistic in South Africa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For higher earners, yes. For lower and middle-income households where transport and food take a large share, the standard split can be hard to hit. The solution is to adapt the percentages, for example 70/20/10, while keeping the core principle of always protecting a savings portion."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the 50 percent include debt repayments?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Minimum debt repayments count as needs and sit in the 50 percent bucket. Any extra you pay to clear debt faster comes out of the 20 percent savings-and-debt bucket. This way you always cover the minimum while actively reducing what you owe."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What counts as a need versus a want?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A need is something you cannot function without: shelter, basic food, transport to work, electricity, and medical cover. A want is something that improves your life but is not essential, such as eating out, streaming subscriptions, and non-essential shopping. When unsure, ask whether you could pause it for a month without serious consequences."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I start budgeting if I have never done it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Start by writing down your take-home pay and every expense for one month, using your bank app or a simple notebook. Once you can see where your money actually goes, apply the 50/30/20 split as a target and automate your savings on payday so it happens without willpower."
+        }
+      }
+    ]
   }
-}
+]
     </script>
 
     <!-- Preconnect to external domains -->
@@ -1002,6 +1066,10 @@ body.nav-is-open {
         .single-article-content ul, .single-article-content ol { margin-bottom: 20px; padding-left: 20px; font-size: 1.05rem; }
         .single-article-content li { margin-bottom: 10px; }
         .single-article-content a { color: var(--primary-color); font-weight: 600; text-decoration: underline; }
+        .breadcrumbs { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
+        .breadcrumbs a { color: var(--text-muted); }
+        .breadcrumbs a:hover { color: var(--primary-color); }
+        .breadcrumb-current { color: var(--text-dark); }
     </style>
 </head>
 <body>
@@ -1040,6 +1108,7 @@ body.nav-is-open {
                 <!-- Main Column -->
                 <div class="primary-column">
                     <article class="single-article">
+                        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../../index.html">Home</a> <span aria-hidden="true">&rsaquo;</span> <a href="../../../articles/finance/index.html">Finance</a> <span aria-hidden="true">&rsaquo;</span> <span class="breadcrumb-current">The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)</span></nav>
                         <div class="single-article-header">
                             <span class="category-tag">FINANCE</span>
                             <h1>The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)</h1>
@@ -1048,7 +1117,7 @@ body.nav-is-open {
                                 <span><i class="fas fa-calendar"></i> July 26, 2026</span>
                             </div>
                         </div>
-                        <img src="../../../assets/finance_budgeting.webp" alt="The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)" class="single-article-image">
+                        <img src="../../../assets/finance_budgeting.webp" alt="The 50/30/20 Budget Rule Explained for South Africans (With Rand Examples)" width="800" height="450" class="single-article-image">
                         <div class="single-article-content">
                             
       <p>If budgeting feels overwhelming, the 50/30/20 rule is the simplest place to start. It splits your take-home pay into three easy buckets, so you always know where your money should go. Here is exactly how it works with real Rand examples, and how to adapt it for the reality of the South African cost of living.</p>

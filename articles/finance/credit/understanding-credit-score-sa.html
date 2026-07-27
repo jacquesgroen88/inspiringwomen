@@ -35,31 +35,95 @@
 
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Understanding Your Credit Score in South Africa (And How to Improve It Fast)",
-  "description": "Your credit score is arguably the single most financially consequential number in your life. It determines whether you qualify for a home loan, what...",
-  "image": "https://inspiringwomen.co.za/assets/credit_score_sa.webp",
-  "author": {
-    "@type": "Person",
-    "name": "Thandiwe N."
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Inspiring Women",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://inspiringwomen.co.za/assets/logo.png"
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Understanding Your Credit Score in South Africa (And How to Improve It Fast)",
+    "description": "Your credit score is arguably the single most financially consequential number in your life. It determines whether you qualify for a home loan, what...",
+    "image": "https://inspiringwomen.co.za/assets/credit_score_sa.webp",
+    "author": {
+      "@type": "Person",
+      "name": "Thandiwe N."
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Inspiring Women",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://inspiringwomen.co.za/assets/logo.png"
+      }
+    },
+    "datePublished": "2026-05-01",
+    "dateModified": "2026-05-01",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://inspiringwomen.co.za/articles/finance/credit/understanding-credit-score-sa.html"
     }
   },
-  "datePublished": "May 1, 2026",
-  "dateModified": "May 1, 2026",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://inspiringwomen.co.za/articles/finance/credit/understanding-credit-score-sa.html"
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://inspiringwomen.co.za/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Finance",
+        "item": "https://inspiringwomen.co.za/articles/finance/index.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Understanding Your Credit Score in South Africa (And How to Improve It Fast)",
+        "item": "https://inspiringwomen.co.za/articles/finance/credit/understanding-credit-score-sa.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does it take to improve a bad credit score?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Small improvements (from consistent payment history and reduced utilisation) can be visible within 60–90 days. Significant rebuilding — from a score below 600 to above 700 — typically takes 12–24 months of disciplined behaviour. Recovering from a judgment or sequestration takes 3–5 years of consistent positive history."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I pay someone to clean my credit record?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Legitimate adverse listings — real late payments, real defaults, real judgments — cannot be legally removed before their regulated expiry date by anyone. Companies that promise to \"clean\" or \"clear\" your credit record for a fee are either referring to legitimate dispute resolution (which you can do yourself for free) or are fraudulent. Report any company promising to remove legitimate listings to the National Credit Regulator (ncr.org.za)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will checking my own score lower it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Checking your own score is a \"soft inquiry\" and has zero impact on your score. Check it as often as you like via ClearScore or MyTransUnion — it is a healthy habit. Only \"hard inquiries\" (when a lender checks in response to your credit application) affect your score."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What credit score do I need for a home loan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As a guideline, most major South African banks want a minimum score of approximately 600 for a home loan application. A score of 680+ gives you a meaningful chance of approval at competitive rates. A score above 750 puts you in the strongest position. Note that credit score is only one factor — banks also assess your income, expenses, employment stability, and deposit size."
+        }
+      }
+    ]
   }
-}
+]
     </script>
 
     <!-- Preconnect to external domains -->
@@ -1002,6 +1066,10 @@ body.nav-is-open {
         .single-article-content ul, .single-article-content ol { margin-bottom: 20px; padding-left: 20px; font-size: 1.05rem; }
         .single-article-content li { margin-bottom: 10px; }
         .single-article-content a { color: var(--primary-color); font-weight: 600; text-decoration: underline; }
+        .breadcrumbs { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
+        .breadcrumbs a { color: var(--text-muted); }
+        .breadcrumbs a:hover { color: var(--primary-color); }
+        .breadcrumb-current { color: var(--text-dark); }
     </style>
 </head>
 <body>
@@ -1040,6 +1108,7 @@ body.nav-is-open {
                 <!-- Main Column -->
                 <div class="primary-column">
                     <article class="single-article">
+                        <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="../../../index.html">Home</a> <span aria-hidden="true">&rsaquo;</span> <a href="../../../articles/finance/index.html">Finance</a> <span aria-hidden="true">&rsaquo;</span> <span class="breadcrumb-current">Understanding Your Credit Score in South Africa (And How to Improve It Fast)</span></nav>
                         <div class="single-article-header">
                             <span class="category-tag">FINANCE</span>
                             <h1>Understanding Your Credit Score in South Africa (And How to Improve It Fast)</h1>
@@ -1048,7 +1117,7 @@ body.nav-is-open {
                                 <span><i class="fas fa-calendar"></i> May 1, 2026</span>
                             </div>
                         </div>
-                        <img src="../../../assets/credit_score_sa.webp" alt="Understanding Your Credit Score in South Africa (And How to Improve It Fast)" class="single-article-image">
+                        <img src="../../../assets/credit_score_sa.webp" alt="Understanding Your Credit Score in South Africa (And How to Improve It Fast)" width="800" height="450" class="single-article-image">
                         <div class="single-article-content">
                             
       <p>Your credit score is arguably the single most financially consequential number in your life. It determines whether you qualify for a home loan, what interest rate you pay on vehicle finance, whether a landlord accepts your rental application, and in some industries, whether you get hired. Yet the majority of South Africans have never seen their credit report, do not know their score, and have no strategy for managing it. This comprehensive guide fixes that.</p>
