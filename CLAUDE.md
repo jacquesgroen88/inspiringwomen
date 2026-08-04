@@ -63,7 +63,7 @@ articles.js  ──►  build.js  ──►  articles/{category}/{subCategory}/{
 | `generate_pages.js` | Legacy/alternative page generator (not the active build). |
 | `inject_articles.js` | Utility script for batch article injection. |
 | `run_fixes.js` | Utility for batch HTML fixes. |
-| `iw_post_queue.json` | Social media post queue — every article has a ready-made Instagram caption and image URL. `"posted": false` means it hasn't been published yet. |
+| `iw_post_queue.json` | **Pinterest pin queue** (rebuilt 4 Aug 2026) — one pin per live article: `pin_title`, `pin_description`, real `link`, `board`. Regenerate with `build_pin_queue.py`. See the Pinterest Pin Queue section. |
 | `article_inventory.md` | Auto-generated SEO audit table (title, category, word count, quality rating). Re-generated on every build. |
 | `article_word_counts.md` | Manual word count tracking doc. |
 | `iw_records_list.txt` | Record-keeping list of published content. |
@@ -211,15 +211,20 @@ Every article page has:
 
 ---
 
-## Social Media Post Queue
+## Pinterest Pin Queue
 
-`iw_post_queue.json` contains every article with:
-- `title` — article title
-- `post_caption` — ready-to-post Instagram/Facebook caption with hashtags
-- `link` — full article URL
-- `image_url` — full image URL (`.png` version for social)
-- `category` — article category
-- `posted` — `false` means not yet published to social media
+**Rebuilt 2026-08-04. The channel is Pinterest, not Instagram.** Instagram posts carry no links, so an IG-shaped queue cannot serve a website-traffic goal. Pinterest also ignores domain authority, which is this site's core weakness (22 backlinks, all pointing at the homepage).
+
+`iw_post_queue.json` holds one pin per LIVE article (95 as of 4 Aug):
+- `order` — running order, proven clusters first: beauty (11), then finance (10), then lifestyle, career, health, recipes, business, community, legal
+- `pin_title` — capped at 100 characters
+- `pin_description` — keyword-led complete sentences, because Pinterest is a search engine and not a feed
+- `link` — real destination URL (Pinterest has a link field, so never write "link in bio")
+- `image_url`, `board`, `posted`, `posted_at`
+
+**Regenerate with** `build_pin_queue.py` (lives in Mission Control at `JCE Media/clients/InspiringWomen/`). It reads `articles.js`, skips staged articles, excludes headings and medical disclaimers from descriptions, and strips em dashes.
+
+**Known gaps:** no Pinterest account exists yet, and the images in `assets/` are 1024x1024 squares (JPEGs with `.png` extensions) where Pinterest wants 2:3 / 1000x1500.
 
 **Note:** Twitter/X was removed from the site's social links.
 
@@ -284,7 +289,8 @@ Notable content pillars:
 ## Known Issues / TODO
 
 - `Summer Holidays` and `6 Reasons To Join` articles are very short (Short C rating) — candidates for expansion
-- `iw_post_queue.json` has all articles marked `"posted": false` — social media posting not yet done
+- `iw_post_queue.json`: all 95 pins are still `"posted": false`. **Blocked: no Pinterest account exists yet.** Pin images also need regenerating at 2:3 / 1000x1500 (current assets are 1024x1024 squares)
+- `build.js` writes sitemap `lastmod` from the human `date` field, so 3 legacy articles emit FUTURE lastmods (Oct/Nov/Dec 2026). Google distrusts future lastmods; clamp it to today
 - `baking-vs-strobing.html`, `keto-doughnuts.html`, `manage-finances-2024.html`, `empowering-women.html`, `wedding-budget-guilt.html` are **legacy root-level HTML files** from before the build system was introduced — they are not managed by `build.js` and may have outdated templates
 - `generate_pages.js` is a legacy script — `build.js` is the active builder
 
