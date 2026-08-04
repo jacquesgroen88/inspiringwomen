@@ -8141,8 +8141,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 5, 2026",
-    publishDate: "2026-08-05",
+    date: "September 7, 2026",
+    publishDate: "2026-09-07",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Always speak to a registered doctor about side effects and whether this medicine is safe for you. Seek medical help if you experience severe symptoms.</div>
@@ -8200,8 +8200,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 7, 2026",
-    publishDate: "2026-08-07",
+    date: "September 9, 2026",
+    publishDate: "2026-09-09",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Always speak to a registered doctor about your fertility, cycle, and whether these medicines are safe for you.</div>
@@ -8249,8 +8249,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 10, 2026",
-    publishDate: "2026-08-10",
+    date: "August 31, 2026",
+    publishDate: "2026-08-31",
     image: "fat_freeze.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Speak to a doctor before starting a new diet, exercise, or weight-loss programme, especially if you have a health condition.</div>
@@ -8311,8 +8311,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 12, 2026",
-    publishDate: "2026-08-12",
+    date: "September 2, 2026",
+    publishDate: "2026-09-02",
     image: "healthy_dinner.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Fasting is not suitable for everyone. Speak to a doctor before starting, especially if you are pregnant, breastfeeding, diabetic, or have a history of disordered eating.</div>
@@ -8364,8 +8364,8 @@ const articles = [
     category: "beauty",
     subCategory: "makeup",
     author: "Inspiring Women",
-    date: "August 14, 2026",
-    publishDate: "2026-08-14",
+    date: "August 10, 2026",
+    publishDate: "2026-08-10",
     image: "local_beauty_1777368389079.webp",
     content: `
       <p>You do not need to spend a fortune to build a great makeup bag. South African pharmacies and beauty aisles are packed with affordable products that punch well above their price. Here is a practical guide to building a full, flattering makeup routine on a budget, using products you can actually find at Clicks and Dis-Chem.</p>
@@ -8434,8 +8434,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 17, 2026",
-    publishDate: "2026-08-17",
+    date: "September 4, 2026",
+    publishDate: "2026-09-04",
     image: "fat_freeze.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Speak to a doctor before starting a new diet or exercise plan, especially if you have a health condition.</div>
@@ -8490,8 +8490,8 @@ const articles = [
     category: "beauty",
     subCategory: "skincare",
     author: "Inspiring Women",
-    date: "August 19, 2026",
-    publishDate: "2026-08-19",
+    date: "August 5, 2026",
+    publishDate: "2026-08-05",
     image: "retinol_skincare.webp",
     content: `
       <p>Dark circles under the eyes are one of the most common beauty frustrations, and no amount of concealer fully fixes them if you do not address the cause. Here is a practical guide for South African women on what actually causes dark circles and how to treat them, with products you can find locally.</p>
@@ -8557,8 +8557,8 @@ const articles = [
     category: "beauty",
     subCategory: "skincare",
     author: "Inspiring Women",
-    date: "August 21, 2026",
-    publishDate: "2026-08-21",
+    date: "August 7, 2026",
+    publishDate: "2026-08-07",
     image: "winter_skincare.webp",
     content: `
       <p>Your 30s and 40s are the perfect time to build a smart anti-aging skincare routine, not to panic-buy every expensive cream on the shelf. A few proven ingredients, used consistently, do far more than a bathroom full of products. Here is a practical, affordable anti-aging guide for South African women.</p>
@@ -8616,8 +8616,8 @@ const articles = [
     category: "finance",
     subCategory: "budgeting",
     author: "Inspiring Women",
-    date: "August 24, 2026",
-    publishDate: "2026-08-24",
+    date: "August 12, 2026",
+    publishDate: "2026-08-12",
     image: "finance_budgeting.webp",
     content: `
       <p>An emergency fund is the foundation of financial security, and yet most South Africans do not have one. It is the buffer that stops a burst geyser, a car breakdown, or a sudden job loss from turning into a debt spiral. Here is a realistic, step-by-step guide to building one, even on a tight budget.</p>
@@ -8676,8 +8676,8 @@ const articles = [
     category: "finance",
     subCategory: "budgeting",
     author: "Inspiring Women",
-    date: "August 26, 2026",
-    publishDate: "2026-08-26",
+    date: "August 14, 2026",
+    publishDate: "2026-08-14",
     image: "finance_budgeting.webp",
     content: `
       <p>If you struggle to keep track of where your money goes, a budgeting app can be a game-changer. The right one turns budgeting from a chore into something almost automatic. Here is a practical guide to the best budgeting tools available to South Africans in 2026, and how to pick the one that suits you.</p>
@@ -8735,8 +8735,8 @@ const articles = [
     category: "finance",
     subCategory: "investing",
     author: "Inspiring Women",
-    date: "August 28, 2026",
-    publishDate: "2026-08-28",
+    date: "August 19, 2026",
+    publishDate: "2026-08-19",
     image: "investing_r500_sa.webp",
     content: `
       <p>Investing can feel intimidating, like something only wealthy people with financial advisors do. In reality, you can start investing on the Johannesburg Stock Exchange (JSE) with a small amount of money and a basic understanding. Here is a beginner-friendly guide for South African women who want their money to grow.</p>
@@ -8794,8 +8794,8 @@ const articles = [
     category: "finance",
     subCategory: "budgeting",
     author: "Inspiring Women",
-    date: "August 31, 2026",
-    publishDate: "2026-08-31",
+    date: "August 17, 2026",
+    publishDate: "2026-08-17",
     image: "credit_score_sa.webp",
     content: `
       <p>Divorce is emotionally hard, and the financial side can feel just as overwhelming, especially if you are rebuilding your finances on a single income. This guide offers practical, compassionate steps for South African women to regain financial stability and independence after a divorce.</p>
@@ -8850,8 +8850,8 @@ const articles = [
     category: "health",
     subCategory: "pregnancy",
     author: "Inspiring Women",
-    date: "September 2, 2026",
-    publishDate: "2026-09-02",
+    date: "August 28, 2026",
+    publishDate: "2026-08-28",
     image: "pregnancy_hospital_bag.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Only a pregnancy test and a healthcare provider can confirm a pregnancy. Speak to a doctor or clinic for guidance about your individual situation.</div>
@@ -8912,8 +8912,8 @@ const articles = [
     category: "health",
     subCategory: "mental-health",
     author: "Inspiring Women",
-    date: "September 4, 2026",
-    publishDate: "2026-09-04",
+    date: "August 26, 2026",
+    publishDate: "2026-08-26",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Note:</strong> This article is for general educational purposes only and is not medical advice. If you are struggling with your mental health, please reach out to a doctor, a registered counsellor, or the South African Depression and Anxiety Group (SADAG).</div>
@@ -8970,8 +8970,8 @@ const articles = [
     category: "career",
     subCategory: "entrepreneurship",
     author: "Inspiring Women",
-    date: "September 7, 2026",
-    publishDate: "2026-09-07",
+    date: "August 21, 2026",
+    publishDate: "2026-08-21",
     image: "side_hustle_entrepreneur.webp",
     content: `
       <p>Making money online is more possible than ever for South Africans, but the internet is also full of scams promising easy riches. This guide focuses on legitimate, realistic ways to earn extra income online in 2026, whether you want a side hustle or the start of something bigger.</p>
@@ -9027,8 +9027,8 @@ const articles = [
     category: "career",
     subCategory: "entrepreneurship",
     author: "Inspiring Women",
-    date: "September 9, 2026",
-    publishDate: "2026-09-09",
+    date: "August 24, 2026",
+    publishDate: "2026-08-24",
     image: "small_business_sa.webp",
     content: `
       <p>A cleaning business is one of the most accessible businesses to start in South Africa. The startup costs are low, demand is steady, and you can begin small and grow. Whether you want to clean homes or offices, here is a practical step-by-step guide to getting started.</p>
