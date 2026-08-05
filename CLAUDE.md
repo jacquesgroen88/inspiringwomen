@@ -222,7 +222,7 @@ Every article page has:
 - `link` — real destination URL (Pinterest has a link field, so never write "link in bio")
 - `image_url`, `board`, `posted`, `posted_at`
 
-**Regenerate with** `build_pin_queue.py` (lives in Mission Control at `JCE Media/clients/InspiringWomen/`). It reads `articles.js`, skips staged articles, excludes headings and medical disclaimers from descriptions, and strips em dashes.
+**Regenerate with** `build_pin_queue.py` (lives in Mission Control at `JCE Media/clients/InspiringWomen-tools/`). It reads `articles.js`, skips staged articles, excludes headings and medical disclaimers from descriptions, and strips em dashes.
 
 **Known gaps:** no Pinterest account exists yet, and the images in `assets/` are 1024x1024 squares (JPEGs with `.png` extensions) where Pinterest wants 2:3 / 1000x1500.
 

@@ -637,7 +637,7 @@
     "category": "health",
     "subCategory": "womens-health",
     "excerpt": "If you're a South African woman in your late 30s or early 40s and you've been feeling off — your periods are unpredictable, you're waking up drenched ...",
-    "image": "placeholder.webp"
+    "image": "mental_health_wellness.webp"
   },
   {
     "title": "How to Write a CV in South Africa: The 2026 Guide",
@@ -645,7 +645,7 @@
     "category": "career",
     "subCategory": "job-search",
     "excerpt": "Let's be honest: writing a CV in South Africa in 2026 feels like navigating a minefield. You're competing in a market with a 32.1% unemployment rate ,...",
-    "image": "placeholder.webp"
+    "image": "cv_template_sa.webp"
   },
   {
     "title": "The Best Affordable Skincare Routine for South African Women (Under R500)",
@@ -758,5 +758,13 @@
     "subCategory": "weight-loss",
     "excerpt": "Medical disclaimer: This article is for general educational purposes only and is not medical advice. Prices are approximate and change frequently. Alw...",
     "image": "fat_freeze.webp"
+  },
+  {
+    "title": "How to Get Rid of Under-Eye Dark Circles: A South African Product Guide",
+    "url": "articles/beauty/skincare/under-eye-dark-circles-sa.html",
+    "category": "beauty",
+    "subCategory": "skincare",
+    "excerpt": "Dark circles under the eyes are one of the most common beauty frustrations, and no amount of concealer fully fixes them if you do not address the caus...",
+    "image": "retinol_skincare.webp"
   }
 ]

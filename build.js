@@ -58,6 +58,16 @@ const NAV_LINKS = [
     { name: 'FINANCE', path: 'articles/finance/index.html' }
 ];
 
+// The templates write the ampersand escaped ("HOME &amp; GARDEN"), so a literal
+// match on the name above silently missed that one link and left it as href="#"
+// on every generated page. Match both spellings.
+function navLinkRegex(name) {
+    const escaped = name
+        .replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+        .replace(/&/g, '&(?:amp;)?');
+    return new RegExp(`<li><a href="[^"]*">${escaped}</a></li>`, 'g');
+}
+
 // Data for site search
 const searchData = [];
 // Group articles by category for category index pages
@@ -209,7 +219,7 @@ publishedArticles.forEach(article => {
     
     // Fix navigation in articles
     NAV_LINKS.forEach(nav => {
-        const regex = new RegExp(`<li><a href="[^"]*">${nav.name}</a></li>`, 'g');
+        const regex = navLinkRegex(nav.name);
         html = html.replace(regex, `<li><a href="${basePath}${nav.path}">${nav.name}</a></li>`);
     });
 
@@ -271,7 +281,7 @@ for (const [category, catArticles] of Object.entries(categoryMap)) {
         
     // Fix navigation for category pages
     NAV_LINKS.forEach(nav => {
-        const regex = new RegExp(`<li><a href="[^"]*">${nav.name}</a></li>`, 'g');
+        const regex = navLinkRegex(nav.name);
         catHtml = catHtml.replace(regex, `<li><a href="${basePath}${nav.path}">${nav.name}</a></li>`);
     });
 
@@ -281,7 +291,7 @@ for (const [category, catArticles] of Object.entries(categoryMap)) {
 
 // Update root index.html navigation links
 NAV_LINKS.forEach(nav => {
-    const regex = new RegExp(`<li><a href="[^"]*">${nav.name}</a></li>`, 'g');
+    const regex = navLinkRegex(nav.name);
     indexHtml = indexHtml.replace(regex, `<li><a href="${nav.path}">${nav.name}</a></li>`);
 });
 
@@ -326,7 +336,11 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
 
 publishedArticles.forEach(article => {
     const dateObj = new Date(article.date);
-    const lastmod = isNaN(dateObj) ? new Date().toISOString().split('T')[0] : dateObj.toISOString().split('T')[0];
+    // A few legacy articles carry a future `date`, which would emit a future lastmod.
+    // Google distrusts those, so clamp anything ahead of today back to today.
+    const today = new Date().toISOString().split('T')[0];
+    const rawLastmod = isNaN(dateObj) ? today : dateObj.toISOString().split('T')[0];
+    const lastmod = rawLastmod > today ? today : rawLastmod;
     sitemapXml += `
     <url>
         <loc>https://inspiringwomen.co.za/articles/${article.category}/${article.subCategory}/${article.slug}.html</loc>

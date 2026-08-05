@@ -1029,7 +1029,8 @@ body.nav-is-open {
         .single-article-content li { margin-bottom: 10px; }
         .single-article-content a { color: var(--primary-color); font-weight: 600; text-decoration: underline; }
         .breadcrumbs { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
-        .breadcrumbs a { color: var(--text-muted); }
+        /* padding lifts the links to the 24px WCAG 2.5.8 minimum target size */
+        .breadcrumbs a { color: var(--text-muted); display: inline-block; padding: 5px 2px; }
         .breadcrumbs a:hover { color: var(--primary-color); }
         .breadcrumb-current { color: var(--text-dark); }
     </style>
@@ -1053,7 +1054,7 @@ body.nav-is-open {
                     <li><a href="../../../articles/beauty/index.html">BEAUTY</a></li>
                     <li><a href="../../../articles/career/index.html">CAREER</a></li>
                     <li><a href="../../../articles/health/index.html">HEALTH</a></li>
-                    <li><a href="#">HOME &amp; GARDEN</a></li>
+                    <li><a href="../../../articles/lifestyle/index.html">HOME & GARDEN</a></li>
                     <li><a href="../../../articles/recipes/index.html">RECIPES</a></li>
                     <li><a href="../../../articles/legal/index.html">LEGAL</a></li>
                     <li><a href="../../../articles/finance/index.html">FINANCE</a></li>
@@ -1272,13 +1273,6 @@ body.nav-is-open {
                         </article>
                     </div>
 
-                    <!-- Ad Widget -->
-                    <div class="widget ad-widget">
-                        <div class="sidebar-ad">
-                            <span>ADVERTISEMENT</span>
-                        </div>
-                    </div>
-
                 </aside>
             </div>
 
@@ -1303,5 +1297,6 @@ body.nav-is-open {
     <script>window.APP_BASE_PATH = '../../../';</script>
     <script src="../../../search.js"></script>
     <script src="../../../nav.js"></script>
+    <script src="../../../ad-cleanup.js" defer></script>
 </body>
 </html>

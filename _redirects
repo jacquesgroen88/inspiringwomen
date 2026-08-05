@@ -32,3 +32,13 @@
 
 # --- Fallback for old feed/wp paths ---
 /feed/                                                /                                                             301
+
+# --- Root-level duplicates of five legacy articles ---
+# These five pages existed at the site root AND under articles/**, serving identical
+# content on two URLs with no canonical. The articles/** copy is the one the homepage
+# links to, so the root copies were removed and now redirect to it.
+/baking-vs-strobing.html                              /articles/beauty/makeup/baking-vs-strobing.html               301
+/keto-doughnuts.html                                  /articles/recipes/desserts/keto-doughnuts.html                301
+/empowering-women.html                                /articles/lifestyle/empowerment/empowering-women.html         301
+/manage-finances-2024.html                            /articles/finance/budgeting/manage-finances-2024.html         301
+/wedding-budget-guilt.html                            /articles/brides/budgeting/wedding-budget-guilt.html          301
