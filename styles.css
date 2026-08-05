@@ -1058,3 +1058,18 @@ ins.adsbygoogle:empty {
         height: 200px !important;
     }
 }
+
+/* Fade-in for articles appended by infinite-scroll.js.
+   Done in CSS so the end state is opacity 1 no matter what JS does or does not
+   run: a previous JS-driven fade left most appended articles stuck invisible
+   while still taking up their full height in the feed. */
+@keyframes iwFadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+.list-post.fade-in {
+    animation: iwFadeIn 0.5s ease both;
+}
+@media (prefers-reduced-motion: reduce) {
+    .list-post.fade-in { animation: none; opacity: 1; }
+}

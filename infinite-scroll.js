@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? `<div class="list-post-img" style="flex: 0 0 250px; height: 180px; background-image: url('assets/${art.image}'); background-size: cover; background-position: center; border-radius: 8px;"></div>`
                 : '';
             const articleHTML = `
-                <article class="list-post" style="opacity: 0; transition: opacity 0.5s ease; border-top: 4px solid var(--primary-color); padding-top: 20px; display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
+                <article class="list-post fade-in" style="border-top: 4px solid var(--primary-color); padding-top: 20px; display: flex; gap: 20px; align-items: flex-start; margin-bottom: 30px;">
                     ${imgDiv}
                     <div class="list-post-content" style="flex: 1;">
                         <div class="post-header">
@@ -47,11 +47,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </article>
             `;
+            // The fade is a CSS animation on .fade-in, so an appended article always
+            // ends up visible. It used to be inserted at opacity 0 and raised to 1 by
+            // a timeout that re-read lastElementChild when it fired, which meant all
+            // three callbacks in this loop targeted whichever article was appended
+            // last: the other two stayed invisible while still occupying their full
+            // height, leaving article-sized blank gaps down the feed. Anything that
+            // depends on JS running at the right moment can fail that way, so the
+            // final visible state is no longer JS's responsibility.
             moreArticlesContainer.insertAdjacentHTML('beforeend', articleHTML);
-            setTimeout(() => {
-                const added = moreArticlesContainer.lastElementChild;
-                if (added) added.style.opacity = '1';
-            }, 50);
         });
 
         currentArticleIndex += 3;
