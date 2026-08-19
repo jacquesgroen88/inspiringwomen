@@ -339,6 +339,21 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
         <priority>1.0</priority>
     </url>`;
 
+// Hand-built landing pages that live outside articles.js and are therefore
+// never picked up by the article loop below. Add new ones here.
+const STATIC_PAGES = [
+    { loc: 'https://inspiringwomen.co.za/beauty-career-quiz/', changefreq: 'monthly', priority: '0.9' }
+];
+
+STATIC_PAGES.forEach(page => {
+    sitemapXml += `
+    <url>
+        <loc>${page.loc}</loc>
+        <changefreq>${page.changefreq}</changefreq>
+        <priority>${page.priority}</priority>
+    </url>`;
+});
+
 publishedArticles.forEach(article => {
     const dateObj = new Date(article.date);
     // A few legacy articles carry a future `date`, which would emit a future lastmod.

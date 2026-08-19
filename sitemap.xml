@@ -6,6 +6,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://inspiringwomen.co.za/beauty-career-quiz/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://inspiringwomen.co.za/articles/health/pregnancy/hospital-bag</loc>
         <lastmod>2026-08-19</lastmod>
         <changefreq>weekly</changefreq>
