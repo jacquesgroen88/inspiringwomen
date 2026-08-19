@@ -154,6 +154,9 @@ h1,h2,h3,.serif{font-family:var(--font-serif);color:var(--ink);line-height:1.15}
   border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:800;
 }
 .cta-wrap{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px}
+/* both halves stay flex columns so the inline-flex eyebrow and CTA do not
+   generate stray line boxes now that they sit inside wrapper divs */
+.hero-copy-top,.hero-copy-bottom{display:flex;flex-direction:column;align-items:flex-start}
 
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:11px;
@@ -170,6 +173,16 @@ h1,h2,h3,.serif{font-family:var(--font-serif);color:var(--ink);line-height:1.15}
 }
 .btn-ghost:hover{background:var(--pink-soft)}
 .cta-note{font-size:12.5px;color:#5f5f5f;display:flex;gap:7px;align-items:center}
+.visually-hidden{
+  position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+}
+.noscript-note{
+  background:#fff;border:1px solid #f2dde5;border-radius:10px;padding:14px 16px;
+  font-size:14px;color:#5a5a5a;line-height:1.6;
+}
+.noscript-note a{color:var(--pink-dark);text-decoration:underline}
+:focus-visible{outline:3px solid var(--pink);outline-offset:2px;border-radius:4px}
 
 .hero-image{
   min-height:560px;position:relative;
@@ -423,8 +436,11 @@ body.quiz-open{overflow:hidden}
 /* ---------- responsive ---------- */
 @media (max-width:980px){
   .hero-grid{grid-template-columns:1fr}
-  .hero-copy{padding:56px 26px 60px;order:2}
-  .hero-image{min-height:320px;order:1}
+  /* headline and subheadline read FIRST, then the photo, then bullets + CTA */
+  .hero-copy{display:contents}
+  .hero-copy-top{order:1;padding:40px 26px 24px}
+  .hero-image{order:2;min-height:300px}
+  .hero-copy-bottom{order:3;padding:28px 26px 52px}
   .hero-badge{left:auto;right:20px;bottom:26px;top:auto;transform:none;width:136px;height:136px;font-size:14px;padding:16px}
   .hero-wave{display:none}
   .proof{padding-top:66px}
@@ -447,9 +463,10 @@ body.quiz-open{overflow:hidden}
   .container{width:min(calc(100% - 28px),var(--max))}
   .made-for{display:none}
   .section{padding:54px 0}
-  .hero-copy{padding:44px 20px 46px}
-  .hero-title{font-size:37px}
-  .hero-image{min-height:330px}
+  .hero-copy-top{padding:32px 20px 20px}
+  .hero-copy-bottom{padding:24px 20px 42px}
+  .hero-title{font-size:35px}
+  .hero-image{min-height:260px}
   .btn{width:100%}
   .cta-wrap{width:100%;align-items:stretch}
   .cta-note{justify-content:center}
@@ -484,6 +501,13 @@ body.quiz-open{overflow:hidden}
   <input type="text" name="scores">
   <input type="text" name="answers">
   <input type="text" name="source">
+  <input type="text" name="entryPoint">
+  <input type="text" name="utmSource">
+  <input type="text" name="utmMedium">
+  <input type="text" name="utmCampaign">
+  <input type="text" name="utmContent">
+  <input type="text" name="referrer">
+  <input type="text" name="landedAt">
 </form>
 
 
@@ -503,15 +527,18 @@ body.quiz-open{overflow:hidden}
 <section class="hero">
   <div class="hero-grid">
     <div class="hero-copy">
-      <span class="eyebrow">⏱ Free 60-second quiz</span>
+      <div class="hero-copy-top">
+        <span class="eyebrow">⏱ Free 60-second quiz</span>
 
-      <h1 class="hero-title">Discover the Beauty Career That's <span class="pink">Right for You</span></h1>
+        <h1 class="hero-title">Discover the Beauty Career That's <span class="pink">Right for You</span></h1>
 
-      <p class="hero-sub">
-        Not sure whether to do nails, lashes, makeup or brows? Our free quiz matches
-        you to the best beauty business for your skills, budget and goals.
-      </p>
+        <p class="hero-sub">
+          Not sure whether to do nails, lashes, makeup or brows? Our free quiz matches
+          you to the best beauty business for your skills, budget and goals.
+        </p>
+      </div>
 
+      <div class="hero-copy-bottom">
       <ul class="hero-list">
         <li><span class="check">✓</span> Find your perfect beauty career match</li>
         <li><span class="check">✓</span> See what South African clients really pay</li>
@@ -520,12 +547,14 @@ body.quiz-open{overflow:hidden}
       </ul>
 
       <div class="cta-wrap">
-        <button class="btn btn-primary" data-start-quiz>Take the free quiz now →</button>
+        <button class="btn btn-primary" data-start-quiz data-entry="hero">Take the free quiz now →</button>
         <span class="cta-note">🔒 Takes less than 60 seconds | 100% free</span>
+      </div>
       </div>
     </div>
 
-    <div class="hero-image" role="img" aria-label="A South African woman applying makeup at a salon vanity">
+    <div class="hero-image">
+      <p class="visually-hidden">A South African woman applying makeup at a salon vanity.</p>
       <div class="hero-badge">Five beauty careers. One fits you.</div>
     </div>
   </div>
@@ -714,6 +743,12 @@ body.quiz-open{overflow:hidden}
         <p class="lede">Pick one and the quiz carries on from there. No details needed to start.</p>
 
         <div class="inline-q" id="inlineQ"></div>
+        <noscript>
+          <p class="noscript-note">
+            This quiz needs JavaScript switched on. Turn it on and reload, or
+            <a href="../articles/beauty/">browse our beauty guides</a> in the meantime.
+          </p>
+        </noscript>
 
         <div class="start-meta">
           <span>🔒</span>
@@ -805,7 +840,7 @@ body.quiz-open{overflow:hidden}
 
 <!-- ============ STICKY MOBILE CTA ============ -->
 <div class="sticky-cta">
-  <button class="btn btn-primary" data-start-quiz>Take the free quiz →</button>
+  <button class="btn btn-primary" data-start-quiz data-entry="sticky">Take the free quiz →</button>
 </div>
 
 
@@ -816,10 +851,10 @@ body.quiz-open{overflow:hidden}
       <img src="../assets/logo.webp" alt="Inspiring Women">
       <button class="quiz-close" id="quizClose" type="button">Close ✕</button>
     </div>
-    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="progress-track" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressBar"><div class="progress-fill" id="progressFill"></div></div>
   </div>
 
-  <div class="quiz-inner" id="quizInner"></div>
+  <div class="quiz-inner" id="quizInner" aria-live="polite"></div>
 </div>
 
 
@@ -1083,6 +1118,32 @@ body.quiz-open{overflow:hidden}
 
   var LETTERS = ["A", "B", "C", "D", "E"];
   var STORE_KEY = "iw_bcq_v1";
+  var ATTR_KEY = "iw_bcq_attr_v1";
+
+  /* Campaign attribution, captured once on the first landing and kept for the
+     whole session. Without this a paid lead cannot be traced back to the ad
+     that paid for it, and cost per lead is unknowable. */
+  function captureAttribution() {
+    try {
+      var existing = sessionStorage.getItem(ATTR_KEY);
+      if (existing) return JSON.parse(existing);
+      var q = new URLSearchParams(window.location.search);
+      var attr = {
+        utmSource: q.get("utm_source") || "",
+        utmMedium: q.get("utm_medium") || "",
+        utmCampaign: q.get("utm_campaign") || "",
+        utmContent: q.get("utm_content") || q.get("utm_term") || "",
+        referrer: document.referrer || "",
+        landedAt: new Date().toISOString()
+      };
+      sessionStorage.setItem(ATTR_KEY, JSON.stringify(attr));
+      return attr;
+    } catch (e) {
+      return { utmSource: "", utmMedium: "", utmCampaign: "", utmContent: "", referrer: "", landedAt: "" };
+    }
+  }
+  var ATTR = captureAttribution();
+  var entryPoint = "unknown";
 
   var state = { step: 0, answers: [], result: null, lead: null };
 
@@ -1111,7 +1172,10 @@ body.quiz-open{overflow:hidden}
 
   function setProgress(n) {
     // 7 questions + gate + result = 9 stops
-    fill.style.width = Math.min(100, Math.round((n / (QUESTIONS.length + 1)) * 100)) + "%";
+    var pct = Math.min(100, Math.round((n / (QUESTIONS.length + 1)) * 100));
+    fill.style.width = pct + "%";
+    var bar = document.getElementById("progressBar");
+    if (bar) bar.setAttribute("aria-valuenow", String(pct));
   }
 
   function score() {
@@ -1155,6 +1219,7 @@ body.quiz-open{overflow:hidden}
     inner.innerHTML = html;
     setProgress(i);
     screen.scrollTop = 0;
+    if (screen.classList.contains("active")) focusFirst();
 
     inner.querySelectorAll("[data-opt]").forEach(function (btn) {
       btn.addEventListener("click", function () {
@@ -1261,13 +1326,22 @@ body.quiz-open{overflow:hidden}
       runnerUp: PATHS[state.result.second].name,
       scores: JSON.stringify(state.result.totals),
       answers: readable,
-      source: "beauty-career-quiz landing page"
+      source: "beauty-career-quiz landing page",
+      entryPoint: entryPoint,
+      utmSource: ATTR.utmSource,
+      utmMedium: ATTR.utmMedium,
+      utmCampaign: ATTR.utmCampaign,
+      utmContent: ATTR.utmContent,
+      referrer: ATTR.referrer,
+      landedAt: ATTR.landedAt
     };
 
     if (typeof gtag === "function") {
       gtag("event", "generate_lead", {
         event_category: "beauty_career_quiz",
-        event_label: PATHS[state.result.top].name
+        event_label: PATHS[state.result.top].name,
+        entry_point: entryPoint,
+        campaign: ATTR.utmCampaign || "(none)"
       });
     }
 
@@ -1402,23 +1476,76 @@ body.quiz-open{overflow:hidden}
 
   /* ---------------- open / close ---------------- */
 
-  function openQuiz(startAt) {
+  var lastFocused = null;
+
+  // Everything behind the quiz is hidden from assistive tech while it is open.
+  function setBackgroundInert(on) {
+    Array.prototype.forEach.call(document.body.children, function (el) {
+      if (el === screen) return;
+      if (on) { el.setAttribute("inert", ""); el.setAttribute("aria-hidden", "true"); }
+      else { el.removeAttribute("inert"); el.removeAttribute("aria-hidden"); }
+    });
+  }
+
+  function showQuiz(startAt) {
+    lastFocused = document.activeElement;
     screen.classList.add("active");
     document.body.classList.add("quiz-open");
+    setBackgroundInert(true);
+
     if (typeof gtag === "function") {
-      gtag("event", "quiz_start", { event_category: "beauty_career_quiz" });
+      gtag("event", "quiz_start", { event_category: "beauty_career_quiz", entry_point: entryPoint });
     }
-    if (typeof startAt === "number") { state.step = startAt; renderQuestion(); return; }
-    if (state.lead && state.result) renderResult("ok");
+
+    if (typeof startAt === "number") { state.step = startAt; renderQuestion(); }
+    else if (state.lead && state.result) renderResult("ok");
     else if (state.answers.length === QUESTIONS.length && state.answers.every(function (a) { return a !== null && a !== undefined; })) renderGate();
     else renderQuestion();
+
+    focusFirst();
+  }
+
+  function focusFirst() {
+    var t = inner.querySelector(".option, input, button");
+    if (t) { try { t.focus({ preventScroll: true }); } catch (e) { t.focus(); } }
+  }
+
+  function openQuiz(startAt) {
+    // pushState so the phone's Back button closes the quiz instead of leaving the site
+    if (!(history.state && history.state.iwQuiz)) {
+      history.pushState({ iwQuiz: true }, "", "#quiz");
+    }
+    showQuiz(startAt);
+  }
+
+  function hideQuiz() {
+    screen.classList.remove("active");
+    document.body.classList.remove("quiz-open");
+    setBackgroundInert(false);
+    if (lastFocused && document.contains(lastFocused)) {
+      try { lastFocused.focus({ preventScroll: true }); } catch (e) {}
+    }
   }
 
   function closeQuiz() {
-    screen.classList.remove("active");
-    document.body.classList.remove("quiz-open");
-    history.replaceState(null, "", window.location.pathname);
+    if (history.state && history.state.iwQuiz) history.back();
+    else { hideQuiz(); history.replaceState(null, "", window.location.pathname); }
   }
+
+  window.addEventListener("popstate", function () {
+    if (screen.classList.contains("active")) hideQuiz();
+    else if (window.location.hash === "#quiz") showQuiz();
+  });
+
+  // Keep tabbing inside the quiz while it is open.
+  screen.addEventListener("keydown", function (e) {
+    if (e.key !== "Tab" || !screen.classList.contains("active")) return;
+    var f = screen.querySelectorAll('button, a[href], input, [tabindex]:not([tabindex="-1"])');
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
 
   /* ---- Question 1 rendered inline on the landing page ---- */
   function buildInlineQ1() {
@@ -1432,7 +1559,7 @@ body.quiz-open{overflow:hidden}
       b.addEventListener("click", function () {
         state.answers[0] = idx;
         save();
-        history.replaceState(null, "", "#quiz");
+        entryPoint = "inline-q1";
         openQuiz(1);
       });
       host.appendChild(b);
@@ -1444,7 +1571,7 @@ body.quiz-open{overflow:hidden}
 
   document.querySelectorAll("[data-start-quiz]").forEach(function (b) {
     b.addEventListener("click", function () {
-      history.replaceState(null, "", "#quiz");
+      entryPoint = b.getAttribute("data-entry") || "cta";
       openQuiz();
     });
   });
@@ -1455,7 +1582,10 @@ body.quiz-open{overflow:hidden}
     if (e.key === "Escape" && screen.classList.contains("active")) closeQuiz();
   });
 
-  if (window.location.hash === "#quiz") openQuiz();
+  if (window.location.hash === "#quiz") {
+    history.replaceState({ iwQuiz: true }, "", "#quiz");
+    showQuiz();
+  }
 })();
 </script>
 
