@@ -8141,8 +8141,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "September 7, 2026",
-    publishDate: "2026-09-07",
+    date: "September 21, 2026",
+    publishDate: "2026-09-21",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Always speak to a registered doctor about side effects and whether this medicine is safe for you. Seek medical help if you experience severe symptoms.</div>
@@ -8200,8 +8200,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "September 9, 2026",
-    publishDate: "2026-09-09",
+    date: "September 23, 2026",
+    publishDate: "2026-09-23",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Always speak to a registered doctor about your fertility, cycle, and whether these medicines are safe for you.</div>
@@ -8249,8 +8249,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "August 31, 2026",
-    publishDate: "2026-08-31",
+    date: "September 14, 2026",
+    publishDate: "2026-09-14",
     image: "fat_freeze.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Speak to a doctor before starting a new diet, exercise, or weight-loss programme, especially if you have a health condition.</div>
@@ -8311,8 +8311,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "September 2, 2026",
-    publishDate: "2026-09-02",
+    date: "September 16, 2026",
+    publishDate: "2026-09-16",
     image: "healthy_dinner.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Fasting is not suitable for everyone. Speak to a doctor before starting, especially if you are pregnant, breastfeeding, diabetic, or have a history of disordered eating.</div>
@@ -8434,8 +8434,8 @@ const articles = [
     category: "health",
     subCategory: "weight-loss",
     author: "Inspiring Women",
-    date: "September 4, 2026",
-    publishDate: "2026-09-04",
+    date: "September 18, 2026",
+    publishDate: "2026-09-18",
     image: "fat_freeze.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Speak to a doctor before starting a new diet or exercise plan, especially if you have a health condition.</div>
@@ -8850,8 +8850,8 @@ const articles = [
     category: "health",
     subCategory: "pregnancy",
     author: "Inspiring Women",
-    date: "August 28, 2026",
-    publishDate: "2026-08-28",
+    date: "September 11, 2026",
+    publishDate: "2026-09-11",
     image: "pregnancy_hospital_bag.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Medical disclaimer:</strong> This article is for general educational purposes only and is not medical advice. Only a pregnancy test and a healthcare provider can confirm a pregnancy. Speak to a doctor or clinic for guidance about your individual situation.</div>
@@ -8912,8 +8912,8 @@ const articles = [
     category: "health",
     subCategory: "mental-health",
     author: "Inspiring Women",
-    date: "August 26, 2026",
-    publishDate: "2026-08-26",
+    date: "September 9, 2026",
+    publishDate: "2026-09-09",
     image: "mental_health_wellness.webp",
     content: `
       <div style="background:#fff4f7;border-left:4px solid #ff4785;padding:14px 18px;border-radius:6px;margin:0 0 24px;"><strong>Note:</strong> This article is for general educational purposes only and is not medical advice. If you are struggling with your mental health, please reach out to a doctor, a registered counsellor, or the South African Depression and Anxiety Group (SADAG).</div>
@@ -8970,8 +8970,8 @@ const articles = [
     category: "career",
     subCategory: "entrepreneurship",
     author: "Inspiring Women",
-    date: "August 21, 2026",
-    publishDate: "2026-08-21",
+    date: "September 4, 2026",
+    publishDate: "2026-09-04",
     image: "side_hustle_entrepreneur.webp",
     content: `
       <p>Making money online is more possible than ever for South Africans, but the internet is also full of scams promising easy riches. This guide focuses on legitimate, realistic ways to earn extra income online in 2026, whether you want a side hustle or the start of something bigger.</p>
@@ -9027,8 +9027,8 @@ const articles = [
     category: "career",
     subCategory: "entrepreneurship",
     author: "Inspiring Women",
-    date: "August 24, 2026",
-    publishDate: "2026-08-24",
+    date: "September 7, 2026",
+    publishDate: "2026-09-07",
     image: "small_business_sa.webp",
     content: `
       <p>A cleaning business is one of the most accessible businesses to start in South Africa. The startup costs are low, demand is steady, and you can begin small and grow. Whether you want to clean homes or offices, here is a practical step-by-step guide to getting started.</p>
@@ -9085,6 +9085,408 @@ const articles = [
       <p>Start by telling everyone you know and asking for referrals, then post in local community and neighbourhood groups on Facebook and WhatsApp. The most powerful growth comes from doing excellent, reliable work so first clients become repeat customers and recommend you to others.</p>
       <h3>How much can you earn from a cleaning business?</h3>
       <p>Earnings depend on your rates, how many clients you serve, and whether you land regular contracts. Many start as a side income and grow it into a full-time business by adding regular clients and eventually staff. Reliability and quality are what drive steady, growing income.</p>
+    `
+  },
+  {
+    title: "AI Training Data Jobs in South Africa: What They Pay and How to Start (2026)",
+    slug: "ai-training-data-jobs-sa",
+    category: "career",
+    subCategory: "remote-work",
+    author: "Inspiring Women",
+    date: "August 21, 2026",
+    publishDate: "2026-08-21",
+    image: "remote_data_entry.webp",
+    content: `
+      <p>Every AI model you have heard of was taught by people. Someone rated the answers, corrected the transcripts, labelled the images, and flagged the responses that were wrong or unsafe. That work is called AI training data, and a growing share of it is done by remote contractors anywhere in the world, including South Africa. It has quietly become one of the more realistic ways to earn foreign currency from a laptop at home, and unlike most work-from-home offers you see on Facebook, it is real.</p>
+      <p>This guide covers what the work actually involves, which platforms accept South Africans, what the pay looks like honestly, and how to spot the fake versions.</p>
+
+      <h2>What AI Training Data Work Actually Is</h2>
+      <p>The work splits into a few broad categories, and most platforms will move you between them depending on demand:</p>
+      <ul>
+        <li><strong>Data annotation and labelling.</strong> Drawing boxes around objects in images, tagging what is in a photo, marking parts of a video. This is the entry level and needs no special background.</li>
+        <li><strong>Response rating and ranking.</strong> You are shown two AI answers to the same question and asked which is better, and why. This needs good reading comprehension and the ability to explain your reasoning in writing.</li>
+        <li><strong>Prompt writing and model evaluation.</strong> You write questions designed to test a model, then grade how it responds. Better paid, and usually needs a subject background.</li>
+        <li><strong>Domain expert work.</strong> If you have a degree or professional experience in law, medicine, accounting, engineering, or a specific language, some platforms pay substantially more for you to check the model's output in your field.</li>
+        <li><strong>Audio and speech.</strong> Recording set phrases, transcribing audio, or checking that an automatic transcript is correct. If this appeals, our guide to <a href="{{BASE_PATH}}articles/career/remote-work/remote-transcription-jobs-sa.html">remote transcription jobs in South Africa</a> covers that route in more depth.</li>
+      </ul>
+
+      <h2>Is Remotasks Available in South Africa?</h2>
+      <p>This is the single most common question, and the honest answer is that it depends on when you ask. Remotasks and its sister platforms have opened and closed South African sign-ups more than once, because availability is set per country and per project rather than permanently. The same is true of Outlier, which recruits for many of the same kinds of tasks.</p>
+      <p>What this means practically is that you should never pay anyone for a Remotasks account, a referral, or a training course that promises access. Go to the platform's own sign-up page, create an account with your real details, and see what it says. If your country is not being taken at that moment, check again in a few weeks. Availability genuinely does reopen.</p>
+
+      <h2>The Platforms Worth Knowing</h2>
+      <ul>
+        <li><strong>Outlier</strong> recruits contributors for AI evaluation and writing tasks, often with a preference for people who have a degree or professional experience in a specific field.</li>
+        <li><strong>Appen</strong> is one of the oldest players in the space and runs everything from short search-relevance jobs to long-running language projects. It has hired in South Africa for years.</li>
+        <li><strong>Clickworker</strong> offers smaller microtasks, which pay less per item but are easier to fit around other commitments.</li>
+        <li><strong>Toloka</strong> works on a similar microtask model with a wide spread of task types.</li>
+        <li><strong>Remotasks</strong> focuses heavily on image and video annotation, with a training and qualification system you work through before the better-paying tasks unlock.</li>
+        <li><strong>Upwork and Fiverr</strong> are worth watching too, since a rising number of AI companies now post annotation and evaluation contracts there directly.</li>
+      </ul>
+
+      <h2>What It Actually Pays</h2>
+      <p>Be careful with any figure you see quoted online, because the honest answer is that pay varies enormously by task type, by project, and by how fast you work. Simple annotation microtasks sit at the low end and are genuinely poor value if you are slow at them. Response rating and evaluation work pays noticeably better. Specialist and domain expert work, where the platform needs someone who can actually assess whether a legal or medical answer is correct, pays the most by a wide margin.</p>
+      <p>Two things matter more than the headline rate. The first is <strong>consistency of available work</strong>, because a good rate on a project that dries up after two weeks is worth less than a modest rate on a project that runs for months. The second is <strong>your effective hourly rate</strong>, not the per-task rate. Time yourself honestly on your first few sessions. Many people discover that a task advertised at a decent price takes so long that the real hourly figure is disappointing, while a lower-paying task they are fast at works out better.</p>
+      <p>Because most of these platforms pay in dollars, the rand conversion works in your favour. That is a real advantage of this category of work over local remote roles, and it is the same reason <a href="{{BASE_PATH}}articles/career/remote-work/remote-data-entry-jobs-sa.html">remote data entry work for international clients</a> is worth pursuing over local equivalents.</p>
+
+      <h2>What You Need to Get Started</h2>
+      <ul>
+        <li><strong>A laptop or desktop.</strong> Most of this work is not practical on a phone. You do not need anything powerful, but you do need a real keyboard and a screen you can read comfortably for hours.</li>
+        <li><strong>Reliable connectivity.</strong> Fibre if you can get it. Timed tasks that fail mid-submission because your connection dropped are the fastest way to damage your quality score.</li>
+        <li><strong>A load shedding plan.</strong> A power bank or small inverter that keeps your router and laptop alive through a stage 2 slot pays for itself quickly. Our guide on <a href="{{BASE_PATH}}articles/career/remote-work/load-shedding-remote-work-sa.html">working remotely through load shedding</a> covers the practical setups.</li>
+        <li><strong>Identity verification.</strong> Expect to verify who you are with an ID document and sometimes a live selfie check. This is normal and is how the platforms stop one person running ten accounts.</li>
+        <li><strong>Strong written English</strong> for the rating and evaluation work. If you speak an additional South African language fluently, say so, because multilingual contributors are actively sought and often better paid.</li>
+      </ul>
+
+      <h2>How You Get Paid in South Africa</h2>
+      <p>Most platforms pay out through PayPal, Payoneer, Wise, or a direct transfer. Set up your payment method properly before you start earning rather than after, because a mismatch between your platform name and your payment account name is a common cause of held payouts. Compare the fees, since on smaller payouts the transfer fee can take a meaningful bite. Keep a record of what you earn, as this is income and needs to be declared.</p>
+
+      <h2>The Red Flags</h2>
+      <p>The demand for this work has produced a matching wave of scams. Walk away immediately if:</p>
+      <ul>
+        <li>You are asked to pay for training, a starter kit, an account, or a verification fee. Legitimate platforms never charge you to work.</li>
+        <li>The offer arrives by WhatsApp or Telegram from someone you do not know, especially with an unrealistic daily earnings figure attached.</li>
+        <li>You are asked for your banking login, your ID number before you have even applied, or a copy of your card.</li>
+        <li>The job involves receiving money into your account and forwarding it on. That is money laundering, and you would be the one prosecuted.</li>
+      </ul>
+      <p>Our guide on <a href="{{BASE_PATH}}articles/career/remote-work/spot-fake-remote-jobs-sa.html">how to spot fake remote jobs in South Africa</a> goes through the full checklist.</p>
+
+      <h2>Who This Work Suits</h2>
+      <p>It suits you if you are self-directed, comfortable with instructions that change without much warning, and able to work in the gaps of your day. It is genuinely flexible, which makes it workable around children or another job. It is not a salary, there is no guaranteed volume of work, and quality scores matter enormously, so the people who do well are the ones who read the guidelines properly rather than rushing.</p>
+      <p>Treat it as one income stream rather than the only one. Many South African women use it alongside a second remote stream, building up until one of them is large enough to lean on.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Is AI training data work legitimate?</h3>
+      <p>Yes, the work itself is real and the major platforms are established companies serving well-known AI labs. The scams are the imitations, not the category. Apply directly through the platform's own website, never pay a fee to start, and never accept an offer that arrives unsolicited on WhatsApp.</p>
+      <h3>Do I need a degree to do AI training work?</h3>
+      <p>Not for the annotation and labelling tasks, which mainly need care and consistency. A degree or professional background does unlock the better-paid evaluation and domain expert work, where platforms specifically want someone qualified to judge whether an answer in law, medicine, finance, or engineering is actually correct.</p>
+      <h3>How much can you earn from AI training data jobs in South Africa?</h3>
+      <p>It varies too widely for a single honest number, because pay depends on the task type, the project, and your speed. Simple microtasks pay modestly, while evaluation and specialist work pays considerably more. Because most platforms pay in dollars, the rand conversion works in your favour. Time yourself on your first sessions to work out your real hourly rate rather than trusting the advertised per-task figure.</p>
+      <h3>Can I do AI training work on my phone?</h3>
+      <p>Some microtask platforms have mobile apps, but the work is far slower and the better-paying tasks generally assume a computer. If you are serious about this as an income stream, a laptop with a proper keyboard is the minimum practical setup.</p>
+    `
+  },
+  {
+    title: "The Best Affordable Skincare at Clicks and Dis-Chem (2026)",
+    slug: "affordable-skincare-clicks-dischem",
+    category: "beauty",
+    subCategory: "skincare",
+    author: "Inspiring Women",
+    date: "August 24, 2026",
+    publishDate: "2026-08-24",
+    image: "sa_skincare_brands.webp",
+    content: `
+      <p>You do not need a beauty counter or an imported serum to look after your skin. Almost everything a dermatologist would actually put on a basic routine list is sitting on a shelf at Clicks or Dis-Chem, usually for a fraction of what the luxury version costs. The difficulty is not availability. It is that both stores carry hundreds of products, most of them shouting about ingredients you have never heard of, and it is genuinely hard to tell what is worth your money.</p>
+      <p>This is a practical shopping guide to the pharmacy aisle: what to buy, what to skip, and how to build a full routine without overspending.</p>
+
+      <h2>Why Pharmacy Skincare Works</h2>
+      <p>The active ingredients that actually change skin are not expensive or secret. Niacinamide, salicylic acid, hyaluronic acid, glycerin, ceramides, retinol, vitamin C and zinc or titanium sunscreen filters are all well studied and all available cheaply. What you pay for at the luxury end is largely packaging, fragrance, texture and marketing. Those things are not worthless, but they are not what makes your skin better.</p>
+      <p>Dermatologists in South Africa routinely recommend pharmacy brands for exactly this reason. A well-chosen R450 routine, used every day, will beat an inconsistent R2,500 one every time.</p>
+
+      <h2>Cleansers: Buy Boring</h2>
+      <p>A cleanser is on your face for around forty seconds and then it is gone. This is the wrong place to spend money.</p>
+      <ul>
+        <li><strong>For dry, sensitive or reactive skin,</strong> look for a non-foaming cream or lotion cleanser. Cetaphil's gentle cleanser is the reference point most people know, and both stores carry own-brand equivalents at a lower price with near-identical ingredient lists.</li>
+        <li><strong>For oily or acne-prone skin,</strong> a gentle foaming gel cleanser is fine. Salicylic acid in a cleanser does less than people expect because of the short contact time, so do not pay a premium for it.</li>
+        <li><strong>Skip</strong> anything with a scrub particle, anything strongly fragranced, and any bar soap marketed for the face. Stripping your skin drives it to produce more oil, not less.</li>
+      </ul>
+
+      <h2>Moisturisers: Where Own-Brand Wins Hardest</h2>
+      <p>The gap between a cheap moisturiser and an expensive one is smaller than in any other category. Look for glycerin high on the ingredient list, and ceramides if you can get them.</p>
+      <p>Epi-Max is a long-standing South African staple and costs very little for a large tub. It is thick, unglamorous, and extremely effective as a barrier cream, particularly on dry skin in winter or on the body. CeraVe's moisturising range brought ceramide formulations into the mainstream here and both retailers stock it. For oily skin, a light gel moisturiser is enough, and there is no need to spend much.</p>
+      <p>Both Clicks and Dis-Chem run their own-brand ranges that copy the popular formulations closely. These are frequently the best value in the store and are worth checking before you reach for the branded version beside them.</p>
+
+      <h2>Sunscreen: The One Place to Spend</h2>
+      <p>If your budget only stretches to one good product, make it sunscreen. It does more for how your skin ages, and more for hyperpigmentation, than any serum you can buy. South African UV levels are high year round, and this matters for every skin tone.</p>
+      <p>Look for SPF 30 as the minimum and SPF 50 if you are treating dark marks or using a retinoid. The single biggest mistake is buying a sunscreen you dislike wearing, because you will not use it. If the texture is greasy or it leaves a grey cast on your skin, it does not matter how good the formula is. Test until you find one you will genuinely apply every morning. Our guide to <a href="{{BASE_PATH}}articles/beauty/skincare/best-sunscreen-dark-skin-sa.html">the best sunscreens for dark skin in South Africa</a> covers the cast problem specifically.</p>
+
+      <h2>Actives: Add One at a Time</h2>
+      <ul>
+        <li><strong>Niacinamide</strong> is the safest starting active. It helps with oil, redness and uneven tone, and is very hard to irritate yourself with. Widely available cheaply.</li>
+        <li><strong>Vitamin C</strong> brightens and helps with dark marks. It is the most temperamental active to formulate, so this is one category where the cheapest option is not always the best buy. See our <a href="{{BASE_PATH}}articles/beauty/skincare/vitamin-c-serums-sa.html">guide to vitamin C serums in South Africa</a>.</li>
+        <li><strong>Retinol</strong> is the best studied ingredient for texture, fine lines and long-term skin quality. Start at the lowest strength, twice a week, at night only, and always with sunscreen the next morning. Our <a href="{{BASE_PATH}}articles/beauty/skincare/retinol-for-beginners.html">retinol guide for beginners</a> explains how to build up without wrecking your barrier.</li>
+        <li><strong>Salicylic acid</strong> in a leave-on product helps congested and acne-prone skin.</li>
+      </ul>
+      <p>Add one active at a time and give it six weeks before judging it. Adding three at once is the most common route to an irritated, damaged barrier, and then you cannot tell which product caused it.</p>
+
+      <h2>How to Shop the Specials</h2>
+      <p>Both chains run heavy promotional cycles and both have loyalty programmes, ClubCard at Clicks and the Benefit programme at Dis-Chem. A few habits save real money:</p>
+      <ul>
+        <li>Buy your repeat purchases, cleanser and moisturiser, when they hit a three-for-two or a percentage-off week rather than when you run out.</li>
+        <li>Compare the price per millilitre, not the price on the shelf. The larger tub is usually far better value.</li>
+        <li>Check the own-brand version beside the product you came for and read both ingredient lists. They are often close to identical.</li>
+        <li>Do not stockpile actives. Vitamin C in particular degrades, so buying six months of it defeats the saving.</li>
+      </ul>
+
+      <h2>What Not to Waste Money On</h2>
+      <p>Toners and essences are optional. Sheet masks are a treat, not a treatment. Eye creams are largely moisturiser in a smaller, more expensive jar, and a plain moisturiser around the eye area does much the same job. Collagen creams cannot deliver collagen into your skin. Anything promising results in three days is selling you water retention, not change.</p>
+
+      <h2>Putting It Together</h2>
+      <p>A complete, effective routine from these two stores is a gentle cleanser, a moisturiser suited to your skin type, a sunscreen you will actually wear, and one active once your barrier is settled. That is it. For the full breakdown of how to sequence these and what a realistic monthly spend looks like, see our <a href="{{BASE_PATH}}articles/beauty/skincare/affordable-skincare-routine-sa.html">affordable skincare routine for South African women</a>.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Is Clicks or Dis-Chem cheaper for skincare?</h3>
+      <p>Neither is consistently cheaper, because both run aggressive rotating promotions and the winner changes week to week. The bigger saving comes from buying your repeat products on promotion and from comparing the own-brand version against the branded one, since the formulations are frequently very similar.</p>
+      <h3>Are Clicks and Dis-Chem own-brand skincare products any good?</h3>
+      <p>Often yes. Both chains model their own-brand ranges closely on the popular pharmacy formulations, and the ingredient lists are frequently near-identical to the branded product on the same shelf for noticeably less. Read both lists and compare. The exception is actives like vitamin C, where formulation and packaging genuinely affect whether the product still works by the time you finish it.</p>
+      <h3>What skincare should I buy first if I have almost no budget?</h3>
+      <p>A gentle cleanser, a basic moisturiser, and a sunscreen you will wear every day. Those three used consistently will do more for your skin than any serum. Add one active only once those three are a habit.</p>
+      <h3>Do I need expensive skincare to treat dark marks?</h3>
+      <p>No. Daily sunscreen is the most important step, because without it any treatment you use is undone. After that, affordable niacinamide and vitamin C both help, and a retinoid helps over a longer timeframe. Consistency over months is what shifts pigmentation, not the price of the bottle.</p>
+    `
+  },
+  {
+    title: "Remote Transcription Jobs in South Africa: 8 Platforms That Actually Pay (2026)",
+    slug: "remote-transcription-jobs-sa",
+    category: "career",
+    subCategory: "remote-work",
+    author: "Inspiring Women",
+    date: "August 26, 2026",
+    publishDate: "2026-08-26",
+    image: "remote_customer_service.webp",
+    content: `
+      <p>Transcription is one of the few remote jobs where the barrier to entry is genuinely low and the work is genuinely real. You need good English, accurate typing, a decent pair of headphones and patience. You do not need a qualification, a portfolio, or anyone's permission. That combination makes it one of the most practical starting points for South African women who want to earn from home, and it pairs naturally with the other entry-level route, <a href="{{BASE_PATH}}articles/career/remote-work/remote-data-entry-jobs-sa.html">remote data entry work</a>.</p>
+      <p>It is also work that people quit in the first fortnight, because the first few files are much slower than expected. This guide is about setting your expectations correctly and then choosing the right platform.</p>
+
+      <h2>What the Work Involves</h2>
+      <p>You listen to an audio or video file and type what is said. Beyond that, the job splits into distinct types with quite different pay:</p>
+      <ul>
+        <li><strong>General transcription.</strong> Interviews, podcasts, meetings, lectures. The bulk of available work.</li>
+        <li><strong>Clean verbatim versus full verbatim.</strong> Clean verbatim removes the stumbles and filler words. Full verbatim keeps every hesitation and false start. Full verbatim is slower and should pay more.</li>
+        <li><strong>Captioning and subtitling.</strong> Transcription plus timing the text to the video. A useful step up in rate once you are competent.</li>
+        <li><strong>Post-editing machine transcripts.</strong> Increasingly common. Software produces a rough transcript and you correct it. Faster per file, usually lower per-word rate. Whether it is worth it depends entirely on how bad the audio is.</li>
+        <li><strong>Specialist transcription.</strong> Legal, medical and academic work pays significantly better and needs the relevant vocabulary.</li>
+      </ul>
+
+      <h2>The Ratio Nobody Warns You About</h2>
+      <p>A beginner typically needs four to six hours to transcribe one hour of audio. Experienced transcriptionists get that down to around three, and to roughly two on clean, single-speaker audio. This ratio, not the advertised per-audio-minute rate, decides what you actually earn.</p>
+      <p>It follows that <strong>audio quality is the most important thing you can assess before accepting a file</strong>. A crisp one-on-one interview at a good rate is worth far more than a poorly recorded four-person meeting at a higher rate. Learn to preview files and decline bad ones. That single habit separates people who make this work from people who give up.</p>
+
+      <h2>Platforms That Take South Africans</h2>
+      <ul>
+        <li><strong>Rev</strong> is one of the largest and best known. It has a screening test, work is claimed from an open queue, and quality ratings determine what you can access.</li>
+        <li><strong>TranscribeMe</strong> splits audio into short segments, which makes it far less daunting to start and easy to fit into small pockets of time.</li>
+        <li><strong>GoTranscript</strong> accepts applicants worldwide and handles transcription and translation work.</li>
+        <li><strong>Scribie</strong> works on a review-and-correct model, which is a gentler introduction than transcribing from scratch.</li>
+        <li><strong>Verbit and its captioning arm</strong> take on captioning and subtitling contractors.</li>
+        <li><strong>Happy Scribe</strong> and similar tools hire people to correct machine transcripts.</li>
+        <li><strong>Upwork and Fiverr</strong> let you set your own rate and build repeat clients, which is where the real money in transcription eventually sits. Slower to start, much better ceiling.</li>
+        <li><strong>Local agencies and researchers.</strong> South African academics, market research firms and law practices all need transcription and often prefer someone who understands local accents, names and terminology. This is an underrated route and frequently pays better than the global platforms.</li>
+      </ul>
+
+      <h2>What It Pays, Honestly</h2>
+      <p>Global platforms generally pay per audio minute rather than per hour worked, which is why the beginner ratio matters so much. Rates are modest at entry level and rise as your accuracy rating improves and better-paying files unlock. Specialist work and direct clients pay materially more than open marketplaces.</p>
+      <p>The realistic path is this: start on a platform to build speed and a track record, then move toward direct clients where you set the rate. Most people who earn well from transcription in South Africa are not on the beginner queues any more. They have a handful of repeat clients who send them work directly.</p>
+      <p>Because international platforms pay in dollars or pounds, the exchange rate helps. Set up PayPal, Payoneer or Wise before you start earning, and check the fee on smaller payouts.</p>
+
+      <h2>The Kit You Actually Need</h2>
+      <ul>
+        <li><strong>Closed-back headphones.</strong> Not earbuds. This is the single upgrade that most improves your speed, because you stop rewinding to catch unclear words.</li>
+        <li><strong>A foot pedal</strong> if you decide to do this seriously. It lets you pause and rewind without taking your hands off the keyboard and is a genuine speed multiplier.</li>
+        <li><strong>Free transcription software</strong> such as oTranscribe or Express Scribe, which give you keyboard shortcuts for playback control and variable speed.</li>
+        <li><strong>A text expander</strong> for phrases you type constantly.</li>
+        <li><strong>Reliable power and connectivity.</strong> Losing a partially completed file to load shedding is demoralising and avoidable. Our guide on <a href="{{BASE_PATH}}articles/career/remote-work/load-shedding-remote-work-sa.html">working remotely through load shedding</a> covers the practical options.</li>
+      </ul>
+
+      <h2>How to Get Faster</h2>
+      <p>Typing speed helps, but comprehension speed helps more. Practise on podcasts in an accent you find difficult. Build a personal glossary of South African place names, company names and terms so you stop looking them up. Use playback at slightly reduced speed rather than constantly rewinding. And always run a final read-through of the transcript with the audio off, because the errors you make are usually ones that sound right but read wrong.</p>
+
+      <h2>Avoiding the Scams</h2>
+      <p>Legitimate transcription platforms never charge you to join, never ask for a registration or software fee, and never require you to buy equipment through them. Be wary of any transcription job advertised on WhatsApp with a daily earnings promise attached. Our guide on <a href="{{BASE_PATH}}articles/career/remote-work/spot-fake-remote-jobs-sa.html">spotting fake remote jobs in South Africa</a> covers the warning signs in full.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>How long does it take to transcribe one hour of audio?</h3>
+      <p>Beginners usually need four to six hours per audio hour. With practice that drops to around three, and to roughly two on clean, single-speaker recordings. Audio quality affects this more than your typing speed does, which is why previewing and declining poor recordings matters so much.</p>
+      <h3>Do I need experience or a qualification to start transcription work?</h3>
+      <p>No. Most platforms have an entry test covering grammar, accuracy and their style guide, but no formal qualification is required. Specialist legal and medical transcription is the exception, since it needs the relevant vocabulary, and it pays accordingly.</p>
+      <h3>Which transcription platforms accept South Africans?</h3>
+      <p>Rev, TranscribeMe, GoTranscript and Scribie all accept applicants internationally, and Upwork and Fiverr let you work with clients directly. Do not overlook local demand either, since South African researchers, market research firms and law practices need transcription and often pay better than the global marketplaces.</p>
+      <h3>Is transcription still worth doing now that AI can transcribe audio?</h3>
+      <p>Yes, though the work has shifted. A growing share of it is correcting machine transcripts rather than typing from scratch, and automatic transcription still struggles badly with overlapping speakers, poor audio, strong accents and specialist terminology. That is exactly where human transcriptionists are still needed, and it is why accuracy is now worth more than raw typing speed.</p>
+    `
+  },
+  {
+    title: "15 Skincare Products Under R200 That Actually Work (South Africa, 2026)",
+    slug: "skincare-under-r200-sa",
+    category: "beauty",
+    subCategory: "skincare",
+    author: "Inspiring Women",
+    date: "August 28, 2026",
+    publishDate: "2026-08-28",
+    image: "natural_sa_beauty.webp",
+    content: `
+      <p>There is a persistent idea that good skincare has to be expensive. It does not. Some of the most reliable products available in South Africa cost less than a takeaway meal, and several of them are what dermatologists recommend first. What follows is a category-by-category guide to what is genuinely worth buying under R200, and what the money is actually doing.</p>
+      <p>Prices move, promotions land, and the rand does what it does, so treat these as price bands rather than fixed figures. The categories and the reasoning behind them do not change.</p>
+
+      <h2>Cleansers</h2>
+      <p><strong>1. A gentle cream or lotion cleanser.</strong> The Cetaphil-style non-foaming cleanser is the benchmark for dry and sensitive skin, and both Clicks and Dis-Chem own-brand versions sit well under R200 with very similar ingredient lists.</p>
+      <p><strong>2. A basic foaming gel cleanser</strong> for oily and combination skin. Look for something short on fragrance. You do not need salicylic acid here, because the contact time is too short for it to do much.</p>
+      <p><strong>3. Aqueous cream as a cleanser, with a caveat.</strong> It is extremely cheap and many South Africans grew up on it. It works as a gentle cleanser, but it is not a good leave-on moisturiser for the face because of the sodium lauryl sulfate content. Rinse it off.</p>
+
+      <h2>Moisturisers</h2>
+      <p><strong>4. Epi-Max or a similar barrier cream.</strong> A South African staple, sold in large tubs for very little, and excellent for dry skin, eczema-prone skin, hands and body. Unglamorous and effective.</p>
+      <p><strong>5. A ceramide moisturiser.</strong> CeraVe brought this category into ordinary pharmacies, and its smaller sizes fall under R200. Ceramides help repair a damaged barrier, which is what most irritated skin actually needs.</p>
+      <p><strong>6. A light gel moisturiser</strong> for oily skin. Glycerin high on the list, no heavy oils. Cheap versions perform close to expensive ones.</p>
+      <p><strong>7. Plain glycerin,</strong> available from any pharmacy for almost nothing. Diluted and layered under a moisturiser it is a genuinely effective humectant, and it is what a great many expensive products are largely built on.</p>
+
+      <h2>Sunscreen</h2>
+      <p><strong>8. An SPF 30 or 50 daily sunscreen.</strong> This is the category where under R200 is hardest, and where it matters most. Pharmacy and supermarket brands do reach this band, particularly in the larger family sizes. The rule that matters more than the price is that you have to like wearing it, because a sunscreen you skip protects nothing. Our guide to <a href="{{BASE_PATH}}articles/beauty/skincare/best-sunscreen-dark-skin-sa.html">sunscreens for dark skin in South Africa</a> deals with the white cast problem that puts so many women off.</p>
+
+      <h2>Actives</h2>
+      <p><strong>9. Niacinamide serum.</strong> Widely available under R200 and the safest active to start with. It helps with oil control, redness and uneven tone, and it is very difficult to irritate yourself with.</p>
+      <p><strong>10. Hyaluronic acid serum.</strong> A hydrating layer rather than a treatment. Apply it to damp skin and seal it with moisturiser, otherwise in dry weather it can pull moisture the wrong way.</p>
+      <p><strong>11. A beginner retinol.</strong> Entry-strength retinol from pharmacy brands falls into this band. Start twice a week at night, build slowly, and wear sunscreen. Our <a href="{{BASE_PATH}}articles/beauty/skincare/retinol-for-beginners.html">beginner retinol guide</a> explains how to introduce it without damaging your barrier.</p>
+      <p><strong>12. Salicylic acid leave-on treatment</strong> for congestion and blackheads. Unlike in a cleanser, here the contact time is long enough to matter.</p>
+      <p><strong>13. A vitamin C serum,</strong> with the caveat that this is the one category where the cheapest option is often not the best value. Formulation and packaging determine whether it is still active by the time you finish the bottle. See our <a href="{{BASE_PATH}}articles/beauty/skincare/vitamin-c-serums-sa.html">vitamin C guide</a> before buying.</p>
+
+      <h2>Two Worth Having</h2>
+      <p><strong>14. A basic lip balm with SPF.</strong> Lips burn, and lip skin ages visibly. Cheap and constantly useful.</p>
+      <p><strong>15. Petroleum jelly.</strong> Almost free, and unbeatable for sealing moisture into very dry patches, cracked heels and hands. Used over a moisturiser at night on dry areas it outperforms products costing twenty times more.</p>
+
+      <h2>What the Extra Money Actually Buys</h2>
+      <p>When you pay more, you are usually paying for texture, fragrance, packaging, and sometimes a better-formulated active. Those first three are real benefits in the sense that a product you enjoy using is a product you will keep using, and consistency is most of the game. But they do not change what the ingredient does to your skin.</p>
+      <p>The categories where paying more can be justified are sunscreen, if it means you will actually wear it daily, and vitamin C, where formulation genuinely affects performance. Everywhere else, the cheap version is doing the same job.</p>
+
+      <h2>How to Build These Into a Routine</h2>
+      <p>Do not buy all fifteen. A complete routine is a cleanser, a moisturiser, a sunscreen, and one active introduced slowly once your skin is settled. Add the second active only after six weeks. Our <a href="{{BASE_PATH}}articles/beauty/skincare/affordable-skincare-routine-sa.html">affordable skincare routine guide</a> sets out the full sequence and a realistic monthly budget, and our list of <a href="{{BASE_PATH}}articles/beauty/skincare/skincare-mistakes.html">common skincare mistakes</a> covers what to avoid while you build it.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Can cheap skincare really work as well as expensive skincare?</h3>
+      <p>For most categories, yes. The active ingredients that change skin are inexpensive and widely available, and pharmacy formulations frequently use the same ones as luxury lines. What extra money buys is usually texture, fragrance and packaging. The exceptions where price can matter are sunscreen and vitamin C.</p>
+      <h3>Is aqueous cream good for your face?</h3>
+      <p>It works well as a rinse-off cleanser and it is very cheap. It is not ideal as a leave-on facial moisturiser, because it contains sodium lauryl sulfate, which can irritate and disrupt the skin barrier over time. Use it to cleanse, then moisturise with something else.</p>
+      <h3>What is the cheapest effective skincare routine in South Africa?</h3>
+      <p>A gentle cleanser, a barrier moisturiser such as Epi-Max, and a daily sunscreen. Those three, used consistently, will outperform an expensive routine used sporadically. Add one active, most safely niacinamide, once the basics are a daily habit.</p>
+      <h3>How long should I use a product before deciding it works?</h3>
+      <p>Give any new product at least six to eight weeks of consistent use. Hydration improves within days, but tone, texture and dark marks need one to two full skin cycles to change visibly. Photograph your skin when you start so you can judge honestly rather than from memory.</p>
+    `
+  },
+  {
+    title: "How to Become a Virtual Assistant in South Africa (2026 Guide)",
+    slug: "virtual-assistant-jobs-sa",
+    category: "career",
+    subCategory: "remote-work",
+    author: "Inspiring Women",
+    date: "August 31, 2026",
+    publishDate: "2026-08-31",
+    image: "home_office.webp",
+    content: `
+      <p>Virtual assistance is the remote career with the highest ceiling relative to how easy it is to start. You are not applying for a job with a fixed salary. You are selling a service, which means the rate is negotiable, you can raise it as you get better, and you can serve more than one client at a time. For South African women in particular it has an additional advantage: your costs are in rand and your best clients pay in dollars, pounds or euros.</p>
+      <p>It is also the remote career people most often start badly, by charging too little, taking any client who says yes, and burning out inside six months. This guide is about doing it the other way.</p>
+
+      <h2>What a Virtual Assistant Actually Does</h2>
+      <p>The title covers an enormous range. In practice VAs cluster into a few types, and the type you pick largely determines what you can charge:</p>
+      <ul>
+        <li><strong>General administrative VA.</strong> Inbox management, calendar scheduling, travel booking, data entry, document formatting, basic research. Easiest entry, lowest rate.</li>
+        <li><strong>Customer support VA.</strong> Handling tickets, live chat, order queries. Steady and often full-time hours. Related to <a href="{{BASE_PATH}}articles/career/remote-work/remote-customer-service-jobs-sa.html">remote customer service work</a>.</li>
+        <li><strong>Social media VA.</strong> Scheduling content, community management, basic graphics, engagement. Popular and competitive.</li>
+        <li><strong>Executive assistant.</strong> Higher trust, deeper involvement in a founder's or executive's day. Substantially better paid.</li>
+        <li><strong>Specialist VA.</strong> Bookkeeping, podcast production, email marketing, e-commerce store management, CRM administration, project management. This is where the real money is, because you are no longer competing on price with everyone who can use a calendar.</li>
+      </ul>
+      <p>The single most useful decision you can make early is to <strong>pick a specialism</strong>. A general VA competes with the entire world. A VA who runs Shopify stores for skincare brands, or manages email marketing for coaches, competes with very few people and charges several times more.</p>
+
+      <h2>Start With Skills You Already Have</h2>
+      <p>Most women considering this already have relevant experience and discount it. If you have run a household budget, coordinated a school event, managed a team's diary, handled complaints in a retail job, or run a small business's Facebook page, you have transferable skills. Office administration, teaching, nursing coordination, retail management and church or community organising all translate directly.</p>
+      <p>Write down everything you can already do competently. That list is your starting service menu. You do not need to learn something new before you begin.</p>
+
+      <h2>The Tools Clients Expect</h2>
+      <p>You do not need to master everything, but fluency in a core set makes you immediately more employable. Google Workspace and Microsoft 365. A project tool such as Asana, Trello, ClickUp or Notion. A communication tool, usually Slack. A scheduling tool such as Calendly. Canva for basic graphics. If you go the specialist route, add the platform your niche runs on, whether that is Shopify, Xero, Mailchimp, HubSpot or something else.</p>
+      <p>Free certifications from Google, HubSpot and Meta are worth doing. They are not what wins you the client, but they fill out a thin profile while you build real work history. Our guide to <a href="{{BASE_PATH}}articles/career/upskilling/free-online-courses-sa.html">free online courses in South Africa</a> lists useful options.</p>
+
+      <h2>Where to Find Clients</h2>
+      <ul>
+        <li><strong>Upwork</strong> remains the largest marketplace for this work. Competitive at the bottom, genuinely lucrative once you have reviews. Apply to fewer jobs with better proposals rather than spraying applications.</li>
+        <li><strong>Fiverr</strong> works on a productised model, where you list a defined package rather than bidding. Suits specialists well.</li>
+        <li><strong>LinkedIn</strong> is underused by South African VAs and is where higher-paying clients actually are. Optimise your profile around the service you sell, then approach small business owners directly. See our <a href="{{BASE_PATH}}articles/career/returning-to-work/linkedin-profile-tips-2026.html">LinkedIn profile guide</a>.</li>
+        <li><strong>Facebook groups</strong> for entrepreneurs, agencies and specific niches. Be useful in them for weeks before you pitch anything.</li>
+        <li><strong>Referrals.</strong> Once you have two happy clients, ask them. This becomes your main channel faster than you expect.</li>
+      </ul>
+
+      <h2>What to Charge</h2>
+      <p>Rates vary enormously by specialism, client country and your track record, so anyone quoting you a single number is guessing. What matters is the structure you choose.</p>
+      <p>Beginners default to hourly, which is the worst structure long term, because it caps your income and punishes you for getting faster. Move to <strong>retainer packages</strong> as soon as you can, where the client buys a set number of hours or a defined outcome each month. Retainers give you predictable income and give the client predictable cost. Both sides prefer it.</p>
+      <p>Price in the client's currency, not yours. A rate that feels high to you may be well below what a US or UK small business expects to pay, and quoting too low actively signals inexperience. Raise your rate with each new client rather than trying to raise it on existing ones.</p>
+
+      <h2>Getting Paid, and the Admin</h2>
+      <p>Set up Payoneer or Wise for foreign clients and compare the fees carefully, since on regular monthly payments the difference adds up. Invoice properly with clear terms and take a deposit from new clients until they are established. This is income and must be declared. Once you are earning consistently, get advice on whether to register a business, and read our guide on <a href="{{BASE_PATH}}articles/career/remote-work/home-office-tax-deduction-sars.html">claiming a home office tax deduction from SARS</a>.</p>
+
+      <h2>The Mistakes That Cost the Most</h2>
+      <ul>
+        <li><strong>Charging too little to get started.</strong> Cheap clients are the most demanding, and it is far harder to raise a rate than to set it correctly.</li>
+        <li><strong>No written scope.</strong> Agree in writing what is included, what is not, and what happens when the client asks for more. Scope creep is what makes VAs quit.</li>
+        <li><strong>Being permanently available.</strong> Set working hours and state your timezone. South African time is convenient for UK and European clients and workable for the US east coast, which is a selling point, not an obligation to be up at 03:00.</li>
+        <li><strong>One client only.</strong> That is not a business, it is a job with none of the protections. Aim for at least two.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>Do I need experience to become a virtual assistant?</h3>
+      <p>Not formal VA experience. Most people starting out already have transferable skills from office administration, teaching, retail, customer service or running a small business. Write down what you can already do competently and sell that. What clients want is reliability and clear communication far more than a specific CV.</p>
+      <h3>How much do virtual assistants earn in South Africa?</h3>
+      <p>It varies widely with your specialism, your client's country and your track record, so treat any single figure with suspicion. General administrative work sits at the bottom, while specialists in bookkeeping, e-commerce, email marketing or executive support charge several times more. The biggest earnings jump comes from choosing a niche and moving from hourly billing to monthly retainers.</p>
+      <h3>Where do South African virtual assistants find clients?</h3>
+      <p>Upwork and Fiverr are the main marketplaces, but LinkedIn is underused by South Africans and is where better-paying clients tend to be. Niche Facebook groups work well if you contribute genuinely before pitching. Once you have two satisfied clients, referrals usually become your strongest channel.</p>
+      <h3>Is being a virtual assistant a real long-term career?</h3>
+      <p>Yes, and it has more room to grow than most remote work, because you can raise rates, add clients, specialise into higher-value services, and eventually subcontract or build a small agency. The people who plateau are the ones who stay general and keep billing by the hour.</p>
+    `
+  },
+  {
+    title: "Affordable Makeup Dupes in South Africa: 10 Swaps That Save You Hundreds",
+    slug: "affordable-makeup-dupes-sa",
+    category: "beauty",
+    subCategory: "makeup",
+    author: "Inspiring Women",
+    date: "September 2, 2026",
+    publishDate: "2026-09-02",
+    image: "local_beauty_1777368389079.webp",
+    content: `
+      <p>A dupe is not a fake. Counterfeit makeup is a genuine safety problem and should be avoided completely. A dupe is a legitimate product from an affordable brand that delivers a very similar result to a far more expensive one, usually because the formulation type is the same and what you are not paying for is the packaging, the counter, and the name.</p>
+      <p>Makeup is the category where this gap is widest, because unlike skincare, the result is immediate and visible. You can judge a foundation in a mirror in ten seconds. That makes it much easier to swap down without losing anything.</p>
+
+      <h2>How to Judge a Dupe Properly</h2>
+      <p>Before the list, the method, because it matters more than any single recommendation:</p>
+      <ul>
+        <li><strong>Match the finish, not the brand.</strong> Matte, satin and dewy are the categories that determine whether something looks like the original. A dewy drugstore foundation will never dupe a matte luxury one, whatever a video claims.</li>
+        <li><strong>Match the undertone.</strong> A shade that is one step too warm or too cool will read as wrong regardless of price. South African retailers have improved their shade ranges considerably, but check in daylight rather than under shop lighting.</li>
+        <li><strong>Ignore swatches on skin that is not your tone.</strong> Most dupe content online is filmed on a narrow range of skin tones and simply does not transfer.</li>
+        <li><strong>Longevity is where cheap products genuinely differ.</strong> A dupe can match the look and still not survive a full workday. That is often the real trade-off, not the appearance.</li>
+      </ul>
+
+      <h2>The Swaps Worth Making</h2>
+      <p><strong>1. Foundation.</strong> The biggest saving available. Drugstore foundations have improved enormously and the better ranges now cover a wide shade span. Identify whether you want matte, natural or dewy, then buy on finish and undertone rather than on brand. Test along the jaw in daylight.</p>
+      <p><strong>2. Concealer.</strong> Affordable concealers frequently outperform expensive ones, because the formulation is simple and the main variables are coverage and creasing. A good drugstore concealer set with a little powder will hold as well as most premium options.</p>
+      <p><strong>3. Setting powder.</strong> Translucent loose powder is close to a commodity. There is very little reason to spend heavily here.</p>
+      <p><strong>4. Brow pencil.</strong> Another category where the cheap version is genuinely as good. What matters is a fine tip and a shade slightly cooler and lighter than you think you need.</p>
+      <p><strong>5. Mascara.</strong> Notoriously the category where the drugstore wins outright. Many makeup artists use affordable mascaras by preference. Buy for the brush shape you want rather than the promise on the tube.</p>
+      <p><strong>6. Eyeliner.</strong> Felt-tip liquid liners at the affordable end are excellent. Gel pots are also easy to dupe. Save your money here without hesitation.</p>
+      <p><strong>7. Blush.</strong> Powder blush is straightforward to formulate and affordable versions perform well. Cream blush is slightly harder to dupe, since blendability is where cheaper formulas can fall short, but good options exist.</p>
+      <p><strong>8. Lipstick.</strong> Shade matching is the whole game and has nothing to do with price. The one genuine difference at the premium end is comfort over many hours, so if you wear lipstick all day, that is where paying more can be justified.</p>
+      <p><strong>9. Highlighter.</strong> Easy to dupe. The main thing to check is the size of the shimmer particle, because a coarse glitter reads very differently from a fine sheen, and that is visible in the pan.</p>
+      <p><strong>10. Brushes.</strong> Affordable synthetic brush sets are now very good. Buy synthetic for anything cream or liquid. This is a much better place to spend a small amount than another palette.</p>
+
+      <h2>Where Not to Save</h2>
+      <p>Two things are worth paying for. The first is <strong>anything that goes near your eyes from an unknown seller</strong>. Counterfeit mascara and eyeliner are common and carry a real infection risk. Buy from Clicks, Dis-Chem, a recognised retailer or the brand's own site, never from an unverified social media seller offering a luxury product at an implausible price.</p>
+      <p>The second is <strong>sunscreen</strong>, which is skincare rather than makeup but sits under everything you apply. Foundations with SPF do not provide enough protection at the amount people actually wear. Use a proper sunscreen underneath. Our guide to <a href="{{BASE_PATH}}articles/beauty/skincare/best-sunscreen-dark-skin-sa.html">sunscreens for dark skin in South Africa</a> covers finding one that works under makeup without a cast.</p>
+
+      <h2>How to Spot Counterfeit Makeup</h2>
+      <ul>
+        <li>A price far below every legitimate retailer. Genuine products are rarely discounted by seventy percent.</li>
+        <li>Packaging that is slightly off: fonts, spelling, a batch code that is missing or printed poorly.</li>
+        <li>A texture or smell that differs from what you have used before.</li>
+        <li>A seller who will only communicate by direct message and cannot provide a physical business address.</li>
+      </ul>
+
+      <h2>Build the Base First</h2>
+      <p>Makeup sits on skin, and no foundation looks good on a compromised barrier. If your base never seems to sit right, the problem is usually skincare rather than product choice. Our <a href="{{BASE_PATH}}articles/beauty/skincare/affordable-skincare-routine-sa.html">affordable skincare routine guide</a> and our <a href="{{BASE_PATH}}articles/beauty/makeup/best-affordable-makeup-sa.html">guide to the best affordable makeup in South Africa</a> are the natural next reads.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <h3>What is the difference between a makeup dupe and a fake?</h3>
+      <p>A dupe is a legitimate product from an affordable brand that gives a similar result to an expensive one. A fake is a counterfeit of a specific branded product, sold as though it were genuine. Dupes are a smart way to save money. Fakes are unregulated, sometimes contaminated, and should never be bought, particularly for the eyes and lips.</p>
+      <h3>Which makeup is worth buying cheap in South Africa?</h3>
+      <p>Mascara, eyeliner, setting powder, brow pencil, concealer and powder blush are all categories where affordable products perform as well as premium ones. Foundation is where the largest saving sits, provided you match finish and undertone properly rather than shopping by brand.</p>
+      <h3>Which makeup is worth spending more on?</h3>
+      <p>Long-wear lipstick if you wear it all day, since comfort over many hours is a genuine difference, and anything you would otherwise be tempted to buy from an unverified seller. Buying eye products from a recognised retailer is a safety issue, not a luxury.</p>
+      <h3>How do I find my correct foundation shade?</h3>
+      <p>Test along your jawline rather than on your hand or wrist, and check it in natural daylight rather than under shop lighting. Match your undertone first, warm, cool or neutral, then the depth. Most shade mismatches come from getting the undertone wrong rather than the depth.</p>
     `
   }
 ];

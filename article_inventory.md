@@ -113,3 +113,9 @@
 | How to Manage Stress and Burnout as a Working Mom in South Africa | health | 750 | Good (B) |
 | How to Make Money Online in South Africa: Legit Ways for 2026 | career | 690 | Good (B) |
 | How to Start a Cleaning Business in South Africa (2026 Guide) | career | 691 | Good (B) |
+| AI Training Data Jobs in South Africa: What They Pay and How to Start (2026) | career | 1535 | Premium (A+) |
+| The Best Affordable Skincare at Clicks and Dis-Chem (2026) | beauty | 1261 | Premium (A+) |
+| Remote Transcription Jobs in South Africa: 8 Platforms That Actually Pay (2026) | career | 1162 | Premium (A+) |
+| 15 Skincare Products Under R200 That Actually Work (South Africa, 2026) | beauty | 1039 | Premium (A+) |
+| How to Become a Virtual Assistant in South Africa (2026 Guide) | career | 1219 | Premium (A+) |
+| Affordable Makeup Dupes in South Africa: 10 Swaps That Save You Hundreds | beauty | 1062 | Premium (A+) |
