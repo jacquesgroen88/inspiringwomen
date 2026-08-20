@@ -286,6 +286,39 @@ Notable content pillars:
 
 ---
 
+## Lead-gen: the Beauty Career Quiz (added 19 Aug 2026)
+
+**`/beauty-career-quiz/` is the site's first page that is not an article and not generated from
+`articles.js`.** It is a landing page plus a 7-question quiz matching a visitor to one of five beauty
+career paths, built to acquire beauty leads cheaply. Source: `beauty-career-quiz/index.html` in the
+canonical repo, self-contained, no build step.
+
+- **Architecture is quiz-first.** The CTA opens the quiz, question 1 is embedded on the landing page,
+  and the name/email gate only appears after all seven answers. The result is computed client-side, so
+  a failed lead POST costs the lead, never the visitor's plan.
+- **Mobile order is deliberate:** headline, subheadline, photo, bullets, CTA. The photo used to come
+  first and pushed the value proposition below the fold, which is wrong for paid traffic.
+- **Leads post to Netlify Forms**, form name `beauty-career-quiz`. **Form detection is OFF** on this
+  site: `POST /` returns 404. Enable it in Site configuration → Forms, then redeploy. The payload
+  carries UTM source/medium/campaign/content, referrer and which CTA started the quiz, so cost per
+  lead is measurable. **Every posted field must be declared in the static hidden form** or Netlify
+  drops it silently.
+- **`build.js` now has a `STATIC_PAGES` array** in the sitemap section. Any future hand-built page
+  outside `articles.js` must be added there or it never enters the sitemap. The root-cleanup loop only
+  deletes root `.html` files whose name contains an article slug, so a page in its own folder is safe.
+- **Link to the extension-less canonical URLs.** `/articles/{cat}/` and `/articles/{cat}/{sub}/{slug}`
+  with no `.html`. Root pages (`about/contact/privacy/terms.html`) are the exception and still serve
+  200 directly; only `/index.html` redirects. The extension-less forms do not exist on disk, so they
+  404 under a local `python -m http.server` preview while being correct in production.
+- **No fabricated social proof.** The page carries real sourced SA rates instead of testimonials, and
+  states publicly that Inspiring Women has no commercial agreement with any academy. That line changes
+  only when one is signed, and a POPIA named-consent step must ship in the same deploy.
+
+The commercial layer built on top of it (deck, academy outreach list, pilot terms) lives in
+`JCE Media/products/Beauty-Career-Leads/`.
+
+---
+
 ## Known Issues / TODO
 
 - `Summer Holidays` and `6 Reasons To Join` articles are very short (Short C rating) — candidates for expansion
